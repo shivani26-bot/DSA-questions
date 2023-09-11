@@ -40,8 +40,9 @@ void makeParents(TreeNode* root, unordered_map<TreeNode*,TreeNode*> &parent){
         int distance=0;
         while(!q.empty()){
             int size=q.size();
-            if(distance++ ==k) break;
-            
+        
+            if(distance ==k) break;
+            distance++;
             for(int i=0;i<size;i++){
                 TreeNode* curr=q.front();
                 q.pop();
