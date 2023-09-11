@@ -33,11 +33,11 @@ public:
             if (curr->right) q.push(curr->right);
                        
                 }
-                
+                 level++;
                 if (!result.empty()) {
                 finalResult.push_back(result);
                 }
-                  level++;
+                 
             }
 
          return finalResult;
