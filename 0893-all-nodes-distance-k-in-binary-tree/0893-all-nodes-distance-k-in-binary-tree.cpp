@@ -12,7 +12,7 @@ public:
 // the main problem in this question is when we get a target node, we can't go upward in order to find the node at distance k in upward direction.
 // For BFS traversal we need queue
 // mark the parent pointer of each node using bfs . while pushing node in queue mark its parent
-void makeParents(TreeNode* root, unordered_map<TreeNode*,TreeNode*> &parent,TreeNode* target){
+void makeParents(TreeNode* root, unordered_map<TreeNode*,TreeNode*> &parent){
     queue<TreeNode*>q;
     q.push(root);
     while(!q.empty()){
@@ -32,7 +32,7 @@ void makeParents(TreeNode* root, unordered_map<TreeNode*,TreeNode*> &parent,Tree
 
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
         unordered_map<TreeNode*, TreeNode*> parent;
-        makeParents(root,parent, target);
+        makeParents(root,parent);
         unordered_map<TreeNode*, bool>visited;
         queue<TreeNode*> q;
         q.push(target);
