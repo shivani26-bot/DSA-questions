@@ -32,7 +32,7 @@ public:
                 if(curr->right) q.push({curr->right, curr_id*2+2});
                 }
             }
-            ans= max(ans,static_cast<int>(last-first+1));
+            ans= max(ans,static_cast<int>(last-first+1)); // Cast to int when updating ans
          }
          return ans;
     }
