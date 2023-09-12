@@ -12,10 +12,10 @@
 class Solution {
 public:
     TreeNode* addOneRow(TreeNode* root, int val, int depth) {
-        // if(!root) {
-        //     TreeNode *newTree= new TreeNode(val);
-        //     return newTree;
-        // }
+        if(!root) {
+            TreeNode *newTree= new TreeNode(val);
+            return newTree;
+        }
  if(depth==1){
      TreeNode* newTree= new TreeNode(val);
      newTree->left=root;
