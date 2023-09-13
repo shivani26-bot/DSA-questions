@@ -13,7 +13,7 @@ class Solution {
 public:
     TreeNode* build(int i1,int j1,int i2,int j2,vector<int>& preorder, vector<int>& inorder){
         if(i1>j1) return NULL;
-        TreeNode* root= new TreeNode(preorder[i1]);
+        TreeNode* root= new TreeNode(preorder[i1],NULL,NULL);
         int i;
         for(i=i2;i<=j2;i++){
             if(inorder[i]== preorder[i1]) break;
