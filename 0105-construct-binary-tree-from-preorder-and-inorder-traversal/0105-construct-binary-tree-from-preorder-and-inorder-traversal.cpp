@@ -11,27 +11,22 @@
  */
 class Solution {
 public:
- TreeNode *buildTree(vector<int>&pre,int preStart,int preEnd,vector<int>in,int inStart,int inEnd,map<int,int>&mp){
-        if(preStart>preEnd || inStart>inEnd)
-        return NULL;
-      
-        TreeNode* root=new TreeNode(pre[preStart]);
-          if(preStart==preEnd )
-        {
-            return root;
+    TreeNode* build(int i1,int j1,int i2,int j2,vector<int>& preorder, vector<int>& inorder){
+        if(i1>j1) return NULL;
+        TreeNode* root= new TreeNode(preorder[i1]);
+        int i;
+        for(i=i2;i<=j2;i++){
+            if(inorder[i]== preorder[i1]) break;
         }
-        int inRoot=mp[root->val];
-        int numsLeft=inRoot-inStart;
-        root->left=buildTree(pre,preStart+1,preStart+numsLeft,in,inStart,inRoot-1,mp);
-        root->right=buildTree(pre,preStart+numsLeft+1,preEnd,in,inRoot+1,inEnd,mp);
+        root->left= build(i1+1,i1+i-i2,i2,i-1,preorder,inorder);
+        root->right= build(i1+i-i2+1,j1,i+1,j2,preorder,inorder);
         return root;
     }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
-        map<int,int>mp;
-        for(int i=0;i<inorder.size();i++){
-            mp[inorder[i]]=i;
-        }
-        TreeNode*root=buildTree(preorder,0,preorder.size()-1,inorder,0,inorder.size()-1,mp);
+        int n=preorder.size();
+        int i1 = 0, i2 = 0;
+    int j1 = n - 1, j2 = n - 1;
+        TreeNode* root= build(i1,j1,i2,j2,preorder,inorder);
         return root;
     }
 };
