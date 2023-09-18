@@ -31,11 +31,11 @@ temp.push_back(root->val);
         vector<int>temp;
         findAllRootToLeafPath(root,temp);
         for(auto &i:  AllPathFromRootToLeaf){
-            for(auto j: i){
+           
                 int minelement= *min_element(i.begin(),i.end());
                 int maxelement= *max_element(i.begin(),i.end());
                   maxAbsoluteDifference= max(maxAbsoluteDifference, abs(maxelement-minelement));
-            }
+            
           
         }
         return maxAbsoluteDifference;
