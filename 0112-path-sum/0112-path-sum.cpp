@@ -12,21 +12,16 @@
 class Solution {
 public:
 bool rootToLeafSum(TreeNode* root, int sum, int targetSum){
-    if (!root)
-        return false;
-    
-    sum += root->val;
+  if(!root) return false;
 
-    // Check if it's a leaf node and if the sum matches the targetSum
-    if (!root->left && !root->right && sum == targetSum)
-        return true;
+  sum+=root->val;
+if(!root->left && !root->right && sum==targetSum){
+    return true;
+}
+ bool lst= rootToLeafSum(root->left,sum,targetSum);
+ bool rst= rootToLeafSum(root->right,sum,targetSum);
 
-    // Recursively check the left and right subtrees
-    bool leftResult = rootToLeafSum(root->left, sum, targetSum);
-    bool rightResult = rootToLeafSum(root->right, sum, targetSum);
-
-    // Return true if either the left or right subtree has a valid path
-    return leftResult || rightResult;
+ return lst||rst;
 }
     bool hasPathSum(TreeNode* root, int targetSum) {
          if (!root)
