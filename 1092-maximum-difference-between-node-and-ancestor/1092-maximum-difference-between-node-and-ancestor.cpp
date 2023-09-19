@@ -11,17 +11,33 @@
  */
 class Solution {
 public:
-// find all the paths from root to leaf, in every path find minimum and maximum element 
+// find all the paths from root to leaf, in every path find minimum and maximum element
+//  In the worst case, for a skewed tree, the space complexity can be O(N), but for a balanced tree, it would be O(log N).
+//   time complexity of this code is O(N).
 vector<vector<int>> AllPathFromRootToLeaf;
+// void  findAllRootToLeafPath(TreeNode* root,vector<int>&temp){
+// if(!root) return;
+// if(!root->left && !root->right){
+//     temp.push_back(root->val);
+//     AllPathFromRootToLeaf.push_back(temp);
+//     temp.pop_back();
+// }
+
+// temp.push_back(root->val);
+//       findAllRootToLeafPath(root->left,temp);
+//        findAllRootToLeafPath(root->right,temp);
+//        temp.pop_back();
+//   }
 void  findAllRootToLeafPath(TreeNode* root,vector<int>&temp){
 if(!root) return;
+temp.push_back(root->val);
 if(!root->left && !root->right){
-    temp.push_back(root->val);
+  
     AllPathFromRootToLeaf.push_back(temp);
-    temp.pop_back();
+  
 }
 
-temp.push_back(root->val);
+
       findAllRootToLeafPath(root->left,temp);
        findAllRootToLeafPath(root->right,temp);
        temp.pop_back();
