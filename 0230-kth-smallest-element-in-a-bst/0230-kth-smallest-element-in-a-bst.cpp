@@ -12,10 +12,20 @@
 class Solution {
 public:
 void traverse(TreeNode* root,int &count,int &ans, int k){
-    if(!root || count>=k) return ;
+    // if(!root || count>=k) return ;
+    // traverse(root->left,count,ans,k);
+    // count++;
+    // if(count==k){
+    //     ans=root->val;
+    //     return;
+    // }
+    // traverse(root->right,count,ans,k);
+
+ if(!root) return ;
     traverse(root->left,count,ans,k);
-    count++;
-    if(count==k){
+  
+    if(count++==k){
+ 
         ans=root->val;
         return;
     }
@@ -23,7 +33,11 @@ void traverse(TreeNode* root,int &count,int &ans, int k){
 
 }
     int kthSmallest(TreeNode* root, int k) {
-        int count=0;
+    //     int count=0;
+    //     int ans=-1;
+    //    traverse(root,count,ans,k) ;
+    //    return ans;
+    int count=1;
         int ans=-1;
        traverse(root,count,ans,k) ;
        return ans;
