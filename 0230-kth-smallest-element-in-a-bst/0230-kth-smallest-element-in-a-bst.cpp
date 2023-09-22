@@ -23,7 +23,7 @@ void traverse(TreeNode* root,int &count,int &ans, int k){
 
  if(!root) return ;
     traverse(root->left,count,ans,k);
-  
+  // first compare count with k and then increment the count
     if(count++==k){
  
         ans=root->val;
