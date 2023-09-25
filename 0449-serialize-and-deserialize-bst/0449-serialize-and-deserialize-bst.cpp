@@ -7,12 +7,33 @@
  *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
  * };
  */
- #define node TreeNode
+#define node TreeNode
 #define pb push_back
 class Codec {
 public:
-     string ans;
- void preOrder(TreeNode* root){
+//      string ans;
+//  void preOrder(TreeNode* root){
+//         if(!root) {
+         
+//             return;
+//         }
+//        string s= to_string(root->val);
+//           ans+=s;
+//           ans+='.';
+//     preOrder(root->left);
+       
+//     preOrder(root->right);
+//     }
+
+  
+//     string serialize(TreeNode* root) {
+       
+  
+//         preOrder(root);
+//         return ans;
+//     }
+
+ void preOrder(TreeNode* root,string &ans){
         if(!root) {
          
             return;
@@ -20,16 +41,16 @@ public:
        string s= to_string(root->val);
           ans+=s;
           ans+='.';
-    preOrder(root->left);
+    preOrder(root->left,ans);
        
-    preOrder(root->right);
+    preOrder(root->right,ans);
     }
 
   
     string serialize(TreeNode* root) {
        
-  
-        preOrder(root);
+  string ans="";
+        preOrder(root,ans);
         return ans;
     }
     
@@ -47,7 +68,7 @@ public:
         }
         else
         {
-            v.pb(stoi(s));
+            v.push_back(stoi(s));
             s.clear();
         }
     }
