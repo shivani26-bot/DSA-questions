@@ -43,7 +43,7 @@ public:
     {
         if(data[i]!='.')
         {
-            s.pb(data[i]);
+            s+=data[i];
         }
         else
         {
@@ -52,7 +52,7 @@ public:
         }
     }
     
-    node *root=NULL;
+    TreeNode *root=NULL;
     for(int i=0;i<v.size();i++)
     {
         root=InsertInBST(root,v[i]);
@@ -61,12 +61,12 @@ public:
     return root;
     }
 
-       node* InsertInBST(node *root,int d)
+       TreeNode* InsertInBST(TreeNode *root,int d)
 {
     //base case
     if(root==NULL)
     {
-        root=new node(d);
+        root=new TreeNode(d);
         return root;
     }
     
