@@ -67,9 +67,12 @@ public:
                   s="";
               }
           }
-          for(auto& it: words){
-              it= obj->givePrefix(it);
-          }
+        //   for(auto& it: words){
+        //       it= obj->givePrefix(it);
+        //   }
+        for(int i=0;i<words.size();i++){
+            words[i]= obj->givePrefix(words[i]);
+        }
           s="";
           s+=words[0];
           for(int i=1;i<words.size();i++){
