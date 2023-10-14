@@ -4,7 +4,9 @@ priority_queue<int>maxHeap;
 priority_queue<int,vector<int>,greater<int>>minHeap;
 double currMedian;
 void addToMaxHeap(int num){
+    // if heap size is smaller we can insert the element directly
     if(maxHeap.size()<=minHeap.size()) maxHeap.push(num);
+    // if heap size is greater then in order to avoid condition where size difference of heap exceeds 1
     else{
         int x=maxHeap.top();
         maxHeap.pop();
