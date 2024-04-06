@@ -1,37 +1,35 @@
 class Solution {
 public:
     int leastInterval(vector<char>& tasks, int n) {
-        priority_queue<int>pq;
-        vector<int>freq(26,0);
+         priority_queue<int>pq;
+        vector<int>mp(26,0);
         for(int i=0;i<tasks.size();i++){
-            freq[tasks[i]-'A']++;
+            mp[tasks[i]-'A']++;
         }
-        for(int i=0;i<freq.size();i++){
-            if(freq[i]) pq.push(freq[i]);
+        for(int i=0;i<mp.size();i++){
+            if(mp[i]>0) pq.push(mp[i]);
         }
-        int countInterval=0;
-        while(pq.size()>0){
-            int countWindowSize=0;
-            vector<int>temp;
-            while(countWindowSize<=n){
-                if(pq.size()==0){
-                    if(temp.size()>0)
-                    
-                        countInterval+=(n-countWindowSize+1);
-                        break;
-                    
-                }
-                int x=pq.top();
-                pq.pop();
-                if(x-1>0) temp.push_back(x-1);
-                countInterval++;
-                countWindowSize++;
-            }
-            for(int i=0;i<temp.size();i++){
-                pq.push(temp[i]);
-            }
-        }
-        return countInterval;
-
+       int time=0;
+       while(!pq.empty()){
+           vector<int>temp;
+           for(int i=1;i<=n+1;i++){
+               if(!pq.empty()){
+                   int freq=pq.top();
+                   pq.pop();
+                   freq--;
+                   temp.push_back(freq);
+               }
+           }
+           for(int i=0;i<temp.size();i++){
+               if(temp[i]>0) pq.push(temp[i]);
+           }
+           if(pq.empty()){
+               time+=temp.size();
+           }
+           else{
+               time+=n+1;
+           }
+       }
+        return time;
     }
 };
