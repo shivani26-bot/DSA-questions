@@ -16,6 +16,7 @@ public:
     //     i++;
     // }
     //  return time;
+
     // with queue 
     // time: n* maxTickets[i]
     // space: o(n)
@@ -35,6 +36,7 @@ public:
 
     int time=0;
     for(int i=0;i<tickets.size();i++){
+        // elements from 0 to k is going for tickets[k] passes where as from k+1 to n is going for tickets[k]-1 passes
         if(i<=k) time+= min(tickets[k],tickets[i]);
         else time+= min(tickets[k]-1, tickets[i]);
     }
