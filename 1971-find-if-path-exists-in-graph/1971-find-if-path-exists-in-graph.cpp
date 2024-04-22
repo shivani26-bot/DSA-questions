@@ -30,5 +30,7 @@ return visited[destination];
         
         // total time complexiy: o(n+m )
         // space: o(n)
+        
+        // we can also solve the question using dsu 
     }
 };
