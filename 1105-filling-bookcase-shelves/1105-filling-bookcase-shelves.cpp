@@ -1,21 +1,54 @@
 class Solution {
 public:
+int dp[1001][1001];
+// int solve(vector<vector<int>>& books,int currIndex, int remainW, int maxHeight,int n,int shelfWidth){
+//     if(currIndex>=n) return maxHeight;
+//     int bookWidth= books[currIndex][0];
+//     int bookHeight= books[currIndex][1];
+
+//     int keep=INT_MAX;
+//     int skip=INT_MAX;
+//     if(bookWidth<=remainW){
+//         keep=solve(books,currIndex+1,remainW-bookWidth,max(maxHeight,bookHeight),n,shelfWidth);
+//     }
+//    skip=maxHeight+solve(books,currIndex+1,shelfWidth-bookWidth,bookHeight,n,shelfWidth);
+// return min(keep,skip);
+// }
+//     int minHeightShelves(vector<vector<int>>& books, int shelfWidth) {
+//     //    for every book we have 2 options, that we can keep it in current shelf or we can't keep it in current shelf  
+//     // if we keep , we will keep the book on the same shelf
+//     // if we skip it means that we will now keep the book on next shelf
+//     // if we continue to keep the book on same shelf we maintain a maxHeight , which keep the track
+//     // of maximum height of book in the current shelf
+//     // if we skip then we add the maxHeight till the previous shelf and now the height will be the height
+//     // of current book, as we are placing it for first time in new shelf 
+//     // return minimum of keep and skip 
+//     // base case will be once we reach the end of array return maxHeight 
+//       int n=books.size();
+//       int remainW=shelfWidth;
+// // remaining width, current index, maximum height
+//       return solve(books, 0, remainW,0,n,shelfWidth);
+//     }
+
+int solve(vector<vector<int>>& books,int currIndex, int remainW, int maxHeight,int n,int shelfWidth){
+    if(currIndex>=n) return maxHeight;
+    if(dp[currIndex][remainW]!=-1) return dp[currIndex][remainW];
+    int bookWidth= books[currIndex][0];
+    int bookHeight= books[currIndex][1];
+
+    int keep=INT_MAX;
+    int skip=INT_MAX;
+    if(bookWidth<=remainW){
+        keep=solve(books,currIndex+1,remainW-bookWidth,max(maxHeight,bookHeight),n,shelfWidth);
+    }
+   skip=maxHeight+solve(books,currIndex+1,shelfWidth-bookWidth,bookHeight,n,shelfWidth);
+return dp[currIndex][remainW] =min(keep,skip);
+}
     int minHeightShelves(vector<vector<int>>& books, int shelfWidth) {
-        int n = books.size();
-        int f[n + 1];
-        f[0] = 0;
-        for (int i = 1; i <= n; ++i) {
-            int w = books[i - 1][0], h = books[i - 1][1];
-            f[i] = f[i - 1] + h;
-            for (int j = i - 1; j > 0; --j) {
-                w += books[j - 1][0];
-                if (w > shelfWidth) {
-                    break;
-                }
-                h = max(h, books[j - 1][1]);
-                f[i] = min(f[i], f[j - 1] + h);
-            }
-        }
-        return f[n];
+memset(dp,-1,sizeof(dp));
+      int n=books.size();
+      int remainW=shelfWidth;
+// remaining width, current index, maximum height
+      return solve(books, 0, remainW,0,n,shelfWidth);
     }
 };
