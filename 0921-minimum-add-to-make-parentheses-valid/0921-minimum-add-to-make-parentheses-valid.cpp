@@ -1,5 +1,6 @@
 class Solution {
 public:
+    //o(n)
     int minAddToMakeValid(string s) {
         int n=s.length();
         stack<char>st;
