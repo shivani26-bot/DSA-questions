@@ -36,16 +36,28 @@ public:
     // all the y's less then equal to 5 can be the answer but we will choose the largest or farthest value 
 // hence choose 5
 // and all the elements from 1 to 5 can be a beautifull sequence 
-    sort(nums.begin(),nums.end());
-    int n=nums.size();
-    int result=0;
-for(int i=0;i<n;i++){
-int y=nums[i]+2*k;
-int idx=upper_bound(nums.begin(),nums.end(),y)-nums.begin();
-result=max(result,idx-i);
+//     sort(nums.begin(),nums.end());
+//     int n=nums.size();
+//     int result=0;
+// for(int i=0;i<n;i++){
+// int y=nums[i]+2*k;
+// int idx=upper_bound(nums.begin(),nums.end(),y)-nums.begin();
+// result=max(result,idx-i);
 
+// }
+// return result;
+
+// we can also use sliding window such that nus[j]<=nums[i]+2k
+int n=nums.size();
+sort(nums.begin(),nums.end());
+int i=0,j=0;
+int maxBeauty=0;
+while(i<n){
+
+while(j<n && nums[j]<=nums[i]+2*k) j++;
+maxBeauty=max(maxBeauty,j-i);
+i++;
 }
-return result;
-
+return maxBeauty;
     }
 };
