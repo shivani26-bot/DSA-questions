@@ -59,7 +59,7 @@ public:
             for(int j=i;j<n;j++){ //o(n)
                 if(ch==s[j]){
                 
-mp[{ch,j-i+1}]++; //new_s string is copied to the map, (new_s ka length() ~ o(n))
+mp[{ch,j-i+1}]++; 
                 }
                 else {   
                     break;
