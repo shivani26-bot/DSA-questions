@@ -56,10 +56,12 @@ public:
         int n=s.length();
         for(int i=0;i<n;i++){//o(n)
             char ch=s[i];
+            int l=0;
             for(int j=i;j<n;j++){ //o(n)
                 if(ch==s[j]){
-                
-mp[{ch,j-i+1}]++; 
+                l++;
+                mp[{ch,l}]++; 
+// mp[{ch,j-i+1}]++; 
                 }
                 else {   
                     break;
