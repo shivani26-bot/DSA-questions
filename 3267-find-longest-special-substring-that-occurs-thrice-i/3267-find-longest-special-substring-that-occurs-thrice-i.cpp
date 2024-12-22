@@ -52,6 +52,7 @@ public:
 // {z,4}-2
 // {a,4}-1
 // {a,1}-2
+// time:o(n^2)
  map<P,int>mp;
         int n=s.length();
         for(int i=0;i<n;i++){//o(n)
