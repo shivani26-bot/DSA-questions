@@ -7,11 +7,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1917-maximum-average-pass-ratio](https://github.com/shivani26-bot/DSA-questions/tree/master/1917-maximum-average-pass-ratio) |
+| [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2868-continuous-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/shivani26-bot/DSA-questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 ## Binary Search
 |  |
 | ------- |
+| [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/shivani26-bot/DSA-questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
@@ -25,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/shivani26-bot/DSA-questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 ## Greedy
 |  |
@@ -34,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1917-maximum-average-pass-ratio](https://github.com/shivani26-bot/DSA-questions/tree/master/1917-maximum-average-pass-ratio) |
+| [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2868-continuous-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/2868-continuous-subarrays) |
 ## Queue
 |  |
@@ -85,4 +89,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
+## Dynamic Programming
+|  |
+| ------- |
+| [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
 <!---LeetCode Topics End-->
