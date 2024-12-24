@@ -51,14 +51,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Depth-First Search
 |  |
 | ------- |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
+| [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 ## Binary Tree
 |  |
 | ------- |
@@ -78,4 +81,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+## Graph
+|  |
+| ------- |
+| [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
 <!---LeetCode Topics End-->
