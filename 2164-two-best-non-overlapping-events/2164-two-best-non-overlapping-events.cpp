@@ -26,22 +26,28 @@ int nextValidEventIndex=binarySearch(events,n,events[i][1]);
     return dp[i][count]=max(take,not_take);
 
 }
+    // int maxTwoEvents(vector<vector<int>>& events) {
+    //     // for every event we have two option, either we can take it or not 
+    //     // brute force 
+    //     // o(n^2)
+    //     int n=events.size();
+    //     int result=0;
+    //     for(int i=0;i<n;i++){
+    //         int val=events[i][2];
+    //         result=max(result,val);
+    //         for(int j=0;j<n;j++){
+    //             if(i==j) continue;
+    //             if(events[i][1]>=events[j][0] && events[j][1] >= events[i][0]) continue;
+    //             result=max(result, val+events[j][2]);
+    //         }
+    //     }
+    //     return result;
+        
+    // }
+
+
     int maxTwoEvents(vector<vector<int>>& events) {
-        // for every event we have two option, either we can take it or not 
-        // brute force 
-        // o(n^2)
-        // int n=events.size();
-        // int result=0;
-        // for(int i=0;i<n;i++){
-        //     int val=events[i][2];
-        //     result=max(result,val);
-        //     for(int j=0;j<n;j++){
-        //         if(i==j) continue;
-        //         if(events[i][1]>=events[j][0] && events[j][1] >= events[i][0]) continue;
-        //         result=max(result, val+events[j][2]);
-        //     }
-        // }
-        // return result;
+   
         // we can also use dp 
         // in interval based questions try to sort based on either start point or end point 
         sort(events.begin(),events.end());
