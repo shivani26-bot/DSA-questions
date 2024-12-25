@@ -11,6 +11,9 @@
  */
 class Solution {
 public:
+// o(level* wlogw+w+w)
+// w elements at each level
+// we can optimize space using bit manipulation
 int minOperations(vector<int>&vec){
     vector<int>sortedVec(begin(vec),end(vec));
     sort(begin(sortedVec),end(sortedVec));
