@@ -26,7 +26,8 @@ for(int i=0;i<vec.size();i++){
         swaps++;
         int swapIndex=mp[sortedVec[i]];
         mp[vec[i]]=swapIndex;
-        mp[sortedVec[i]]=i;
+        // mp[sortedVec[i]]=i;
+        mp[vec[swapIndex]]=i;
         swap(vec[i],vec[swapIndex]);
        
     }
