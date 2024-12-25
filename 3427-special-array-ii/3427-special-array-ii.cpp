@@ -37,6 +37,7 @@ public:
 // hence find cumsum[end]-cumsum[start] to get total voilating index between start and end 
 int n=nums.size();
 vector<int>badIndex(n,0);//badIndex[i]=total count of violating index till index i
+// o(n)
 for(int i=1;i<n;i++){
      if(nums[i]%2 == nums[i-1]%2) {//violating index
         badIndex[i]=1+badIndex[i-1];
@@ -46,6 +47,7 @@ for(int i=1;i<n;i++){
 }
 int m=queries.size();
 vector<bool>ans(m,false);
+// o(m)
 int i=0;
 for(auto it: queries){
     int start=it[0];
@@ -54,5 +56,6 @@ for(auto it: queries){
    i++;
 }
 return ans;
+// total: o(n+m)
     }
 };
