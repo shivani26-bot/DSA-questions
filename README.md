@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0945-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0945-snakes-and-ladders) |
 | [1917-maximum-average-pass-ratio](https://github.com/shivani26-bot/DSA-questions/tree/master/1917-maximum-average-pass-ratio) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2868-continuous-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/2868-continuous-subarrays) |
@@ -71,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shivani26-bot/DSA-questions/tree/master/0515-find-largest-value-in-each-tree-row) |
+| [0945-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0945-snakes-and-ladders) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/shivani26-bot/DSA-questions/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -107,4 +109,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3427-special-array-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3427-special-array-ii) |
+## Matrix
+|  |
+| ------- |
+| [0945-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0945-snakes-and-ladders) |
 <!---LeetCode Topics End-->
