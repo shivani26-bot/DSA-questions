@@ -61,8 +61,14 @@ public:
 //   vector<vector<int>>dp(n,vector<int>(k+1,-1));
 //   return solve(n-1,k,arr,dp);
 // }
+// int findTargetSumWays(vector<int>& nums, int target) {
+//         int n=nums.size();
+//         return countPartitions(n,target,nums);
+// }
 
-// naive 
+// naive :time: o(2^n)
+// space:o(n)
+// while memoizeing this approach we will take 2d dp array as 2 variables are changing 
 int countPartitions(int index,int currSum, int n, int target, vector<int>&nums){
 
 if(index==nums.size()){
@@ -81,10 +87,6 @@ int count=0;
         return count;
 }
 
-// int findTargetSumWays(vector<int>& nums, int target) {
-//         int n=nums.size();
-//         return countPartitions(n,target,nums);
-// }
 };
 
 
