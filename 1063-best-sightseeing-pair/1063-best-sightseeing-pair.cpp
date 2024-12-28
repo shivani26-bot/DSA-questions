@@ -1,6 +1,8 @@
 class Solution {
 public:
     int maxScoreSightseeingPair(vector<int>& values) {
+        // values[i] + values[j] + i - j=> try to rearrange the expression
+        // ( values[i]  + i) + (values[j] - j)
        int n=values.size();
        if(n==2) return values[0]+values[1]-1;
 
