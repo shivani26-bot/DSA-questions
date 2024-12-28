@@ -23,37 +23,68 @@ public:
 //  s2=totalSum-target/2
 
 
-int solve(int index, int target, vector<int>arr, vector<vector<int>>&dp)
-{
-    if(index==0){
-      if(target==0 && arr[0]==0) return 2;
-      if(target==0 || target==arr[0]) return 1;
-      return 0;
-    }
-    if(dp[index][target]!=-1) return dp[index][target];
-    int notTake= solve(index-1, target, arr,dp);
-    int take=0;
-    if(target>=arr[index]){
-        take=solve(index-1,target-arr[index],arr,dp);
-    }
-    return dp[index][target]=(take + notTake);
-}
+// naive approach :
+// nums=[1,1,1,1,1] target=3 sum=0
+// every index has two options +, -
+//                       1 1 1 1 1
+//               1 1 1 1 1            1 1 1 1 1
+//               i,+                  i,-
+//               sum=1                sum=-1
+//     1 1 1 1 1     1 1 1 1 1     1 1 1 1 1        1 1 1 1 1
+//       i,+           i,-           i,+              i,-
+//       sum=2         sum=0         sum=0           sum=-2
 
-// d=target here
-int countPartitions(int n, int d, vector<int>& arr) {
-  int totalsum=0;
-  for(int i=0;i<n;i++) totalsum+=arr[i];
-  if(totalsum-d <0 || (totalsum-d)%2) return false;
-//   k is target here
-  int k=(totalsum-d)/2;
-  vector<vector<int>>dp(n,vector<int>(k+1,-1));
-  return solve(n-1,k,arr,dp);
-}
 
+// int solve(int index, int target, vector<int>arr, vector<vector<int>>&dp)
+// {
+//     if(index==0){
+//       if(target==0 && arr[0]==0) return 2;
+//       if(target==0 || target==arr[0]) return 1;
+//       return 0;
+//     }
+//     if(dp[index][target]!=-1) return dp[index][target];
+//     int notTake= solve(index-1, target, arr,dp);
+//     int take=0;
+//     if(target>=arr[index]){
+//         take=solve(index-1,target-arr[index],arr,dp);
+//     }
+//     return dp[index][target]=(take + notTake);
+// }
+
+// // d=target here
+// int countPartitions(int n, int d, vector<int>& arr) {
+//   int totalsum=0;
+//   for(int i=0;i<n;i++) totalsum+=arr[i];
+//   if(totalsum-d <0 || (totalsum-d)%2) return false;
+// //   k is target here
+//   int k=(totalsum-d)/2;
+//   vector<vector<int>>dp(n,vector<int>(k+1,-1));
+//   return solve(n-1,k,arr,dp);
+// }
+
+// naive 
+int countPartitions(int index,int currSum, int n, int target, vector<int>&nums){
+
+if(index==nums.size()){
+if(currSum==target) return 1;
+return 0;
+}
+    int plus=countPartitions(index+1, currSum+nums[index],n,target, nums);
+    int minus=countPartitions(index+1, currSum-nums[index],n,target, nums);
+
+    return plus+minus;
+}
 int findTargetSumWays(vector<int>& nums, int target) {
         int n=nums.size();
-        return countPartitions(n,target,nums);
+int count=0;
+        count+=countPartitions(0, 0, n,target,nums);
+        return count;
 }
+
+// int findTargetSumWays(vector<int>& nums, int target) {
+//         int n=nums.size();
+//         return countPartitions(n,target,nums);
+// }
 };
 
 
