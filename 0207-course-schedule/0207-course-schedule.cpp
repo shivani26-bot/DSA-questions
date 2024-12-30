@@ -5,7 +5,9 @@ public:
         // apply topological sort, detect whether graph has cycle or not
         // if graph has cycle then it means it's not possible to complete all the courses return false
         // else return true
-        vector<int>adj[numCourses];
+        // vector<vector<int>> adj(numCourses);//this is also correct
+
+        vector<int>adj[numCourses];//This declares an array of vectors. The size of the array is numCourses, and each element in the array is a vector<int>.static allocation of the array,
         for(int i=0;i<prerequisites.size();i++){
             adj[prerequisites[i][1]].push_back(prerequisites[i][0]);
         }
