@@ -25,9 +25,10 @@ public:
 
 int n=inputStr.length();
 int total_ones=0;
-for(int i=0;i<n;i++){
-    if(inputStr[i]=='1') total_ones++;
-}
+// for(int i=0;i<n;i++){
+//     if(inputStr[i]=='1') total_ones++;
+// }
+total_ones=count(begin(inputStr),end(inputStr),'1');
 int zero=0;
 int one=0;
 //zero and one maintains number of zero and one in left substring
