@@ -23,16 +23,44 @@ public:
 // }
 // return maxScore;
 
-int n=inputStr.length();
-int total_ones=0;
-// for(int i=0;i<n;i++){
-//     if(inputStr[i]=='1') total_ones++;
+// int n=inputStr.length();
+// int total_ones=0;
+// // for(int i=0;i<n;i++){
+// //     if(inputStr[i]=='1') total_ones++;
+// // }
+// total_ones=count(begin(inputStr),end(inputStr),'1');
+// int zero=0;
+// int one=0;
+// //zero and one maintains number of zero and one in left substring
+// int rightSideOne=0;
+// int maxScore=INT_MIN;
+// for(int i=0;i<n-1;i++){
+// if(inputStr[i]=='0'){
+//     zero++;
 // }
-total_ones=count(begin(inputStr),end(inputStr),'1');
+// if(inputStr[i]=='1'){
+//     one++;
+// }
+// rightSideOne=total_ones-one;
+// maxScore=max(maxScore, zero+rightSideOne);
+// }
+// return maxScore;
+
+// score=Zl+Or
+// Zl->total zero in lhs
+// Or-> total one in rhs
+// Ot=Ol+Or
+// Ot->total one in string
+// Ol->toal one in lhs
+// Or->total one in rhs
+// score=Zl+(Ot-Ol)
+// score=(Zl-Ol) + Ot
+// maximize zl-ol
+int total_ones=count(begin(inputStr),end(inputStr),'1');
 int zero=0;
 int one=0;
-//zero and one maintains number of zero and one in left substring
-int rightSideOne=0;
+int n=inputStr.length();
+
 int maxScore=INT_MIN;
 for(int i=0;i<n-1;i++){
 if(inputStr[i]=='0'){
@@ -41,10 +69,13 @@ if(inputStr[i]=='0'){
 if(inputStr[i]=='1'){
     one++;
 }
-rightSideOne=total_ones-one;
-maxScore=max(maxScore, zero+rightSideOne);
+
+maxScore=max(maxScore, zero-one);
 }
+maxScore=maxScore+total_ones;
 return maxScore;
+
+
 //         int n=inputStr.length();
 //         vector<int>prefixZero(n,0);
 //         vector<int>suffixOne(n,0);
