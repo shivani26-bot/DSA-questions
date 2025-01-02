@@ -5,21 +5,43 @@ public:
         // brute force 
         // 011101
         // we can split in the range 0 to n-2
-int n=inputStr.length();
-int maxScore=INT_MIN;
-int count0=0;
-for(int i=0;i<n-1;i++){
-    if(inputStr[i]=='0')
-    count0++;
+// int n=inputStr.length();
+// int maxScore=INT_MIN;
+// int count0=0;
+// for(int i=0;i<n-1;i++){
+//     if(inputStr[i]=='0')
+//     count0++;
 
-    int count1=0;
-    for(int j=i+1;j<n;j++){
+//     int count1=0;
+//     for(int j=i+1;j<n;j++){
         
-       if(inputStr[j]=='1')
-       count1++;
-    }
-   cout<<count0 << " "<<count1<<endl;
-    maxScore=max(maxScore,count0+count1);
+//        if(inputStr[j]=='1')
+//        count1++;
+//     }
+ 
+//     maxScore=max(maxScore,count0+count1);
+// }
+// return maxScore;
+
+int n=inputStr.length();
+int total_ones=0;
+for(int i=0;i<n;i++){
+    if(inputStr[i]=='1') total_ones++;
+}
+int zero=0;
+int one=0;
+//zero and one maintains number of zero and one in left substring
+int rightSideOne=0;
+int maxScore=INT_MIN;
+for(int i=0;i<n-1;i++){
+if(inputStr[i]=='0'){
+    zero++;
+}
+if(inputStr[i]=='1'){
+    one++;
+}
+rightSideOne=total_ones-one;
+maxScore=max(maxScore, zero+rightSideOne);
 }
 return maxScore;
 //         int n=inputStr.length();
