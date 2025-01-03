@@ -3,13 +3,13 @@ public:
     vector<int> vowelStrings(vector<string>& words, vector<vector<int>>& queries) {
         int n=words.size();
         vector<int>preCount(n+1,0);
-        set<char>st;
+        unordered_set<char>st{'a','e','i','o','u'};
         
-        st.insert('a');
-        st.insert('e');
-        st.insert('i');
-        st.insert('o');
-        st.insert('u');
+        // st.insert('a');
+        // st.insert('e');
+        // st.insert('i');
+        // st.insert('o');
+        // st.insert('u');
         for(int i=0;i<n;i++){
             int n=words[i].length();
             char firstChar=words[i][0];
