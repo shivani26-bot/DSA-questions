@@ -44,9 +44,15 @@ for(int i=1;i<n;i++){
 }
 
 for(int i=0;i<n;i++){
-       int shift= arr[i]%26;
-       if(shift<0) shift+=26;
+       int shift= arr[i]%26; // Ensure shift is within the range [0, 25]
+       if(shift<0) shift+=26; // Handle negative shifts (backward)
        s[i]=((s[i]-'a' +shift)%26)+'a';
+         /*
+                Note : s[i]-'a' gives the corresponding number of character s[i]
+                       +shift adds the shift
+                       %26 is to wrap around (0-25)
+                       'a' + in the end converts back the number to character
+            */
 }
 return s;
     }
