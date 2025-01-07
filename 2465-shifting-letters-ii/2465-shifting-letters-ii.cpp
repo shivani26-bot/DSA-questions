@@ -25,11 +25,20 @@ vector<int>arr(n,0);
 for(auto it:shifts){
     int start=it[0];
     int end=it[1];
-    int direction= it[2]==0 ?-1: 1;
-    arr[start]+=direction;
-    if(end+1<n){
-    direction= direction==-1?1:-1;
-    arr[end+1]+=direction;
+//     int direction= it[2]==0 ?-1: 1;
+//     arr[start]+=direction;
+//     if(end+1<n){
+//     direction= direction==-1?1:-1;
+//     arr[end+1]+=direction;
+// }
+int direction= it[2];
+if(direction==1){
+    arr[start]+=1;
+    if(end+1<n) arr[end+1]-=1;
+}
+else{
+    arr[start]-=1;
+    if(end+1<n) arr[end+1]+=1;
 }
 
 }
@@ -47,6 +56,11 @@ for(int i=0;i<n;i++){
        int shift= arr[i]%26; // Ensure shift is within the range [0, 25]
        if(shift<0) shift+=26; // Handle negative shifts (backward)
        s[i]=((s[i]-'a' +shift)%26)+'a';
+
+    //    a->0 -----> 'a'-'a'=0
+    //    b->1 -----> 'b'-'a'=1
+    //    c->2 -----> 'c'-'a'=2
+
          /*
                 Note : s[i]-'a' gives the corresponding number of character s[i]
                        +shift adds the shift
