@@ -1,39 +1,39 @@
 class Solution {
 public:
-    vector<string> wordSubsets(vector<string>& mainWords, vector<string>& requiredWords) {
-        int maxCharFreq[26] = {0};
-        int tempCharFreq[26];
-        
-        for (const auto& word : requiredWords) {
-            memset(tempCharFreq, 0, sizeof tempCharFreq);//To Set Temp freq all to zero 
-//You can do vector<int> tempCharFreq(26,0);
-            for (char ch : word) {
-                tempCharFreq[ch - 'a']++;
-            }
-            for (int i = 0; i < 26; ++i) {
-                maxCharFreq[i] = max(maxCharFreq[i], tempCharFreq[i]);
-            }
+bool isSubset(vector<int>& freq, vector<int>& temp){
+    for(int i=0;i<26;i++){
+        if(temp[i]<freq[i]){
+                  return false;
         }
-        
-        vector<string> universalWords;
-        
-        for (const auto& word : mainWords) {
-            memset(tempCharFreq, 0, sizeof tempCharFreq);
-            for (char ch : word) {
-                tempCharFreq[ch - 'a']++;
+    }
+    return true;
+}
+    vector<string> wordSubsets(vector<string>& words1, vector<string>& words2) {
+       vector<string>ans;
+       vector<int>freq(26);
+       for(auto word: words2){
+            int temp[26]={0};
+            for(auto ch: word){
+                temp[ch-'a']++;
+                freq[ch-'a']=max(freq[ch-'a'],temp[ch-'a']);
             }
-            bool isUniversal = true;
-            for (int i = 0; i < 26; ++i) {
-                if (maxCharFreq[i] > tempCharFreq[i]) {
-                    isUniversal = false;
-                    break;
-                }
-            }
-            if (isUniversal) {
-                universalWords.emplace_back(word);
-            }
+       }
+       for(auto word: words1){
+        vector<int>temp(26,0);
+        for(auto ch: word){
+            temp[ch-'a']++;
         }
-        
-        return universalWords;
+        if(isSubset(freq,temp)==true){
+            ans.push_back(word);
+        }
+       }
+       return ans;
+//         always store the maximum count of a character
+//         words2=['e','o','oo']
+//         words1=["amazon","apple","facebook","google","leetcode"]
+// map
+// e->1
+// o->2
+     
     }
 };
