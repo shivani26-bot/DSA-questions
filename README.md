@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [1502-construct-k-palindrome-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/1502-construct-k-palindrome-strings) |
 | [1917-maximum-average-pass-ratio](https://github.com/shivani26-bot/DSA-questions/tree/master/1917-maximum-average-pass-ratio) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/shivani26-bot/DSA-questions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 ## Heap (Priority Queue)
@@ -105,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0952-word-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0952-word-subsets) |
+| [1502-construct-k-palindrome-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/1502-construct-k-palindrome-strings) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/shivani26-bot/DSA-questions/tree/master/3455-minimum-length-of-string-after-operations) |
@@ -112,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0952-word-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0952-word-subsets) |
+| [1502-construct-k-palindrome-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/1502-construct-k-palindrome-strings) |
 | [1524-string-matching-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1524-string-matching-in-an-array) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/shivani26-bot/DSA-questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
@@ -127,6 +130,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [1502-construct-k-palindrome-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/1502-construct-k-palindrome-strings) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/shivani26-bot/DSA-questions/tree/master/3455-minimum-length-of-string-after-operations) |
