@@ -2,16 +2,19 @@
  * @param {Function} fn
  * @return {Object}
  */
+// const _ = require('lodash');
+
 Array.prototype.groupBy = function(fn) {
-  return this.reduce((grouped,item)=>{
-     const key=fn(item);
-     if(!grouped[key]){
-grouped[key]=[];
-     }
-grouped[key].push(item)
-return grouped;
+//   return this.reduce((grouped,item)=>{
+//      const key=fn(item);
+//      if(!grouped[key]){
+// grouped[key]=[];
+//      }
+// grouped[key].push(item)
+// return grouped;
     
-   },{})
+//    },{})
+return _.groupBy(this,fn);
 };
 
 /**
