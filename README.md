@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0952-word-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0952-word-subsets) |
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
 | [1063-best-sightseeing-pair](https://github.com/shivani26-bot/DSA-questions/tree/master/1063-best-sightseeing-pair) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1524-string-matching-in-an-array) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/shivani26-bot/DSA-questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
@@ -104,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0820-find-eventual-safe-states](https://github.com/shivani26-bot/DSA-questions/tree/master/0820-find-eventual-safe-states) |
 | [0945-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0945-snakes-and-ladders) |
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/shivani26-bot/DSA-questions/tree/master/1558-course-schedule-iv) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -183,6 +185,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0407-trapping-rain-water-ii) |
 | [0945-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0945-snakes-and-ladders) |
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
+| [1171-shortest-path-in-binary-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 ## Backtracking
 |  |
