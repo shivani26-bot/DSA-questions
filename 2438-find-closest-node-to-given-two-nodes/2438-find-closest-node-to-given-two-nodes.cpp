@@ -13,7 +13,7 @@ int n;
 // visited[node]=true;
 // int v=edges[node];
 // if(v!=-1 && !visited[v]){
-// visited[v]=true;
+// visited[v]=true; //not required in dfs
 //     distance[v]=1+distance[node];
 //     dfs(v,edges,distance,visited);
 // }
