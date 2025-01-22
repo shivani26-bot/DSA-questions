@@ -10,7 +10,7 @@ void dfs(int node, vector<int>&edges,vector<int>&distance,vector<bool>&visited){
 visited[node]=true;
 int v=edges[node];
 if(v!=-1 && !visited[v]){
-    visited[v]=true;
+
     distance[v]=1+distance[node];
     dfs(v,edges,distance,visited);
 }
