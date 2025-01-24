@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0144-binary-tree-preorder-traversal) |
+| [0226-invert-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0226-invert-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shivani26-bot/DSA-questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/shivani26-bot/DSA-questions/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -96,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0094-binary-tree-inorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0207-course-schedule](https://github.com/shivani26-bot/DSA-questions/tree/master/0207-course-schedule) |
+| [0226-invert-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0226-invert-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shivani26-bot/DSA-questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0684-redundant-connection](https://github.com/shivani26-bot/DSA-questions/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/shivani26-bot/DSA-questions/tree/master/0820-find-eventual-safe-states) |
@@ -108,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/shivani26-bot/DSA-questions/tree/master/0207-course-schedule) |
+| [0226-invert-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0226-invert-binary-tree) |
 | [0407-trapping-rain-water-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0407-trapping-rain-water-ii) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shivani26-bot/DSA-questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0684-redundant-connection](https://github.com/shivani26-bot/DSA-questions/tree/master/0684-redundant-connection) |
@@ -126,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0144-binary-tree-preorder-traversal) |
+| [0226-invert-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0226-invert-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shivani26-bot/DSA-questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/shivani26-bot/DSA-questions/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
