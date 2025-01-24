@@ -11,6 +11,7 @@
  */
 class Solution {
 public:
+//do normal swapping
 void dfs(TreeNode* root){
  if(!root) return;
          TreeNode* temp= root->left;
