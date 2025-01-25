@@ -37,7 +37,7 @@ public:
                 // auto [adjNode, col]=it
                 int adjNode=it.first;
                 int currEdgeCol=it.second;
-    
+    // if the distance to the adjacent node (dist[adj_node][color]) has not been updated (1e9), it is updated as:
                     if( currEdgeCol!=prevEdgeCol && dist[adjNode][currEdgeCol]==1e9)
                     {
                     q.push({adjNode,currEdgeCol});           
