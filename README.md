@@ -92,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0226-invert-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shivani26-bot/DSA-questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0572-subtree-of-another-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/shivani26-bot/DSA-questions/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 | [3439-find-minimum-diameter-after-merging-two-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/3439-find-minimum-diameter-after-merging-two-trees) |
@@ -107,6 +108,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0226-invert-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shivani26-bot/DSA-questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/shivani26-bot/DSA-questions/tree/master/0684-redundant-connection) |
 | [0820-find-eventual-safe-states](https://github.com/shivani26-bot/DSA-questions/tree/master/0820-find-eventual-safe-states) |
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
@@ -146,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0226-invert-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0226-invert-binary-tree) |
 | [0515-find-largest-value-in-each-tree-row](https://github.com/shivani26-bot/DSA-questions/tree/master/0515-find-largest-value-in-each-tree-row) |
 | [0543-diameter-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0572-subtree-of-another-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/shivani26-bot/DSA-questions/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
 ## Hash Table
@@ -238,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String Matching
 |  |
 | ------- |
+| [0572-subtree-of-another-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0572-subtree-of-another-tree) |
 | [1524-string-matching-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1524-string-matching-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/shivani26-bot/DSA-questions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -252,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Function
 |  |
 | ------- |
+| [0572-subtree-of-another-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0572-subtree-of-another-tree) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 ## Stack
 |  |
