@@ -11,17 +11,17 @@
  */
 class Solution {
 public:
-TreeNode* makeBst(vector<int>& nums,int low, int high){
-    if(low>high){
-        return NULL;
-    }
-    int mid= (low+high)/2;
-   TreeNode* root= new TreeNode(nums[mid]);
-    root->left= makeBst(nums,low,mid-1);
-    root->right= makeBst(nums,mid+1,high);
+// to make a height balanced tree, always split the array into half, the mid element will be root, similarly repeat for left and right subarray
+TreeNode* makeBST(int s, int e, vector<int>&nums){
+    if(s>e) return NULL;
+    int mid=(s+e)/2;
+
+    TreeNode* root= new TreeNode(nums[mid]);
+    root->left= makeBST(s,mid-1, nums);
+    root->right= makeBST(mid+1, e, nums);
     return root;
 }
     TreeNode* sortedArrayToBST(vector<int>& nums) {
-      return  makeBst(nums,0,nums.size()-1);
+       return makeBST(0,nums.size()-1,nums);
     }
 };
