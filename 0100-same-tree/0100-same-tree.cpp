@@ -12,16 +12,27 @@
 class Solution {
 public:
 
+// bool check(TreeNode* p, TreeNode* q){
+//     if(!p && !q) return true;
+//     if(!q || !p) return false;
+
+  
+
+//  bool left=check(p->left, q->left);
+//  bool right= check(p->right, q->right);
+
+//  return p->val== q->val && left && right;
+// }
 bool check(TreeNode* p, TreeNode* q){
     if(!p && !q) return true;
     if(!q || !p) return false;
 
-  
+  if(p->val!=q->val) return false;
 
  bool left=check(p->left, q->left);
  bool right= check(p->right, q->right);
 
- return p->val== q->val &&left && right;
+ return  left && right;
 }
     bool isSameTree(TreeNode* p, TreeNode* q) {
     
