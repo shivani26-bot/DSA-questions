@@ -11,23 +11,34 @@
  */
 class Solution {
 public:
-bool rootToLeafSum(TreeNode* root, int sum, int targetSum){
-  if(!root) return false;
-
-  sum+=root->val;
-if(!root->left && !root->right && sum==targetSum){
-    return true;
+bool pathSum(TreeNode* root, int targetSum,int &sum){
+    // if(!root->left && !root->right){
+    //     sum+=root->val;
+    //     if(sum==targetSum) return true;
+    //     else{
+    //         sum-=root->val;
+    //         return false;
+    //     }
+    // }
+if(!root) {
+ return false;
 }
- bool lst= rootToLeafSum(root->left,sum,targetSum);
- bool rst= rootToLeafSum(root->right,sum,targetSum);
 
- return lst||rst;
+    sum+=root->val;
+    if(!root->left && !root->right){
+       
+        if(sum==targetSum) return true;
+       
+    }
+    bool lst= pathSum(root->left, targetSum, sum);
+    bool rst= pathSum(root->right, targetSum, sum);
+
+    sum-=root->val;
+    return lst||rst;
 }
     bool hasPathSum(TreeNode* root, int targetSum) {
-         if (!root)
-        return false;
-    
+        if(!root) return false;
         int sum=0;
-      return  rootToLeafSum(root,sum,targetSum);
+        return pathSum(root, targetSum,sum);
     }
 };
