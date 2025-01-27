@@ -12,18 +12,9 @@
 class Solution {
 public:
 bool pathSum(TreeNode* root, int targetSum,int &sum){
-    // if(!root->left && !root->right){
-    //     sum+=root->val;
-    //     if(sum==targetSum) return true;
-    //     else{
-    //         sum-=root->val;
-    //         return false;
-    //     }
-    // }
 if(!root) {
  return false;
 }
-
     sum+=root->val;
     if(!root->left && !root->right){
        
