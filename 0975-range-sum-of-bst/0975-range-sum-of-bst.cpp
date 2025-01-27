@@ -9,27 +9,40 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+// class Solution {
+// public:
+// void rangeSum(TreeNode* root, int low, int high, int &sum){
+// if(!root) return;
+//     if(root->val >= low && root->val<=high){
+//         sum+=root->val;
+//     }
+
+
+//     if(root->val>low){
+// rangeSum(root->left, low,high, sum);
+//     }
+//      if(root->val<high){
+//  rangeSum(root->right, low,high, sum);
+//     }
+
+// }
+//     int rangeSumBST(TreeNode* root, int low, int high) {
+//         if(!root) return 0;
+//         int sum=0;
+//        rangeSum(root, low, high, sum);
+//        return sum;
+//     }
+// };
+
 class Solution {
 public:
-void rangeSum(TreeNode* root, int low, int high, int &sum){
-if(!root) return;
-    if(root->val >= low && root->val<=high){
-        sum+=root->val;
-    }
 
-
-    if(root->val>low){
-rangeSum(root->left, low,high, sum);
-    }
-     if(root->val<high){
- rangeSum(root->right, low,high, sum);
-    }
-
-}
     int rangeSumBST(TreeNode* root, int low, int high) {
+    
         if(!root) return 0;
-        int sum=0;
-       rangeSum(root, low, high, sum);
-       return sum;
+       int lst=rangeSumBST(root->left, low, high);
+       int rst= rangeSumBST(root->right, low, high);
+       if(root->val>=low && root->val<=high) return lst+rst+root->val;
+       return lst+rst;
     }
 };
