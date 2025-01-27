@@ -20,7 +20,7 @@ bool check(TreeNode* root){
     bool lst=check(root->left);
     bool rst=check(root->right);
  
-    return (root->val==2) ? (lst && rst) :(lst || rst);
+    return (root->val==3) ? (lst && rst) :(lst || rst);
 }
     bool evaluateTree(TreeNode* root) {
        if(!root) return false;
