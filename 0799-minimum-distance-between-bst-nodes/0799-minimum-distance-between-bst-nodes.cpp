@@ -10,6 +10,11 @@
  * };
  */
  //traversing the bst in inorder we will get the sorted order of nodes
+//  TreeNode*& prev: A reference to a pointer storing the previously visited node during the traversal.
+// It is passed by reference (&) so that updates to prev persist across recursive calls.
+// int& result: A reference to store the minimum difference between node values. Passing by reference ensures that all recursive calls update the same result variable.
+// TreeNode* prev = NULL;
+// prev is initialized to NULL to indicate that no previous node has been visited yet.
 class Solution {
 public:
 // void dfs(TreeNode* root, TreeNode*& prev, int& result){
