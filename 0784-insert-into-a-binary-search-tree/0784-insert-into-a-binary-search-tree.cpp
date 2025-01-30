@@ -40,11 +40,7 @@ if(!root){
     else if(parent->val<val) parent->right= newNode;
     return;
 }
-// if(!root->left && !root->right){
-//      TreeNode* newNode= new TreeNode(val);
-//     if(parent->val>val) parent->left= newNode;
-//     else if(parent->val<val) parent->right= newNode;
-// }
+
     if(root->val>val){
         dfs(root->left, root, val);
     }
