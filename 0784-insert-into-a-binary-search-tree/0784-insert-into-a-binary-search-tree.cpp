@@ -11,27 +11,54 @@
  */
 class Solution {
 public:
-    TreeNode* insertIntoBST(TreeNode* root, int val) {
-        if(!root){
-            return new TreeNode(val,NULL,NULL);
-        }
-    TreeNode* temp=root;
-    TreeNode* prev=NULL;
-    while(temp){
-        prev=temp;
-        if(temp->val <val){
-            temp=temp->right;
-        }
-        else {
-            temp=temp->left;
-        }
+    // TreeNode* insertIntoBST(TreeNode* root, int val) {
+    //     if(!root) return new TreeNode(val);
+    //     TreeNode* parent=NULL;
+    //     TreeNode* temp=root;
+        
+    //     while(temp){
+    //            parent=temp;
+    //         if(temp->val < val){
+             
+    //             temp=temp->right;
+    //         }
+    //         else if(temp->val>=val){
+    //           temp=temp->left;
+    //         }
+
+    //     }
+    //     if(parent->val < val) parent->right= new TreeNode(val);
+    //     else parent->left=new TreeNode(val);
+
+    //     return root;
+    // }
+
+void dfs(TreeNode* root, TreeNode* parent, int val){
+if(!root){
+    TreeNode* newNode= new TreeNode(val);
+    if(parent->val>val) parent->left= newNode;
+    else if(parent->val<val) parent->right= newNode;
+    return;
+}
+// if(!root->left && !root->right){
+//      TreeNode* newNode= new TreeNode(val);
+//     if(parent->val>val) parent->left= newNode;
+//     else if(parent->val<val) parent->right= newNode;
+// }
+    if(root->val>val){
+        dfs(root->left, root, val);
     }
-    if(val > prev->val){
-        prev->right= new TreeNode(val, NULL, NULL);
+    if(root->val<val){
+        dfs(root->right, root, val);
     }
-    else{
-        prev->left= new TreeNode(val,NULL,NULL);
-    }
-    return root;
+
+}
+      TreeNode* insertIntoBST(TreeNode* root, int val) {
+    if(!root) { 
+        TreeNode* newNode= new TreeNode(val);
+        return newNode;
+        }
+       dfs(root,NULL,val);
+       return root;
     }
 };
