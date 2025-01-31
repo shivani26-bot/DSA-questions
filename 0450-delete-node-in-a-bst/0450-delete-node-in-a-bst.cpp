@@ -184,6 +184,9 @@
 //     return root;
 // }
 // };
+
+//if we found the key, but left child of the root is not there then simply return the right child, similarly if right child of the root is not there then simply return the left child
+//if we have both left child and right child we have two option either replace the root with minimum element in the right child or maximum elemetn in the left child
 class Solution {
 public:
 TreeNode* findMin(TreeNode* root){
