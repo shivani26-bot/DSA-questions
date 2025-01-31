@@ -19,7 +19,7 @@ public:
 
         while(!q.empty()){
              int size= q.size();
-            TreeNode* node;
+            TreeNode* node=NULL;
              while(size--){
                  node=q.front();
 q.pop();
