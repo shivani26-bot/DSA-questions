@@ -27,7 +27,7 @@ int dfs(int node,int parent, vector<vector<int>>&adjList, vector<bool>& hasApple
  int time=0;
 
 for(auto child: adjList[node]){
-    //  int time_from_child=0;
+
     if(child==parent) continue;
      int time_from_child= dfs(child,node, adjList,hasApple);
    if(time_from_child>0 || hasApple[child]){
