@@ -22,7 +22,7 @@ public:
 // don't go back to the parent 
 
     // dfs
-   
+//    o(v+e)
 int dfs(int node,int parent, vector<vector<int>>&adjList, vector<bool>& hasApple){
  int time=0;
 
