@@ -37,12 +37,7 @@ for(auto child: adjList[node]){
 return time;
 }
     int minTime(int n, vector<vector<int>>& edges, vector<bool>& hasApple) {
-        unordered_set<int>st;
-        for(int i=0;i<hasApple.size();i++){
-            if(hasApple[i]==true){
-                st.insert(i);
-            }
-        }
+    
         vector<vector<int>>adjList(n);
         for(int i=0;i<edges.size();i++){
             int u=edges[i][0];
@@ -50,7 +45,7 @@ return time;
             adjList[u].push_back(v);
             adjList[v].push_back(u);
         }
-        if(st.empty()) return 0;
+   
         return dfs(0, -1,adjList,hasApple);
       
     }
