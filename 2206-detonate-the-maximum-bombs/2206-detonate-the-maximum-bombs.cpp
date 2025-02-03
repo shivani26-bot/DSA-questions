@@ -11,14 +11,32 @@ public:
 //               0      1        2       3       4
 //   bombs = [[1,2,3],[2,3,1],[3,4,2],[4,5,3],[5,6,4]]
 typedef long long ll;
-void dfs(int node, unordered_set<int>&visited,vector<vector<int>>&adjList )
+// void dfs(int node, unordered_set<int>&visited,vector<vector<int>>&adjList )
+//     {
+//          visited.insert(node);
+//          for(auto it: adjList [node]){
+//             if(visited.find(it)==visited.end()){
+//                 dfs(it,visited,adjList);
+//             }
+//          }
+//     }
+int bfs(int node,vector<vector<int>>&adjList )
     {
+         queue<int>q;
+         q.push(node);
+         unordered_set<int>visited;
          visited.insert(node);
-         for(auto it: adjList [node]){
-            if(visited.find(it)==visited.end()){
-                dfs(it,visited,adjList);
+         while(!q.empty()){
+            int temp=q.front();
+            q.pop();
+            for(auto it: adjList[temp]){
+                if(visited.find(it)==visited.end()){
+                    visited.insert(it);
+                    q.push(it);
+                }
             }
          }
+         return visited.size();
     }
     
     int maximumDetonation(vector<vector<int>>& bombs) {
@@ -45,12 +63,21 @@ vector<vector<int>>adjList(n);
             }
         }
         int result=0;
-        unordered_set<int>visited;
+        // unordered_set<int>visited;
+        // for(int i=0;i<n;i++){
+        //     dfs(i,visited,adjList);
+        //     int count=visited.size();
+        //     result=max(result,count);
+        //     visited.clear();
+        // }
+        // return result;
+
+       
         for(int i=0;i<n;i++){
-            dfs(i,visited,adjList);
-            int count=visited.size();
+            int count= bfs(i,adjList);
+      
             result=max(result,count);
-            visited.clear();
+  
         }
         return result;
     }
