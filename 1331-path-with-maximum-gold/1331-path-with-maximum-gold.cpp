@@ -52,12 +52,11 @@ if(!isSafe(i,j,grid)) return 0;
     int originalValue=grid[i][j];
     grid[i][j]=0;
 int maxGold=0;
- for(vector<int>& dir : directions) {
-            int new_i = i + dir[0];
-            int new_j = j + dir[1];
-
-            maxGold = max(maxGold, dfs( new_i, new_j,grid));
-        }
+    for(vector<int>& it :  directions){
+int adj_i=i+it[0];
+int adj_j=j+it[1];
+maxGold= max(maxGold,dfs(adj_i,adj_j,grid));
+    }
 grid[i][j]=originalValue;
 return originalValue+maxGold;
 }
