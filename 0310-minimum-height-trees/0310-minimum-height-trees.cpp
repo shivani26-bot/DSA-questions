@@ -53,7 +53,7 @@ public:
 //     }
 vector<int>ans;
 if(n==1){
-    if(edges.size()==0) ans.push_back(0);
+  ans.push_back(0);
     return ans;
 }
 unordered_map<int,vector<int>>adjList;
