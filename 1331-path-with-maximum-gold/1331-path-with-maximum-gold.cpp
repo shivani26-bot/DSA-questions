@@ -1,0 +1,89 @@
+class Solution {
+public:
+
+// bool isSafe(int i, int j,vector<vector<int>>& grid, vector<vector<bool>>&visited){
+//        int n=grid.size();
+//         int m=grid[0].size();
+//       if(i<0 || i>=n ||j<0 || j>=m || visited[i][j] || grid[i][j]==0) return false;
+//       return true;
+// }
+
+// int solve(vector<vector<int>>& grid, vector<vector<bool>>&visited ,int i, int j){
+//       int n=grid.size();
+//         int m=grid[0].size();
+// if(!isSafe(i,j,grid,visited)) return 0;
+// //   int left=0,right=0 ,up=0,down=0;
+//        visited[i][j]=true;
+//           int left= solve(grid,visited,i,j-1);
+//           int right= solve(grid,visited,i,j+1);
+//           int down=solve(grid,visited,i+1,j);
+//           int up= solve(grid,visited,i-1,j);
+// visited[i][j]=false;
+
+//         return grid[i][j] + max( max(left,right) ,max(down,up));
+
+
+// }
+//     int getMaximumGold(vector<vector<int>>& grid) {
+//         int n=grid.size();
+//         int m=grid[0].size();
+//         int ans= 0;
+//         vector<vector<bool>>visited(n, vector<bool>(m,false));
+//         for(int i=0;i<n;i++){
+//             for(int j=0;j<m;j++){
+                
+//                 if(grid[i][j]!=0){
+//                     ans= max(ans,solve(grid,visited,i,j));
+//                 }
+//             }
+//         }
+//         return ans;
+//     }
+ int m, n;
+    vector<vector<int>> directions{{-1, 0}, {1, 0}, {0, 1}, {0, -1}};
+    int DFS(vector<vector<int>>& grid, int i, int j) {
+
+        if(i >= m || i < 0 || j >= n || j < 0 || grid[i][j] == 0) {
+            return 0; //Zero gold
+        }
+
+        int originalGoldValue = grid[i][j];
+        grid[i][j] = 0;
+
+        int maxGold = 0;
+
+        //up, down, left, right
+        for(vector<int>& dir : directions) {
+            int new_i = i + dir[0];
+            int new_j = j + dir[1];
+
+            maxGold = max(maxGold, DFS(grid, new_i, new_j));
+        }
+
+
+        grid[i][j] = originalGoldValue;
+        return originalGoldValue + maxGold;
+
+
+    }
+
+    int getMaximumGold(vector<vector<int>>& grid) {
+        m = grid.size();
+        n = grid[0].size();
+
+        int maxGold = 0;
+
+        for(int i = 0; i < m; i++) {
+            for(int j = 0; j < n; j++) {
+
+                if(grid[i][j] != 0) {
+                    //It has gold
+                    maxGold = max(maxGold, DFS(grid, i, j));
+                }
+
+            }
+        }
+
+        return maxGold;
+    }
+};
