@@ -49,23 +49,17 @@ bool isSafe(int i, int j, vector<vector<int>>&grid ){
 int dfs(int i, int j, vector<vector<int>>&grid){
 
 if(!isSafe(i,j,grid)) return 0;
-    int originalGoldValue = grid[i][j];
-        grid[i][j] = 0;
-
-        int maxGold = 0;
-
-        //up, down, left, right
-        for(vector<int>& dir : directions) {
+    int originalValue=grid[i][j];
+    grid[i][j]=0;
+int maxGold=0;
+ for(vector<int>& dir : directions) {
             int new_i = i + dir[0];
             int new_j = j + dir[1];
 
-            maxGold = max(maxGold, dfs(new_i, new_j,grid));
+            maxGold = max(maxGold, dfs( new_i, new_j,grid));
         }
-
-
-        grid[i][j] = originalGoldValue;
-        return originalGoldValue + maxGold;
-
+grid[i][j]=originalValue;
+return originalValue+maxGold;
 }
   int getMaximumGold(vector<vector<int>>& grid) {
         m=grid.size();
