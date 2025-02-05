@@ -11,6 +11,10 @@
  */
 class Solution {
 public:
+// time:o(n):
+// Each node is visited exactly once.
+// Each recursive call processes one node and makes two recursive calls (left and right).
+// Since there are N nodes in the tree, the function runs in O(N) time.
 void preorder(TreeNode* root, vector<int>&ans){
   if(!root) return ;
    ans.push_back(root->val);
