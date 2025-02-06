@@ -32,45 +32,46 @@
 // };
 class Solution {
 public:
-//     vector<int> rightSideView(TreeNode* root) {
-//         if(!root) return {};
-//         queue<TreeNode*>q;
-//         q.push(root);
-//         vector<int>ans;
+    vector<int> rightSideView(TreeNode* root) {
+        if(!root) return {};
+        queue<TreeNode*>q;
+        q.push(root);
+        vector<int>ans;
 
-//         while(!q.empty()){
-//              int size= q.size();
-//             TreeNode* node=NULL;
-//              while(size--){
-//                  node=q.front();
-// q.pop();
-//  if(node->left) {
-//                     q.push(node->left);
-//                 }
+        while(!q.empty()){
+             int size= q.size();
+            TreeNode* node=NULL;
+             while(size--){
+                 node=q.front();
+q.pop();
+ if(node->left) {
+                    q.push(node->left);
+                }
                
-//                  if(node->right) {
-//                     q.push(node->right);              
-//                 }
+                 if(node->right) {
+                    q.push(node->right);              
+                }
                 
-//              }
-//              ans.push_back(node->val);
-//         }
-//         return ans;
-//     }
+             }
+             ans.push_back(node->val);
+        }
+        return ans;
+    }
 
 // dfs preorder traversal
-void dfs(TreeNode* root, int level,vector<int>&ans){
-if(!root) return;
+// ans size must be equal to number of level
+// void dfs(TreeNode* root, int level,vector<int>&ans){
+// if(!root) return;
 
-    if(ans.size()<level){
-        ans.push_back(root->val);
-    }
-    dfs(root->right,level+1,ans);
-    dfs(root->left,level+1,ans);
-}
- vector<int> rightSideView(TreeNode* root) {
-     vector<int>ans;
-     dfs(root,1,ans);
-     return ans;
-    }
+//     if(ans.size()<level){
+//         ans.push_back(root->val);
+//     }
+//     dfs(root->right,level+1,ans);
+//     dfs(root->left,level+1,ans);
+// }
+//  vector<int> rightSideView(TreeNode* root) {
+//      vector<int>ans;
+//      dfs(root,1,ans);
+//      return ans;
+//     }
 };
