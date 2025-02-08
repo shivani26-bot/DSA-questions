@@ -99,7 +99,7 @@ if( currColor==initialColor) return true;
 
    i++;j--;
     }
-    return false;
+    return false;  
 }
     bool checkMove(vector<vector<char>>& board, int rMove, int cMove, char color) {
 if(board[rMove][cMove]!='.') return false;
