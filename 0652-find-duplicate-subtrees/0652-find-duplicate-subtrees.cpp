@@ -11,17 +11,18 @@
  */
 class Solution {
 public:
-string getSubTree(TreeNode* root,unordered_map<string,int> &mp, vector<TreeNode*> &res){
-    if(!root) return "N";
-    string s= to_string(root->val) + "," + getSubTree(root->left,mp,res)+ ","+ getSubTree(root->right,mp,res);
-    if(mp[s]==1) res.push_back(root);
-    mp[s]++;
-    return s;
+string dfs(TreeNode* root, unordered_map<string,int>&mp, vector<TreeNode*>&ans){
+if(!root) return "N";
+string s=to_string( root->val)+","+dfs(root->left,mp,ans)+","+dfs(root->right, mp,ans);
+if(mp[s]==1) ans.push_back(root);
+mp[s]++;
+return s;
 }
     vector<TreeNode*> findDuplicateSubtrees(TreeNode* root) {
-        vector<TreeNode*>result;
-        unordered_map<string,int>mp;
-        getSubTree(root,mp,result);
-        return result;
+  unordered_map<string,int>mp;
+        vector<TreeNode*>ans;
+        dfs(root,mp,ans);
+        return ans;
+
     }
 };
