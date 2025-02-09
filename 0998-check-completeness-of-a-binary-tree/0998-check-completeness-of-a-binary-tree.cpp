@@ -11,16 +11,8 @@
  */
 class Solution {
 public:
-// bool dfs(TreeNode* root){
-//     if(!root) return true;
-// if(!root->left && !root->right) return true;
-// if(!root->left) return false;
 
-// bool lst=dfs(root->left) ;
-// bool rst=dfs(root->right);
-// return lst && rst;
-// }
-bool bfs(TreeNode* root,int totalLevels){
+bool bfs(TreeNode* root){
     queue<TreeNode*>q;
     q.push(root);
       bool foundNull=false;
@@ -29,13 +21,13 @@ bool bfs(TreeNode* root,int totalLevels){
       q.pop();
 
       if(!node) {
-        foundNull=true;
+        foundNull=true; //if node is null mark it true
       }
-      else{
+      else{ //if node is present then check whether have seen null in past or not if yes then return false other wise push the left and right child 
         if(foundNull) return false;
         q.push(node->left);
-        q.push(node->right);
-        cout<<node->left<<" "<<node->right<<endl;
+        q.push(node->right);// if there is null node it pushes 0, if there is node it pushes the address of the node
+        // cout<<node->left<<" "<<node->right;
       }
         
     }
@@ -49,15 +41,13 @@ int height(TreeNode* root)
   return 1+max(lst,rst);
 }
     bool isCompleteTree(TreeNode* root) {
-    //  if(!root->left && !root->right) return true;
-  int totalLevels=  height(root);
-  cout<<totalLevels<<endl;
+
 //  if at last level we find null then after that null there should be no elements after it
 
 // if any node has seen null in the past it means it's not a complete binary tree
 
-return bfs(root,totalLevels);
-//  return true;
+return bfs(root);
+
 
     }
 };
