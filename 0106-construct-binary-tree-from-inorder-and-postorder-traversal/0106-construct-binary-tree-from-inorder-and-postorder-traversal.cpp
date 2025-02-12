@@ -11,32 +11,34 @@
  */
 class Solution {
 public:
-//  TreeNode* build(int i1,int j1,int i2,int j2,vector<int>& postorder, vector<int>& inorder,map<int,int>&mp)
-TreeNode* build(int i1,int j1,int i2,int j2,vector<int>& postorder, vector<int>& inorder){
-        if(i1>j1) return NULL;
-        TreeNode* root= new TreeNode(postorder[j1],NULL,NULL);
-        int i;
-        for(i=i2;i<=j2;i++){
-            if(inorder[i]== postorder[j1]) break;
-        }
-       
-        // int i=mp[postorder[j1]];
-         root->left= build(i1,i1+i-i2-1,i2,i-1,postorder,inorder);
-        root->right= build(i1+i-i2,j1-1,i+1,j2,postorder,inorder);
-        // root->left= build(i1,i1+i-i2-1,i2,i-1,postorder,inorder,mp);
-        // root->right= build(i1+i-i2,j1-1,i+1,j2,postorder,inorder,mp);
-        return root;
+// post order: left right root
+// inorder: left root right
+// last element of the postorder arr[n-1] will be the main root
+// inorder = [9,3,15,20,7], postorder = [9,15,7,20,3]
+// to find right and left subtree of root =3, find index of 3 in inorder
+// all the elements left to the 3 is left subtree and all the elements right to the 3 is right subtree
+// index of 3 in inorder array= 1
+// 0->left subtree
+// 2-4->right subtree
+TreeNode* solve(vector<int>& inorder, vector<int>& postorder, int inStart, int inEnd, int postStart,int postEnd)
+{
+    if(inStart>inEnd) return NULL;
+    TreeNode* root=new TreeNode(postorder[postEnd]);
+    int i=inStart;
+    for(;i<=inEnd;i++){
+if(inorder[i]==root->val) break; 
     }
+    int leftSize=i-inStart;
+    int rightSize=inEnd-i;
+    root->left=solve(inorder,postorder, inStart,i-1,postStart,postStart+leftSize-1);
+root->right= solve(inorder,postorder, i+1,inEnd,postEnd-rightSize,postEnd-1);
+return root;
+}
     TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
-        int n=postorder.size();
-        int i1 = 0, i2 = 0;
-    int j1 = n - 1, j2 = n - 1;
-    // map<int,int>mp;
-    // for(int i=0;i<n;i++){
-    //     mp[inorder[i]]=i;
-    // }
-        TreeNode* root= build(i1,j1,i2,j2,postorder,inorder);
-        //  TreeNode* root= build(0,n-1,0,n-1,postorder,inorder,mp);
-        return root;
+        int n=inorder.size();
+        int inStart=0,inEnd=n-1;
+        int postStart=0,postEnd=n-1;
+        return solve(inorder, postorder,inStart, inEnd, postStart, postEnd);
+
     }
 };
