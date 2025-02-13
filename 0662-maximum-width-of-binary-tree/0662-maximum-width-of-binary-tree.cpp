@@ -11,29 +11,27 @@
  */
 class Solution {
 public:
+typedef unsigned long long ll;
     int widthOfBinaryTree(TreeNode* root) {
-         if(!root) return 0;
-         queue<pair<TreeNode*,long long>>q;
-         q.push({root,0});
-      int ans=0;
-         while(!q.empty()){
-           
-            long long minm=q.front().second;
+        // find index of first and last non null element in each level and subtract them to get the number of nodes ie width
+        // level order traversal bfs
+        queue<pair<TreeNode*,ll>>q;
+        q.push({root,0});
+        ll maxWidth=0;
+        while(!q.empty()){
             int size=q.size();
-            long long first, last;
-            for(int i=0;i<size;i++){
-                 long long  curr_id=q.front().second- minm;
-                TreeNode* curr=q.front().first;
+ll startIdx= q.front().second;
+ll endIdx= q.back().second;
+maxWidth= max(maxWidth, endIdx-startIdx+1);
+            while(size--){
+                TreeNode* node= q.front().first;
+               ll idx= q.front().second;
                 q.pop();
-                if(i==0) first=curr_id;
-                if(i==size-1) last=curr_id;
-                if(curr){
-                if(curr->left) q.push({curr->left,curr_id*2+1});
-                if(curr->right) q.push({curr->right, curr_id*2+2});
-                }
+                if(node->left) q.push({node->left,2*idx+1});
+                if(node->right) q.push({node->right,2*idx+2});
+
             }
-            ans= max(ans,static_cast<int>(last-first+1)); // Cast to int when updating ans
-         }
-         return ans;
+        }
+        return maxWidth;
     }
 };
