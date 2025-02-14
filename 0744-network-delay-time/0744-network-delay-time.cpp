@@ -34,9 +34,15 @@ typedef pair<int,int> P;
         }
     }
     // if(distance[n-1]==1e9) return -1;
-    for(int i=1;i<=n;i++){
+    // for(int i=1;i<=n;i++){
+    //    min_time=max(min_time,distance[i]);
+    // }
+    // return min_time==1e9?-1:min_time;
+
+     for(int i=1;i<=n;i++){
+        if(distance[i]==1e9) return -1;
        min_time=max(min_time,distance[i]);
     }
-    return min_time==1e9?-1:min_time;
+    return min_time;
     }
 };
