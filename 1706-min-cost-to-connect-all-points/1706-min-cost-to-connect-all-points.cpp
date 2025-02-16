@@ -6,7 +6,7 @@ public:
     int n=points.size();
     unordered_map<int, vector<pair<int,int>>>adj;
     for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
+        for(int j=i+1;j<n; j++){
             int distance= abs(points[i][0]-points[j][0])+abs(points[i][1]-points[j][1]);
             adj[i].push_back({j,distance});
             adj[j].push_back({i,distance});
