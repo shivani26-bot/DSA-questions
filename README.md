@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1331-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1331-path-with-maximum-gold) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1524-string-matching-in-an-array) |
+| [1706-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/shivani26-bot/DSA-questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/shivani26-bot/DSA-questions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -306,6 +307,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1558-course-schedule-iv](https://github.com/shivani26-bot/DSA-questions/tree/master/1558-course-schedule-iv) |
 | [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
+| [1706-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1706-min-cost-to-connect-all-points) |
 | [2206-detonate-the-maximum-bombs](https://github.com/shivani26-bot/DSA-questions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [2568-minimum-fuel-cost-to-report-to-the-capital](https://github.com/shivani26-bot/DSA-questions/tree/master/2568-minimum-fuel-cost-to-report-to-the-capital) |
@@ -410,6 +412,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/shivani26-bot/DSA-questions/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/shivani26-bot/DSA-questions/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/shivani26-bot/DSA-questions/tree/master/1073-number-of-enclaves) |
+| [1706-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [2582-minimum-score-of-a-path-between-two-cities](https://github.com/shivani26-bot/DSA-questions/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
 ## Divide and Conquer
@@ -440,4 +443,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2080-check-if-move-is-legal](https://github.com/shivani26-bot/DSA-questions/tree/master/2080-check-if-move-is-legal) |
+## Minimum Spanning Tree
+|  |
+| ------- |
+| [1706-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1706-min-cost-to-connect-all-points) |
 <!---LeetCode Topics End-->
