@@ -1,51 +1,56 @@
 class Solution {
 public:
-// int n;
-// vector<vector<int>>directions={{1,0},{0,-1},{-1,0},{0,1}};
-// bool isSafe(int x, int y){
-//     return x>=0 && x<n && y>=0 && y<n;
-// }
-// vector<vector<int>>computeManhattanDistance(vector<vector<int>>& grid){
-//     queue<pair<int,int>>q;
-//     vector<vector<int>>distance(n,vector<int>(n,0));
-//     vector<vector<bool>>visited(n,vector<bool>(n,false));
-// for(int i=0;i<n;i++){
-//     for(int j=0;j<n;j++){
-//         if(grid[i][j]==1) {
-//             visited[i][j]=true;
-//             q.push({i,j});
-//             }
-//     }
-// }
+int n;
+vector<vector<int>>directions={{1,0},{0,-1},{-1,0},{0,1}};
+bool isSafe(int x, int y){
+    return x>=0 && x<n && y>=0 && y<n;
+}
+vector<vector<int>>computeManhattanDistance(vector<vector<int>>& grid){
+    queue<pair<int,int>>q;
+    vector<vector<int>>distance(n,vector<int>(n,-1));
+    vector<vector<bool>>visited(n,vector<bool>(n,false));
+for(int i=0;i<n;i++){
+    for(int j=0;j<n;j++){
+        if(grid[i][j]==1) {
+            visited[i][j]=true;
+            q.push({i,j});
+            }
+    }
+}
 
-// int level=0;
-// while(!q.empty()){
+int level=0;
+while(!q.empty()){
 
-// int size=q.size();
+int size=q.size();
 
-// while(size--){
-// auto [x,y]= q.front();
+while(size--){
+auto [x,y]= q.front();
 
-// q.pop();
-//   distance[x][y]=level;
-// for(auto it: directions){
-//     int adjX=x+it[0];
-//     int adjY=y+it[1];
-//     if(isSafe(adjX,adjY) && !visited[adjX][adjY] )
-//     {
-//         visited[adjX][adjY]=true;
-//         q.push({adjX,adjY});
-//     }
+q.pop();
+  distance[x][y]=level;
+for(auto it: directions){
+    int adjX=x+it[0];
+    int adjY=y+it[1];
+    // if(isSafe(adjX,adjY) && !visited[adjX][adjY] )
+    // {
+    //     visited[adjX][adjY]=true;
+    //     q.push({adjX,adjY});
+    // }
+     if(!isSafe(adjX,adjY) || visited[adjX][adjY] )
+    {
+      continue;
+    }
+  visited[adjX][adjY]=true;
+        q.push({adjX,adjY});
+}
 
-// }
 
 
-
-// }
-// level++;
-// }
-// return distance;
-// }
+}
+level++;
+}
+return distance;
+}
 
 // bool check(vector<vector<int>>distance,int safe_factor){
 //   queue<pair<int,int>>q;
@@ -71,45 +76,6 @@ public:
 //   }
 //   return false;
 // }
-//     int maximumSafenessFactor(vector<vector<int>>& grid) {
-//      n=grid.size();
-//       if (grid[n - 1][n - 1] == 1 || grid[0][0] == 1) return 0;
-//     //  step1, precalculation of distance of nearest thief- for each cell
-//     //  multisource bfs
-//       vector<vector<int>>manhattanDistance= computeManhattanDistance(grid);//distance to nearest thief
-// // for(int i=0;i<n;i++){
-// //     for(int j=0;j<n;j++){
-// //         cout<<manhattanDistance[i][j]<< " ";
-// //     }
-// //     cout<<endl;
-// // }
-
-// // apply binary search 
-// int l=0;
-// int r=n*2;;
-// int result=0;
-// while(l<=r){
-//     int mid=l+(r-l)/2; //safe factor
-// // check for the path from 0,0 to n-1,n-1 where safe factor for each cell is >=mid
-// if(check(manhattanDistance,mid)){
-//     result=mid;
-//     l=mid+1;
-// }
-// else{
-//     r=mid-1;
-// }
-// }
-
-// return result;
-//     }
-
-
-
-
-
-  int n;
-    
-    vector<vector<int>> directions{{1, 0}, {-1, 0}, {0, -1}, {0, 1}};
 
     bool check(vector<vector<int>>& distNearestThief, int sf) {
         queue<pair<int, int>> que;
@@ -150,69 +116,83 @@ public:
         return false;
         
     }
-
     int maximumSafenessFactor(vector<vector<int>>& grid) {
-        n = grid.size();
+     n=grid.size();
+      if (grid[n - 1][n - 1] == 1 || grid[0][0] == 1) return 0;
+    //  step1, precalculation of distance of nearest thief- for each cell
+    //  multisource bfs
+    //   vector<vector<int>>manhattanDistance= computeManhattanDistance(grid);//distance to nearest thief
+// for(int i=0;i<n;i++){
+//     for(int j=0;j<n;j++){
+//         cout<<manhattanDistance[i][j]<< " ";
+//     }
+//     cout<<endl;
+// }
 
-        //Step-1 Precalculation of distNearestThief - for each cell
-        vector<vector<int>> distNearestThief(n, vector<int>(n, -1));
-        queue<pair<int, int>> que;
-        vector<vector<bool>> visited(n, vector<bool>(n, false));
 
-        //push all cells in queue where theives are present
-        for(int i = 0; i < n; i++) {
-            for(int j = 0; j < n; j++) {
-                if(grid[i][j] == 1) {
-                    que.push({i, j});
-                    visited[i][j] = true;
-                }
+
+    queue<pair<int,int>>q;
+    vector<vector<int>>manhattanDistance(n,vector<int>(n,-1));
+    vector<vector<bool>>visited(n,vector<bool>(n,false));
+for(int i=0;i<n;i++){
+    for(int j=0;j<n;j++){
+        if(grid[i][j]==1) {
+         
+            q.push({i,j});
+               visited[i][j]=true;
             }
-        }
+    }
+}
 
-        int level = 0;
-        while(!que.empty()) {
-            int size = que.size();
+int level=0;
+while(!q.empty()){
 
-            while(size--) {
-                int curr_i = que.front().first;
-                int curr_j = que.front().second;
-                que.pop();
-                distNearestThief[curr_i][curr_j] = level;
-                for(vector<int>& dir : directions) {
-                    int new_i = curr_i + dir[0];
-                    int new_j = curr_j + dir[1];
+int size=q.size();
 
-                    if(new_i < 0 || new_i >= n || new_j < 0 || new_j >= n || visited[new_i][new_j]) {
-                        continue;
-                    }
+while(size--){
+auto [x,y]= q.front();
 
-                    que.push({new_i, new_j});
-                    visited[new_i][new_j] = true;
+q.pop();
+  manhattanDistance[x][y]=level;
+for(auto it: directions){
+    int adjX=x+it[0];
+    int adjY=y+it[1];
+    // if(isSafe(adjX,adjY) && !visited[adjX][adjY] )
+    // {
+    //     visited[adjX][adjY]=true;
+    //     q.push({adjX,adjY});
+    // }
+     if(!isSafe(adjX,adjY) || visited[adjX][adjY] )
+    {
+      continue;
+    }
+     q.push({adjX,adjY});
+  visited[adjX][adjY]=true;
+       
+}
 
-                }
 
-            }
-            level++;
-        }
 
-        //Step-2 Apply binary search on SF
-        int l = 0;
-        int r = 400;
-        int result = 0;
+}
+level++;
+}
+// apply binary search 
+int l=0;
+int r=401;
+int result=0;
+while(l<=r){
+    int mid=l+(r-l)/2; //safe factor
+// check for the path from 0,0 to n-1,n-1 where safe factor for each cell is >=mid
+if(check(manhattanDistance,mid)){
+    result=mid;
+    l=mid+1;
+}
+else{
+    r=mid-1;
+}
+}
 
-        while(l <= r) {
-            int mid_sf = l + (r-l)/2;
-
-            if(check(distNearestThief, mid_sf)) {
-                result = mid_sf;
-                l = mid_sf+1;
-            } else {
-                r = mid_sf-1;
-            }
-        }
-
-        return result;
-        
+return result;
     }
 };
 
