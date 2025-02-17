@@ -60,17 +60,17 @@ bool check(vector<vector<int>>&distance,int safe_factor){
  visited[0][0]=true;
  if(distance[0][0]<safe_factor) return false;
   while(!q.empty()){
-    // auto [x,y] =q.front();
-          int x = q.front().first;
-        int y = q.front().second;
+    auto [x,y] =q.front();
+        //   int x = q.front().first;
+        // int y = q.front().second;
     q.pop();
     if(x==n-1 && y==n-1) return true;
  for(const auto& it: directions) {
     int adjx=x+it[0];
     int adjy=y+it[1];
-    // if(isSafe(adjx,adjy) && !visited[adjx][adjy]){
-   if(adjx >= 0 && adjx < n && adjy >= 0 && adjy < n && !visited[adjx][adjy])
-{
+    if(isSafe(adjx,adjy) && !visited[adjx][adjy]){
+//    if(adjx >= 0 && adjx < n && adjy >= 0 && adjy < n && !visited[adjx][adjy])
+// {
         if(distance[adjx][adjy]<safe_factor) continue; //reject the cell
         q.push({adjx,adjy});
         visited[adjx][adjy]=true;
