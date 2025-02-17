@@ -65,7 +65,7 @@ bool check(vector<vector<int>>&distance,int safe_factor){
         // int y = q.front().second;
     q.pop();
     if(x==n-1 && y==n-1) return true;
- for(const auto& it: directions) {
+ for(const auto& it: directions) {// cautoit: directions this causes tle
     int adjx=x+it[0];
     int adjy=y+it[1];
     if(isSafe(adjx,adjy) && !visited[adjx][adjy]){
@@ -85,7 +85,7 @@ bool check(vector<vector<int>>&distance,int safe_factor){
       if (grid[n - 1][n - 1] == 1 || grid[0][0] == 1) return 0;
     //  step1, precalculation of distance of nearest thief- for each cell
     //  multisource bfs
-    //   vector<vector<int>>manhattanDistance= computeManhattanDistance(grid);//distance to nearest thief
+      vector<vector<int>>manhattanDistance= computeManhattanDistance(grid);//distance to nearest thief
 // for(int i=0;i<n;i++){
 //     for(int j=0;j<n;j++){
 //         cout<<manhattanDistance[i][j]<< " ";
@@ -95,51 +95,51 @@ bool check(vector<vector<int>>&distance,int safe_factor){
 
 
 
-    queue<pair<int,int>>q;
-    vector<vector<int>>manhattanDistance(n,vector<int>(n,-1));
-    vector<vector<bool>>visited(n,vector<bool>(n,false));
-for(int i=0;i<n;i++){
-    for(int j=0;j<n;j++){
-        if(grid[i][j]==1) {
+//     queue<pair<int,int>>q;
+//     vector<vector<int>>manhattanDistance(n,vector<int>(n,-1));
+//     vector<vector<bool>>visited(n,vector<bool>(n,false));
+// for(int i=0;i<n;i++){
+//     for(int j=0;j<n;j++){
+//         if(grid[i][j]==1) {
          
-            q.push({i,j});
-               visited[i][j]=true;
-            }
-    }
-}
+//             q.push({i,j});
+//                visited[i][j]=true;
+//             }
+//     }
+// }
 
-int level=0;
-while(!q.empty()){
+// int level=0;
+// while(!q.empty()){
 
-int size=q.size();
+// int size=q.size();
 
-while(size--){
-auto [x,y]= q.front();
+// while(size--){
+// auto [x,y]= q.front();
 
-q.pop();
-  manhattanDistance[x][y]=level;
-for(auto it: directions){
-    int adjX=x+it[0];
-    int adjY=y+it[1];
-    // if(isSafe(adjX,adjY) && !visited[adjX][adjY] )
-    // {
-    //     visited[adjX][adjY]=true;
-    //     q.push({adjX,adjY});
-    // }
-     if(!isSafe(adjX,adjY) || visited[adjX][adjY] )
-    {
-      continue;
-    }
-     q.push({adjX,adjY});
-  visited[adjX][adjY]=true;
+// q.pop();
+//   manhattanDistance[x][y]=level;
+// for(auto it: directions){
+//     int adjX=x+it[0];
+//     int adjY=y+it[1];
+//     // if(isSafe(adjX,adjY) && !visited[adjX][adjY] )
+//     // {
+//     //     visited[adjX][adjY]=true;
+//     //     q.push({adjX,adjY});
+//     // }
+//      if(!isSafe(adjX,adjY) || visited[adjX][adjY] )
+//     {
+//       continue;
+//     }
+//      q.push({adjX,adjY});
+//   visited[adjX][adjY]=true;
        
-}
+// }
 
 
 
-}
-level++;
-}
+// }
+// level++;
+// }
 // apply binary search 
 int l=0;
 int r=401;
