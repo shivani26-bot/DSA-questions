@@ -1,58 +1,54 @@
-struct Node {
-    Node* links[26];
-    bool flag=false;
+
+struct trieNode{
+    trieNode* children[26];
+    bool isEndOfWord=false; //marked true if a particular cahracter is end of the word
     bool characterExist(char ch){
-        return (links[ch-'a'] !=NULL);
+        return (children[ch-'a']!=NULL);
     }
-    void insertCharacter(char ch, Node* root){
-        links[ch-'a']= root;
+    void insertCharacter(char ch,trieNode* root){
+        children[ch-'a']=root;
     }
-    Node* moveNext(char ch){
-        return links[ch-'a'];
+    trieNode* moveNext(char ch){
+        return  children[ch-'a'];
     }
     void setEnd(){
-        flag=true;
+        isEndOfWord=true;
     }
-bool endFlag(){
-return flag;
-}
-
+    bool endFlag(){
+        return isEndOfWord;
+    }
 };
 class Trie {
-   Node* root; 
+    trieNode* root;
 public:
     Trie() {
-     root= new Node();
-            }
+       root=new trieNode();
+    }
     
     void insert(string word) {
-        Node* node= root;
+       trieNode* node= root;
         for(int i=0;i<word.size();i++){
-            if(!node->characterExist(word[i])){
-                node->insertCharacter(word[i],new Node());
-            }
-            node = node->moveNext(word[i]);
+             if(!node->characterExist(word[i])){
+            node->insertCharacter(word[i],new trieNode());
+        }
+        node=node->moveNext(word[i]);
         }
         node->setEnd();
-            }
+    }
     
     bool search(string word) {
-        Node* node=root;
-        for(int i=0;i<word.size();i++){
-            if(!node->characterExist(word[i])){
-                return false;
-            }
-            node= node->moveNext(word[i]);
-        }
-        return node->endFlag();
+       trieNode* node=root;
+       for(int i=0;i<word.size();i++){
+        if(!node->characterExist(word[i])) return false;
+        node=node->moveNext(word[i]);
+       }
+       return node->endFlag();
     }
     
     bool startsWith(string prefix) {
-        Node* node=root;
+        trieNode* node=root;
         for(int i=0;i<prefix.size();i++){
-            if(!node->characterExist(prefix[i])){
-                return false;
-            }
+            if(!node->characterExist(prefix[i])) return false;
             node=node->moveNext(prefix[i]);
         }
         return true;
