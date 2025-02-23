@@ -1,3 +1,6 @@
+// character by character match
+// character by character search
+// bad bets b.ts
 struct Dictionary {
     Dictionary* children[26];
     bool isEndOfWord=false;
