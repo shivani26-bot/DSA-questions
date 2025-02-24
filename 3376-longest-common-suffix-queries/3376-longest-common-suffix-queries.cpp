@@ -36,6 +36,8 @@ public:
     }
     return temp;
    }
+
+   //o(m)
    void insertTrie(trieNode* pCrawl, int i,vector<string>& wordsContainer){
             string word= wordsContainer[i];
             int n=word.length();
@@ -55,6 +57,8 @@ public:
                 }
             }
    }
+
+//    o(n)
    int searchTrie(trieNode* pCrawl, string &word){
        int n=word.length();
        int result_idx=pCrawl->idx;
@@ -84,8 +88,17 @@ int idx=root->idx;
 for(int i=0;i<n;i++){
     result[i]= searchTrie(root, wordsQuery[i]);
 }
-delete root;
+delete root; //This statement deallocates the memory occupied by the root node of the Trie.
+// However, since each Trie node has children, deleting just root would cause a memory leak because all dynamically allocated child nodes wouldn't be freed.The destructor ensures that all child nodes are also deleted when a node is destroyed.
+// It loops over all 26 possible child pointers (children[i]) and recursively deletes them, freeing up memory.
+// When delete root; is called:
+// The destructor of root is triggered.
+// It recursively deletes all allocated child nodes.
+// This prevents Memory Limit Exceeded (MLE) errors by properly freeing heap memory.
 return result;
 
     }
 };
+
+// space: o(m*26)
+// in every node there is array of 26 size 
