@@ -74,9 +74,8 @@ public:
         if(!pCrawl->children[ch_idx]){
             return result_idx;
         }
-         pCrawl=pCrawl->children[ch_idx];
-        result_idx=pCrawl->idx;//update the result
-       
+        pCrawl=pCrawl->children[ch_idx];
+        result_idx=pCrawl->idx;//update the result  
        }
        return result_idx;
    }
