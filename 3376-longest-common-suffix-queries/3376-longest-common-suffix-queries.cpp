@@ -64,11 +64,19 @@ public:
        int result_idx=pCrawl->idx;
        for(int i=n-1;i>=0;i--){
         int ch_idx=word[i]-'a';
-        pCrawl=pCrawl->children[ch_idx];
-        if(!pCrawl){
+        // pCrawl=pCrawl->children[ch_idx];
+        // if(!pCrawl){
+        //     return result_idx;
+        // }
+        // result_idx=pCrawl->idx;//update the result
+
+         
+        if(!pCrawl->children[ch_idx]){
             return result_idx;
         }
+         pCrawl=pCrawl->children[ch_idx];
         result_idx=pCrawl->idx;//update the result
+       
        }
        return result_idx;
    }
