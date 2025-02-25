@@ -55,6 +55,7 @@ string search(string word){
     trieNode* temp=root;
     for(int i=0;i<word.size();i++){
         int idx=word[i]-'a';
+        //if word is not present in the trie it means that prefix for that word is not present return that word as it is
         if(!temp->children[idx]){
             return word;
         }
