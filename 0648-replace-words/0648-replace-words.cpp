@@ -73,8 +73,11 @@ string search(string word){
        stringstream ss(sentence);
        string word;
        string result;
-       while(getline(ss,word,' ')){
-        result+=search(word)+' ';
+    //    while(getline(ss,word,' ')){
+    //     result+=search(word)+' ';
+    //    }
+       while(ss>>word){
+           result+=search(word)+' ';
        }
        result.pop_back();//remove the last space
        return result;
