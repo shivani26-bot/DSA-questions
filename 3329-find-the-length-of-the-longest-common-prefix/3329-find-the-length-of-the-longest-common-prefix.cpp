@@ -51,9 +51,9 @@ void insert(trieNode* pCrawl,string num){
         if(pCrawl->children[idx]==NULL){
             pCrawl->children[idx]=getTrieNode();
         }
-       
+ 
             pCrawl=pCrawl->children[idx];
-        
+
     }
 }
 
