@@ -77,7 +77,7 @@ public:
 // if(n<=1) return 1;
 // long long catalan=1;
 // for(int i=0;i<n;i++){
-//     catalan=catalan*2*(2*i+1)/(i+2);
+//     catalan=catalan*(4*i+2)/(i+2);
 // }
 // return static_cast<int>(catalan);
 //     }
@@ -133,20 +133,20 @@ int numTrees(int n) {
 // return solve(n,dp);
 
 
-// if(n<=1) return 1;
-// int res=1;
-// for(int i=0;i<n;i++){
-//     res = res * (4 * i - 2)/ (i + 1);
-// }
-// return res;
-
-
 if(n<=1) return 1;
 long long catalan=1;
-for(int i=1;i<=n;i++){
-    catalan=catalan*(4*i-2)/(i+1);
+for(int i=0;i<n;i++){
+    catalan=catalan*(4*i+2)/(i+2);
 }
 return static_cast<int>(catalan);
+
+
+// if(n<=1) return 1;
+// long long catalan=1;
+// for(int i=1;i<=n;i++){
+//     catalan=catalan*(4*i-2)/(i+1);
+// }
+// return static_cast<int>(catalan);
     }
 };
 
