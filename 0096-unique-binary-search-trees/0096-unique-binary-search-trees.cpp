@@ -129,8 +129,24 @@ int numTrees(int n) {
 
 // bottom top 
 // here dp[i] where i represents number of number
-vector<int>dp(n+1,0);
-return solve(n,dp);
+// vector<int>dp(n+1,0);
+// return solve(n,dp);
+
+
+// if(n<=1) return 1;
+// int res=1;
+// for(int i=0;i<n;i++){
+//     res = res * (4 * i - 2)/ (i + 1);
+// }
+// return res;
+
+
+if(n<=1) return 1;
+long long catalan=1;
+for(int i=1;i<=n;i++){
+    catalan=catalan*(4*i-2)/(i+1);
+}
+return static_cast<int>(catalan);
     }
 };
 
@@ -144,3 +160,4 @@ return solve(n,dp);
 // catalan numbers 
 
 
+// https://www.geeksforgeeks.org/program-nth-catalan-number/
