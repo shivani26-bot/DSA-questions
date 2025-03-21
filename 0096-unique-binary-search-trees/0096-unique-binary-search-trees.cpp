@@ -10,22 +10,22 @@ public:
 //     }
 //     return dp[n]=ans;
 // }
-int solve(vector<int>&dp, int n){
-    if(n<=1) return 1;
-dp[0]=1;
-dp[1]=1;
+// int solve(vector<int>&dp, int n){
+//     if(n<=1) return 1;
+// dp[0]=1;
+// dp[1]=1;
 
-    int ans=0;
-    // number of nodes 
-    for(int i=2;i<=n;i++){
-        // parent node
-        for(int j=1;j<=i;j++){
-dp[i]+=dp[j-1]*dp[i-j];
-        }
+//     int ans=0;
+//     // number of nodes 
+//     for(int i=2;i<=n;i++){
+//         // parent node
+//         for(int j=1;j<=i;j++){
+// dp[i]+=dp[j-1]*dp[i-j];
+//         }
       
-    }
-    return dp[n];
-}
+//     }
+//     return dp[n];
+// }
 //     int numTrees(int n) {
 //         // in a given binary search tree, if there is root and total 4 different structurally bst are possible for left node and 
 //         // total 5 different structurally bst are possible for right node then total number of structurally different bst will be
@@ -85,19 +85,33 @@ dp[i]+=dp[j-1]*dp[i-j];
 
 
 
-
+int solve(int n, vector<int>&dp){
+     if(n<=1) return 1;
+// in bst if i is the root node then 1 to i-1 lie in lhs and i+1 to n lie in rhs
+  int ans=0;
+  if(dp[n]!=-1) return dp[n];
+   for(int i=1;i<=n;i++){
+    // lhs has i-1 nodes, rhs has n-i nodes 
+    ans+=solve(i-1,dp) * solve(n-i,dp);
+   }
+   return dp[n]=ans;
+}
 int numTrees(int n) {
 // n represent number of nodes 
 // n=0 nodes
 // n=1 nodes
-if(n<=1) return 1;
-// in bst if i is the root node then 1 to i-1 lie in lhs and i+1 to n lie in rhs
-  int ans=0;
-   for(int i=1;i<=n;i++){
-    // lhs has i-1 nodes, rhs has n-i nodes 
-    ans+=numTrees(i-1) * numTrees(n-i);
-   }
-   return ans;
+// if(n<=1) return 1;
+// // in bst if i is the root node then 1 to i-1 lie in lhs and i+1 to n lie in rhs
+//   int ans=0;
+//    for(int i=1;i<=n;i++){
+//     // lhs has i-1 nodes, rhs has n-i nodes 
+//     ans+=numTrees(i-1) * numTrees(n-i);
+//    }
+//    return ans;
+
+
+vector<int>dp(n+1,-1);
+return solve(n,dp);
     }
 };
 
