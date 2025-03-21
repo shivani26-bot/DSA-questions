@@ -85,16 +85,30 @@ public:
 
 
 
+// int solve(int n, vector<int>&dp){
+//      if(n<=1) return 1;
+
+//   int ans=0;
+//   if(dp[n]!=-1) return dp[n];
+//    for(int i=1;i<=n;i++){
+
+//     ans+=solve(i-1,dp) * solve(n-i,dp);
+//    }
+//    return dp[n]=ans;
+// }
+
+
 int solve(int n, vector<int>&dp){
-     if(n<=1) return 1;
-// in bst if i is the root node then 1 to i-1 lie in lhs and i+1 to n lie in rhs
-  int ans=0;
-  if(dp[n]!=-1) return dp[n];
-   for(int i=1;i<=n;i++){
-    // lhs has i-1 nodes, rhs has n-i nodes 
-    ans+=solve(i-1,dp) * solve(n-i,dp);
+   if(n<=1) return 1;
+
+   dp[0]=1;
+   dp[1]=1;
+   for(int i=2;i<=n;i++){
+    for(int j=1;j<=i;j++){
+        dp[i]+=dp[j-1]*dp[i-j];
+    }
    }
-   return dp[n]=ans;
+   return dp[n];
 }
 int numTrees(int n) {
 // n represent number of nodes 
@@ -110,7 +124,12 @@ int numTrees(int n) {
 //    return ans;
 
 
-vector<int>dp(n+1,-1);
+// vector<int>dp(n+1,-1);
+// return solve(n,dp);
+
+// bottom top 
+// here dp[i] where i represents number of number
+vector<int>dp(n+1,0);
 return solve(n,dp);
     }
 };
