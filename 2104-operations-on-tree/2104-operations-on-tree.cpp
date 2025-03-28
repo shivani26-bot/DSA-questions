@@ -47,7 +47,7 @@ return true;
     bool lockedDescendant(int num ,  unordered_set<int>&visited){
    if(locked.find(num)!=locked.end()) return true;
     // if(visited.count(num)) return false;
-    visited.insert(num);
+    // visited.insert(num);
             for(auto it: mp[num]){       
 if(lockedDescendant(it,visited)) return true;     
         }
@@ -60,7 +60,7 @@ if(lockedDescendant(it,visited)) return true;
         locked.erase(num); //unlocks all of its descendants regardless of who locked it  
     }
     // if(visited.count(num)) return false;
-visited.insert(num);
+// visited.insert(num);
 for(auto it: mp[num]){
     if(unlock(it,user,visited)) return true;
 }
