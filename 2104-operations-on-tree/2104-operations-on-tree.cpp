@@ -1,5 +1,6 @@
 class LockingTree {
 public:
+//visited unordered set is optional, even if we don't take it the solution will run successfully
 vector<int>parent;
  unordered_map<int,vector<int>>mp;
  unordered_map<int,int>locked;
