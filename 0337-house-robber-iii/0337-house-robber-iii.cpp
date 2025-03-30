@@ -11,6 +11,7 @@
  */
 class Solution {
 public:
+//tc- o(n) each node is touched only once
 vector<int>travel(TreeNode* root){
 if(!root) return {0,0};
 
