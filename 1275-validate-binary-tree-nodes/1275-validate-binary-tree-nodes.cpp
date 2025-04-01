@@ -46,13 +46,13 @@ for(int i=0;i<n;i++){
 //   root will not be present in child_parent map 
 if(child_parent.find(i)==child_parent.end()){
     //if root is not -1 then return false, means if we have two roots,
-    if(root!=-1) return false;
+    if(root!=-1) return false; 
   root=i;
 }
 }
 
 //if we don't find the root
-if(root==-1) return false;
+if(root==-1) return false;  //n = 2, leftChild = [1,0], rightChild = [-1,-1] this case will fail, if we don't give this condition,  because there is not root
 
 //in order to find that we have more than one component or not use bfs/dfs
 // count number of nodes travelled through the bfs/dfs 
