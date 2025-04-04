@@ -11,66 +11,29 @@
  */
 class Solution {
 public:
-
-void pallindromicPath(TreeNode* root,unordered_map<int,int> &umap, int &countPallindromicPath){
+void solve(TreeNode* root, vector<int>&freq, int& countPaths){
 if(!root) return;
-    umap[root->val]++;
-
+    freq[root->val]++;
 if(!root->left && !root->right){
-int countOddOccurences=0;
-    for(const auto& i:umap){
-      if(i.second%2!=0)  countOddOccurences++;
-      }
-    if(countOddOccurences<=1)  countPallindromicPath++;
+    //when we are at leaf node, just iterate through the freq array, and find out how many elements has occured odd times, 
+    // if only one or less element has occured odd times it means its a palindromic path 
+    int countOddOccurence=0;
+    for(int i=0;i<10;i++){
+        if(freq[i]%2==1) countOddOccurence++;
+    }
+    if(countOddOccurence<=1) countPaths++;
 }
-    pallindromicPath(root->left,umap,countPallindromicPath);
-    pallindromicPath(root->right,umap,countPallindromicPath);
-    umap[root->val]--;
-}
+    solve(root->left,freq,countPaths);
+    solve(root->right,freq,countPaths);
+    freq[root->val]--;
 
+}
     int pseudoPalindromicPaths (TreeNode* root) {
-       int countPallindromicPath=0;
-       unordered_map<int,int>umap;
-       pallindromicPath(root,umap,countPallindromicPath);
-       return countPallindromicPath;
-}
-
-// int pseudoPalindromicPaths(TreeNode* root) {
-//         unordered_map<int, int> freq;
-//         int result = 0;
-//         pathFinder(root, freq, result);
-//         return result;
-//     }
-
-// private:
-//     void pathFinder(TreeNode* root, unordered_map<int, int>& freq, int& result) {
-//         if (root == nullptr) {
-//             return;
-//         }
-
-//         freq[root->val]++;
-//         // Check if it's a leaf node
-//         if (root->left == nullptr && root->right == nullptr) {
-//             if (isPseudoPalindromic(freq)) {
-//                 result++;
-//             }
-//         }
-
-//         pathFinder(root->left, freq, result);
-//         pathFinder(root->right, freq, result);
-//         freq[root->val]--; // Backtrack
-//     }
-
-//     bool isPseudoPalindromic(const unordered_map<int, int>& freq) {
-//         int oddFreqCount = 0;
-//         for (const auto& ele : freq) {
-//             if (ele.second % 2 != 0) {
-//                 oddFreqCount++;
-//             }
-//             if (oddFreqCount > 1) {
-//                 return false;
-//             }
-//         }
-//         return true;
-//     }
+        // maintain a frequency array, as only 1 to 9 elements are present in the tree, 
+        vector<int>freq(10,0);
+        // traverse through each path, for each node value in the path increase the frequency,of that element, each index in the frequency array represents the possible node values in the tree 
+        int countPaths=0;
+ solve(root,freq,countPaths);
+    return countPaths;
+    }
 };
