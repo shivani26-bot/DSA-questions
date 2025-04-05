@@ -12,24 +12,18 @@
 class Solution {
 public:
 int sum=0;
-void convertBst(TreeNode* root){
-    if(!root) return;
 
-    convertBst(root->right);
-    sum+=root->val;
-    root->val=sum;
-    convertBst(root->left);
-    //  if(!temp) return;
-
-    // convertBst(temp->right,temp);
-    // sum+=temp->val;
-    // temp->val=sum;
-    // convertBst(temp->left,temp);
-    // return;
+void solve(TreeNode* root){
+   if(!root) return;
+   solve(root->right);
+   sum+=root->val;
+   root->val=sum;
+   solve(root->left);
 }
     TreeNode* convertBST(TreeNode* root) {
-        // TreeNode* temp=root;
-        convertBst(root);
+        // brute force: as this is a bst, we can store the elements in sorted form in array using inorder traversal, then traverse throught the nodes, find that node in the array and add all the element greater than that node element to the node of the tree 
+        // o(n*n)
+        solve(root);
         return root;
     }
 };
