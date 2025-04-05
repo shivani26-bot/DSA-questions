@@ -162,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1731-even-odd-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1731-even-odd-tree) |
 | [2104-operations-on-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2104-operations-on-tree) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/shivani26-bot/DSA-questions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/shivani26-bot/DSA-questions/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -218,6 +219,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [2104-operations-on-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2104-operations-on-tree) |
 | [2206-detonate-the-maximum-bombs](https://github.com/shivani26-bot/DSA-questions/tree/master/2206-detonate-the-maximum-bombs) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/shivani26-bot/DSA-questions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2438-find-closest-node-to-given-two-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/2438-find-closest-node-to-given-two-nodes) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
@@ -318,6 +320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1544-count-good-nodes-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1544-count-good-nodes-in-binary-tree) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1731-even-odd-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1731-even-odd-tree) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/shivani26-bot/DSA-questions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2416-evaluate-boolean-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2416-evaluate-boolean-binary-tree) |
 | [2493-reverse-odd-levels-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level](https://github.com/shivani26-bot/DSA-questions/tree/master/2558-minimum-number-of-operations-to-sort-a-binary-tree-by-level) |
@@ -357,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/shivani26-bot/DSA-questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/shivani26-bot/DSA-questions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/shivani26-bot/DSA-questions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/shivani26-bot/DSA-questions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/shivani26-bot/DSA-questions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2465-shifting-letters-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/2465-shifting-letters-ii) |
