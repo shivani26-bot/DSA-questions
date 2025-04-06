@@ -156,6 +156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/shivani26-bot/DSA-questions/tree/master/0975-range-sum-of-bst) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1035-cousins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1035-cousins-in-binary-tree) |
 | [1275-validate-binary-tree-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1275-validate-binary-tree-nodes) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/shivani26-bot/DSA-questions/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1484-linked-list-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1484-linked-list-in-binary-tree) |
@@ -212,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
 | [0975-range-sum-of-bst](https://github.com/shivani26-bot/DSA-questions/tree/master/0975-range-sum-of-bst) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1035-cousins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1035-cousins-in-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/shivani26-bot/DSA-questions/tree/master/1073-number-of-enclaves) |
 | [1275-validate-binary-tree-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1275-validate-binary-tree-nodes) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/shivani26-bot/DSA-questions/tree/master/1450-delete-leaves-with-a-given-value) |
@@ -259,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0945-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0945-snakes-and-ladders) |
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0998-check-completeness-of-a-binary-tree) |
+| [1035-cousins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1035-cousins-in-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/shivani26-bot/DSA-questions/tree/master/1073-number-of-enclaves) |
 | [1117-as-far-from-land-as-possible](https://github.com/shivani26-bot/DSA-questions/tree/master/1117-as-far-from-land-as-possible) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -322,6 +325,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/shivani26-bot/DSA-questions/tree/master/0975-range-sum-of-bst) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1035-cousins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1035-cousins-in-binary-tree) |
 | [1275-validate-binary-tree-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1275-validate-binary-tree-nodes) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/shivani26-bot/DSA-questions/tree/master/1450-delete-leaves-with-a-given-value) |
 | [1484-linked-list-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1484-linked-list-in-binary-tree) |
