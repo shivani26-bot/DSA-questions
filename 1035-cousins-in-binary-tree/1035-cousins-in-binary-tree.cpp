@@ -11,25 +11,26 @@
  */
 class Solution {
 public:
-void height(TreeNode* root,int x,int level,int &xlevel,TreeNode* pre, TreeNode* &parent){
-    if(!root) return;
-     if(root->val==x){
-        xlevel=level;
-        parent=pre;
-        return;
-    }
-    
-    height(root->left,x,level+1,xlevel,root,parent);
-    height(root->right,x,level+1,xlevel,root,parent);
-   
+void solve(TreeNode* root, TreeNode* prev, int level,int x,int &xLevel, TreeNode*& parent){
+if(!root) return;
+
+if(root->val==x){
+    parent=prev;
+    xLevel=level;
+    return;
 }
-    bool isCousins(TreeNode* root, int a, int b) {
-        int alevel=0;
-   int blevel=0;
-   TreeNode* aparent=NULL;
-   TreeNode* bparent=NULL;
-   height(root,a,0,alevel,NULL,aparent);
-   height(root,b,0,blevel,NULL,bparent);
-   return (alevel==blevel && aparent!=bparent);
+    solve(root->left,root,level+1,x,xLevel,parent);
+    solve(root->right,root,level+1,x,xLevel,parent);
+}
+    bool isCousins(TreeNode* root, int x, int y) {
+    //    dfs approach 
+    //  find parent for each x and y and also find level for each of them 
+    int aLevel=0;
+    int bLevel=0;
+    TreeNode* aParent=NULL;
+    TreeNode* bParent=NULL;
+    solve(root,NULL,0,x,aLevel,aParent);
+    solve(root,NULL,0,y,bLevel,bParent);
+    return (aLevel==bLevel && aParent!=bParent );
     }
 };
