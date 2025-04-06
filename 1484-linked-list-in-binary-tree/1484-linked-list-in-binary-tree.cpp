@@ -81,6 +81,7 @@ public:
 //              return dfs(head,root)|| isSubPath(head,root->left)|| isSubPath(head,root->right);
 //     }
 // o(n*m) //m= linkedlist length, 
+// root k hrr node se, linked list check ho rha hai 
 bool dfs(ListNode* head, TreeNode* root){
     if(!head) return true;// means we reached the end of the linked list
 if(!root) return false;
