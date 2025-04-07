@@ -11,11 +11,40 @@
  */
 class Solution {
 public:
-    long long kthLargestLevelSum(TreeNode* root, int k) {
+    // long long kthLargestLevelSum(TreeNode* root, int k) {
         
+    //     queue<TreeNode*>q;
+    //     q.push(root);
+    //     vector<long long>levelSum;
+    //     while(!q.empty()){
+    //         int size=q.size();
+    //         long long sum=0;
+    //         while(size--){
+    //             TreeNode* node=q.front();
+    //             q.pop();
+    //            sum+=node->val;
+    //            if(node->left){
+    //               q.push(node->left);
+    //            }
+    //            if(node->right){
+    //             q.push(node->right);
+    //            }
+    //         }
+    //         levelSum.push_back(sum);
+    //     }
+    //        if(levelSum.size()<k) return -1;
+    //     sort(levelSum.begin(),levelSum.end(),greater<long long>());// sort in descending order
+     
+    //     return levelSum[k-1];
+    // }
+
+
+     long long kthLargestLevelSum(TreeNode* root, int k) {
+        priority_queue<long long,vector<long long>, greater<long long>>minheap;//minheap
+
         queue<TreeNode*>q;
         q.push(root);
-        vector<long long>levelSum;
+  
         while(!q.empty()){
             int size=q.size();
             long long sum=0;
@@ -30,11 +59,9 @@ public:
                 q.push(node->right);
                }
             }
-            levelSum.push_back(sum);
+     minheap.push(sum);
+     if(minheap.size()>k) minheap.pop();
         }
-           if(levelSum.size()<k) return -1;
-        sort(levelSum.begin(),levelSum.end(),greater<long long>());// sort in descending order
-     
-        return levelSum[k-1];
+return minheap.size()<k ?-1:minheap.top();
     }
 };
