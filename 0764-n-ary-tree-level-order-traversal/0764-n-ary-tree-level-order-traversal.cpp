@@ -29,10 +29,10 @@ public:
             int size=q.size();
             vector<int>temp;
             while(size--){
-               temp.push_back(q.front()->val); 
+  
            Node* node=q.front();
             q.pop();
-
+             temp.push_back(node->val); 
  for(auto child: node->children){
     q.push(child);
  }
