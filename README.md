@@ -149,6 +149,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0652-find-duplicate-subtrees](https://github.com/shivani26-bot/DSA-questions/tree/master/0652-find-duplicate-subtrees) |
 | [0662-maximum-width-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0669-trim-a-binary-search-tree) |
+| [0764-n-ary-tree-level-order-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0772-construct-quad-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0772-construct-quad-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0784-insert-into-a-binary-search-tree) |
@@ -261,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0662-maximum-width-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0684-redundant-connection](https://github.com/shivani26-bot/DSA-questions/tree/master/0684-redundant-connection) |
 | [0744-network-delay-time](https://github.com/shivani26-bot/DSA-questions/tree/master/0744-network-delay-time) |
+| [0764-n-ary-tree-level-order-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0764-n-ary-tree-level-order-traversal) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/shivani26-bot/DSA-questions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/shivani26-bot/DSA-questions/tree/master/0820-find-eventual-safe-states) |
