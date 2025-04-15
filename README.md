@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0162-find-peak-element](https://github.com/shivani26-bot/DSA-questions/tree/master/0162-find-peak-element) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
 | [0307-range-sum-query-mutable](https://github.com/shivani26-bot/DSA-questions/tree/master/0307-range-sum-query-mutable) |
 | [0399-evaluate-division](https://github.com/shivani26-bot/DSA-questions/tree/master/0399-evaluate-division) |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0069-sqrtx](https://github.com/shivani26-bot/DSA-questions/tree/master/0069-sqrtx) |
+| [0162-find-peak-element](https://github.com/shivani26-bot/DSA-questions/tree/master/0162-find-peak-element) |
 | [0367-valid-perfect-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0367-valid-perfect-square) |
 | [0441-arranging-coins](https://github.com/shivani26-bot/DSA-questions/tree/master/0441-arranging-coins) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0540-single-element-in-a-sorted-array) |
