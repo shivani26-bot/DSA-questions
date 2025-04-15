@@ -18,6 +18,7 @@ public:
                 }
             }
             else if(mid%2==1){
+                                //mid is odd
                 if(nums[mid]==nums[mid-1]){
                     l=mid+1;
                 }
