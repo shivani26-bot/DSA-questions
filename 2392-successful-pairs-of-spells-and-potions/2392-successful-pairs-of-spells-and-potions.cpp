@@ -13,7 +13,7 @@ int binarySearch(long long num, vector<int>& potions, int m,long long success){
          return m-l;
 }
     vector<int> successfulPairs(vector<int>& spells, vector<int>& potions, long long success) {
-        //mlonm
+        //mlogm
          sort(potions.begin(),potions.end());
          int n=spells.size();
          int m=potions.size();
