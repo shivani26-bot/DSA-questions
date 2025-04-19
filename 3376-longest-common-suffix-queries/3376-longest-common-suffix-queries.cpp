@@ -52,7 +52,8 @@ public:
                 pCrawl=pCrawl->children[ch_idx];
                 // if not null
                 //if length of the word at index = root->idx is greater than current word length then update theroot->idx 
-                if(wordsContainer[pCrawl->idx].length()>n){
+                // if(wordsContainer[pCrawl->idx].length()>n){
+                      if(wordsContainer[pCrawl->idx].length()>n){
                     pCrawl->idx=i;
                 }
             }
@@ -61,7 +62,7 @@ public:
 //    o(n)
    int searchTrie(trieNode* pCrawl, string &word){
        int n=word.length();
-       int result_idx=pCrawl->idx;
+    //    int result_idx=pCrawl->idx;
        for(int i=n-1;i>=0;i--){
         int ch_idx=word[i]-'a';
         // pCrawl=pCrawl->children[ch_idx];
@@ -72,12 +73,14 @@ public:
 
          
         if(!pCrawl->children[ch_idx]){
-            return result_idx;
+            // return result_idx;
+            return pCrawl->idx;
         }
         pCrawl=pCrawl->children[ch_idx];
-        result_idx=pCrawl->idx;//update the result  
+        // result_idx=pCrawl->idx;//update the result  
        }
-       return result_idx;
+    //    return result_idx;
+    return pCrawl->idx;
    }
    vector<int> stringIndices(vector<string>& wordsContainer, vector<string>& wordsQuery) {
         int m=wordsContainer.size();
