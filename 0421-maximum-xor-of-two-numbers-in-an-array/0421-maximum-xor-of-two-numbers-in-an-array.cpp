@@ -20,14 +20,14 @@ public:
 // 2->010
 //    2 1 0
 // 3->0 1 1
-//  for every bit in num=3 try to find the number ut of 5,7,2 whose same bit is opposite to that of current bit of 3 in order to get max result,  
+//  for every bit in num=3 try to find the number out of 5,7,2 whose same bit is opposite to that of current bit of 3 in order to get max result,  
 // for 2nd bit of 3 we need 1, only number 5,7 has 1 in it's 2nd  bit
 // for 1st bit of 3 we need 0, only number 5 , has 0 in it's 1st bit
 // for  0th bit of 3 we need 0, but we have 1 in the 0th bit of 5, take it as it is
 // 0 <= nums[i] <= 2^31 - 1 -> 32 bit integers
 
 //  in order to find the bits of num=3
-//  i=31;i>=0;i++
+//  i=31;i>=0;i--
 // ith_bit= (num>>i) &1;
 
 
@@ -72,8 +72,8 @@ struct trieNode{
     trieNode* right;
 };
 //insert the number into the trie, start from the root
-void insert(trieNode* root, int num){
-    trieNode* node=root;
+void insert(trieNode* node, int num){
+    // trieNode* node=root;
     //find the bit of the number and insert into the node
     for(int i=31;i>=0;i--){
         int bit=(num>>i) & 1;
@@ -95,8 +95,8 @@ void insert(trieNode* root, int num){
         }
     }
 }
-int findMaxXor(int num, trieNode* root){
-    trieNode* node= root;
+int findMaxXor(int num, trieNode* node){
+    // trieNode* node= root;
     int maxXor=0;
     for(int i=31;i>=0;i--){
         int bit=(num>>i)&1;
@@ -120,17 +120,21 @@ int findMaxXor(int num, trieNode* root){
 }
       int findMaximumXOR(vector<int>& nums) {
         trieNode* root= new trieNode();
+        // o(n*32)
         for(int i=0;i<nums.size();i++){
             insert(root, nums[i]);
         }
         // iterate in nums array 
         int maxResult=0;
+        // o(n*32)
         for(int i=0;i<nums.size();i++){
           int temp=findMaxXor(nums[i],root);
           maxResult=max(maxResult,temp);
         }
 
         return maxResult;
+        // total time: O(32N + 32N) = O(64N) = O(N)
+
     }
 
 };
