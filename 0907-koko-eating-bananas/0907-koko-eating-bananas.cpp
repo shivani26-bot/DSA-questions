@@ -26,6 +26,6 @@ int actualHours=0;
             if(canEatAllBananas(mid,piles,h))  high=mid; 
             else low=mid+1;
         }
-        return high;
+        return low;
     }
 };
