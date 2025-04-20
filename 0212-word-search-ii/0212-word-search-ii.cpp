@@ -40,7 +40,7 @@ if(i<0 || i>=m || j<0 ||j>=n ||board[i][j]=='$' || pCrawl->children[board[i][j]-
     
 if(pCrawl->isEndOfWord==true){
     result.push_back(pCrawl->word);
-    pCrawl->isEndOfWord=false;
+    pCrawl->isEndOfWord=false;//bat, bate, 
 }
     char temp=board[i][j];
     board[i][j]='$';//mark visited;
