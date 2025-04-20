@@ -1,5 +1,9 @@
 class Solution {
 public:
+
+// [3, 6,   7,  11  ] if average eating banana is 4 then hours required for each index
+//  1 1+1, 1+1,1+1+1  -> hours
+ 
 bool canEatAllBananas(int x, vector<int>&piles,int h){
 int actualHours=0;
     for(int i=0;i<piles.size();i++){
@@ -22,6 +26,6 @@ int actualHours=0;
             if(canEatAllBananas(mid,piles,h))  high=mid; 
             else low=mid+1;
         }
-        return low;
+        return high;
     }
 };
