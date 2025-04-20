@@ -31,8 +31,9 @@ int getScore(string& word, trieNode* pCrawl){
   int score=0;
   for(auto ch: word){
     int idx= ch-'a';
-    score+= pCrawl->children[idx]->countPrefix;
+    // score+= pCrawl->children[idx]->countPrefix;
     pCrawl= pCrawl->children[idx];
+    score+=pCrawl->countPrefix;
   }
   return score;
 }
@@ -44,8 +45,9 @@ void insert(string word, trieNode* pCrawl){
        pCrawl->children[idx]= getTrieNode();
 
         }
-        pCrawl->children[idx]->countPrefix+=1;
+        // pCrawl->children[idx]->countPrefix+=1;
         pCrawl=pCrawl->children[idx];
+        pCrawl->countPrefix+=1;
     }
 }
     vector<int> sumPrefixScores(vector<string>& words) {
