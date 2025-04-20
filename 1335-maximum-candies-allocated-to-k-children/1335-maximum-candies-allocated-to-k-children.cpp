@@ -2,10 +2,16 @@ class Solution {
 public:
 bool canDistribute(int mid,vector<int>& candies, long long k, long long  total_candies,int n){
 long long  actualPiles=0;
-// actualPiles=total_candies/mid;
+// actualPiles=total_candies/mid; wrong :This distributes all candies as a single large pile and divides them evenly.
+
+// It assumes you can break and regroup candies across different types, which is usually not allowed in distribution problems.
+
  for (int c : candies) actualPiles += c / mid;
 return actualPiles>=k;
-
+// For candies = {5, 7} and mid = 3:
+// From 5: 5 / 3 = 1 pile
+// From 7: 7 / 3 = 2 piles
+// Total actualPiles = 1 + 2 = 3
 }
     int maximumCandies(vector<int>& candies, long long k) {
         int n=candies.size();
