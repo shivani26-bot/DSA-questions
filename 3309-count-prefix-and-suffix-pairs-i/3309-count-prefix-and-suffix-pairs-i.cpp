@@ -88,24 +88,35 @@ public:
 // in order to search abc as suffix we will store abcxyabc in reverse order in trie, cbayxcba and search cba as prefix
     int n=words.size();
     int count=0;
- 
+// Total = ∑ O(i*l) for i = 0 to n-1
+//       = O(l) * ∑ i = O(l * n(n-1)/2) = O(n² * l)
+ //o(n)
+// l->max length of the word
     for(int i=0;i<n;i++){
       Trie prefixTrie;
       Trie suffixTrie;
+    //   o(l)
        prefixTrie.insert(words[i]);
         string reversed= words[i];
         reverse(begin(reversed),end(reversed));
+        //o(l)
     suffixTrie.insert(reversed);
+//worst case: inner loop runs i times
+// i* o(3l)=> o(i*l)
+
 
         for(int j=0;j<i;j++){
             if(words[j].length()>words[i].length()) continue;
             string rev=words[j];
+                          //reverse-o(l)
            reverse(begin(rev),end(rev));
+             //search-o(l)
            if(prefixTrie.searchPrefix(words[j]) && suffixTrie.searchPrefix(rev)){
             count++;
            }
         }
     }
+
     return count;
     }
 };
