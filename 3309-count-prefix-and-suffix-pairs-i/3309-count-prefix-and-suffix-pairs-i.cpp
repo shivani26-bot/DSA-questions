@@ -1,6 +1,6 @@
 struct trieNode{
     trieNode* children[26];
-    bool isEndOfWord;
+    // bool isEndOfWord;//not really required for this question, but good practice
 };
 
 trieNode* getTrieNode(){
@@ -8,7 +8,7 @@ trieNode* getTrieNode(){
     for(int i=0;i<26;i++){
         node->children[i]=NULL;
     }
-    node->isEndOfWord=false;
+    // node->isEndOfWord=false;
     return node;
 }
 
@@ -28,7 +28,7 @@ trieNode* pCrawl=root;
         }
         pCrawl= pCrawl->children[idx];
     }
-    pCrawl->isEndOfWord=true;
+    // pCrawl->isEndOfWord=true;
 
 }
 bool searchPrefix(string prefix){
