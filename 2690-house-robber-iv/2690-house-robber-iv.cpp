@@ -98,6 +98,7 @@ for(int i=0;i<nums.size();i++){
     // because in question it's clearly mentioned that it's always possible to steal from k houses
     // it means agr mid ka value valid hoga toh it'll always be possible to steal from k houses, hence we can check greedily as well, 
 int result=0;
+// o(log(maxC)*n)
     while(low<=high){
         int mid=low+(high-low)/2; //capability
         if(isPossible(nums,k,mid)){
