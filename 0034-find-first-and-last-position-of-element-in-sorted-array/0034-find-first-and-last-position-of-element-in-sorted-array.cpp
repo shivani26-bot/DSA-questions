@@ -49,8 +49,48 @@ public:
 //      return ans;
 //     }
 
+// int leftMost(vector<int>& arr, int target,int n){
+// int left_most_index=-1;
+//     int low=0;
+//     int high=n-1;
+//     while(low<=high){
+//         int mid=low+(high-low)/2;
+//         if(arr[mid]<target){
+//             low=mid+1;
+//         }
+//         else if(arr[mid]>target){
+//             high=mid-1;
+//         }
+//         else{
+//             left_most_index=mid;
+//             high=mid-1;
+//         }
+//     }
+//     return left_most_index;
+// }
+// int rightMost(vector<int>& arr, int target,int n){
+// int right_most_index=-1;
+//     int low=0;
+//     int high=n-1;
+//     while(low<=high){
+//         int mid=low+(high-low)/2;
+//         if(arr[mid]<target){
+//             low=mid+1;
+//         }
+//         else if(arr[mid]>target){
+//             high=mid-1;
+//         }
+//         else{
+//             right_most_index=mid;
+//             low=mid+1;
+//         }
+//     }
+//     return right_most_index;
+// }
+
+
 int leftMost(vector<int>& arr, int target,int n){
-int left_most_index=-1;
+
     int low=0;
     int high=n-1;
     while(low<=high){
@@ -62,14 +102,16 @@ int left_most_index=-1;
             high=mid-1;
         }
         else{
-            left_most_index=mid;
+            if(mid==0) return mid;
+            else if(arr[mid-1]!=target) return mid;
+            else 
             high=mid-1;
         }
     }
-    return left_most_index;
+    return -1;
 }
 int rightMost(vector<int>& arr, int target,int n){
-int right_most_index=-1;
+
     int low=0;
     int high=n-1;
     while(low<=high){
@@ -81,11 +123,12 @@ int right_most_index=-1;
             high=mid-1;
         }
         else{
-            right_most_index=mid;
-            low=mid+1;
+           if(mid==n-1) return mid;
+           else if(arr[mid+1]!=target) return mid;
+           else low=mid+1;
         }
     }
-    return right_most_index;
+    return -1;
 }
   vector<int> searchRange(vector<int>& arr, int target) {
      int n=arr.size();
