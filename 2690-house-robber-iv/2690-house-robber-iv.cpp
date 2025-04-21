@@ -68,9 +68,7 @@ for(int i=0;i<nums.size();i++){
         i+=1;//skip adjacent house if u take current house
     }
 }
-
-
-    return actualHouses>=k;
+    return actualHouses>=k; //we managed to rob atleast k houses
 }
     int minCapability(vector<int>& nums, int k) {
 //here we have to minimize the maximum amout of money- use binary search
