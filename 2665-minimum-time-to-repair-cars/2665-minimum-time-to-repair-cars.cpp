@@ -13,8 +13,7 @@ bool isPossible(long long  t,vector<int>& ranks, int cars ){
         n=ranks.size();
         int minm=*min_element(ranks.begin(),ranks.end());
         // The worst-case time — assign all cars to the slowest mechanic (highest rank)
-  long long low = 1;
-long long high = 1LL * minm * cars * cars;
+  long long low = 1, high = 1LL * minm * cars * cars;
         long long result=0;
         while(low<=high){
             long long  mid=low+(high-low)/2; //mid represents the minimum possible time, the range of binary search represents time or minutes
