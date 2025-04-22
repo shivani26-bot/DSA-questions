@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2465-shifting-letters-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/2465-shifting-letters-ii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/shivani26-bot/DSA-questions/tree/master/2533-bitwise-xor-of-all-pairings) |
+| [2665-minimum-time-to-repair-cars](https://github.com/shivani26-bot/DSA-questions/tree/master/2665-minimum-time-to-repair-cars) |
 | [2685-first-completely-painted-row-or-column](https://github.com/shivani26-bot/DSA-questions/tree/master/2685-first-completely-painted-row-or-column) |
 | [2690-house-robber-iv](https://github.com/shivani26-bot/DSA-questions/tree/master/2690-house-robber-iv) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/shivani26-bot/DSA-questions/tree/master/2691-count-vowel-strings-in-ranges) |
@@ -85,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/shivani26-bot/DSA-questions/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2665-minimum-time-to-repair-cars](https://github.com/shivani26-bot/DSA-questions/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/shivani26-bot/DSA-questions/tree/master/2690-house-robber-iv) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/shivani26-bot/DSA-questions/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/shivani26-bot/DSA-questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
