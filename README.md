@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2080-check-if-move-is-legal](https://github.com/shivani26-bot/DSA-questions/tree/master/2080-check-if-move-is-legal) |
 | [2104-operations-on-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2104-operations-on-tree) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
+| [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/shivani26-bot/DSA-questions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2206-detonate-the-maximum-bombs](https://github.com/shivani26-bot/DSA-questions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/shivani26-bot/DSA-questions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2358-number-of-ways-to-split-array) |
@@ -87,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/shivani26-bot/DSA-questions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
+| [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/shivani26-bot/DSA-questions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/shivani26-bot/DSA-questions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2665-minimum-time-to-repair-cars](https://github.com/shivani26-bot/DSA-questions/tree/master/2665-minimum-time-to-repair-cars) |
 | [2690-house-robber-iv](https://github.com/shivani26-bot/DSA-questions/tree/master/2690-house-robber-iv) |
@@ -117,6 +119,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1502-construct-k-palindrome-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/1502-construct-k-palindrome-strings) |
 | [1917-maximum-average-pass-ratio](https://github.com/shivani26-bot/DSA-questions/tree/master/1917-maximum-average-pass-ratio) |
+| [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/shivani26-bot/DSA-questions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/shivani26-bot/DSA-questions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2509-minimize-xor](https://github.com/shivani26-bot/DSA-questions/tree/master/2509-minimize-xor) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/shivani26-bot/DSA-questions/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
