@@ -89,7 +89,9 @@ int n;
 //     return -1; //pivot doesn't exists
 // }
 
-//to  find minimum element as pivot
+//to  find minimum element as 
+// in normal sorted array, mid<high, 
+
 int pivotIndex(vector<int>& arr){
     int low=0, high=n-1;
     while(low<high){
