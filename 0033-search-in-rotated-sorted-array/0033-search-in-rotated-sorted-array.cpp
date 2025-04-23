@@ -68,24 +68,40 @@ public:
 // approach 1: find the pivot element, pivot element is arr[pivot-1]<arr[pivot]<arr[pivot+1], then apply two times binary search on each part
 // also the sorted rotated array means it will have two parts as sorted, 
 // the target will lie in either of the parts
+
+// now pivotIndex can be either the minimum element in the array or maximum element in the array 
 int n;
+//to find the maximum element as pivot
+// int pivotIndex(vector<int>& arr){
+//     int low=0, high=n-1;
+//     while(low<=high){
+//         int mid=low+(high-low)/2;
+//          // two parts
+// //         // pivot or mid can lie either in first increasing part or second increasing part 
+// //         // if mid lies in second part
+      
+//         if(arr[mid]<=arr[n-1]) high=mid-1;//pivot lies in left part
+//         else{
+//             if(arr[mid]>arr[mid+1]) return mid;//pivot element;
+//             else low=mid+1; //pivot lies in right part;
+//         }
+//     }
+//     return -1; //pivot doesn't exists
+// }
+
+//to  find minimum element as pivot
 int pivotIndex(vector<int>& arr){
     int low=0, high=n-1;
-    while(low<=high){
+    while(low<high){
         int mid=low+(high-low)/2;
-         // two parts
-//         // pivot or mid can lie either in first increasing part or second increasing part 
-//         // if mid lies in second part
-      
-        if(arr[mid]<=arr[n-1]) high=mid-1;//pivot lies in left part
+
+        if(arr[mid]>arr[high]) low=mid+1;//pivot lies in right part
         else{
-            if(arr[mid]>arr[mid+1]) return mid;//pivot element;
-            else low=mid+1; //pivot lies in right part;
+           high=mid; //it can be the possible answer, pivot lies in left part
         }
     }
-    return -1; //pivot doesn't exists
+    return high; //pivot doesn't exists
 }
-
 int binarySearch(int low, int high,vector<int>& arr, int target ){
    while(low<=high){
         int mid=low+(high-low)/2;
@@ -103,11 +119,18 @@ int binarySearch(int low, int high,vector<int>& arr, int target ){
 }
         int search(vector<int>& arr, int target){
 n=arr.size();
+// int pivot=pivotIndex(arr);
+// int index;
+//  index=binarySearch(0,pivot,arr,target);
+// if(index!=-1) return index;
+// index=binarySearch(pivot+1,n-1, arr,target);
+// return index;
+
 int pivot=pivotIndex(arr);
 int index;
- index=binarySearch(0,pivot,arr,target);
+ index=binarySearch(0,pivot-1,arr,target);
 if(index!=-1) return index;
-index=binarySearch(pivot+1,n-1, arr,target);
+index=binarySearch(pivot,n-1, arr,target);
 return index;
     }
 };
