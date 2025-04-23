@@ -16,7 +16,7 @@ high--;
            high=mid; //it can be the possible answer, pivot lies in left part
         }
     }
-    return high; //pivot doesn't exists
+    return high;
 }
 bool binarySearch(int low, int high,vector<int>& arr, int target ){
    while(low<=high){
