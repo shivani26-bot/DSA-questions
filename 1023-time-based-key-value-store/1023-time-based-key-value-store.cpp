@@ -1,46 +1,48 @@
-class TimeStampedValue {
-public:
+
+class TimeStampedValue{
+    public:
     int timestamp;
     string value;
-    
+    // TimeStampedValue(int timestamp,string& value){
+    //     this->timestamp=timestamp;
+    //     this->value=value;
+    // }
     TimeStampedValue(int timestamp, const string& value)
         : timestamp(timestamp), value(value) {}
 };
 
 class TimeMap {
 public:
-    map<string, vector<TimeStampedValue>> mp;
+  map<string,vector<TimeStampedValue>> mp;
+    TimeMap() {
+        
+    }
 
-    TimeMap() {}
-
-    void set(const string& key, const string& value, int timestamp) {
-        mp[key].push_back(TimeStampedValue(timestamp, value));
+    void set(string key, string value, int timestamp) {
+        mp[key].push_back(TimeStampedValue(timestamp,value));
     }
     
-    string binarySearchTimestamp(const vector<TimeStampedValue>& arr, int target) {
-        int l = 0, h = arr.size() - 1;
-        string ans = "";
-        
-        while (l <= h) {
-            int mid = l + (h - l) / 2;
-            TimeStampedValue curr = arr[mid];
+    string binarySearchTimestamp(vector<TimeStampedValue>&arr, int target){
+        int l=0;int h=arr.size()-1;
+        string ans="";
+        while(l<=h){
+            int mid=l+(h-l)/2;
+TimeStampedValue curr=arr[mid];
 
-            if (curr.timestamp <= target) {
-                ans = curr.value;
-                l = mid + 1;
-            } else {
-                h = mid - 1;
-            }
+if(curr.timestamp<=target){
+    ans=curr.value;
+    l=mid+1;
+}
+else h=mid-1;
         }
         return ans;
     }
-
-    string get(const string& key, int timestamp) {
-        if (mp.find(key) == mp.end()) {
+    string get(string key, int timestamp) {
+        if (!mp.count(key)) {
             return "";
         }
-        const vector<TimeStampedValue>& timeStampedValues = mp[key];
-        return binarySearchTimestamp(timeStampedValues, timestamp);
+       vector<TimeStampedValue> timeStampedValues=mp[key];
+    return binarySearchTimestamp(timeStampedValues,timestamp);
     }
 };
 // class TimeMap {
