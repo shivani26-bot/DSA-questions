@@ -3,12 +3,12 @@ class TimeStampedValue{
     public:
     int timestamp;
     string value;
-    // TimeStampedValue(int timestamp,string& value){
-    //     this->timestamp=timestamp;
-    //     this->value=value;
-    // }
-    TimeStampedValue(int timestamp, const string& value)
-        : timestamp(timestamp), value(value) {}
+    TimeStampedValue(int timestamp,string& value){
+        this->timestamp=timestamp;
+        this->value=value;
+    }
+    // TimeStampedValue(int timestamp, const string& value)
+        // : timestamp(timestamp), value(value) {}
 };
 
 class TimeMap {
