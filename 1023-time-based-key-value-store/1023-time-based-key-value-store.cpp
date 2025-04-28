@@ -1,14 +1,25 @@
-
+// Always use const string& + initializer list for constructor parameters unless you want to modify the passed string (which is rare).
 class TimeStampedValue{
     public:
     int timestamp;
     string value;
+//     Here, you are taking a non-const reference (string& value).
+// Meaning: the caller must pass a modifiable string (not const).
+// You assign it inside the constructor.
+// ❌ Problem: You cannot pass a temporary string (like "abc") because it's const by nature.
+
+// Also, accidentally modifying value inside the constructor could modify the caller's original string — risky.
     TimeStampedValue(int timestamp,string& value){
         this->timestamp=timestamp;
         this->value=value;
     }
     // TimeStampedValue(int timestamp, const string& value)
         // : timestamp(timestamp), value(value) {}
+// Here, you are taking a const reference (const string& value).
+// Meaning: the caller can pass any string, even temporaries like "abc"
+// You cannot modify value inside the constructor — safe.
+// You are using an initializer list (: timestamp(timestamp), value(value)), which is more efficient — no default constructor + assignment overhead.
+// ✅ Highly recommended for passing input parameters like strings, especially in constructors.
 };
 
 class TimeMap {
@@ -90,3 +101,5 @@ else h=mid-1;
 //         }
 //     }
 // };
+
+
