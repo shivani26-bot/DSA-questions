@@ -21,9 +21,11 @@ int binarySearch(vector<vector<int>>& items, int target){
      m=items.size();
         sort(items.begin(),items.end());
         int maxBeautySoFar=items[0][1];
+
+        // [[1, 2],[3, 4],[5, 3]] queries:[5] output:4
 for(int i=1;i<m;i++){ 
     maxBeautySoFar= max(maxBeautySoFar, items[i][1]);
-    items[i][1]=maxBeautySoFar;
+    items[i][1]=maxBeautySoFar;//items[i][1] = max beauty among all items with price ≤ items[i][0]
 }
         for(auto it:items){
             cout<<it[0]<<" "<<it[1]<<endl;
