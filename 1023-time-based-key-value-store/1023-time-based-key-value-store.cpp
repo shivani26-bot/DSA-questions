@@ -9,7 +9,7 @@ class TimeStampedValue{
 // ❌ Problem: You cannot pass a temporary string (like "abc") because it's const by nature.
 
 // Also, accidentally modifying value inside the constructor could modify the caller's original string — risky.
-    TimeStampedValue(int timestamp,const string& value){
+    TimeStampedValue(int timestamp,string& value){
         this->timestamp=timestamp;
         this->value=value;
     }
@@ -30,6 +30,9 @@ public:
     }
 
     void set(string key, string value, int timestamp) {
+//         TimeStampedValue(timestamp, value)
+// This creates a temporary object of type TimeStampedValue, and it's immediately passed to push_back.
+
         mp[key].push_back(TimeStampedValue(timestamp,value));
     }
     
