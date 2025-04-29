@@ -20,6 +20,11 @@ int binarySearch(vector<vector<int>>& items, int target){
         int n=queries.size();
      m=items.size();
         sort(items.begin(),items.end());
+        int maxBeautySoFar=items[0][1];
+for(int i=1;i<m;i++){ 
+    maxBeautySoFar= max(maxBeautySoFar, items[i][1]);
+    items[i][1]=maxBeautySoFar;
+}
         for(auto it:items){
             cout<<it[0]<<" "<<it[1]<<endl;
         }
