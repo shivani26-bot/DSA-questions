@@ -9,7 +9,7 @@ class TimeStampedValue{
 // ❌ Problem: You cannot pass a temporary string (like "abc") because it's const by nature.
 
 // Also, accidentally modifying value inside the constructor could modify the caller's original string — risky.
-    TimeStampedValue(int timestamp,string& value){
+    TimeStampedValue(int timestamp,const string& value){
         this->timestamp=timestamp;
         this->value=value;
     }
