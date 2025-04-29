@@ -55,8 +55,8 @@ else h=mid-1;
         if (!mp.count(key)) {
             return "";
         }
-       vector<TimeStampedValue>& timeStampedValues=mp[key];
-    return binarySearchTimestamp(timeStampedValues,timestamp);
+    //    vector<TimeStampedValue>& timeStampedValues=mp[key];
+    return binarySearchTimestamp(mp[key],timestamp);
     }
 };
 // class TimeMap {
