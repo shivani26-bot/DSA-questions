@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2080-check-if-move-is-legal](https://github.com/shivani26-bot/DSA-questions/tree/master/2080-check-if-move-is-legal) |
 | [2104-operations-on-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2104-operations-on-tree) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
+| [2179-most-beautiful-item-for-each-query](https://github.com/shivani26-bot/DSA-questions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/shivani26-bot/DSA-questions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2206-detonate-the-maximum-bombs](https://github.com/shivani26-bot/DSA-questions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/shivani26-bot/DSA-questions/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -97,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/shivani26-bot/DSA-questions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2027-maximum-number-of-removable-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/2027-maximum-number-of-removable-characters) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
+| [2179-most-beautiful-item-for-each-query](https://github.com/shivani26-bot/DSA-questions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/shivani26-bot/DSA-questions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/shivani26-bot/DSA-questions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2665-minimum-time-to-repair-cars](https://github.com/shivani26-bot/DSA-questions/tree/master/2665-minimum-time-to-repair-cars) |
@@ -120,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1019-squares-of-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1019-squares-of-a-sorted-array) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
+| [2179-most-beautiful-item-for-each-query](https://github.com/shivani26-bot/DSA-questions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/shivani26-bot/DSA-questions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/shivani26-bot/DSA-questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
