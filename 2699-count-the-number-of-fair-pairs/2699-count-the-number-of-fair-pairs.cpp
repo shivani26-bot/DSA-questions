@@ -32,7 +32,9 @@ long long count_pairs=0;
 for(int i=0;i<n;i++){
     int index1= lower_bound(nums.begin()+i+1, nums.end(),lower-nums[i])-nums.begin();
     int x_pairs=index1-i-1;
-    int index2= lower_bound(nums.begin()+i+1, nums.end(),upper-nums[i]+1)-nums.begin();
+    // int index2= lower_bound(nums.begin()+i+1, nums.end(),upper-nums[i]+1)-nums.begin();
+
+        int index2= upper_bound(nums.begin()+i+1, nums.end(),upper-nums[i])-nums.begin();
     int y_pairs=index2-i-1;
     count_pairs+=(y_pairs-x_pairs);
 
