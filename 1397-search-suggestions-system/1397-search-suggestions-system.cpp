@@ -15,15 +15,22 @@ struct trieNode{
     }
 
       vector<string> getTopThree(){
-        vector<string> temp;
-          priority_queue<string> copy = pq;
-        while(!copy.empty()){ 
-            temp.push_back(copy.top());
-            copy.pop();
+    //     vector<string> temp;
+    //       priority_queue<string> copy = pq;
+    //     while(!copy.empty()){ 
+    //         temp.push_back(copy.top());
+    //         copy.pop();
+    //         }
+    //  reverse(temp.begin(),temp.end());
+    //     return temp;
+    vector<string> temp;
+
+        while(!pq.empty()){ 
+            temp.push_back(pq.top());
+            pq.pop();
             }
      reverse(temp.begin(),temp.end());
         return temp;
-
     }
 };
 
