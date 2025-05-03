@@ -41,6 +41,7 @@ class Trie{
         root=new trieNode();
     }
 
+
     void insert(string word){
         trieNode* node=root;
       for(auto ch: word){
@@ -73,13 +74,12 @@ class Solution {
 public:
     vector<vector<string>> suggestedProducts(vector<string>& products, string searchWord) {
        int n=products.size();
-    //    sort(products.begin(),products.end());
        Trie trie;
-       for(int i=0;i<n;i++){
-trie.insert(products[i]);
+       for(int i=0;i<n;i++){   //o(n)
+trie.insert(products[i]); //o(m) m is the size of each word
        }
        vector<vector<string>>ans;
-   trie.search(searchWord,ans);
+   trie.search(searchWord,ans); //o(k)
    return ans;
     }
 };
