@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1331-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1331-path-with-maximum-gold) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/shivani26-bot/DSA-questions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1397-search-suggestions-system](https://github.com/shivani26-bot/DSA-questions/tree/master/1397-search-suggestions-system) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/shivani26-bot/DSA-questions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1524-string-matching-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1524-string-matching-in-an-array) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1706-min-cost-to-connect-all-points) |
@@ -97,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/shivani26-bot/DSA-questions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/shivani26-bot/DSA-questions/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1397-search-suggestions-system](https://github.com/shivani26-bot/DSA-questions/tree/master/1397-search-suggestions-system) |
+| [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/shivani26-bot/DSA-questions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/shivani26-bot/DSA-questions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [2027-maximum-number-of-removable-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/2027-maximum-number-of-removable-characters) |
