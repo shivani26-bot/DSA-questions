@@ -9,6 +9,7 @@ typedef long long ll;
 // }
 
 ll lcm(ll a, ll b) {
+    //   return a /gcd(a, b) * b; //this also works
     return a / __gcd(a, b) * b;  // still safe as a and b are within 1e9
 }
     int nthUglyNumber(int n, int a, int b, int c) {
@@ -38,3 +39,15 @@ ll lcm(ll a, ll b) {
   return result;
     }
 };
+
+//failed test case:
+//  n=1000000000 ,a=2,b=217983653,c=336916467 i get output 1999999978 but expected output is 1999999984
+
+//C++'s lcm() from <numeric>, which internally uses:
+// lcm(a, b) = (a / gcd(a, b)) * b
+// This can overflow if (a * b) exceeds 1e18, even if the final result is still within bounds (as guaranteed by the problem). With values like a = 217983653, b = 336916467, their lcm is large (~7.34e16), and multiplying again by a or b to get lcm_abc can cause undefined behavior due to overflow.
+// Since C++ doesn't have built-in support for safe multiplication in all environments, here's a safer lcm version using long long
+
+// ll lcm(ll a, ll b) {
+//     return a / __gcd(a, b) * b; 
+// }
