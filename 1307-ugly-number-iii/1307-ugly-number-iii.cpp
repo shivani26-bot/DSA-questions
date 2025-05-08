@@ -4,12 +4,12 @@ class Solution {
 public:
 typedef long long ll;
 
-ll gcd(ll a, ll b) {
-    return b == 0 ? a : gcd(b, a % b);
-}
+// ll gcd(ll a, ll b) {
+//     return b == 0 ? a : gcd(b, a % b);
+// }
 
 ll lcm(ll a, ll b) {
-    return a / gcd(a, b) * b;  // still safe as a and b are within 1e9
+    return a / __gcd(a, b) * b;  // still safe as a and b are within 1e9
 }
     int nthUglyNumber(int n, int a, int b, int c) {
   ll lcm_ab= lcm(a,b);
