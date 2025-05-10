@@ -35,6 +35,7 @@ while(i<m){
           }
           if(j==m){
             return i-m;
+            //j=LPS[j-1];//to find multiple occurences
           }
           else if(haystack[i]!=needle[j]){
             if(j!=0)
