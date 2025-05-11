@@ -83,6 +83,8 @@ const ll MOD =1e9+7;
         for(ll i=0;i<=n-m;i++){
             if(i==0)  hashText= computeHash(text,radix, m);
         else {
+            // In modular arithmetic, subtraction can cause negative numbers, which are not valid modulo results (since mod should always return a value in the range [0, MOD-1]).
+            // This ensures that even if subtracting the old character causes a negative result, adding MOD makes it non-negative before taking % MOD again.
             hashText=((hashText*radix)%MOD - ((text[i-1]-'a')*maxWeight)%MOD +(text[i+m-1]-'a') +MOD)%MOD;
             //  hashText = (hashText * radix - (haystack[i - 1] - 'a') * maxWeight % MOD + MOD) % MOD;
             // hashText = (hashText + (haystack[i + m - 1] - 'a')) % MOD;
