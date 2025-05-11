@@ -83,9 +83,9 @@ const ll MOD =1e9+7;
         for(ll i=0;i<=n-m;i++){
             if(i==0)  hashText= computeHash(text,radix, m);
         else {
-            // hashText=((hashText*radix)%MOD - ((text[i-1]-'a')*maxWeight)%MOD +(text[i+m-1]-'a') +MOD)%MOD;
-             hashText = (hashText * radix - (haystack[i - 1] - 'a') * maxWeight % MOD + MOD) % MOD;
-            hashText = (hashText + (haystack[i + m - 1] - 'a')) % MOD;
+            hashText=((hashText*radix)%MOD - ((text[i-1]-'a')*maxWeight)%MOD +(text[i+m-1]-'a') +MOD)%MOD;
+            //  hashText = (hashText * radix - (haystack[i - 1] - 'a') * maxWeight % MOD + MOD) % MOD;
+            // hashText = (hashText + (haystack[i + m - 1] - 'a')) % MOD;
             }
 
             
