@@ -436,6 +436,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0125-valid-palindrome](https://github.com/shivani26-bot/DSA-questions/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/shivani26-bot/DSA-questions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
@@ -702,6 +703,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0125-valid-palindrome](https://github.com/shivani26-bot/DSA-questions/tree/master/0125-valid-palindrome) |
 | [1019-squares-of-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1019-squares-of-a-sorted-array) |
 | [2027-maximum-number-of-removable-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/2027-maximum-number-of-removable-characters) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/shivani26-bot/DSA-questions/tree/master/2392-successful-pairs-of-spells-and-potions) |
