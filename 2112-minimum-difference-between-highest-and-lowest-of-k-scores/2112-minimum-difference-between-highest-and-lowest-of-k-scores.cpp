@@ -10,7 +10,7 @@ while(j<n){
 if(j-i+1<k){
     j++;
 }
-else{
+else if(j-i+1==k){
     int lowest= nums[i];
     int highest= nums[j];
     int diff= nums[j]-nums[i];
