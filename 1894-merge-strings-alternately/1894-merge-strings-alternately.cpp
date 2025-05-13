@@ -24,6 +24,7 @@ public:
     //     return newStr;
     // }
 
+
         string mergeAlternately(string word1, string word2) {
         int n=word1.size(),m=word2.size();
 int k=min(n,m);//shortest length;
