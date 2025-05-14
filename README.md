@@ -446,6 +446,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/shivani26-bot/DSA-questions/tree/master/0005-longest-palindromic-substring) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/shivani26-bot/DSA-questions/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0208-implement-trie-prefix-tree) |
@@ -511,6 +512,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/shivani26-bot/DSA-questions/tree/master/0005-longest-palindromic-substring) |
 | [0095-unique-binary-search-trees-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0096-unique-binary-search-trees) |
 | [0198-house-robber](https://github.com/shivani26-bot/DSA-questions/tree/master/0198-house-robber) |
@@ -718,6 +720,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/shivani26-bot/DSA-questions/tree/master/0005-longest-palindromic-substring) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0088-merge-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0088-merge-sorted-array) |
