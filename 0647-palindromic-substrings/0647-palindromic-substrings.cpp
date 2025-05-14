@@ -44,7 +44,7 @@ public:
 
 
 //bottom up o(n^2)
-//blueprint 
+// blueprint 
 // 2 states are changing i, j, 
 // dp[i][j] will tell substring from i to j is palindrome or not
 // all the substring of 1 length are palindrome in itself, i==j ie diagonal element in the 2d dp array will be true
@@ -78,35 +78,82 @@ public:
 //     if(dp[i][j]==true) count++;
 //   }
 // }
-    int countSubstrings(string s) {
-       int n=s.length();
-       vector<vector<bool>>dp(n,vector<bool>(n,false));
-       int count=0;
-       //for every length of substring, find the substring
-       for(int L=1;L<=n;L++){//length of substring
+    // int countSubstrings(string s) {
+    //    int n=s.length();
+    //    vector<vector<bool>>dp(n,vector<bool>(n,false));
+    //    int count=0;
+    //    //for every length of substring, find the substring
+    //    for(int L=1;L<=n;L++){//length of substring
 
-        for(int i=0;i+L-1<n;i++){ //start index of substring
-            int j=i+L-1; //end index of substring
-            if(i==j){
-                //for one character
-                dp[i][j]=true;
-            }
-            else if(i+1==j){
-                // for 2 characters 
-                dp[i][j]=(s[i]==s[j]);
-            }
-            else{
-                // for substring having more than 2 characters , generic 
-                dp[i][j]= (s[i]==s[j] && dp[i+1][j-1]);
-            }
-            if(dp[i][j]==true){
-                count++;
-            }
-        }
-       }
-        return count;
+    //     for(int i=0;i+L-1<n;i++){ //start index of substring
+    //         int j=i+L-1; //end index of substring
+    //         if(i==j){
+    //             //for one character
+    //             dp[i][j]=true;
+    //         }
+    //         else if(i+1==j){
+    //             // for 2 characters 
+    //             dp[i][j]=(s[i]==s[j]);
+    //         }
+    //         else{
+    //             // for substring having more than 2 characters , generic 
+    //             dp[i][j]= (s[i]==s[j] && dp[i+1][j-1]);
+    //         }
+    //         if(dp[i][j]==true){
+    //             count++;
+    //         }
+    //     }
+    //    }
+    //     return count;
+    // }
+   
+
+
+//    4th approach 
+// Palindromes are of two types: odd length and even length
+// Odd length: there is one center
+// Odd length palindrome: aaaaa
+// Even length:there are two center
+// Even length palindrome: aaaaaa
+// Koi bhi index i le le aur odd length ka palindrome bnane ka try kre 
+// Ya fir koi bhi index i aur i+1 le le aur palindrome bnane ka try kre
+// run a for loop make two calls for each index
+// for (i=0;i<n;i++){
+//     agr index=i toh uss index ko center mante hue palindrome bnega ya nhi
+//   check (i,i,s,n);//odd length palindrome
+//   check(i,i+1,s,n); //even length palindrome
+//   agr index i aur i+1 center hokr palindrome bnega ya nhi
+
+// }
+// check(i,j,s,n){
+//     while(i>=0 && j<n && s[i]==s[j]){
+//         count++;//count palindromes
+//         i--;
+//         j++;
+//     }
+// }
+//o(n^2)
+int count;
+void check( int i, int j, string&s, int n){
+
+    while(i>=0 && j<n && s[i]==s[j]){
+        count++;
+        i--;
+        j++;
+    }
+}
+ int countSubstrings(string s) {
+ int n=s.length();
+
+count =0;
+for(int i=0;i<n;i++){
+    check(i,i,s,n);
+    check(i,i+1,s,n);
+}
+return count;
     }
    
+
 };
 
 
