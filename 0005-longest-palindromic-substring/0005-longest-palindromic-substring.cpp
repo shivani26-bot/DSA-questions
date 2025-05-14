@@ -31,31 +31,31 @@ public:
 // }
 //recursive
 // o(n^3)
-bool checkPalindrome(int i, int j, string &s){
-   if(i>=j) return true;
-        if(s[i]==s[j]) return checkPalindrome(i+1,j-1,s);
-return false;
-}
-    string longestPalindrome(string s) {
-        int n=s.length();
+// bool checkPalindrome(int i, int j, string &s){
+//    if(i>=j) return true;
+//         if(s[i]==s[j]) return checkPalindrome(i+1,j-1,s);
+// return false;
+// }
+//     string longestPalindrome(string s) {
+//         int n=s.length();
         
-int maxLen=INT_MIN;
-// int sp=0; //starting point of the substring
-string ans;
-        for(int i=0;i<n;i++){//o(n^2)
-            for(int j=i;j<n;j++){
-                if(checkPalindrome(i,j,s)==true){ //o(n)
-                   if(j-i+1>maxLen){
-                    maxLen=j-i+1;
-                    // sp=i;
-                    ans= s.substr(i,maxLen);
-                   }
-                }
-            }
-        }
-        // return s.substr(sp,maxLen);
-            return ans;
-    }
+// int maxLen=INT_MIN;
+// // int sp=0; //starting point of the substring
+// string ans;
+//         for(int i=0;i<n;i++){//o(n^2)
+//             for(int j=i;j<n;j++){
+//                 if(checkPalindrome(i,j,s)==true){ //o(n)
+//                    if(j-i+1>maxLen){
+//                     maxLen=j-i+1;
+//                     // sp=i;
+//                     ans= s.substr(i,maxLen);
+//                    }
+//                 }
+//             }
+//         }
+//         // return s.substr(sp,maxLen);
+//             return ans;
+//     }
 
 //dp
 //o(n^3)
@@ -84,6 +84,44 @@ string ans;
 //         return s.substr(sp,maxLen);
 //     }
 
+//o(n^2)
+//bottom up
+// use the palindrome blueprint pattern 
+ string longestPalindrome(string s) {
+       int n=s.length();
+       vector<vector<bool>>dp(n,vector<bool>(n,false));
+       int maxLength=1;
+       int sp=0;//starting point or index
+    for(int i=0;i<n;i++){
+       dp[i][i]=true;
+       maxLength=1;
+    }
+
+    for(int L=2;L<=n;L++){
+        for(int i=0;i<n-L+1;i++){ //i+L-1<n=>i<n-L+1
+            int j=i+L-1;
+            //for 2 characters in string
+            if(s[i]==s[j] && L==2){
+                dp[i][j]=true;
+                maxLength=2;
+                sp=i;
+            }
+            else if(s[i]==s[j] && dp[i+1][j-1]==true){
+                dp[i][j]=true;
+                if(j-i+1>maxLength){
+                    maxLength=j-i+1;
+                    sp=i;
+                }
+            }
+            else{
+                dp[i][j]=false;//not a palindrome s[i:j]
+            }
+        }
+    }
+
+    return s.substr(sp,maxLength);
+    }
+   
 
 };
 
