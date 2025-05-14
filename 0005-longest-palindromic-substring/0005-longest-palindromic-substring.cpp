@@ -40,19 +40,21 @@ return false;
         int n=s.length();
         
 int maxLen=INT_MIN;
-int sp=0; //starting point of the substring
+// int sp=0; //starting point of the substring
+string ans;
         for(int i=0;i<n;i++){//o(n^2)
             for(int j=i;j<n;j++){
                 if(checkPalindrome(i,j,s)==true){ //o(n)
                    if(j-i+1>maxLen){
                     maxLen=j-i+1;
-                    sp=i;
+                    // sp=i;
+                    ans= s.substr(i,maxLen);
                    }
                 }
             }
         }
-        return s.substr(sp,maxLen);
-
+        // return s.substr(sp,maxLen);
+            return ans;
     }
 
 //dp
