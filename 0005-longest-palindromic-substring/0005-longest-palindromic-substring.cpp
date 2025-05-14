@@ -21,21 +21,21 @@ public:
 // (1,4)->(2,3) repeating subproblems
 // we can store in dp array for (0,5) that (0,5) is true, (1,4) is true, (2,3) is true
 // when we call (1,4) no need to check further and we can directly return true 
-bool checkPalindrome(int i, int j, string &s){
-    while(i<=j){
-        if(s[i]!=s[j]) return false;
-        i++;
-        j--;
-    }
-    return true;
-}
+// bool checkPalindrome(int i, int j, string &s){
+//     while(i<=j){
+//         if(s[i]!=s[j]) return false;
+//         i++;
+//         j--;
+//     }
+//     return true;
+// }
 //recursive
 // o(n^3)
-// bool checkPalindrome(int i, int j, string &s){
-//    if(i>=j) return true;
-//         if(s[i]==s[j]) return checkPalindrome(i+1,j-1,s);
-// return false;
-// }
+bool checkPalindrome(int i, int j, string &s){
+   if(i>=j) return true;
+        if(s[i]==s[j]) return checkPalindrome(i+1,j-1,s);
+return false;
+}
     string longestPalindrome(string s) {
         int n=s.length();
         
