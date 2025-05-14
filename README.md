@@ -454,6 +454,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
 | [0399-evaluate-division](https://github.com/shivani26-bot/DSA-questions/tree/master/0399-evaluate-division) |
 | [0606-construct-string-from-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0606-construct-string-from-binary-tree) |
+| [0647-palindromic-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/0647-palindromic-substrings) |
 | [0648-replace-words](https://github.com/shivani26-bot/DSA-questions/tree/master/0648-replace-words) |
 | [0680-valid-palindrome-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0680-valid-palindrome-ii) |
 | [0952-word-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0952-word-subsets) |
@@ -518,6 +519,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/shivani26-bot/DSA-questions/tree/master/0198-house-robber) |
 | [0337-house-robber-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/0337-house-robber-iii) |
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
+| [0647-palindromic-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/0647-palindromic-substrings) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [1063-best-sightseeing-pair](https://github.com/shivani26-bot/DSA-questions/tree/master/1063-best-sightseeing-pair) |
 | [1117-as-far-from-land-as-possible](https://github.com/shivani26-bot/DSA-questions/tree/master/1117-as-far-from-land-as-possible) |
@@ -726,6 +728,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/shivani26-bot/DSA-questions/tree/master/0125-valid-palindrome) |
 | [0283-move-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0283-move-zeroes) |
+| [0647-palindromic-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0680-valid-palindrome-ii) |
 | [1019-squares-of-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/shivani26-bot/DSA-questions/tree/master/1894-merge-strings-alternately) |
