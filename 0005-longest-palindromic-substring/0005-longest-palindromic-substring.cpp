@@ -90,7 +90,7 @@ public:
  string longestPalindrome(string s) {
        int n=s.length();
        vector<vector<bool>>dp(n,vector<bool>(n,false));
-       int maxLength=1;
+       int maxLength=0;
        int sp=0;//starting point or index
     for(int i=0;i<n;i++){
        dp[i][i]=true;
@@ -113,9 +113,9 @@ public:
                     sp=i;
                 }
             }
-            else{
-                dp[i][j]=false;//not a palindrome s[i:j]
-            }
+            // else{
+            //     dp[i][j]=false;//not a palindrome s[i:j]
+            // }
         }
     }
 
