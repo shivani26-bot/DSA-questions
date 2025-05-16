@@ -464,6 +464,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/0647-palindromic-substrings) |
 | [0648-replace-words](https://github.com/shivani26-bot/DSA-questions/tree/master/0648-replace-words) |
 | [0680-valid-palindrome-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0680-valid-palindrome-ii) |
+| [0874-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0874-backspace-string-compare) |
 | [0952-word-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0952-word-subsets) |
 | [1023-time-based-key-value-store](https://github.com/shivani26-bot/DSA-questions/tree/master/1023-time-based-key-value-store) |
 | [1397-search-suggestions-system](https://github.com/shivani26-bot/DSA-questions/tree/master/1397-search-suggestions-system) |
@@ -615,6 +616,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0144-binary-tree-preorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/shivani26-bot/DSA-questions/tree/master/0173-binary-search-tree-iterator) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0874-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0874-backspace-string-compare) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/shivani26-bot/DSA-questions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/shivani26-bot/DSA-questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Bit Manipulation
@@ -740,6 +742,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0557-reverse-words-in-a-string-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0647-palindromic-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0680-valid-palindrome-ii) |
+| [0874-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0874-backspace-string-compare) |
 | [0941-sort-array-by-parity](https://github.com/shivani26-bot/DSA-questions/tree/master/0941-sort-array-by-parity) |
 | [1019-squares-of-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1019-squares-of-a-sorted-array) |
 | [1894-merge-strings-alternately](https://github.com/shivani26-bot/DSA-questions/tree/master/1894-merge-strings-alternately) |
@@ -760,4 +763,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1236-n-th-tribonacci-number](https://github.com/shivani26-bot/DSA-questions/tree/master/1236-n-th-tribonacci-number) |
+## Simulation
+|  |
+| ------- |
+| [0874-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0874-backspace-string-compare) |
 <!---LeetCode Topics End-->
