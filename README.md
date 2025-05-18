@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2292-counting-words-with-a-given-prefix](https://github.com/shivani26-bot/DSA-questions/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2358-number-of-ways-to-split-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2358-number-of-ways-to-split-array) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/shivani26-bot/DSA-questions/tree/master/2392-successful-pairs-of-spells-and-potions) |
+| [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
 | [2465-shifting-letters-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/2465-shifting-letters-ii) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [2533-bitwise-xor-of-all-pairings](https://github.com/shivani26-bot/DSA-questions/tree/master/2533-bitwise-xor-of-all-pairings) |
@@ -540,6 +541,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1236-n-th-tribonacci-number](https://github.com/shivani26-bot/DSA-questions/tree/master/1236-n-th-tribonacci-number) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/shivani26-bot/DSA-questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
+| [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
 | [2562-count-ways-to-build-good-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/2562-count-ways-to-build-good-strings) |
 ## Prefix Sum
 |  |
