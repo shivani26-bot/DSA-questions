@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0952-word-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0952-word-subsets) |
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
 | [1019-squares-of-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1019-squares-of-a-sorted-array) |
+| [1025-minimum-cost-for-tickets](https://github.com/shivani26-bot/DSA-questions/tree/master/1025-minimum-cost-for-tickets) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/shivani26-bot/DSA-questions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1063-best-sightseeing-pair](https://github.com/shivani26-bot/DSA-questions/tree/master/1063-best-sightseeing-pair) |
 | [1073-number-of-enclaves](https://github.com/shivani26-bot/DSA-questions/tree/master/1073-number-of-enclaves) |
@@ -540,6 +541,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
 | [0647-palindromic-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/0647-palindromic-substrings) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [1025-minimum-cost-for-tickets](https://github.com/shivani26-bot/DSA-questions/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/shivani26-bot/DSA-questions/tree/master/1063-best-sightseeing-pair) |
 | [1117-as-far-from-land-as-possible](https://github.com/shivani26-bot/DSA-questions/tree/master/1117-as-far-from-land-as-possible) |
 | [1236-n-th-tribonacci-number](https://github.com/shivani26-bot/DSA-questions/tree/master/1236-n-th-tribonacci-number) |
