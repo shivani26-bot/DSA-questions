@@ -35,3 +35,6 @@ public:
         return ans;
     }
 };
+
+// k=1
+// arr=[1,1,1,2,2]
