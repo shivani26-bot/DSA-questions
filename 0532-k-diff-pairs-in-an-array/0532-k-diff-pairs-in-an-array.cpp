@@ -1,5 +1,6 @@
 class Solution {
 public:
+//o(nlogn)
     int findPairs(vector<int>& nums, int k) {
          int n=nums.size();
          sort(nums.begin(),nums.end());
