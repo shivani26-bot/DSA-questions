@@ -18,7 +18,20 @@ public:
              }
              else{
                  
-                     ans++;
+                    //  ans++;
+                   
+                    // while(j<n-1 && nums[j]==nums[j+1]){
+                     
+                    //     j++;
+                    // }
+                    //  while(i<n-1 && nums[i]==nums[i+1]){
+                     
+                    //     i++;
+                    // }
+                   
+                    // j++;
+
+  
                    
                     while(j<n-1 && nums[j]==nums[j+1]){
                      
@@ -28,7 +41,8 @@ public:
                      
                         i++;
                     }
-                   
+                   ans++;
+           
                     j++;
              }
         
