@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/shivani26-bot/DSA-questions/tree/master/0455-assign-cookies) |
 | [0463-island-perimeter](https://github.com/shivani26-bot/DSA-questions/tree/master/0463-island-perimeter) |
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0648-replace-words](https://github.com/shivani26-bot/DSA-questions/tree/master/0648-replace-words) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
@@ -111,6 +112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shivani26-bot/DSA-questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0367-valid-perfect-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0367-valid-perfect-square) |
 | [0441-arranging-coins](https://github.com/shivani26-bot/DSA-questions/tree/master/0441-arranging-coins) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0907-koko-eating-bananas](https://github.com/shivani26-bot/DSA-questions/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/shivani26-bot/DSA-questions/tree/master/1023-time-based-key-value-store) |
@@ -149,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0088-merge-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0088-merge-sorted-array) |
 | [0455-assign-cookies](https://github.com/shivani26-bot/DSA-questions/tree/master/0455-assign-cookies) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0941-sort-array-by-parity](https://github.com/shivani26-bot/DSA-questions/tree/master/0941-sort-array-by-parity) |
 | [1019-squares-of-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1019-squares-of-a-sorted-array) |
 | [1397-search-suggestions-system](https://github.com/shivani26-bot/DSA-questions/tree/master/1397-search-suggestions-system) |
@@ -444,6 +447,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0208-implement-trie-prefix-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0648-replace-words](https://github.com/shivani26-bot/DSA-questions/tree/master/0648-replace-words) |
 | [0652-find-duplicate-subtrees](https://github.com/shivani26-bot/DSA-questions/tree/master/0652-find-duplicate-subtrees) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -759,6 +763,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shivani26-bot/DSA-questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0283-move-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0283-move-zeroes) |
 | [0455-assign-cookies](https://github.com/shivani26-bot/DSA-questions/tree/master/0455-assign-cookies) |
+| [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0647-palindromic-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/0647-palindromic-substrings) |
 | [0680-valid-palindrome-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0680-valid-palindrome-ii) |
