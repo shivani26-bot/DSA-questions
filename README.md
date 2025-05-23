@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/shivani26-bot/DSA-questions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0026-remove-duplicates-from-sorted-array) |
@@ -170,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/shivani26-bot/DSA-questions/tree/master/0011-container-with-most-water) |
 | [0455-assign-cookies](https://github.com/shivani26-bot/DSA-questions/tree/master/0455-assign-cookies) |
 | [0680-valid-palindrome-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0680-valid-palindrome-ii) |
 | [1502-construct-k-palindrome-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/1502-construct-k-palindrome-strings) |
@@ -761,6 +763,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/shivani26-bot/DSA-questions/tree/master/0005-longest-palindromic-substring) |
+| [0011-container-with-most-water](https://github.com/shivani26-bot/DSA-questions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0018-4sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0026-remove-duplicates-from-sorted-array) |
