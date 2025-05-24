@@ -34,31 +34,31 @@ public:
 // }
 // return ans;
 
-sort(nums.begin(),nums.end());
-vector<int>ans;
-int n=nums.size();
-int i=0,j=n-1,flag=true;
-while(i<=j){
-    ans.push_back(flag ?  nums[i++]:nums[j--]);
-    flag=!flag;
-}
-return ans;
-
-
+// sort(nums.begin(),nums.end());
+// vector<int>ans;
 // int n=nums.size();
-// for(int i=1;i<n-1;i++){
-//     int avg= (nums[i-1]+nums[i+1])/2;
-//     if(nums[i] == avg){
-//           swap(nums[i],nums[i+1]);
-//     }
+// int i=0,j=n-1,flag=true;
+// while(i<=j){
+//     ans.push_back(flag ?  nums[i++]:nums[j--]);
+//     flag=!flag;
 // }
-// for(int i=n-2;i>0;i--){
-//     int avg= (nums[i-1]+nums[i+1])/2;
-//     if(nums[i] == avg){
-//           swap(nums[i],nums[i+1]);
-//     }
-// }
-// return nums;
+// return ans;
+
+
+int n=nums.size();
+for(int i=1;i<n-1;i++){
+    int avg= (nums[i-1]+nums[i+1]);
+    if(2*nums[i] == avg){
+          swap(nums[i],nums[i+1]);
+    }
+}
+for(int i=n-2;i>0;i--){
+    int avg= (nums[i-1]+nums[i+1]);
+    if(2*nums[i] == avg){
+          swap(nums[i],nums[i-1]);
+    }
+}
+return nums;
     }
 };
 
