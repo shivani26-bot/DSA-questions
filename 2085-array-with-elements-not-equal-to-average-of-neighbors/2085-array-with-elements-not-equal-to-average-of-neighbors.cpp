@@ -45,6 +45,20 @@ public:
 // return ans;
 
 
+// int n=nums.size();
+// for(int i=1;i<n-1;i++){
+//     int avg= (nums[i-1]+nums[i+1]);
+//     if(2*nums[i] == avg){
+//           swap(nums[i],nums[i+1]);
+//     }
+// }
+// for(int i=n-2;i>0;i--){
+//     int avg= (nums[i-1]+nums[i+1]);
+//     if(2*nums[i] == avg){
+//           swap(nums[i],nums[i-1]);
+//     }
+// }
+// return nums;
 int n=nums.size();
 for(int i=1;i<n-1;i++){
     int avg= (nums[i-1]+nums[i+1]);
@@ -55,7 +69,7 @@ for(int i=1;i<n-1;i++){
 for(int i=n-2;i>0;i--){
     int avg= (nums[i-1]+nums[i+1]);
     if(2*nums[i] == avg){
-          swap(nums[i],nums[i-1]);
+          swap(nums[i],nums[i+1]);
     }
 }
 return nums;
