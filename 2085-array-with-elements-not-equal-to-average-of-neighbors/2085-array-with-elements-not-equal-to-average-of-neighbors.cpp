@@ -64,3 +64,12 @@ return nums;
 
 // [4,3,6,7,9]
 // output: [6,3,7,4,9]
+
+// these two are last test case that doesn't pass if we put avg as (nums[i-1]+nums[i+1])/2
+// // [18,21,22,24,23,6,15,5]
+// // output:
+// // [18,24,21,22,23,6,15,5]
+
+// // [1,3,11,6,4,2]
+// // output:
+// // [3,1,6,11,2,4]
