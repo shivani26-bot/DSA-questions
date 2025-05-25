@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0648-replace-words](https://github.com/shivani26-bot/DSA-questions/tree/master/0648-replace-words) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0772-construct-quad-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0772-construct-quad-tree) |
 | [0907-koko-eating-bananas](https://github.com/shivani26-bot/DSA-questions/tree/master/0907-koko-eating-bananas) |
@@ -568,6 +569,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0343-integer-break](https://github.com/shivani26-bot/DSA-questions/tree/master/0343-integer-break) |
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
 | [0647-palindromic-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/0647-palindromic-substrings) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [1025-minimum-cost-for-tickets](https://github.com/shivani26-bot/DSA-questions/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/shivani26-bot/DSA-questions/tree/master/1063-best-sightseeing-pair) |
@@ -754,11 +756,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/shivani26-bot/DSA-questions/tree/master/0307-range-sum-query-mutable) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/shivani26-bot/DSA-questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Segment Tree
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/shivani26-bot/DSA-questions/tree/master/0307-range-sum-query-mutable) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/shivani26-bot/DSA-questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Monotonic Stack
 |  |
