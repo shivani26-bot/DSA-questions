@@ -565,6 +565,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/shivani26-bot/DSA-questions/tree/master/0198-house-robber) |
 | [0279-perfect-squares](https://github.com/shivani26-bot/DSA-questions/tree/master/0279-perfect-squares) |
 | [0337-house-robber-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/0337-house-robber-iii) |
+| [0343-integer-break](https://github.com/shivani26-bot/DSA-questions/tree/master/0343-integer-break) |
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
 | [0647-palindromic-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/0647-palindromic-substrings) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
@@ -722,6 +723,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0096-unique-binary-search-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0096-unique-binary-search-trees) |
 | [0189-rotate-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0189-rotate-array) |
 | [0279-perfect-squares](https://github.com/shivani26-bot/DSA-questions/tree/master/0279-perfect-squares) |
+| [0343-integer-break](https://github.com/shivani26-bot/DSA-questions/tree/master/0343-integer-break) |
 | [0367-valid-perfect-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0367-valid-perfect-square) |
 | [0441-arranging-coins](https://github.com/shivani26-bot/DSA-questions/tree/master/0441-arranging-coins) |
 | [1236-n-th-tribonacci-number](https://github.com/shivani26-bot/DSA-questions/tree/master/1236-n-th-tribonacci-number) |
