@@ -8,18 +8,18 @@ public:
             ageScore.push_back({ages[i],scores[i]});
         }
     sort(ageScore.begin(),ageScore.end());
-    vector<int>ans(n);
+    vector<int>dp(n);
     int bestScore=0;
 
     //lis
 for(int i=0;i<n;i++){
-    ans[i]=ageScore[i].second;
+    dp[i]=ageScore[i].second;
     for(int j=0;j<i;j++){
         if(ageScore[i].second>=ageScore[j].second){
-            ans[i]= max(ans[i], ans[j]+ageScore[i].second);
+            dp[i]= max(dp[i], dp[j]+ageScore[i].second);
         }
     }
-    bestScore= max(bestScore, ans[i]);
+    bestScore= max(bestScore, dp[i]);
 }
 return bestScore;
     }
