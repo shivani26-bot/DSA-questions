@@ -1,81 +1,88 @@
-class MyQueue {
-//     stack<int>s1,s2;
-//     int front;
+// class MyQueue {
+//     stack<int>st;
 // public:
 //     MyQueue() {
         
 //     }
     
 //     void push(int x) {
-//       if(s1.empty()) front=x;
-//      s1.push(x);
+//         st.push(x);
 //     }
-    
+
+//     void pushBottom(stack<int>&temp,int ele){
+//         if(temp.empty()){
+//             temp.push(ele);
+//             return ;
+//         }
+//         int popped_ele= temp.top();
+//         temp.pop();
+//         pushBottom(temp,ele);
+//        temp.push(popped_ele);
+//     }
+
 //     int pop() {
-//     while(!s1.empty()){
-//         s2.push(s1.top());
-//         s1.pop();
-//     }
-//     int ans=s2.top();
-//     s2.pop();
-//     while(!s2.empty()){
-//         if(s1.empty()) front=s2.top();
-//         s1.push(s2.top());
-//         s2.pop();
-//     }
-//     return ans;
+//         stack<int>temp;
+//         while(st.size()>1){
+//             pushBottom(temp,st.top());
+//             st.pop();
+//         }
+//         int ans=st.top();
+//         st.pop();
+//         st=temp;
+//         return ans;
 //     }
     
 //     int peek() {
-//         return front;
+//           stack<int>temp;
+//         while(st.size()>1){
+//             pushBottom(temp,st.top());
+//             st.pop();
+//         }
+//         int ans=st.top();
+//         pushBottom(temp,st.top());
+//             st.pop();
+//         st=temp;
+//         return ans;
 //     }
     
 //     bool empty() {
-//         return s1.empty();
+//         return st.empty();
 //     }
+// };
 
+
+
+class MyQueue {
 stack<int>s1,s2;
-    // int top=-1;
+
 public:
-    MyQueue() {
-        
-    }
-    
+    MyQueue() {}
+//s1 will store the elements in queue fashion, 
     void push(int x) {
+      while(!s1.empty()){
+        s2.push(s1.top());
+        s1.pop();
+      }
       s1.push(x);
-    //   top++;
+         while(!s2.empty()){
+        s1.push(s2.top());
+        s2.pop();
+      }
+
     }
-    
+
     int pop() {
-    while(!s1.empty()){
-        s2.push(s1.top());
-        s1.pop();
+      int ans= s1.top();
+      s1.pop();
+      return ans;
     }
-    int ans=s2.top();
-    s2.pop();
-    while(!s2.empty()){
-        // if(s1.empty()) front=s2.top();
-        s1.push(s2.top());
-        s2.pop();
-    }
-    return ans;
-    }
-    
+
     int peek() {
-         while(!s1.empty()){
-        s2.push(s1.top());
-        s1.pop();
+        return s1.top();
     }
-   int ans= s2.top();
-    while(!s2.empty()){
-        s1.push(s2.top());
-        s2.pop();
-    }
-    return ans;
-    }
-    
+
     bool empty() {
-        return s1.empty();
+       return s1.empty();
     }
 };
 
