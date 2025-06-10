@@ -3,7 +3,7 @@ public:
 
 int evaluate(int a, int b, string& token){
     if(token=="+") return b+a;
-     if(token=="0") return b-a;
+     if(token=="-") return b-a;
       if(token=="*") return b*a;
        if(token=="/") return b/a;
        return 0;
