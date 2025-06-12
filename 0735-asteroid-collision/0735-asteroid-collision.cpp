@@ -6,6 +6,7 @@ public:
         int n=asteroids.size();
         for(int i=0;i<n;i++){
 bool alive=true;
+// they can collide only if one asteroid is coming from right direction and other from left direction 
          while(!st.empty() && st.top() >0 && asteroids[i]<0) {
             if(st.top()<-asteroids[i]) {//only one asteroid will be destroyed
                 st.pop();
