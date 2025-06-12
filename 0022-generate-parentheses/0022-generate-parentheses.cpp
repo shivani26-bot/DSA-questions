@@ -1,16 +1,27 @@
 class Solution {
 public:
 vector<string>result;
-bool isValid(string& s){
-    stack<char>st;
+//o(2*n) to check the validity
+bool isValid(string s){
+    // stack<char>st;
 
-    for(int i=0;i<s.length();i++){
-        if(!st.empty() && s[i]==')' && st.top()=='(') st.pop();
-              else st.push(s[i]);
+    // for(int i=0;i<s.length();i++){
+    //     if(!st.empty() && s[i]==')' && st.top()=='(') st.pop();
+    //           else st.push(s[i]);
 
+    // }
+    // return st.empty();
+
+    int count=0;
+    for(auto it: s){
+        if(it=='(') count++;
+        else count--;
+        if(count<0) return false;
     }
-    return st.empty();
+    return count==0;
 }
+// every index has 2 options  total possibilities 2^2n where 2n is the length of s
+//o(2^2n)
 void solve(string s, int n){
 if(s.length()==2*n){
     if(isValid(s)) result.push_back(s);
@@ -38,4 +49,6 @@ if(s.length()==2*n){
    solve("",n);
    return result;
     }
+    //total time: o(2^2n * 2n)
+    // space: recursion tree depth o(2n)
 };
