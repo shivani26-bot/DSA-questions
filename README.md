@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0682-baseball-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0682-baseball-game) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0735-asteroid-collision](https://github.com/shivani26-bot/DSA-questions/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/shivani26-bot/DSA-questions/tree/master/0739-daily-temperatures) |
 | [0772-construct-quad-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0772-construct-quad-tree) |
 | [0907-koko-eating-bananas](https://github.com/shivani26-bot/DSA-questions/tree/master/0907-koko-eating-bananas) |
 | [0917-boats-to-save-people](https://github.com/shivani26-bot/DSA-questions/tree/master/0917-boats-to-save-people) |
@@ -710,6 +711,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0232-implement-queue-using-stacks](https://github.com/shivani26-bot/DSA-questions/tree/master/0232-implement-queue-using-stacks) |
 | [0682-baseball-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/shivani26-bot/DSA-questions/tree/master/0735-asteroid-collision) |
+| [0739-daily-temperatures](https://github.com/shivani26-bot/DSA-questions/tree/master/0739-daily-temperatures) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0874-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0874-backspace-string-compare) |
 | [0983-validate-stack-sequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0983-validate-stack-sequences) |
@@ -833,6 +835,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/shivani26-bot/DSA-questions/tree/master/0042-trapping-rain-water) |
+| [0739-daily-temperatures](https://github.com/shivani26-bot/DSA-questions/tree/master/0739-daily-temperatures) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/shivani26-bot/DSA-questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Iterator
 |  |
