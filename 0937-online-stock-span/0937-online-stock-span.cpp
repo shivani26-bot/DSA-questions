@@ -4,7 +4,7 @@ public:
     StockSpanner() {
         
     }
-    
+    // monotonic stack, maintain a pair of {price, count} inside stock, so that if we even pop out the element from the stock, count will maintain that how many consecutive days were there where stck price was <= price of the current day
     int next(int price) {
      int count=1;//every element itself is a count 1
 
