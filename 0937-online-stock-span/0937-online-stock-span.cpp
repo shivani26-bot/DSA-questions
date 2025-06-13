@@ -6,7 +6,7 @@ public:
     }
     
     int next(int price) {
-     int count=1;
+     int count=1;//every element itself is a count 1
 
 while(!st.empty() && st.top().first<=price){
    count+=st.top().second;
