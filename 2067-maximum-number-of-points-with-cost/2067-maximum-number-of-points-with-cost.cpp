@@ -71,6 +71,12 @@ public:
 
 // dp[i + 1][j]:
 // This represents directly taking the value at column j from the row below, without accumulating from the left.
+// Imagine you're at row i, and trying to compute max points at dp[i][j].
+// You're allowed to choose any cell in the row below (dp[i + 1][k]) and add matrix[i][j] to it, but you lose 1 point for every column step |k - j|.
+// Instead of checking all k (which would be O(n²)), you use leftMax and rightMax:
+// leftMax[j] keeps track of:
+// max(dp[i + 1][k] - (j - k)) for all k <= j
+// Is a running max from the left side with -1 cost per step.
             leftMax[j] = max(leftMax[j - 1] - 1, dp[i + 1][j]);
         }
 
