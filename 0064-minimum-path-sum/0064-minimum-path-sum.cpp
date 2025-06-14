@@ -78,14 +78,17 @@ for(int i=0;i<m;i++){
 		for(int j=0;j<n;j++){
 				if(i==0 && j==0) curr[j]= grid[0][0] ;
 				else{
-                    int left=grid[i][j],up=grid[i][j];
+                    // int left=grid[i][j],up=grid[i][j];
+                     int left=0,up=0;
 					if(i>0)
                     // requiring previous row's j column 
-                     up+=prev[j];
+                    //  up+=prev[j];
+                      up=grid[i][j]+prev[j];
                      else up+=1e9;
                     if(j>0)
                     // requiring current row's j-1 column 
-                     left+=curr[j-1];
+                    //  left+=curr[j-1];
+                     left=grid[i][j]+curr[j-1];
                      else 
                      left+=1e9;
 	curr[j]=min(left,up);
