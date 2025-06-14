@@ -66,6 +66,11 @@ public:
         // Calculate the max from the left side
         leftMax[0] = dp[i + 1][0];
         for (int j = 1; j < n; j++) {
+            // leftMax[j - 1] - 1:
+// This represents moving from the previous column to the current column (j) with a cost of -1 (lose 1 point for moving right by 1 unit).
+
+// dp[i + 1][j]:
+// This represents directly taking the value at column j from the row below, without accumulating from the left.
             leftMax[j] = max(leftMax[j - 1] - 1, dp[i + 1][j]);
         }
 
