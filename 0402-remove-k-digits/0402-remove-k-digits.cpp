@@ -62,3 +62,32 @@ return ans;
 
 // ❌ ans = st.top() + ans → O(n²) → MLE
 // ✅ Use ans += st.top() + reverse() → O(n) time + better memory efficiency
+
+// while (!st.empty()) {
+//     ans = st.top() + ans; // prepending at the beginning
+//     st.pop();
+// }
+// Step-by-step:
+// Again, suppose stack contents: 1 2 1 9
+
+// Iteration 1: ans = "9"
+
+// Iteration 2: ans = "1" + "9" = "19"
+
+// Iteration 3: ans = "1" + "19" = "119"
+
+// Iteration 4: ans = "2" + "119" = "2119"
+
+// At each step, a new string is created:
+
+// Step 1: 1 character copied
+
+// Step 2: 2 characters copied
+
+// Step 3: 3 characters copied
+
+// Step 4: 4 characters copied
+
+// \U0001f9e0 Memory: Each step copies all previous characters, costing O(1 + 2 + 3 + ... + n) = O(n²)
+// \U0001f501 Time: Also O(n²)
+// \U0001f4a5 If num has 10⁵ digits, this approach creates many temporary strings, quickly exhausting memory → MLE
