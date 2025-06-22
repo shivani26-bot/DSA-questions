@@ -59,6 +59,6 @@ return ans;
     }
 };
 
-// 
-❌ ans = st.top() + ans → O(n²) → MLE
+
+// ❌ ans = st.top() + ans → O(n²) → MLE
 // ✅ Use ans += st.top() + reverse() → O(n) time + better memory efficiency
