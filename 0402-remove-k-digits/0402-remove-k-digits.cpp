@@ -34,6 +34,7 @@ if(ans == "") ans="0";
 return ans;
 //   string ans="";
 //       while(!st.empty()){
+    //This is inefficient because strings in C++ are immutable and every time you do ans = st.top() + ans, a new string is created, copying both st.top() and the entire ans each time. If ans has n characters, the copy takes O(n) time and space. Repeating this for all characters in the stack results in O(n²) time and potentially O(n²) memory usage, causing MLE for large inputs.
 //         ans = st.top()+ans;
 //         st.pop();
 //       }
@@ -57,3 +58,7 @@ return ans;
 
     }
 };
+
+// 
+❌ ans = st.top() + ans → O(n²) → MLE
+// ✅ Use ans += st.top() + reverse() → O(n) time + better memory efficiency
