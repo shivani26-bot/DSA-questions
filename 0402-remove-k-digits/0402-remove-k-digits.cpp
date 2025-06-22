@@ -20,16 +20,29 @@ public:
         ans += st.top();
         st.pop();
       }
-int endIndex=0;
-for(int i=ans.size()-1; i>=0; i--){
+// int endIndex=0;
+// for(int i=ans.size()-1; i>=0; i--){
+//     if(ans[i]!= '0'){
+//         endIndex=i;
+//         break;
+//     }
+// }
+
+// ans=ans.substr(0, endIndex+1);
+// reverse(ans.begin(),ans.end());
+// if(ans == "") ans="0";
+// return ans;
+reverse(ans.begin(),ans.end());
+int startIndex;
+for(int i=0; i<ans.size(); i++){
     if(ans[i]!= '0'){
-        endIndex=i;
+        startIndex=i;
         break;
     }
 }
 
-ans=ans.substr(0, endIndex+1);
-reverse(ans.begin(),ans.end());
+ans=ans.substr(startIndex);
+
 if(ans == "") ans="0";
 return ans;
 //   string ans="";
