@@ -21,8 +21,7 @@ else{
     st.push({s[i],count+1});
 }
 }
-// else if(count<k && ch==s[i])
-//             st.push({s[i],count+1});
+
             else {
                 //if st.top().first!=s[i]
                 st.push({s[i],1});
