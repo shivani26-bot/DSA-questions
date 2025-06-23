@@ -42,6 +42,7 @@
 // //        return getLPS(s,0,s.length()-1,dp);
 // //     }
 // // bottom top
+// o(n^2)
 // int getLPS(string &s,vector<vector<int>>&dp){
 //    for(int i=0;i<s.length();i++){
 //        dp[i][i]=1;
@@ -68,6 +69,7 @@
 
 class Solution {
 public:
+//o(n^2)
 int lcs(int n, int m, string s1, string s2)
     {
         // your code here
