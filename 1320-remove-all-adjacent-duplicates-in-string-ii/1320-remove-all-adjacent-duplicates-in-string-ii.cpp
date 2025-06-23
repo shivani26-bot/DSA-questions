@@ -23,7 +23,7 @@ else{
 }
 
             else {
-                //if st.top().first!=s[i]
+                //if st.top().first!=s[i] || st.empty()
                 st.push({s[i],1});
             }
         }
