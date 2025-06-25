@@ -48,7 +48,11 @@ public:
 // return result;//will give max length fibonacci subsequence
 //     }
 
-    //memoization
+
+
+
+
+    //memoization top down
 //  0 1 2 3 4 5 6 7
 // {1,2,3,4,5,6,7,8}
 //    j k 
@@ -61,22 +65,60 @@ public:
 //    dp[j][k]=dp[1][2]=3 length of fibonacci at index 1,2
     
     // dp[j][k]=> length of fibonacci sequence ending at index j,k 
-    int solve(int j, int k,vector<int>& arr,unordered_map<int,int>&mp,vector<vector<int>>&dp ){
-    if(dp[j][k]!=-1) return dp[j][k];
-    int target=arr[k]-arr[j];
-    if(mp.count(target) && mp[target]<j){
-        int i=mp[target];
-    dp[j][k]= 1+solve(i,j,arr,mp,dp);
-    return dp[j][k];
-    }
-    return dp[j][k]=2; 
-}
+//     int solve(int j, int k,vector<int>& arr,unordered_map<int,int>&mp,vector<vector<int>>&dp ){
+//     if(dp[j][k]!=-1) return dp[j][k];
+//     int target=arr[k]-arr[j];
+//     if(mp.count(target) && mp[target]<j){
+//         int i=mp[target];
+//     dp[j][k]= 1+solve(i,j,arr,mp,dp);
+//     return dp[j][k];
+//     }
+//     return dp[j][k]=2; 
+// }
+
+// //o(n^2)
+//     int lenLongestFibSubseq(vector<int>& arr) {
+//         int n=arr.size();
+// unordered_map<int,int>mp;
+// vector<vector<int>>dp(n,vector<int>(n,-1));
+// for(int i=0;i<n;i++){
+//     mp[arr[i]]=i;
+// }
+
+// int result=0;
+// for(int j=1;j<n;j++){
+//     for(int k=j+1;k<n;k++){
+//        int length=solve(j,k,arr,mp,dp);
+// if(length>=3){
+//     result=max(result,length);
+// }
+//     }
+// }
+// return result;//will give max length fibonacci subsequence
+//     }
+
+
+
+
+
+
+
+
+
+
+
+// bottom up tabulation
+// state definition
+// t[i][j]= max length of fibonacci like sequence ending at i,j
+
+
+
 
 //o(n^2)
     int lenLongestFibSubseq(vector<int>& arr) {
         int n=arr.size();
 unordered_map<int,int>mp;
-vector<vector<int>>dp(n,vector<int>(n,-1));
+vector<vector<int>>dp(n,vector<int>(n,2));
 for(int i=0;i<n;i++){
     mp[arr[i]]=i;
 }
@@ -84,7 +126,12 @@ for(int i=0;i<n;i++){
 int result=0;
 for(int j=1;j<n;j++){
     for(int k=j+1;k<n;k++){
-       int length=solve(j,k,arr,mp,dp);
+        int target= arr[k]-arr[j];
+         if(mp.count(target) && mp[target]<j){
+        int i=mp[target];
+    dp[j][k]= 1+dp[i][j];
+    }
+   int length=dp[j][k];
 if(length>=3){
     result=max(result,length);
 }
