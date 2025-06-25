@@ -131,12 +131,15 @@ for(int j=1;j<n;j++){
         int i=mp[target];
     dp[j][k]= 1+dp[i][j];
     }
-   int length=dp[j][k];
-if(length>=3){
-    result=max(result,length);
-}
+//    int length=dp[j][k];
+// if(length>=3){
+//     result=max(result,length);
+// }
+result=max(result,dp[j][k]);
+
     }
 }
-return result;//will give max length fibonacci subsequence
+// return result;//will give max length fibonacci subsequence
+return result>=3?result:0;
     }
 };
