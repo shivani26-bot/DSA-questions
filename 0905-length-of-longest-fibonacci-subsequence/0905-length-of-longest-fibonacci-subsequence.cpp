@@ -119,6 +119,7 @@ public:
         int n=arr.size();
 unordered_map<int,int>mp;
 vector<vector<int>>dp(n,vector<int>(n,2));
+//when we only have 2 element and we don't find further element, 2 is base caseatleast 2 elements must be there, because fibonacci length>=3
 for(int i=0;i<n;i++){
     mp[arr[i]]=i;
 }
