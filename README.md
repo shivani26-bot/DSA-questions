@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0407-trapping-rain-water-ii) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0455-assign-cookies](https://github.com/shivani26-bot/DSA-questions/tree/master/0455-assign-cookies) |
+| [0456-132-pattern](https://github.com/shivani26-bot/DSA-questions/tree/master/0456-132-pattern) |
 | [0463-island-perimeter](https://github.com/shivani26-bot/DSA-questions/tree/master/0463-island-perimeter) |
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -144,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shivani26-bot/DSA-questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0367-valid-perfect-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0367-valid-perfect-square) |
 | [0441-arranging-coins](https://github.com/shivani26-bot/DSA-questions/tree/master/0441-arranging-coins) |
+| [0456-132-pattern](https://github.com/shivani26-bot/DSA-questions/tree/master/0456-132-pattern) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0540-single-element-in-a-sorted-array) |
 | [0907-koko-eating-bananas](https://github.com/shivani26-bot/DSA-questions/tree/master/0907-koko-eating-bananas) |
@@ -247,6 +249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Ordered Set
 |  |
 | ------- |
+| [0456-132-pattern](https://github.com/shivani26-bot/DSA-questions/tree/master/0456-132-pattern) |
 | [2868-continuous-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/2868-continuous-subarrays) |
 ## Monotonic Queue
 |  |
@@ -744,6 +747,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0232-implement-queue-using-stacks](https://github.com/shivani26-bot/DSA-questions/tree/master/0232-implement-queue-using-stacks) |
 | [0394-decode-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0394-decode-string) |
 | [0402-remove-k-digits](https://github.com/shivani26-bot/DSA-questions/tree/master/0402-remove-k-digits) |
+| [0456-132-pattern](https://github.com/shivani26-bot/DSA-questions/tree/master/0456-132-pattern) |
 | [0682-baseball-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/shivani26-bot/DSA-questions/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/shivani26-bot/DSA-questions/tree/master/0739-daily-temperatures) |
@@ -880,6 +884,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0042-trapping-rain-water](https://github.com/shivani26-bot/DSA-questions/tree/master/0042-trapping-rain-water) |
 | [0402-remove-k-digits](https://github.com/shivani26-bot/DSA-questions/tree/master/0402-remove-k-digits) |
+| [0456-132-pattern](https://github.com/shivani26-bot/DSA-questions/tree/master/0456-132-pattern) |
 | [0739-daily-temperatures](https://github.com/shivani26-bot/DSA-questions/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/shivani26-bot/DSA-questions/tree/master/0883-car-fleet) |
 | [0937-online-stock-span](https://github.com/shivani26-bot/DSA-questions/tree/master/0937-online-stock-span) |
