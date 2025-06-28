@@ -23,7 +23,7 @@ vector<int>nextSmaller(n);
 stack<int>st;
 st.push(0);
 for(int i=1;i<n;i++){
-    while(!st.empty() && arr[i]<= arr[st.top()]){
+    while(!st.empty() && arr[i]< arr[st.top()]){
         nextSmaller[st.top()]=i;
         st.pop();
     }
@@ -36,7 +36,7 @@ while(!st.empty()){
 vector<int>previousSmallerEqual(n);
 st.push(n-1);
 for(int i=n-2;i>=0;i--){
-    while(!st.empty() && arr[i]< arr[st.top()]){
+    while(!st.empty() && arr[i]<= arr[st.top()]){
         previousSmallerEqual[st.top()]=i;
         st.pop();
     }
