@@ -1,6 +1,7 @@
 class Solution {
 public:
     bool find132pattern(vector<int>& nums) {
+        // [3,5,0,3,4] important test case, do try dry run 
         // brute force:
 // int n=nums.size();
 // for(int i=0;i<n;i++){
