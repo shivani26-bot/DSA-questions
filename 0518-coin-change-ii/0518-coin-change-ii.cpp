@@ -47,53 +47,57 @@ public:
 //     }
 
 // bottom top 
+// take and notTake both represent count of combinations.
+// For large amount and coins like {1,2,5}, the number of combinations can easily exceed 2,147,483,647 (INT_MAX for 32-bit signed int).
+// When that happens, signed int overflows, which is undefined behavior in C++ — it wraps around and causes crashes or incorrect results.
 
-   int change(int amount, vector<int>& coins) {
-          int n=coins.size();
-          vector<vector<unsigned long long>>dp(n, vector<unsigned long long>(amount+1,0));
-            for(int t=0;t<=amount;t++) 
-                {
-                //   if(t%coins[0]==0) dp[0][t]=1;
-                  dp[0][t]=(t%coins[0]==0);
-                }
 
-  for(int index=1;index<n;index++){
-    for(int t=0;t<=amount;t++){
-    unsigned long long notTake= dp[index-1][t];
-    unsigned long long take=0;
-    if(coins[index]<=t) 
-    take= dp[index][t-coins[index]];
-   dp[index][t]=take+notTake;
-    }
-    
-  }
-  return dp[n-1][amount];
-   }
-// space optimize
-//   int change(int amount, vector<int>& coins) {
+//    int change(int amount, vector<int>& coins) {
 //           int n=coins.size();
-//           vector<int>prev(amount+1,0);
-//            vector<int>curr(amount+1,0);
+//           vector<vector<unsigned long long>>dp(n, vector<unsigned long long>(amount+1,0));
 //             for(int t=0;t<=amount;t++) 
 //                 {
 //                 //   if(t%coins[0]==0) dp[0][t]=1;
-//                   prev[t]=(t%coins[0]==0);
+//                   dp[0][t]=(t%coins[0]==0);
 //                 }
 
 //   for(int index=1;index<n;index++){
 //     for(int t=0;t<=amount;t++){
-//     int notTake= prev[t];
-//     int take=0;
+//     unsigned long long notTake= dp[index-1][t];
+//     unsigned long long take=0;
 //     if(coins[index]<=t) 
-//     take= curr[t-coins[index]];
-//   curr[t]=take+notTake;
+//     take= dp[index][t-coins[index]];
+//    dp[index][t]=take+notTake;
 //     }
-//     prev=curr;
+    
 //   }
+//   return dp[n-1][amount];
+//    }
+// space optimize
+  int change(int amount, vector<int>& coins) {
+          int n=coins.size();
+          vector<unsigned long long>prev(amount+1,0);
+           vector<unsigned long long>curr(amount+1,0);
+            for(int t=0;t<=amount;t++) 
+                {
+                //   if(t%coins[0]==0) dp[0][t]=1;
+                  prev[t]=(t%coins[0]==0);
+                }
+
+  for(int index=1;index<n;index++){
+    for(int t=0;t<=amount;t++){
+    unsigned long long notTake= prev[t];
+    unsigned long long take=0;
+    if(coins[index]<=t) 
+    take= curr[t-coins[index]];
+  curr[t]=take+notTake;
+    }
+    prev=curr;
+  }
   
-//          int ans= prev[amount];
+         int ans= prev[amount];
        
-//          return ans;
-//     }
+         return ans;
+    }
 
 };
