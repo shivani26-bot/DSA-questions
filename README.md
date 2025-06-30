@@ -71,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1073-number-of-enclaves](https://github.com/shivani26-bot/DSA-questions/tree/master/1073-number-of-enclaves) |
 | [1105-uncrossed-lines](https://github.com/shivani26-bot/DSA-questions/tree/master/1105-uncrossed-lines) |
 | [1117-as-far-from-land-as-possible](https://github.com/shivani26-bot/DSA-questions/tree/master/1117-as-far-from-land-as-possible) |
+| [1127-last-stone-weight](https://github.com/shivani26-bot/DSA-questions/tree/master/1127-last-stone-weight) |
 | [1129-longest-string-chain](https://github.com/shivani26-bot/DSA-questions/tree/master/1129-longest-string-chain) |
 | [1130-last-stone-weight-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1130-last-stone-weight-ii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -234,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0407-trapping-rain-water-ii) |
 | [0744-network-delay-time](https://github.com/shivani26-bot/DSA-questions/tree/master/0744-network-delay-time) |
+| [1127-last-stone-weight](https://github.com/shivani26-bot/DSA-questions/tree/master/1127-last-stone-weight) |
 | [1325-path-with-maximum-probability](https://github.com/shivani26-bot/DSA-questions/tree/master/1325-path-with-maximum-probability) |
 | [1397-search-suggestions-system](https://github.com/shivani26-bot/DSA-questions/tree/master/1397-search-suggestions-system) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
