@@ -60,31 +60,57 @@ public:
 //     }
 
 
- int s1Len,s2Len,s3Len;
- bool solve(string s1, string s2, string s3,int i, int j,vector<vector<int>>&dp){
-    if(dp[i][j]!=-1) return dp[i][j];
-    if((i+j)>=s3Len ) return true;
+//  int s1Len,s2Len,s3Len;
+//  bool solve(string s1, string s2, string s3,int i, int j,vector<vector<int>>&dp){
+//     if(dp[i][j]!=-1) return dp[i][j];
+//     if((i+j)>=s3Len ) return true;
 
-    if( s3[i+j]!=s1[i] && s3[i+j]!=s2[j]) return false;
+//     if( s3[i+j]!=s1[i] && s3[i+j]!=s2[j]) return false;
    
- bool ans1=false,ans2=false;
+//  bool ans1=false,ans2=false;
 
-    if(s3[i+j]==s1[i]){
-      ans1= solve(s1,s2,s3, i+1, j,dp);
-    }
-        if(s3[i+j]==s2[j]){
-      ans2= solve(s1,s2,s3, i, j+1,dp);
-    }
-    return dp[i][j]=ans1||ans2;
- }
+//     if(s3[i+j]==s1[i]){
+//       ans1= solve(s1,s2,s3, i+1, j,dp);
+//     }
+//         if(s3[i+j]==s2[j]){
+//       ans2= solve(s1,s2,s3, i, j+1,dp);
+//     }
+//     return dp[i][j]=ans1||ans2;
+//  }
 
+//     bool isInterleave(string s1, string s2, string s3) {
+//         // if s1.length()+s2.length()<s3.length() then its not possible to make s3 from s1 and s2 return false in this case
+//      s1Len=s1.length();
+//      s2Len=s2.length();
+//      s3Len=s3.length();
+//   vector<vector<int>>dp(s1Len+1,vector<int>(s2Len+1,-1));
+//              if(s1Len+s2Len != s3Len) return false;
+//         return solve(s1,s2,s3, 0,0,dp);
+//     }
+
+
+ int s1Len,s2Len,s3Len;
     bool isInterleave(string s1, string s2, string s3) {
         // if s1.length()+s2.length()<s3.length() then its not possible to make s3 from s1 and s2 return false in this case
      s1Len=s1.length();
      s2Len=s2.length();
      s3Len=s3.length();
-  vector<vector<int>>dp(s1Len+1,vector<int>(s2Len+1,-1));
-             if(s1Len+s2Len != s3Len) return false;
-        return solve(s1,s2,s3, 0,0,dp);
+  vector<vector<bool>>dp(s1Len+1,vector<bool>(s2Len+1,false));
+             if(s1Len+s2Len != s3Len) return  false;
+dp[s1Len][s2Len]=true;
+   for(int i=s1Len;i>=0;i--){
+    for(int j=s2Len;j>=0;j--){
+    bool ans1=false,ans2=false;
+    if(i<s1Len && s3[i+j]==s1[i]){
+      ans1= dp[i+1][j];
+    }
+        if(j<s2Len && s3[i+j]==s2[j]){
+      ans2= dp[i][j+1];
+    }
+     dp[i][j]=dp[i][j] || ans1||ans2;
+    }
+   
+   }
+   return dp[0][0];
     }
 };
