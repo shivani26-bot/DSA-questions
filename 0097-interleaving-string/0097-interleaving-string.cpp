@@ -35,7 +35,7 @@ public:
     if(dp[i][j][k]!=-1) return dp[i][j][k];
     if(k>=s3Len ) return true;
 
-    if(i<s1Len && j<s2Len && k<s3Len && s3[k]!=s1[i] && s3[k]!=s2[j]) return false;
+    if( s3[k]!=s1[i] && s3[k]!=s2[j]) return false;
    
  bool ans1=false,ans2=false;
     if(i<s1Len && s3[k]==s1[i]){
