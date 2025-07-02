@@ -1,23 +1,23 @@
 class KthLargest {
 public:
-        //min-heap
- priority_queue<int,vector<int>,greater<int>>pq;
- int K;
+priority_queue<int, vector<int>, greater<int>>q; //minheap
+int K;
+
+ //nlogk
     KthLargest(int k, vector<int>& nums) {
-       K=k;
-        for(int i=0;i<nums.size();i++){
-            pq.push(nums[i]);
-            if(pq.size()>k){
-                pq.pop();//min element will be popped
-            }
+        int n= nums.size();
+            K=k;
+        // nlogk
+        for(int i=0;i<n;i++){
+                q.push(nums[i]);//logk
+                if(q.size()>k) q.pop();//min element will be popped
         }
     }
-    
+    //logk
     int add(int val) {
-        pq.push(val);
-        if(pq.size()>K) pq.pop();
-        return pq.top();
-        
+        q.push(val); //logk
+        if(q.size()>K) q.pop();//logk
+        return q.top();
     }
 };
 // when we pop any element in priority queue it take log(k) times to adjust itself
