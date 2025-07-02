@@ -38,10 +38,10 @@ public:
     if( s3[k]!=s1[i] && s3[k]!=s2[j]) return false;
    
  bool ans1=false,ans2=false;
-    if(i<s1Len && s3[k]==s1[i]){
+    if( s3[k]==s1[i]){
       ans1= solve(s1,s2,s3, i+1, j, k+1,dp);
     }
-        if(j<s2Len &&s3[k]==s2[j]){
+        if(s3[k]==s2[j]){
       ans2= solve(s1,s2,s3, i, j+1, k+1,dp);
     }
 
