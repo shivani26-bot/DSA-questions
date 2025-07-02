@@ -1,30 +1,27 @@
 class KthLargest {
 public:
-//initially the size of stream can be less than k, more than k and equal to k;
-priority_queue<int,vector<int>,greater<int>>minHeap;
-int k;
+        //min-heap
+ priority_queue<int,vector<int>,greater<int>>pq;
+ int K;
     KthLargest(int k, vector<int>& nums) {
-        this->k=k;
+       K=k;
         for(int i=0;i<nums.size();i++){
-            if(minHeap.size()<k)
-               minHeap.push(nums[i]);
-             else if(minHeap.top()<nums[i])  {
-                 minHeap.pop();
-                 minHeap.push(nums[i]);
-             }
+            pq.push(nums[i]);
+            if(pq.size()>k){
+                pq.pop();//min element will be popped
+            }
         }
     }
     
     int add(int val) {
-if(minHeap.size()<k)
-minHeap.push(val);
-        else if(minHeap.top()<val){
-            minHeap.pop();
-            minHeap.push(val);
-        }
-        return minHeap.top();
+        pq.push(val);
+        if(pq.size()>K) pq.pop();
+        return pq.top();
+        
     }
 };
+// when we pop any element in priority queue it take log(k) times to adjust itself
+// for kth largest use min heap, when heap size is greater than k then pop the top element, after that always the top element of the priority queue will be the answer for the kth largest element 
 
 /**
  * Your KthLargest object will be instantiated and called as such:
