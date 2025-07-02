@@ -237,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0407-trapping-rain-water-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0407-trapping-rain-water-ii) |
 | [0744-network-delay-time](https://github.com/shivani26-bot/DSA-questions/tree/master/0744-network-delay-time) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/shivani26-bot/DSA-questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1127-last-stone-weight](https://github.com/shivani26-bot/DSA-questions/tree/master/1127-last-stone-weight) |
 | [1325-path-with-maximum-probability](https://github.com/shivani26-bot/DSA-questions/tree/master/1325-path-with-maximum-probability) |
 | [1397-search-suggestions-system](https://github.com/shivani26-bot/DSA-questions/tree/master/1397-search-suggestions-system) |
@@ -306,6 +307,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0772-construct-quad-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0772-construct-quad-tree) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0776-n-ary-tree-postorder-traversal) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/shivani26-bot/DSA-questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0904-leaf-similar-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0904-leaf-similar-trees) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -487,6 +489,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0662-maximum-width-of-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0662-maximum-width-of-binary-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0669-trim-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/shivani26-bot/DSA-questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0904-leaf-similar-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0904-leaf-similar-trees) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -840,6 +843,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0538-convert-bst-to-greater-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0538-convert-bst-to-greater-tree) |
 | [0669-trim-a-binary-search-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0669-trim-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0784-insert-into-a-binary-search-tree) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/shivani26-bot/DSA-questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0799-minimum-distance-between-bst-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0975-range-sum-of-bst](https://github.com/shivani26-bot/DSA-questions/tree/master/0975-range-sum-of-bst) |
 ## Math
@@ -883,6 +887,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0232-implement-queue-using-stacks](https://github.com/shivani26-bot/DSA-questions/tree/master/0232-implement-queue-using-stacks) |
 | [0307-range-sum-query-mutable](https://github.com/shivani26-bot/DSA-questions/tree/master/0307-range-sum-query-mutable) |
 | [0341-flatten-nested-list-iterator](https://github.com/shivani26-bot/DSA-questions/tree/master/0341-flatten-nested-list-iterator) |
+| [0789-kth-largest-element-in-a-stream](https://github.com/shivani26-bot/DSA-questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/shivani26-bot/DSA-questions/tree/master/0937-online-stock-span) |
 | [1023-time-based-key-value-store](https://github.com/shivani26-bot/DSA-questions/tree/master/1023-time-based-key-value-store) |
 | [2104-operations-on-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2104-operations-on-tree) |
@@ -998,5 +1003,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Data Stream
 |  |
 | ------- |
+| [0789-kth-largest-element-in-a-stream](https://github.com/shivani26-bot/DSA-questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/shivani26-bot/DSA-questions/tree/master/0937-online-stock-span) |
 <!---LeetCode Topics End-->
