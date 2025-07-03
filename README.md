@@ -78,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/shivani26-bot/DSA-questions/tree/master/1129-longest-string-chain) |
 | [1130-last-stone-weight-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1130-last-stone-weight-ii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
 | [1325-path-with-maximum-probability](https://github.com/shivani26-bot/DSA-questions/tree/master/1325-path-with-maximum-probability) |
 | [1331-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1331-path-with-maximum-gold) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/shivani26-bot/DSA-questions/tree/master/1335-maximum-candies-allocated-to-k-children) |
@@ -673,6 +674,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/shivani26-bot/DSA-questions/tree/master/1129-longest-string-chain) |
 | [1130-last-stone-weight-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1130-last-stone-weight-ii) |
 | [1236-n-th-tribonacci-number](https://github.com/shivani26-bot/DSA-questions/tree/master/1236-n-th-tribonacci-number) |
+| [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
 | [1250-longest-common-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/1250-longest-common-subsequence) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/shivani26-bot/DSA-questions/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/shivani26-bot/DSA-questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
@@ -685,6 +687,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/shivani26-bot/DSA-questions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -875,6 +878,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0909-stone-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0909-stone-game) |
 | [1014-k-closest-points-to-origin](https://github.com/shivani26-bot/DSA-questions/tree/master/1014-k-closest-points-to-origin) |
 | [1236-n-th-tribonacci-number](https://github.com/shivani26-bot/DSA-questions/tree/master/1236-n-th-tribonacci-number) |
+| [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
 | [1307-ugly-number-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1307-ugly-number-iii) |
 | [2206-detonate-the-maximum-bombs](https://github.com/shivani26-bot/DSA-questions/tree/master/2206-detonate-the-maximum-bombs) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
@@ -1029,4 +1033,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0909-stone-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0909-stone-game) |
+| [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
 <!---LeetCode Topics End-->
