@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0518-coin-change-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0540-single-element-in-a-sorted-array) |
+| [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
 | [0648-replace-words](https://github.com/shivani26-bot/DSA-questions/tree/master/0648-replace-words) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0682-baseball-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0682-baseball-game) |
@@ -201,6 +202,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0368-largest-divisible-subset](https://github.com/shivani26-bot/DSA-questions/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/shivani26-bot/DSA-questions/tree/master/0455-assign-cookies) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
 | [0883-car-fleet](https://github.com/shivani26-bot/DSA-questions/tree/master/0883-car-fleet) |
 | [0917-boats-to-save-people](https://github.com/shivani26-bot/DSA-questions/tree/master/0917-boats-to-save-people) |
 | [0941-sort-array-by-parity](https://github.com/shivani26-bot/DSA-questions/tree/master/0941-sort-array-by-parity) |
@@ -226,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/shivani26-bot/DSA-questions/tree/master/0011-container-with-most-water) |
 | [0402-remove-k-digits](https://github.com/shivani26-bot/DSA-questions/tree/master/0402-remove-k-digits) |
 | [0455-assign-cookies](https://github.com/shivani26-bot/DSA-questions/tree/master/0455-assign-cookies) |
+| [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
 | [0680-valid-palindrome-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0680-valid-palindrome-ii) |
 | [0917-boats-to-save-people](https://github.com/shivani26-bot/DSA-questions/tree/master/0917-boats-to-save-people) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/shivani26-bot/DSA-questions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -243,6 +246,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0407-trapping-rain-water-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0407-trapping-rain-water-ii) |
+| [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
 | [0744-network-delay-time](https://github.com/shivani26-bot/DSA-questions/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/shivani26-bot/DSA-questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/shivani26-bot/DSA-questions/tree/master/1014-k-closest-points-to-origin) |
@@ -527,6 +531,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
 | [0648-replace-words](https://github.com/shivani26-bot/DSA-questions/tree/master/0648-replace-words) |
 | [0652-find-duplicate-subtrees](https://github.com/shivani26-bot/DSA-questions/tree/master/0652-find-duplicate-subtrees) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -614,6 +619,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
 | [1502-construct-k-palindrome-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/1502-construct-k-palindrome-strings) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
