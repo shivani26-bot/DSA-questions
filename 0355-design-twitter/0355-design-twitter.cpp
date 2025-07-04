@@ -21,13 +21,13 @@ public:
 // for(auto it=posts.begin();it!=posts.end();it++){
 //   pq.push({it.first,it.second});  
 // }
-for(auto tweet:postsList[userId]){//we get pair of {time, postId}
+for(auto &tweet:postsList[userId]){//we get pair of {time, postId}
     pq.push(tweet);//{time,userId}
 }
 
 //now find post posted by all the users who are followed by userId
 for(int followeeId: followersList[userId]){
-        for(auto tweet: postsList[followeeId]){
+        for(auto &tweet: postsList[followeeId]){
             pq.push(tweet); //{time,userId}
         }
 }
