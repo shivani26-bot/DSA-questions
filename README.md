@@ -125,6 +125,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2533-bitwise-xor-of-all-pairings](https://github.com/shivani26-bot/DSA-questions/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2551-apply-operations-to-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2551-apply-operations-to-an-array) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/shivani26-bot/DSA-questions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2636-maximum-subsequence-score](https://github.com/shivani26-bot/DSA-questions/tree/master/2636-maximum-subsequence-score) |
 | [2665-minimum-time-to-repair-cars](https://github.com/shivani26-bot/DSA-questions/tree/master/2665-minimum-time-to-repair-cars) |
 | [2685-first-completely-painted-row-or-column](https://github.com/shivani26-bot/DSA-questions/tree/master/2685-first-completely-painted-row-or-column) |
 | [2690-house-robber-iv](https://github.com/shivani26-bot/DSA-questions/tree/master/2690-house-robber-iv) |
@@ -222,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2179-most-beautiful-item-for-each-query](https://github.com/shivani26-bot/DSA-questions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/shivani26-bot/DSA-questions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/shivani26-bot/DSA-questions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2636-maximum-subsequence-score](https://github.com/shivani26-bot/DSA-questions/tree/master/2636-maximum-subsequence-score) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/shivani26-bot/DSA-questions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/shivani26-bot/DSA-questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
@@ -245,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/shivani26-bot/DSA-questions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/shivani26-bot/DSA-questions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2509-minimize-xor](https://github.com/shivani26-bot/DSA-questions/tree/master/2509-minimize-xor) |
+| [2636-maximum-subsequence-score](https://github.com/shivani26-bot/DSA-questions/tree/master/2636-maximum-subsequence-score) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/shivani26-bot/DSA-questions/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Heap (Priority Queue)
 |  |
@@ -264,6 +267,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1762-furthest-building-you-can-reach](https://github.com/shivani26-bot/DSA-questions/tree/master/1762-furthest-building-you-can-reach) |
 | [1917-maximum-average-pass-ratio](https://github.com/shivani26-bot/DSA-questions/tree/master/1917-maximum-average-pass-ratio) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
+| [2636-maximum-subsequence-score](https://github.com/shivani26-bot/DSA-questions/tree/master/2636-maximum-subsequence-score) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/shivani26-bot/DSA-questions/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2868-continuous-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/2868-continuous-subarrays) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/2914-find-the-safest-path-in-a-grid) |
