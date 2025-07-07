@@ -30,7 +30,7 @@ public:
 // processtime:4
 // index:1
 // currenttime+=processtime//10
-
+//nlogn
 
         int n=tasks.size();
         vector<array<int,3>>sortedTasks;
@@ -53,7 +53,7 @@ public:
                 curr_time=sortedTasks[idx][0];
             }
             while(idx<n && sortedTasks[idx][0]<=curr_time){
-                pq.push({sortedTasks[idx][1],sortedTasks[idx][2]});
+                pq.push({sortedTasks[idx][1],sortedTasks[idx][2]});//logn
                 idx++;
             }
             pair<int,int>curr_task=pq.top();
