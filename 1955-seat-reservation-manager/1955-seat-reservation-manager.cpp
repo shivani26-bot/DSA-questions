@@ -10,12 +10,12 @@ public:
     
     int reserve() {
         int reservedSeat=pq.top();
-        pq.pop();
+        pq.pop();//logn
         return reservedSeat;
     }
     
     void unreserve(int seatNumber) {
-        pq.push(seatNumber);
+        pq.push(seatNumber);//logn
     }
 };
 
