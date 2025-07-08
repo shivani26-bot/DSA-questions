@@ -268,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/shivani26-bot/DSA-questions/tree/master/1762-furthest-building-you-can-reach) |
 | [1917-maximum-average-pass-ratio](https://github.com/shivani26-bot/DSA-questions/tree/master/1917-maximum-average-pass-ratio) |
+| [1955-seat-reservation-manager](https://github.com/shivani26-bot/DSA-questions/tree/master/1955-seat-reservation-manager) |
 | [1962-single-threaded-cpu](https://github.com/shivani26-bot/DSA-questions/tree/master/1962-single-threaded-cpu) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2636-maximum-subsequence-score](https://github.com/shivani26-bot/DSA-questions/tree/master/2636-maximum-subsequence-score) |
@@ -933,6 +934,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0789-kth-largest-element-in-a-stream](https://github.com/shivani26-bot/DSA-questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/shivani26-bot/DSA-questions/tree/master/0937-online-stock-span) |
 | [1023-time-based-key-value-store](https://github.com/shivani26-bot/DSA-questions/tree/master/1023-time-based-key-value-store) |
+| [1955-seat-reservation-manager](https://github.com/shivani26-bot/DSA-questions/tree/master/1955-seat-reservation-manager) |
 | [2104-operations-on-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2104-operations-on-tree) |
 ## Binary Indexed Tree
 |  |
