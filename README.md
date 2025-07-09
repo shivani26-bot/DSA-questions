@@ -109,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/shivani26-bot/DSA-questions/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2104-operations-on-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2104-operations-on-tree) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/shivani26-bot/DSA-questions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/shivani26-bot/DSA-questions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/shivani26-bot/DSA-questions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
@@ -222,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1962-single-threaded-cpu](https://github.com/shivani26-bot/DSA-questions/tree/master/1962-single-threaded-cpu) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/shivani26-bot/DSA-questions/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/shivani26-bot/DSA-questions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/shivani26-bot/DSA-questions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/shivani26-bot/DSA-questions/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -272,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1955-seat-reservation-manager](https://github.com/shivani26-bot/DSA-questions/tree/master/1955-seat-reservation-manager) |
 | [1962-single-threaded-cpu](https://github.com/shivani26-bot/DSA-questions/tree/master/1962-single-threaded-cpu) |
 | [2012-process-tasks-using-servers](https://github.com/shivani26-bot/DSA-questions/tree/master/2012-process-tasks-using-servers) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2636-maximum-subsequence-score](https://github.com/shivani26-bot/DSA-questions/tree/master/2636-maximum-subsequence-score) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/shivani26-bot/DSA-questions/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -618,6 +621,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1923-sentence-similarity-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1923-sentence-similarity-iii) |
 | [2027-maximum-number-of-removable-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/2027-maximum-number-of-removable-characters) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2217-step-by-step-directions-from-a-binary-tree-node-to-another](https://github.com/shivani26-bot/DSA-questions/tree/master/2217-step-by-step-directions-from-a-binary-tree-node-to-another) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/shivani26-bot/DSA-questions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2231-find-first-palindromic-string-in-the-array) |
@@ -871,6 +875,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0772-construct-quad-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0772-construct-quad-tree) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1014-k-closest-points-to-origin](https://github.com/shivani26-bot/DSA-questions/tree/master/1014-k-closest-points-to-origin) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -1058,6 +1063,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [1014-k-closest-points-to-origin](https://github.com/shivani26-bot/DSA-questions/tree/master/1014-k-closest-points-to-origin) |
+| [2113-find-the-kth-largest-integer-in-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 ## Game Theory
 |  |
 | ------- |
