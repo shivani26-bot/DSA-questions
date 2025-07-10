@@ -79,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/shivani26-bot/DSA-questions/tree/master/1129-longest-string-chain) |
 | [1130-last-stone-weight-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1130-last-stone-weight-ii) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1184-car-pooling](https://github.com/shivani26-bot/DSA-questions/tree/master/1184-car-pooling) |
 | [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
 | [1325-path-with-maximum-probability](https://github.com/shivani26-bot/DSA-questions/tree/master/1325-path-with-maximum-probability) |
 | [1331-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1331-path-with-maximum-gold) |
@@ -217,6 +218,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1014-k-closest-points-to-origin](https://github.com/shivani26-bot/DSA-questions/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1019-squares-of-a-sorted-array) |
 | [1129-longest-string-chain](https://github.com/shivani26-bot/DSA-questions/tree/master/1129-longest-string-chain) |
+| [1184-car-pooling](https://github.com/shivani26-bot/DSA-questions/tree/master/1184-car-pooling) |
 | [1397-search-suggestions-system](https://github.com/shivani26-bot/DSA-questions/tree/master/1397-search-suggestions-system) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/shivani26-bot/DSA-questions/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivani26-bot/DSA-questions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -268,6 +270,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0789-kth-largest-element-in-a-stream](https://github.com/shivani26-bot/DSA-questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1014-k-closest-points-to-origin](https://github.com/shivani26-bot/DSA-questions/tree/master/1014-k-closest-points-to-origin) |
 | [1127-last-stone-weight](https://github.com/shivani26-bot/DSA-questions/tree/master/1127-last-stone-weight) |
+| [1184-car-pooling](https://github.com/shivani26-bot/DSA-questions/tree/master/1184-car-pooling) |
 | [1325-path-with-maximum-probability](https://github.com/shivani26-bot/DSA-questions/tree/master/1325-path-with-maximum-probability) |
 | [1397-search-suggestions-system](https://github.com/shivani26-bot/DSA-questions/tree/master/1397-search-suggestions-system) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
@@ -723,6 +726,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [1184-car-pooling](https://github.com/shivani26-bot/DSA-questions/tree/master/1184-car-pooling) |
 | [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/shivani26-bot/DSA-questions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -1045,6 +1049,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/shivani26-bot/DSA-questions/tree/master/0735-asteroid-collision) |
 | [0874-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0874-backspace-string-compare) |
 | [0983-validate-stack-sequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0983-validate-stack-sequences) |
+| [1184-car-pooling](https://github.com/shivani26-bot/DSA-questions/tree/master/1184-car-pooling) |
 | [2232-adding-spaces-to-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/shivani26-bot/DSA-questions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/shivani26-bot/DSA-questions/tree/master/2271-rearrange-array-elements-by-sign) |
