@@ -111,25 +111,8 @@ result=max(result,dp[i][j]);
          
         }
 
-        //  for (int i = 0; i < m; i++) {
-        //     for (int j = 0; j < n; j++) {
-        //         if (!i || !j || matrix[i][j] == '0') {
-        //             dp[i][j] = matrix[i][j] - '0';
-        //         } else {
-        //             dp[i][j] = min(dp[i - 1][j - 1], min(dp[i - 1][j], dp[i][j - 1])) + 1;
-        //         }
-        //     result = max(dp[i][j], result);
-        //     }
-        // }
-        // int sum=0;
-        // for(int i=0;i<n;i++){
-        //     for(int j=0;j<m;j++){
-        //         cout<<dp[i][j]<<" ";
-        //         cout<<endl;
-        //         sum= max(sum,dp[i][j]);
-        //     }
-        // }
-        // return sum*sum;
+ 
+        
         return result*result;
  }
       
