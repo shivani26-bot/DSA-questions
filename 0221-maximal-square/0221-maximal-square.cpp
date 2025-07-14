@@ -99,6 +99,7 @@ public:
    
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
+                //handles when i=0 or j=0 or matrix[i][j]='0'
 if(!i || !j|| matrix[i][j]=='0') dp[i][j]=matrix[i][j]-'0';
 else dp[i][j]=1+ min(dp[i - 1][j - 1], min(dp[i - 1][j], dp[i][j - 1])) ;
 
