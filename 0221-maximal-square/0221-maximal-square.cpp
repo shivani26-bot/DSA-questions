@@ -91,10 +91,7 @@ public:
 
 
  int maximalSquare(vector<vector<char>>& matrix) {
-            if (matrix.empty()) {
-            return 0;
-        }
-
+    
      int m=matrix.size();
         int n=matrix[0].size();
         vector<vector<int>>dp(m, vector<int>(n,0));
