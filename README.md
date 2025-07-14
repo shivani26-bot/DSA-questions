@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/shivani26-bot/DSA-questions/tree/master/0198-house-robber) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0221-maximal-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0221-maximal-square) |
 | [0283-move-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0283-move-zeroes) |
 | [0307-range-sum-query-mutable](https://github.com/shivani26-bot/DSA-questions/tree/master/0307-range-sum-query-mutable) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/shivani26-bot/DSA-questions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -698,6 +699,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0096-unique-binary-search-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0096-unique-binary-search-trees) |
 | [0097-interleaving-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0097-interleaving-string) |
 | [0198-house-robber](https://github.com/shivani26-bot/DSA-questions/tree/master/0198-house-robber) |
+| [0221-maximal-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0221-maximal-square) |
 | [0279-perfect-squares](https://github.com/shivani26-bot/DSA-questions/tree/master/0279-perfect-squares) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/shivani26-bot/DSA-questions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0337-house-robber-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/0337-house-robber-iii) |
@@ -749,6 +751,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0064-minimum-path-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/0074-search-a-2d-matrix) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
+| [0221-maximal-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0221-maximal-square) |
 | [0407-trapping-rain-water-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0407-trapping-rain-water-ii) |
 | [0463-island-perimeter](https://github.com/shivani26-bot/DSA-questions/tree/master/0463-island-perimeter) |
 | [0772-construct-quad-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0772-construct-quad-tree) |
