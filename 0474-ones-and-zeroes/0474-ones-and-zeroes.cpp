@@ -78,19 +78,37 @@ public:
     // }
 
 
-int solve(int idx,vector<string>& strs, int m, int n,unordered_map<string,pair<int,int>>&mp,vector<vector<vector<int>>>&dp){
-if(idx>=strs.size()) return 0;
-if(dp[idx][m][n]!=-1) return dp[idx][m][n];
-int take=0;
-if(mp[strs[idx]].first<=m && mp[strs[idx]].second<=n)
-    take=1+solve(idx+1,strs,m-mp[strs[idx]].first,n-mp[strs[idx]].second,mp,dp);
-    int notTake=solve(idx+1,strs,m,n,mp,dp);
-    return dp[idx][m][n]=max(take,notTake);
-}
+// int solve(int idx,vector<string>& strs, int m, int n,unordered_map<string,pair<int,int>>&mp,vector<vector<vector<int>>>&dp){
+// if(idx>=strs.size()) return 0;
+// if(dp[idx][m][n]!=-1) return dp[idx][m][n];
+// int take=0;
+// if(mp[strs[idx]].first<=m && mp[strs[idx]].second<=n)
+//     take=1+solve(idx+1,strs,m-mp[strs[idx]].first,n-mp[strs[idx]].second,mp,dp);
+//     int notTake=solve(idx+1,strs,m,n,mp,dp);
+//     return dp[idx][m][n]=max(take,notTake);
+// }
+//     int findMaxForm(vector<string>& strs, int m, int n) {
+//        unordered_map<string,pair<int,int>>mp;
+//  int sz=strs.size();
+// vector<vector<vector<int>>>dp(sz+1,vector<vector<int>>(m+1,vector<int>(n+1,-1)));
+//        for(auto &str: strs){
+//         int count0=0;
+//         int count1=0;
+//         for(auto &ch: str){
+//             if(ch=='0') count0++;
+//             else count1++;
+//         }
+//         mp[str]={count0,count1};
+//        }
+//        return solve(0,strs,m,n,mp,dp);
+//     }
+
+
+
     int findMaxForm(vector<string>& strs, int m, int n) {
        unordered_map<string,pair<int,int>>mp;
  int sz=strs.size();
-vector<vector<vector<int>>>dp(sz+1,vector<vector<int>>(m+1,vector<int>(n+1,-1)));
+vector<vector<vector<int>>>dp(sz+1,vector<vector<int>>(m+1,vector<int>(n+1,0)));
        for(auto &str: strs){
         int count0=0;
         int count1=0;
@@ -100,6 +118,21 @@ vector<vector<vector<int>>>dp(sz+1,vector<vector<int>>(m+1,vector<int>(n+1,-1)))
         }
         mp[str]={count0,count1};
        }
-       return solve(0,strs,m,n,mp,dp);
+       for(int idx=sz-1;idx>=0;idx--){
+        for(int i=0;i<=m;i++){
+            for(int j=0;j<=n;j++){
+int take=0;
+if(mp[strs[idx]].first<=i && mp[strs[idx]].second<=j){
+    int newM=i-mp[strs[idx]].first;
+    int newN=j-mp[strs[idx]].second;
+    take=1+dp[idx+1][newM][newN];
+    }
+    int notTake=dp[idx+1][i][j];
+  dp[idx][i][j]=max(take,notTake);
+            }
+        }
+        
+       }
+       return dp[0][m][n];
     }
 };
