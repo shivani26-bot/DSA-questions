@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0455-assign-cookies](https://github.com/shivani26-bot/DSA-questions/tree/master/0455-assign-cookies) |
 | [0456-132-pattern](https://github.com/shivani26-bot/DSA-questions/tree/master/0456-132-pattern) |
 | [0463-island-perimeter](https://github.com/shivani26-bot/DSA-questions/tree/master/0463-island-perimeter) |
+| [0474-ones-and-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0518-coin-change-ii) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -605,6 +606,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0394-decode-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/shivani26-bot/DSA-questions/tree/master/0399-evaluate-division) |
 | [0402-remove-k-digits](https://github.com/shivani26-bot/DSA-questions/tree/master/0402-remove-k-digits) |
+| [0474-ones-and-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0474-ones-and-zeroes) |
 | [0516-longest-palindromic-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0516-longest-palindromic-subsequence) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0606-construct-string-from-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0606-construct-string-from-binary-tree) |
@@ -706,6 +708,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/0337-house-robber-iii) |
 | [0343-integer-break](https://github.com/shivani26-bot/DSA-questions/tree/master/0343-integer-break) |
 | [0368-largest-divisible-subset](https://github.com/shivani26-bot/DSA-questions/tree/master/0368-largest-divisible-subset) |
+| [0474-ones-and-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0518-coin-change-ii) |
