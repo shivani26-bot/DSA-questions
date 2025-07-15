@@ -26,12 +26,12 @@ public:
 
 
 int solve(int currA, int clipA, int n){
-    if(currA==n) return 0;
+    if(currA==n) return 0;//no operation required further
     if(currA>n) return 100000; //invalid Case
     // when we copyAll then how many A's will come in the clip board other than already existing
-    int copyAllPaste= 2+solve(currA+currA,currA,n);
+    int copyAllPaste= 2+solve(currA+currA,currA,n);//2operations
     // here we are not copying anything hence clipA remains same 
-int paste= 1+solve(currA+clipA,clipA,n);
+int paste= 1+solve(currA+clipA,clipA,n);//one operation
 
 return min(copyAllPaste,paste);
 }
