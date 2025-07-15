@@ -713,6 +713,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0516-longest-palindromic-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0518-coin-change-ii) |
 | [0647-palindromic-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/0647-palindromic-substrings) |
+| [0650-2-keys-keyboard](https://github.com/shivani26-bot/DSA-questions/tree/master/0650-2-keys-keyboard) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
@@ -931,6 +932,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0367-valid-perfect-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0367-valid-perfect-square) |
 | [0368-largest-divisible-subset](https://github.com/shivani26-bot/DSA-questions/tree/master/0368-largest-divisible-subset) |
 | [0441-arranging-coins](https://github.com/shivani26-bot/DSA-questions/tree/master/0441-arranging-coins) |
+| [0650-2-keys-keyboard](https://github.com/shivani26-bot/DSA-questions/tree/master/0650-2-keys-keyboard) |
 | [0795-k-th-symbol-in-grammar](https://github.com/shivani26-bot/DSA-questions/tree/master/0795-k-th-symbol-in-grammar) |
 | [0909-stone-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0909-stone-game) |
 | [1014-k-closest-points-to-origin](https://github.com/shivani26-bot/DSA-questions/tree/master/1014-k-closest-points-to-origin) |
