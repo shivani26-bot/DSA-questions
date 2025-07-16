@@ -598,6 +598,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/shivani26-bot/DSA-questions/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0071-simplify-path](https://github.com/shivani26-bot/DSA-questions/tree/master/0071-simplify-path) |
+| [0072-edit-distance](https://github.com/shivani26-bot/DSA-questions/tree/master/0072-edit-distance) |
 | [0097-interleaving-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/shivani26-bot/DSA-questions/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0208-implement-trie-prefix-tree) |
@@ -699,6 +700,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/shivani26-bot/DSA-questions/tree/master/0042-trapping-rain-water) |
 | [0063-unique-paths-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0064-minimum-path-sum) |
+| [0072-edit-distance](https://github.com/shivani26-bot/DSA-questions/tree/master/0072-edit-distance) |
 | [0095-unique-binary-search-trees-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0096-unique-binary-search-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0096-unique-binary-search-trees) |
 | [0097-interleaving-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0097-interleaving-string) |
