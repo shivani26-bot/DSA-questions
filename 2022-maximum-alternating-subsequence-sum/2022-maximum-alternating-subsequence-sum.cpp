@@ -1,6 +1,8 @@
 class Solution {
 public:
 int n;
+
+//o(2^n)
 // long long solve(int idx , bool isEven,vector<int>& nums){
 // if(idx>=n) return 0;
 
@@ -27,7 +29,7 @@ int n;
 //     }
 
 
-
+//o(2*n) only these many states will be visited
 long long solve(int idx , bool isEven,vector<int>& nums,vector<vector<long long>>&dp){
 if(idx>=n) return 0;
 if(dp[idx][isEven]!=-1) return dp[idx][isEven];
