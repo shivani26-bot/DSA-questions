@@ -716,6 +716,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
 | [0516-longest-palindromic-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0518-coin-change-ii) |
+| [0576-out-of-boundary-paths](https://github.com/shivani26-bot/DSA-questions/tree/master/0576-out-of-boundary-paths) |
 | [0647-palindromic-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/0647-palindromic-substrings) |
 | [0650-2-keys-keyboard](https://github.com/shivani26-bot/DSA-questions/tree/master/0650-2-keys-keyboard) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0673-number-of-longest-increasing-subsequence) |
