@@ -73,12 +73,14 @@ int n;
         n=s.length();
         vector<int>dp(26,0);
 int result=0;
+//o(n)
         for(int i=0;i<n;i++){
             int curr=s[i]-'a'; //gives idx for curr element in dp of size 27
             int left=max(0,curr-k);
             int right=min(curr+k,25);
 
             int longest=0;
+            //in worst case left=0, right=25 constant
             for(int j=left;j<=right;j++){
                 longest=max(longest, dp[j]);
             }
