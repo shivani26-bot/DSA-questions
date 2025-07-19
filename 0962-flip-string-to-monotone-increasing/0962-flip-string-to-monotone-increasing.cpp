@@ -91,6 +91,7 @@ public:
 int n;
     int minFlipsMonoIncr(string s) {
         n=s.length();
+        // 010110
 // if current ele is 1 then increase the count of one
 // if current ele is 0 then 
 // either we can flip the current ele or
