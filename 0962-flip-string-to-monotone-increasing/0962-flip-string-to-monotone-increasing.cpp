@@ -1,6 +1,6 @@
 class Solution {
 public:
-int n;
+// int n;
 // maintain currIdx, prevElement
 // if(s[currIdx]=='0'){
 //     2 options
@@ -58,34 +58,53 @@ int n;
 //         n=s.length();
 //         return solve(0,0,s);
 //     }
-int solve(int currIdx,int prev,string &s,vector<vector<int>>&dp){
+// int solve(int currIdx,int prev,string &s,vector<vector<int>>&dp){
 
-if(currIdx>=n) return 0;
-if(dp[currIdx][prev]!=-1) return dp[currIdx][prev];
-int flip=INT_MAX;int notflip=INT_MAX;
-if(s[currIdx]=='0'){
-    if(prev==0){
-        flip=1+solve(currIdx+1,1,s,dp);
-        notflip=solve(currIdx+1,0,s,dp);
-    }
-    else if(prev==1){
-        flip=1+solve(currIdx+1,1,s,dp);
-    }
-}
-else{//currIdx=='1'
-    if(prev==0){
-          flip=1+solve(currIdx+1,0,s,dp);
-        notflip=solve(currIdx+1,1,s,dp);
-    }
-    else if(prev==1){
-         notflip=solve(currIdx+1,1,s,dp);
-    }
-}
-    return dp[currIdx][prev]=min(flip,notflip);
-}
+// if(currIdx>=n) return 0;
+// if(dp[currIdx][prev]!=-1) return dp[currIdx][prev];
+// int flip=INT_MAX;int notflip=INT_MAX;
+// if(s[currIdx]=='0'){
+//     if(prev==0){
+//         flip=1+solve(currIdx+1,1,s,dp);
+//         notflip=solve(currIdx+1,0,s,dp);
+//     }
+//     else if(prev==1){
+//         flip=1+solve(currIdx+1,1,s,dp);
+//     }
+// }
+// else{//currIdx=='1'
+//     if(prev==0){
+//           flip=1+solve(currIdx+1,0,s,dp);
+//         notflip=solve(currIdx+1,1,s,dp);
+//     }
+//     else if(prev==1){
+//          notflip=solve(currIdx+1,1,s,dp);
+//     }
+// }
+//     return dp[currIdx][prev]=min(flip,notflip);
+// }
+//     int minFlipsMonoIncr(string s) {
+//         n=s.length();
+//         vector<vector<int>>dp(n+1,vector<int>(2,-1));
+//         return solve(0,0,s,dp);
+//     }
+int n;
     int minFlipsMonoIncr(string s) {
         n=s.length();
-        vector<vector<int>>dp(n+1,vector<int>(2,-1));
-        return solve(0,0,s,dp);
+// if current ele is 1 then increase the count of one
+// if current ele is 0 then 
+// either we can flip the current ele or
+// we can flip the number of ones encountered till now, 
+int flips=0,count_ones=0; 
+for(int i=0;i<n;i++){
+    if(s[i]=='1'){
+        count_ones++;
+    }
+    else{
+        flips=min(flips+1,count_ones);
+    }
+}
+return flips;
+      
     }
 };
