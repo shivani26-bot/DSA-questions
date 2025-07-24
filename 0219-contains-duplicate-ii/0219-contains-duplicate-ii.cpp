@@ -5,6 +5,7 @@ public:
 int n=nums.size();
         int i=0,j=0;
         unordered_map<int,int>mp;//occurence of each number in a window
+        // the adjustment k = k + 1 when k is less than the size of the nums array ensures that the sliding window size is at least k.
 if(k<n) k=k+1;
 else k=n;
         while(j<n){
