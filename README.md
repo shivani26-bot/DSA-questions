@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0198-house-robber](https://github.com/shivani26-bot/DSA-questions/tree/master/0198-house-robber) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0219-contains-duplicate-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0219-contains-duplicate-ii) |
 | [0221-maximal-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0221-maximal-square) |
 | [0283-move-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0283-move-zeroes) |
 | [0307-range-sum-query-mutable](https://github.com/shivani26-bot/DSA-questions/tree/master/0307-range-sum-query-mutable) |
@@ -202,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0219-contains-duplicate-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0219-contains-duplicate-ii) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/shivani26-bot/DSA-questions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2868-continuous-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/shivani26-bot/DSA-questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
@@ -566,6 +568,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0208-implement-trie-prefix-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0208-implement-trie-prefix-tree) |
+| [0219-contains-duplicate-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0219-contains-duplicate-ii) |
 | [0355-design-twitter](https://github.com/shivani26-bot/DSA-questions/tree/master/0355-design-twitter) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
