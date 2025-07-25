@@ -17,6 +17,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0063-unique-paths-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0078-subsets) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0088-merge-sorted-array) |
@@ -804,6 +805,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/shivani26-bot/DSA-questions/tree/master/0022-generate-parentheses) |
+| [0078-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0078-subsets) |
 | [0095-unique-binary-search-trees-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
@@ -888,6 +890,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0078-subsets) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0795-k-th-symbol-in-grammar](https://github.com/shivani26-bot/DSA-questions/tree/master/0795-k-th-symbol-in-grammar) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
