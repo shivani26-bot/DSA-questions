@@ -43,7 +43,7 @@ public:
         vector<vector<int>>result;
         int n=nums.size();
         for(int i=0;i< (1<<n);i++){
-     vector<int>subset;
+            vector<int>subset;
             for(int j=0;j<n;j++){
                 int mask=1<<j;
                 if(i&(mask)) subset.push_back(nums[j]);
@@ -58,20 +58,20 @@ public:
 
 // class Solution {
 // public:
-
+// Generates subsets in lexicographic order (e.g., if input is sorted).
 // void printsubset(vector<int>& nums, int n, int index, vector<int>& temp, vector<vector<int>>& result) {
-//     // if (i == n) {
-//     //     result.push_back(temp);
-//     //     return;
-//     // }
+    // // if (i == n) {
+    // //     result.push_back(temp);
+    // //     return;
+    // // }
 
-//         result.push_back(temp);
+    //     result.push_back(temp);
        
-//     for(int i=index;i<nums.size();i++){
-//          temp.push_back(nums[i]);
-//           printsubset(nums, n, i + 1, temp, result);
-//            temp.pop_back();
-//     }
+    // for(int i=index;i<nums.size();i++){
+    //      temp.push_back(nums[i]);
+    //       printsubset(nums, n, i + 1, temp, result);
+    //        temp.pop_back();
+    // }
    
 // }
 
