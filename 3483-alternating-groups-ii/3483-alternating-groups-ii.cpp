@@ -11,9 +11,9 @@ public:
             if(j-i+1<k) j++;
             else if(j-i+1==k){
                if(badPairs==0) alternateGroup++;
-              if(colors[i%n]==colors[(i+1)%n]) badPairs--;
+            //   if(colors[i%n]==colors[(i+1)%n]) badPairs--;
                 i++;
-                //  if(colors[i%n]==colors[(i-1)%n]) badPairs--;
+                 if(colors[i%n]==colors[(i-1)%n]) badPairs--;
                 j++;
             }
         }
