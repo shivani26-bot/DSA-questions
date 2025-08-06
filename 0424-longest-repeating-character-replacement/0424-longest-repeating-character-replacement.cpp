@@ -12,6 +12,7 @@ int maxRepeatCharInWin=0;
             maxRepeatCharInWin=max(mp[s[j]],maxRepeatCharInWin);
             if(abs(currLen-maxRepeatCharInWin)>k){
                 mp[s[i]]--;
+                if(mp[s[i]]==0) mp.erase(s[i]);
                 i++;
             }
             currLen=j-i+1;
