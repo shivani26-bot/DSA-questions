@@ -1,6 +1,7 @@
 class Solution {
 public:
 int n;
+//o(n*n!)
 void solve(vector<int>& nums,vector<vector<int>>&result,int idx){
 if(idx==n){
     result.push_back(nums);
