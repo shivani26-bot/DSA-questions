@@ -831,6 +831,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0022-generate-parentheses](https://github.com/shivani26-bot/DSA-questions/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0039-combination-sum) |
+| [0077-combinations](https://github.com/shivani26-bot/DSA-questions/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0078-subsets) |
 | [0095-unique-binary-search-trees-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
