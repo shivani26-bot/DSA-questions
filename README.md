@@ -223,6 +223,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivani26-bot/DSA-questions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/shivani26-bot/DSA-questions/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/shivani26-bot/DSA-questions/tree/master/1966-frequency-of-the-most-frequent-element) |
+| [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/shivani26-bot/DSA-questions/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/shivani26-bot/DSA-questions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/shivani26-bot/DSA-questions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2868-continuous-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/2868-continuous-subarrays) |
@@ -677,6 +678,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1894-merge-strings-alternately](https://github.com/shivani26-bot/DSA-questions/tree/master/1894-merge-strings-alternately) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/shivani26-bot/DSA-questions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1923-sentence-similarity-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1923-sentence-similarity-iii) |
+| [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/shivani26-bot/DSA-questions/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2027-maximum-number-of-removable-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/2027-maximum-number-of-removable-characters) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
@@ -781,6 +783,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/shivani26-bot/DSA-questions/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/shivani26-bot/DSA-questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1748-best-team-with-no-conflicts](https://github.com/shivani26-bot/DSA-questions/tree/master/1748-best-team-with-no-conflicts) |
+| [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/shivani26-bot/DSA-questions/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/2022-maximum-alternating-subsequence-sum) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/shivani26-bot/DSA-questions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
