@@ -21,18 +21,16 @@ public:
         int currSum=0;
         while(j<n){
             currSum+=nums[j];
-                     if(currSum>targetSum){
+            if(currSum>targetSum){
                 while(i<=j && currSum>targetSum){
                     currSum-=nums[i];
                     i++;
                 } 
-       
             }
-      if(currSum==targetSum){
+            if(currSum==targetSum){
                 maxWindow=max(maxWindow, j-i+1);
-            
-            }
-             j++; 
+                }
+            j++; 
         }
         if(maxWindow==INT_MIN){
             return -1;
