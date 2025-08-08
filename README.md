@@ -113,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1748-best-team-with-no-conflicts](https://github.com/shivani26-bot/DSA-questions/tree/master/1748-best-team-with-no-conflicts) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/shivani26-bot/DSA-questions/tree/master/1762-furthest-building-you-can-reach) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/shivani26-bot/DSA-questions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/shivani26-bot/DSA-questions/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/shivani26-bot/DSA-questions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/shivani26-bot/DSA-questions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -198,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/shivani26-bot/DSA-questions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivani26-bot/DSA-questions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/shivani26-bot/DSA-questions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/shivani26-bot/DSA-questions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/shivani26-bot/DSA-questions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2027-maximum-number-of-removable-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/2027-maximum-number-of-removable-characters) |
@@ -228,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1138-grumpy-bookstore-owner](https://github.com/shivani26-bot/DSA-questions/tree/master/1138-grumpy-bookstore-owner) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivani26-bot/DSA-questions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/shivani26-bot/DSA-questions/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/shivani26-bot/DSA-questions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/shivani26-bot/DSA-questions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/shivani26-bot/DSA-questions/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/shivani26-bot/DSA-questions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
@@ -620,6 +623,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1502-construct-k-palindrome-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/1502-construct-k-palindrome-strings) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/shivani26-bot/DSA-questions/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/shivani26-bot/DSA-questions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2104-operations-on-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2104-operations-on-tree) |
 | [2444-longest-ideal-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/2444-longest-ideal-subsequence) |
@@ -807,6 +811,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/shivani26-bot/DSA-questions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
+| [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/shivani26-bot/DSA-questions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/shivani26-bot/DSA-questions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1966-frequency-of-the-most-frequent-element](https://github.com/shivani26-bot/DSA-questions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/2059-unique-length-3-palindromic-subsequences) |
