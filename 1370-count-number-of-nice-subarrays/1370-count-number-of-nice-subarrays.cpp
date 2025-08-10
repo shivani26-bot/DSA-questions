@@ -14,9 +14,10 @@ if(odd==k){
     }
 }
 countSubArray+=count;
-j++;
-            
+j++;           
         }
         return countSubArray;
     }
+
+
 };
