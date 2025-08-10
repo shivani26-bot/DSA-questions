@@ -73,6 +73,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0943-sum-of-subarray-minimums](https://github.com/shivani26-bot/DSA-questions/tree/master/0943-sum-of-subarray-minimums) |
 | [0945-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0945-snakes-and-ladders) |
 | [0952-word-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0952-word-subsets) |
+| [0966-binary-subarrays-with-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0967-minimum-falling-path-sum) |
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
 | [0983-validate-stack-sequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0983-validate-stack-sequences) |
@@ -227,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0567-permutation-in-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/shivani26-bot/DSA-questions/tree/master/0658-find-k-closest-elements) |
 | [0940-fruit-into-baskets](https://github.com/shivani26-bot/DSA-questions/tree/master/0940-fruit-into-baskets) |
+| [0966-binary-subarrays-with-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0966-binary-subarrays-with-sum) |
 | [1138-grumpy-bookstore-owner](https://github.com/shivani26-bot/DSA-questions/tree/master/1138-grumpy-bookstore-owner) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivani26-bot/DSA-questions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -619,6 +621,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0940-fruit-into-baskets](https://github.com/shivani26-bot/DSA-questions/tree/master/0940-fruit-into-baskets) |
 | [0952-word-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0952-word-subsets) |
+| [0966-binary-subarrays-with-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0966-binary-subarrays-with-sum) |
 | [1023-time-based-key-value-store](https://github.com/shivani26-bot/DSA-questions/tree/master/1023-time-based-key-value-store) |
 | [1129-longest-string-chain](https://github.com/shivani26-bot/DSA-questions/tree/master/1129-longest-string-chain) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -810,6 +813,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0209-minimum-size-subarray-sum) |
+| [0966-binary-subarrays-with-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0966-binary-subarrays-with-sum) |
 | [1184-car-pooling](https://github.com/shivani26-bot/DSA-questions/tree/master/1184-car-pooling) |
 | [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/1537-maximum-score-after-splitting-a-string) |
