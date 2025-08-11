@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1014-k-closest-points-to-origin](https://github.com/shivani26-bot/DSA-questions/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1019-squares-of-a-sorted-array) |
 | [1025-minimum-cost-for-tickets](https://github.com/shivani26-bot/DSA-questions/tree/master/1025-minimum-cost-for-tickets) |
+| [1046-max-consecutive-ones-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/shivani26-bot/DSA-questions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1063-best-sightseeing-pair](https://github.com/shivani26-bot/DSA-questions/tree/master/1063-best-sightseeing-pair) |
 | [1073-number-of-enclaves](https://github.com/shivani26-bot/DSA-questions/tree/master/1073-number-of-enclaves) |
@@ -195,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0713-subarray-product-less-than-k](https://github.com/shivani26-bot/DSA-questions/tree/master/0713-subarray-product-less-than-k) |
 | [0907-koko-eating-bananas](https://github.com/shivani26-bot/DSA-questions/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/shivani26-bot/DSA-questions/tree/master/1023-time-based-key-value-store) |
+| [1046-max-consecutive-ones-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/shivani26-bot/DSA-questions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1307-ugly-number-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1307-ugly-number-iii) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/shivani26-bot/DSA-questions/tree/master/1335-maximum-candies-allocated-to-k-children) |
@@ -233,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0713-subarray-product-less-than-k](https://github.com/shivani26-bot/DSA-questions/tree/master/0713-subarray-product-less-than-k) |
 | [0940-fruit-into-baskets](https://github.com/shivani26-bot/DSA-questions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0966-binary-subarrays-with-sum) |
+| [1046-max-consecutive-ones-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1138-grumpy-bookstore-owner](https://github.com/shivani26-bot/DSA-questions/tree/master/1138-grumpy-bookstore-owner) |
 | [1370-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivani26-bot/DSA-questions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
@@ -821,6 +824,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0209-minimum-size-subarray-sum) |
 | [0713-subarray-product-less-than-k](https://github.com/shivani26-bot/DSA-questions/tree/master/0713-subarray-product-less-than-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0966-binary-subarrays-with-sum) |
+| [1046-max-consecutive-ones-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1184-car-pooling](https://github.com/shivani26-bot/DSA-questions/tree/master/1184-car-pooling) |
 | [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1370-count-number-of-nice-subarrays) |
