@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0088-merge-sorted-array) |
+| [0090-subsets-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -876,6 +877,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/shivani26-bot/DSA-questions/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/shivani26-bot/DSA-questions/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0078-subsets) |
+| [0090-subsets-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0090-subsets-ii) |
 | [0095-unique-binary-search-trees-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
@@ -961,6 +963,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0078-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0078-subsets) |
+| [0090-subsets-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0090-subsets-ii) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0795-k-th-symbol-in-grammar](https://github.com/shivani26-bot/DSA-questions/tree/master/0795-k-th-symbol-in-grammar) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
