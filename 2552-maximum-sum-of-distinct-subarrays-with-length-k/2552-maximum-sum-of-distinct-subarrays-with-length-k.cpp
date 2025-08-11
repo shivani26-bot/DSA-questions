@@ -5,20 +5,18 @@ public:
         // 3
         int n=nums.size();
         int i=0,j=0;
-        int maxAns=0;
-        int sum=0;
-        unordered_set<int>st;
+        long long maxAns=0;
+        long long sum=0;
+        unordered_map<char,int>mp;
         while(j<n){
-            
-            st.insert(nums[j]);
-            
             sum+=nums[j];
-          
+            mp[nums[j]]++;          
             if(j-i+1<k) j++;
             else {
-                if(st.size()==k)
+                if(mp.size()==k)
                 maxAns=max(maxAns,sum);
-                  st.erase(nums[i]);
+                mp[nums[i]]--;
+                  if(mp[nums[i]]==0) mp.erase(nums[i]);
                 sum-=nums[i];
               
                 i++;
