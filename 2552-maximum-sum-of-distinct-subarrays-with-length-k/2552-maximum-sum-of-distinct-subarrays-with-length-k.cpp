@@ -7,7 +7,7 @@ public:
         int i=0,j=0;
         long long maxAns=0;
         long long sum=0;
-        unordered_map<char,int>mp;
+        unordered_map<int,int>mp;
         while(j<n){
             sum+=nums[j];
             mp[nums[j]]++;          
