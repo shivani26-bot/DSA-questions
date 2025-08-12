@@ -171,6 +171,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/shivani26-bot/DSA-questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [2914-find-the-safest-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/2914-find-the-safest-path-in-a-grid) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/shivani26-bot/DSA-questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/shivani26-bot/DSA-questions/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/shivani26-bot/DSA-questions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3376-longest-common-suffix-queries](https://github.com/shivani26-bot/DSA-questions/tree/master/3376-longest-common-suffix-queries) |
@@ -253,6 +254,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shivani26-bot/DSA-questions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2868-continuous-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/shivani26-bot/DSA-questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
+| [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/shivani26-bot/DSA-questions/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3483-alternating-groups-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3483-alternating-groups-ii) |
