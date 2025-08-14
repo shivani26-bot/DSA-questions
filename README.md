@@ -253,6 +253,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/shivani26-bot/DSA-questions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/shivani26-bot/DSA-questions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shivani26-bot/DSA-questions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/shivani26-bot/DSA-questions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2868-continuous-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/2868-continuous-subarrays) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/shivani26-bot/DSA-questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/shivani26-bot/DSA-questions/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
@@ -654,6 +655,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2444-longest-ideal-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/2444-longest-ideal-subsequence) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shivani26-bot/DSA-questions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/shivani26-bot/DSA-questions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/shivani26-bot/DSA-questions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2685-first-completely-painted-row-or-column](https://github.com/shivani26-bot/DSA-questions/tree/master/2685-first-completely-painted-row-or-column) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/shivani26-bot/DSA-questions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
@@ -732,6 +734,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2465-shifting-letters-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/2465-shifting-letters-ii) |
 | [2470-removing-stars-from-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/2470-removing-stars-from-a-string) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/2494-sum-of-prefix-scores-of-strings) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/shivani26-bot/DSA-questions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/shivani26-bot/DSA-questions/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
