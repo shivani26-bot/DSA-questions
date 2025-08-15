@@ -48,12 +48,18 @@ public:
 // return result;
 
 // we can also use sliding window such that nus[j]<=nums[i]+2k
+// If nums[i] = 5 and k = 2:
+// Allowed range = [5, 9]
+// Any nums[j] ≤ 9 can still be adjusted to match nums[i]’s adjusted value.
 int n=nums.size();
 sort(nums.begin(),nums.end());
 int i=0,j=0;
 int maxBeauty=0;
 while(i<n){
-
+// The condition ensures all numbers in the current window can be made equal by adjusting each by at most k.
+// k as the maximum amount each number can be adjusted (either up or down).
+// If you can increase a number by at most k and also decrease another number by at most k,
+// Then the total possible difference you can “cover” between two numbers is 2*k.
 while(j<n && nums[j]<=nums[i]+2*k) j++;
 maxBeauty=max(maxBeauty,j-i);
 i++;
