@@ -689,6 +689,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/shivani26-bot/DSA-questions/tree/master/0079-word-search) |
 | [0097-interleaving-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/shivani26-bot/DSA-questions/tree/master/0125-valid-palindrome) |
+| [0131-palindrome-partitioning](https://github.com/shivani26-bot/DSA-questions/tree/master/0131-palindrome-partitioning) |
 | [0208-implement-trie-prefix-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/shivani26-bot/DSA-questions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
@@ -805,6 +806,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0096-unique-binary-search-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0096-unique-binary-search-trees) |
 | [0097-interleaving-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0097-interleaving-string) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/shivani26-bot/DSA-questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0131-palindrome-partitioning](https://github.com/shivani26-bot/DSA-questions/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/shivani26-bot/DSA-questions/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0221-maximal-square) |
 | [0279-perfect-squares](https://github.com/shivani26-bot/DSA-questions/tree/master/0279-perfect-squares) |
@@ -907,6 +909,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/shivani26-bot/DSA-questions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0090-subsets-ii) |
 | [0095-unique-binary-search-trees-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0095-unique-binary-search-trees-ii) |
+| [0131-palindrome-partitioning](https://github.com/shivani26-bot/DSA-questions/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
 | [1160-letter-tile-possibilities](https://github.com/shivani26-bot/DSA-questions/tree/master/1160-letter-tile-possibilities) |
