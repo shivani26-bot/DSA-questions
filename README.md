@@ -687,6 +687,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0071-simplify-path](https://github.com/shivani26-bot/DSA-questions/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/shivani26-bot/DSA-questions/tree/master/0072-edit-distance) |
 | [0079-word-search](https://github.com/shivani26-bot/DSA-questions/tree/master/0079-word-search) |
+| [0093-restore-ip-addresses](https://github.com/shivani26-bot/DSA-questions/tree/master/0093-restore-ip-addresses) |
 | [0097-interleaving-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/shivani26-bot/DSA-questions/tree/master/0125-valid-palindrome) |
 | [0131-palindrome-partitioning](https://github.com/shivani26-bot/DSA-questions/tree/master/0131-palindrome-partitioning) |
@@ -908,6 +909,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0078-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/shivani26-bot/DSA-questions/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0090-subsets-ii) |
+| [0093-restore-ip-addresses](https://github.com/shivani26-bot/DSA-questions/tree/master/0093-restore-ip-addresses) |
 | [0095-unique-binary-search-trees-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0095-unique-binary-search-trees-ii) |
 | [0131-palindrome-partitioning](https://github.com/shivani26-bot/DSA-questions/tree/master/0131-palindrome-partitioning) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
