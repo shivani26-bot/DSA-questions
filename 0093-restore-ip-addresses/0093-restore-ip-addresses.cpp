@@ -17,6 +17,7 @@ if(idx==n && countDots==4){
 if(countDots>4) return;
     for(int j=idx;j<min(idx+3,n);j++){
         string subs=s.substr(idx,j-idx+1);
+        // If the substring has a length greater than 1, the first character should not be '0' (to avoid leading zeros).
         if(isValid(subs) && (idx==j || s[idx]!='0')){
             solve(s,j+1,countDots+1,temp+subs+".");
         }
