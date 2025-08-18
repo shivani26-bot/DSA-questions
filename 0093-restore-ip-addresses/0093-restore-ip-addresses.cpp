@@ -18,6 +18,23 @@ if(countDots>4) return;
     for(int j=idx;j<min(idx+3,n);j++){
         string subs=s.substr(idx,j-idx+1);
         // If the substring has a length greater than 1, the first character should not be '0' (to avoid leading zeros).
+//         When idx == j → substring length = 1. ✅ Always valid, even "0".
+// When idx < j → substring length > 1. Then s[idx] != '0' ensures it doesn’t start with '0'.
+// Let s = "010", and suppose idx = 0.
+// Case 1: j = 0
+// subs = "0" (length 1).
+// Condition: (idx==j) → true. ✅ Allowed.
+// So single "0" is valid.
+
+// Case 2: j = 1
+// subs = "01" (length 2).
+// Condition: idx==j → false.
+// Then s[idx] != '0' → but s[0] = '0', so false. ❌ Not allowed.
+// So "01" is rejected (leading zero).
+
+// Case 3: j = 2
+// subs = "010" (length 3).
+// Same check → starts with '0'. ❌ Not allowed.
         if(isValid(subs) && (idx==j || s[idx]!='0')){
             solve(s,j+1,countDots+1,temp+subs+".");
         }
