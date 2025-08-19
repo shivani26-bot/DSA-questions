@@ -10,7 +10,7 @@ bool solve(string s, int idx,long long prev,int count,vector<string>&temp){
         // print one valid sequence when string is completely split
         cout << "Sequence: ";
         for (auto &ele : temp) cout << ele << " ";
-        return count>1;//there must be more that 1 elements to form decreasing order
+        return count>1;//there must be more that 1 elements to form decreasing order,problem requires at least 2 numbers (not just one) in the split.
     }
 long long num=0;
     for(int j=idx;j<n;j++){
