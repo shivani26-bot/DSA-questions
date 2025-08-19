@@ -4,7 +4,7 @@ int n;
 // That’s about 1e12 (a trillion).
 // It’s much smaller than the maximum a long long can hold (1e18).
 // So it’s a safe cutoff that avoids overflow — but it’s stricter than necessary.
-const long long MAX=1e17; //12 9's
+const long long MAX=1e12; //12 9's can , write upto 1e17
 bool solve(string s, int idx,long long prev,int count,vector<string>&temp){
     if (idx == n) {
         // print one valid sequence when string is completely split
