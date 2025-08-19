@@ -38,5 +38,7 @@ public:
             l--;
         }
         
+
+        //next_permutation(begin(nums),end(nums));
     }
 };
