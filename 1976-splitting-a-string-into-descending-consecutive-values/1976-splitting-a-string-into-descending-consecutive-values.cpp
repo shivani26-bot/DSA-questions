@@ -1,8 +1,10 @@
 class Solution {
 public:
 int n;
-
-const long long MAX=999999999999; //12 9's
+// That’s about 1e12 (a trillion).
+// It’s much smaller than the maximum a long long can hold (1e18).
+// So it’s a safe cutoff that avoids overflow — but it’s stricter than necessary.
+const long long MAX=1e12; //12 9's
 bool solve(string s, int idx,long long prev,int count,vector<string>&temp){
     if (idx == n) {
         // print one valid sequence when string is completely split
@@ -12,6 +14,12 @@ bool solve(string s, int idx,long long prev,int count,vector<string>&temp){
     }
 long long num=0;
     for(int j=idx;j<n;j++){
+//         you’re turning digits into a number. But:
+// s can have length up to 20.
+// That means substrings can represent numbers as large as 10^20 - 1.
+// A long long in C++ can only safely hold values up to about 9.22 * 10^18 (~18 digits).
+// Anything beyond that overflows.
+// \U0001f449 So, you need to cap num before it grows too large. That’s why MAX is introduced.
         num=num*10+s[j]-'0';
         if(num>MAX) break;
          //must be strictly decreasing
