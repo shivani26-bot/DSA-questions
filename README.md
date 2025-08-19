@@ -739,6 +739,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1894-merge-strings-alternately](https://github.com/shivani26-bot/DSA-questions/tree/master/1894-merge-strings-alternately) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/shivani26-bot/DSA-questions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1923-sentence-similarity-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1923-sentence-similarity-iii) |
+| [1976-splitting-a-string-into-descending-consecutive-values](https://github.com/shivani26-bot/DSA-questions/tree/master/1976-splitting-a-string-into-descending-consecutive-values) |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/shivani26-bot/DSA-questions/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2027-maximum-number-of-removable-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/2027-maximum-number-of-removable-characters) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -924,6 +925,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1160-letter-tile-possibilities](https://github.com/shivani26-bot/DSA-questions/tree/master/1160-letter-tile-possibilities) |
 | [1331-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1331-path-with-maximum-gold) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/shivani26-bot/DSA-questions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
+| [1976-splitting-a-string-into-descending-consecutive-values](https://github.com/shivani26-bot/DSA-questions/tree/master/1976-splitting-a-string-into-descending-consecutive-values) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/shivani26-bot/DSA-questions/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Topological Sort
 |  |
@@ -1098,6 +1100,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Enumeration
 |  |
 | ------- |
+| [1976-splitting-a-string-into-descending-consecutive-values](https://github.com/shivani26-bot/DSA-questions/tree/master/1976-splitting-a-string-into-descending-consecutive-values) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/shivani26-bot/DSA-questions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2080-check-if-move-is-legal](https://github.com/shivani26-bot/DSA-questions/tree/master/2080-check-if-move-is-legal) |
 ## Minimum Spanning Tree
