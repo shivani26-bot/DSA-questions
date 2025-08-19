@@ -10,6 +10,13 @@ bool solve(string s, int idx,long long prev,int count,vector<string>&temp){
         // print one valid sequence when string is completely split
         cout << "Sequence: ";
         for (auto &ele : temp) cout << ele << " ";
+//         For example:
+// Input: "1234"
+// If you take "1234" as a whole, that’s just one number → invalid.
+// If you take "123" , "122" (descending consecutive), then it’s valid.
+// So:
+// count == 1 → you only split into one number → ❌ not valid.
+// count > 1 → you split into at least 2 numbers → ✅ valid.
         return count>1;//there must be more that 1 elements to form decreasing order,problem requires at least 2 numbers (not just one) in the split.
     }
 long long num=0;
