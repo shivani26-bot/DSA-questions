@@ -2,7 +2,7 @@ class Solution {
 public:
 int n;
 
-const long long MAX=999999999999;
+const long long MAX=999999999999; //12 9's
 bool solve(string s, int idx,long long prev,int count,vector<string>&temp){
     if (idx == n) {
         // print one valid sequence when string is completely split
