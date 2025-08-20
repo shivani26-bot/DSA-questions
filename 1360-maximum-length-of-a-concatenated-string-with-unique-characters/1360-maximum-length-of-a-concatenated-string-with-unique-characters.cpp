@@ -12,6 +12,9 @@ bool isUnique(string s){
 }
 int maxLen=INT_MIN;
 void solve(vector<string>& arr,int idx,string temp){
+//     temp.length() (or temp.size()) returns a value of type size_t.
+// size_t is an unsigned integer type (usually unsigned long long on 64-bit systems).
+// maxLen is declared as an int.
         maxLen=max(maxLen,(int) temp.length());
     for(int j=idx;j<n;j++){
         if(!isUnique(temp+arr[j]))continue;
