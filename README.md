@@ -664,6 +664,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1502-construct-k-palindrome-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/1502-construct-k-palindrome-strings) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/shivani26-bot/DSA-questions/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/shivani26-bot/DSA-questions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2104-operations-on-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2104-operations-on-tree) |
@@ -736,6 +737,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1567-maximum-number-of-vowels-in-a-substring-of-given-length](https://github.com/shivani26-bot/DSA-questions/tree/master/1567-maximum-number-of-vowels-in-a-substring-of-given-length) |
 | [1666-make-the-string-great](https://github.com/shivani26-bot/DSA-questions/tree/master/1666-make-the-string-great) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/shivani26-bot/DSA-questions/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1720-crawler-log-folder](https://github.com/shivani26-bot/DSA-questions/tree/master/1720-crawler-log-folder) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/shivani26-bot/DSA-questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1781-check-if-two-string-arrays-are-equivalent](https://github.com/shivani26-bot/DSA-questions/tree/master/1781-check-if-two-string-arrays-are-equivalent) |
@@ -931,6 +933,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1160-letter-tile-possibilities](https://github.com/shivani26-bot/DSA-questions/tree/master/1160-letter-tile-possibilities) |
 | [1331-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1331-path-with-maximum-gold) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/shivani26-bot/DSA-questions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
+| [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1976-splitting-a-string-into-descending-consecutive-values](https://github.com/shivani26-bot/DSA-questions/tree/master/1976-splitting-a-string-into-descending-consecutive-values) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/shivani26-bot/DSA-questions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/shivani26-bot/DSA-questions/tree/master/2107-find-unique-binary-string) |
