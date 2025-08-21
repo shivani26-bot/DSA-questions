@@ -169,6 +169,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2690-house-robber-iv](https://github.com/shivani26-bot/DSA-questions/tree/master/2690-house-robber-iv) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/shivani26-bot/DSA-questions/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/shivani26-bot/DSA-questions/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/2696-the-number-of-beautiful-subsets) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/shivani26-bot/DSA-questions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/shivani26-bot/DSA-questions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/shivani26-bot/DSA-questions/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
@@ -309,6 +310,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/shivani26-bot/DSA-questions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2636-maximum-subsequence-score](https://github.com/shivani26-bot/DSA-questions/tree/master/2636-maximum-subsequence-score) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/2696-the-number-of-beautiful-subsets) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/shivani26-bot/DSA-questions/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2891-maximum-beauty-of-an-array-after-applying-operation](https://github.com/shivani26-bot/DSA-questions/tree/master/2891-maximum-beauty-of-an-array-after-applying-operation) |
 ## Greedy
@@ -677,6 +679,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/shivani26-bot/DSA-questions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2685-first-completely-painted-row-or-column](https://github.com/shivani26-bot/DSA-questions/tree/master/2685-first-completely-painted-row-or-column) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/2696-the-number-of-beautiful-subsets) |
 | [2707-merge-two-2d-arrays-by-summing-values](https://github.com/shivani26-bot/DSA-questions/tree/master/2707-merge-two-2d-arrays-by-summing-values) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/shivani26-bot/DSA-questions/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/shivani26-bot/DSA-questions/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
@@ -870,6 +873,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
 | [2444-longest-ideal-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/2444-longest-ideal-subsequence) |
 | [2562-count-ways-to-build-good-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/2562-count-ways-to-build-good-strings) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/2696-the-number-of-beautiful-subsets) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -944,6 +948,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1993-sum-of-all-subset-xor-totals](https://github.com/shivani26-bot/DSA-questions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2107-find-unique-binary-string](https://github.com/shivani26-bot/DSA-questions/tree/master/2107-find-unique-binary-string) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/shivani26-bot/DSA-questions/tree/master/2456-construct-smallest-number-from-di-string) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/2696-the-number-of-beautiful-subsets) |
 ## Topological Sort
 |  |
 | ------- |
@@ -1111,6 +1116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1370-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/shivani26-bot/DSA-questions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2206-detonate-the-maximum-bombs](https://github.com/shivani26-bot/DSA-questions/tree/master/2206-detonate-the-maximum-bombs) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/2696-the-number-of-beautiful-subsets) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Geometry
 |  |
@@ -1232,6 +1238,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1307-ugly-number-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1307-ugly-number-iii) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/shivani26-bot/DSA-questions/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2696-the-number-of-beautiful-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/2696-the-number-of-beautiful-subsets) |
 ## Number Theory
 |  |
 | ------- |
