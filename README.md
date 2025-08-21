@@ -708,6 +708,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0211-design-add-and-search-words-data-structure](https://github.com/shivani26-bot/DSA-questions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
 | [0227-basic-calculator-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0227-basic-calculator-ii) |
+| [0241-different-ways-to-add-parentheses](https://github.com/shivani26-bot/DSA-questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0394-decode-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0394-decode-string) |
 | [0399-evaluate-division](https://github.com/shivani26-bot/DSA-questions/tree/master/0399-evaluate-division) |
 | [0402-remove-k-digits](https://github.com/shivani26-bot/DSA-questions/tree/master/0402-remove-k-digits) |
@@ -829,6 +830,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0131-palindrome-partitioning](https://github.com/shivani26-bot/DSA-questions/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/shivani26-bot/DSA-questions/tree/master/0198-house-robber) |
 | [0221-maximal-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0221-maximal-square) |
+| [0241-different-ways-to-add-parentheses](https://github.com/shivani26-bot/DSA-questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0279-perfect-squares](https://github.com/shivani26-bot/DSA-questions/tree/master/0279-perfect-squares) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/shivani26-bot/DSA-questions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0337-house-robber-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/0337-house-robber-iii) |
@@ -1101,6 +1103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/shivani26-bot/DSA-questions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0189-rotate-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0189-rotate-array) |
 | [0227-basic-calculator-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0227-basic-calculator-ii) |
+| [0241-different-ways-to-add-parentheses](https://github.com/shivani26-bot/DSA-questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0279-perfect-squares](https://github.com/shivani26-bot/DSA-questions/tree/master/0279-perfect-squares) |
 | [0343-integer-break](https://github.com/shivani26-bot/DSA-questions/tree/master/0343-integer-break) |
 | [0367-valid-perfect-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0367-valid-perfect-square) |
@@ -1246,6 +1249,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Memoization
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/shivani26-bot/DSA-questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1236-n-th-tribonacci-number](https://github.com/shivani26-bot/DSA-questions/tree/master/1236-n-th-tribonacci-number) |
 ## Simulation
@@ -1268,6 +1272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0241-different-ways-to-add-parentheses](https://github.com/shivani26-bot/DSA-questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0394-decode-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0394-decode-string) |
 | [0795-k-th-symbol-in-grammar](https://github.com/shivani26-bot/DSA-questions/tree/master/0795-k-th-symbol-in-grammar) |
 ## Data Stream
