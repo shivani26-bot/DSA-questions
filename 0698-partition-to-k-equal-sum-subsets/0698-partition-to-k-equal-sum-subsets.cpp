@@ -2,7 +2,8 @@ class Solution {
 public:
 int n;
 bool solve(vector<int>& nums, vector<int>&visited,int target, int idx, int curr_sum, int k){
-  if(k==1) return true;
+  if(k==1) return true;//(because last subset must also be valid automatically)
+
   if(idx>=n) return false;
        if(curr_sum==target) return solve(nums,visited,target,0,0,k-1) ;
 
