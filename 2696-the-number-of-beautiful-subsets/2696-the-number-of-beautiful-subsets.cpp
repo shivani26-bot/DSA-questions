@@ -2,19 +2,27 @@ class Solution {
 public:
 int n;
 
-vector<vector<int>>result;
-int solve(vector<int>& nums, int k,  int idx, int prev){
-
-if(idx==n) return 0;
-int pick=0;
-int notPick= solve(nums,k,idx+1,prev);
-if(prev==-1 || abs(nums[idx]-nums[prev])!=k)
-pick=1+solve(nums,k,idx+1,idx);
-return pick+notPick;
+// At every index, we have two choices:
+// Skip the number.
+// Take the number (but only if it doesn’t break the rules).
+// So when we try to include nums[idx], we must check:
+// Is nums[idx] - k already in the subset?
+// If yes → including nums[idx] would break the rule.
+// If no → it’s safe to include.
+int res=0;
+void solve(vector<int>& nums, int k,int idx, unordered_map<int,int>&mp){
+    if(idx>=n) {res++;return;}
+    solve(nums,k,idx+1,mp);
+    if(!mp[nums[idx]-k] && !mp[nums[idx]+k]){
+        mp[nums[idx]]++;
+        solve(nums,k,idx+1,mp);
+        mp[nums[idx]]--;
+    }
 }
     int beautifulSubsets(vector<int>& nums, int k) {
       n=nums.size();
-      sort(nums.begin(),nums.end());
-      return solve(nums,k,0,-1); 
+    unordered_map<int,int>mp;
+     solve(nums,k,0,mp); 
+     return res-1;//remove empty subset
     }
 };
