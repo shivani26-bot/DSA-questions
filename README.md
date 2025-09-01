@@ -1193,6 +1193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/shivani26-bot/DSA-questions/tree/master/0021-merge-two-sorted-lists) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/shivani26-bot/DSA-questions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0206-reverse-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0206-reverse-linked-list) |
 | [0355-design-twitter](https://github.com/shivani26-bot/DSA-questions/tree/master/0355-design-twitter) |
@@ -1279,6 +1280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/shivani26-bot/DSA-questions/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0206-reverse-linked-list) |
 | [0241-different-ways-to-add-parentheses](https://github.com/shivani26-bot/DSA-questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0394-decode-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0394-decode-string) |
