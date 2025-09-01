@@ -18,16 +18,25 @@ ListNode* middleNode(ListNode* head){
     }
     return slow;
 }
+// ListNode* reverseList(ListNode* head){
+// ListNode* prev=NULL;
+// ListNode* curr=head, *nextNode=head;
+// while(nextNode){
+//     nextNode=curr->next;
+//     curr->next=prev;
+//     prev=curr;
+//     curr=nextNode;
+// }
+// return prev;
+// }
+// recursive 
 ListNode* reverseList(ListNode* head){
-ListNode* prev=NULL;
-ListNode* curr=head, *nextNode=head;
-while(nextNode){
-    nextNode=curr->next;
-    curr->next=prev;
-    prev=curr;
-    curr=nextNode;
-}
-return prev;
+if(!head || !head->next) return head;
+ListNode* temp=head->next;
+head->next=NULL;
+ListNode* head1=reverseList(temp);
+temp->next=head;
+return head1;
 }
     bool isPalindrome(ListNode* head) {
      ListNode* mid=middleNode(head);  
