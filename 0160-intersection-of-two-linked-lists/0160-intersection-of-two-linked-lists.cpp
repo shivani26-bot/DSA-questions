@@ -17,22 +17,34 @@ int getLinkedListLength(ListNode* temp){
     return len;
 }
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
-        // we can use hashset 
-        int lenA=getLinkedListLength(headA);
-        int lenB=getLinkedListLength(headB);
-        while(lenA>lenB){
+
+        // int lenA=getLinkedListLength(headA);
+        // int lenB=getLinkedListLength(headB);
+        // while(lenA>lenB){
+        //     headA=headA->next;
+        //     lenA--;
+        // }
+        // while(lenB>lenA){
+        //     headB=headB->next;
+        //     lenB--;
+        // }
+        // while(headA && headB){
+        //     if(headA==headB){
+        //         return headA;
+        //     }
+        //     headA=headA->next;
+        //     headB=headB->next;
+        // }
+        // return NULL;
+
+        set<ListNode*>st;
+        while(headA){
+            st.insert(headA);
             headA=headA->next;
-            lenA--;
         }
-        while(lenB>lenA){
-            headB=headB->next;
-            lenB--;
-        }
-        while(headA && headB){
-            if(headA==headB){
-                return headA;
-            }
-            headA=headA->next;
+        while(headB){
+            if(st.count(headB)) return headB;
+            
             headB=headB->next;
         }
         return NULL;
