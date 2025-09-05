@@ -1032,6 +1032,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/shivani26-bot/DSA-questions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/shivani26-bot/DSA-questions/tree/master/2456-construct-smallest-number-from-di-string) |
 | [2470-removing-stars-from-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/2470-removing-stars-from-a-string) |
+| [2573-remove-nodes-from-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/2573-remove-nodes-from-linked-list) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/2800-minimum-string-length-after-removing-substrings) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/shivani26-bot/DSA-questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 | [3447-clear-digits](https://github.com/shivani26-bot/DSA-questions/tree/master/3447-clear-digits) |
@@ -1187,6 +1188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0937-online-stock-span](https://github.com/shivani26-bot/DSA-questions/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/shivani26-bot/DSA-questions/tree/master/0943-sum-of-subarray-minimums) |
 | [1002-maximum-width-ramp](https://github.com/shivani26-bot/DSA-questions/tree/master/1002-maximum-width-ramp) |
+| [2573-remove-nodes-from-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/2573-remove-nodes-from-linked-list) |
 | [3181-find-building-where-alice-and-bob-can-meet](https://github.com/shivani26-bot/DSA-questions/tree/master/3181-find-building-where-alice-and-bob-can-meet) |
 ## Iterator
 |  |
@@ -1210,6 +1212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1765-merge-in-between-linked-lists](https://github.com/shivani26-bot/DSA-questions/tree/master/1765-merge-in-between-linked-lists) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/shivani26-bot/DSA-questions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/shivani26-bot/DSA-questions/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2573-remove-nodes-from-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/2573-remove-nodes-from-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
@@ -1304,6 +1307,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0241-different-ways-to-add-parentheses](https://github.com/shivani26-bot/DSA-questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0394-decode-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0394-decode-string) |
 | [0795-k-th-symbol-in-grammar](https://github.com/shivani26-bot/DSA-questions/tree/master/0795-k-th-symbol-in-grammar) |
+| [2573-remove-nodes-from-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/2573-remove-nodes-from-linked-list) |
 ## Data Stream
 |  |
 | ------- |
