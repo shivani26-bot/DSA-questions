@@ -1200,6 +1200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/shivani26-bot/DSA-questions/tree/master/0021-merge-two-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0083-remove-duplicates-from-sorted-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/shivani26-bot/DSA-questions/tree/master/0116-populating-next-right-pointers-in-each-node) |
@@ -1224,6 +1225,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/shivani26-bot/DSA-questions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0018-4sum) |
+| [0019-remove-nth-node-from-end-of-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0031-next-permutation](https://github.com/shivani26-bot/DSA-questions/tree/master/0031-next-permutation) |
