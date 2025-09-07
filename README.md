@@ -1162,6 +1162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0341-flatten-nested-list-iterator](https://github.com/shivani26-bot/DSA-questions/tree/master/0341-flatten-nested-list-iterator) |
 | [0355-design-twitter](https://github.com/shivani26-bot/DSA-questions/tree/master/0355-design-twitter) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/shivani26-bot/DSA-questions/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0838-design-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0838-design-linked-list) |
 | [0937-online-stock-span](https://github.com/shivani26-bot/DSA-questions/tree/master/0937-online-stock-span) |
 | [1023-time-based-key-value-store](https://github.com/shivani26-bot/DSA-questions/tree/master/1023-time-based-key-value-store) |
 | [1955-seat-reservation-manager](https://github.com/shivani26-bot/DSA-questions/tree/master/1955-seat-reservation-manager) |
@@ -1214,6 +1215,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0234-palindrome-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0234-palindrome-linked-list) |
 | [0355-design-twitter](https://github.com/shivani26-bot/DSA-questions/tree/master/0355-design-twitter) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0528-swapping-nodes-in-a-linked-list) |
+| [0838-design-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0838-design-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0908-middle-of-the-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1484-linked-list-in-binary-tree) |
 | [1765-merge-in-between-linked-lists](https://github.com/shivani26-bot/DSA-questions/tree/master/1765-merge-in-between-linked-lists) |
