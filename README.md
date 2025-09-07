@@ -115,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1511-count-number-of-teams](https://github.com/shivani26-bot/DSA-questions/tree/master/1511-count-number-of-teams) |
 | [1524-string-matching-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1524-string-matching-in-an-array) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shivani26-bot/DSA-questions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1582-design-browser-history](https://github.com/shivani26-bot/DSA-questions/tree/master/1582-design-browser-history) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/shivani26-bot/DSA-questions/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/shivani26-bot/DSA-questions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivani26-bot/DSA-questions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -1029,6 +1030,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/shivani26-bot/DSA-questions/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1298-reverse-substrings-between-each-pair-of-parentheses](https://github.com/shivani26-bot/DSA-questions/tree/master/1298-reverse-substrings-between-each-pair-of-parentheses) |
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
+| [1582-design-browser-history](https://github.com/shivani26-bot/DSA-questions/tree/master/1582-design-browser-history) |
 | [1666-make-the-string-great](https://github.com/shivani26-bot/DSA-questions/tree/master/1666-make-the-string-great) |
 | [1720-crawler-log-folder](https://github.com/shivani26-bot/DSA-questions/tree/master/1720-crawler-log-folder) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/shivani26-bot/DSA-questions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -1165,6 +1167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0838-design-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0838-design-linked-list) |
 | [0937-online-stock-span](https://github.com/shivani26-bot/DSA-questions/tree/master/0937-online-stock-span) |
 | [1023-time-based-key-value-store](https://github.com/shivani26-bot/DSA-questions/tree/master/1023-time-based-key-value-store) |
+| [1582-design-browser-history](https://github.com/shivani26-bot/DSA-questions/tree/master/1582-design-browser-history) |
 | [1955-seat-reservation-manager](https://github.com/shivani26-bot/DSA-questions/tree/master/1955-seat-reservation-manager) |
 | [2104-operations-on-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/2104-operations-on-tree) |
 ## Binary Indexed Tree
@@ -1218,6 +1221,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0838-design-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0838-design-linked-list) |
 | [0908-middle-of-the-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0908-middle-of-the-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1484-linked-list-in-binary-tree) |
+| [1582-design-browser-history](https://github.com/shivani26-bot/DSA-questions/tree/master/1582-design-browser-history) |
 | [1765-merge-in-between-linked-lists](https://github.com/shivani26-bot/DSA-questions/tree/master/1765-merge-in-between-linked-lists) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/shivani26-bot/DSA-questions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -1328,6 +1332,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/shivani26-bot/DSA-questions/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0937-online-stock-span](https://github.com/shivani26-bot/DSA-questions/tree/master/0937-online-stock-span) |
+| [1582-design-browser-history](https://github.com/shivani26-bot/DSA-questions/tree/master/1582-design-browser-history) |
 ## Quickselect
 |  |
 | ------- |
@@ -1344,4 +1349,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0473-matchsticks-to-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0473-matchsticks-to-square) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [1582-design-browser-history](https://github.com/shivani26-bot/DSA-questions/tree/master/1582-design-browser-history) |
 <!---LeetCode Topics End-->
