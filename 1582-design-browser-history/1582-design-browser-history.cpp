@@ -9,6 +9,11 @@ class Node{
         next=NULL;
         prev=NULL;
     }
+    Node(){
+        data="";
+        next=NULL;
+        prev=NULL;
+    }
     // Node (string x, Node* next, Node* prev){
     //     data=x;
     //     next=next;
@@ -24,7 +29,7 @@ public:
     }
     
     void visit(string url) {
-        Node* newNode=new Node(url);
+        Node* newNode=new Node(url); //clears all the forward history as newNode next is null;
 currPage->next=newNode;
 newNode->prev=currPage;
 currPage=newNode;
