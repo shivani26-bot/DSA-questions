@@ -9,11 +9,11 @@ class Node{
         next=NULL;
         prev=NULL;
     }
-    Node (string x, Node* next, Node* prev){
-        data=x;
-        next=next;
-        prev=prev;
-    }
+    // Node (string x, Node* next, Node* prev){
+    //     data=x;
+    //     next=next;
+    //     prev=prev;
+    // }
 };
 
 class BrowserHistory {
