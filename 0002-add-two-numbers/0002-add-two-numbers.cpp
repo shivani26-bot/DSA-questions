@@ -11,65 +11,60 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* h1=l1,*h2= l2;
-int carry=0;
-ListNode* newHead=NULL;
-ListNode* newNode, *temp;
-        while(h1 && h2){
-int totalSum=(h1->val+h2->val+carry);
-int digit=(totalSum)%10;
-carry=totalSum/10;
-newNode= new ListNode(digit);
-if(!newHead){
-    newHead= newNode;
-    temp=newHead;
+        ListNode* curr1=l1;
+        ListNode* curr2=l2;
+        ListNode* temp;
+        ListNode* sumHead;
+        ListNode* curr;
+        int value;
+        int carry=0;
+        int sum=curr1->val + curr2->val +carry;
+         value= sum%10;
+    carry= sum/10;
+       temp= new ListNode(value);
+       sumHead= temp;
+       curr=sumHead;
+    //    curr=temp;
+    curr1=curr1->next;
+    curr2=curr2->next;
+        while(curr1 && curr2){
+             sum= curr1->val + curr2->val + carry;
+             value= sum%10;
+             carry=sum/10;
+             temp=new ListNode(value);
+             curr->next=temp;
+             curr=curr->next;
+        //   curr=temp;
+             curr1=curr1->next;
+             curr2=curr2->next;
+        }
+        if(curr1){
+            while(curr1){
+                sum=curr1->val +carry;
+                value=sum%10;
+                carry=sum/10;
+                temp=new ListNode(value);
+                curr->next=temp;
+                curr= curr->next;
+                curr1=curr1->next;
+            }
+        }
+        if(curr2){
+while(curr2){
+    sum=curr2->val +carry;
+    value= sum%10;
+    carry=sum/10;
+    temp= new ListNode(value);
+    curr->next= temp;
+    curr =curr->next;
+    curr2=curr2->next;
 }
-else{
-    temp->next=newNode;
-    temp=newNode;
+  }
+if(carry!=0){
+     temp= new ListNode(carry);
+     curr->next=temp;
 }
 
-cout<<"total"<< " "<<totalSum<<endl;
-cout<<"carry"<< " "<<carry<<endl;
-h1=h1->next;
-h2=h2->next;
-        }
-        while(h1){
-            int totalSum=(h1->val+carry);
-            int digit=(totalSum)%10;
-carry=totalSum/10;
-newNode= new ListNode(digit);
-if(!newHead){
-    newHead= newNode;
-    temp=newHead;
-}
-else{
-    temp->next=newNode;
-    temp=newNode;
-}
-h1=h1->next;
-        }
-          while(h2){
-            int totalSum=(h2->val+carry);
-            int digit=(totalSum)%10;
-carry=totalSum/10;
-newNode= new ListNode(digit);
-if(!newHead){
-    newHead= newNode;
-    temp=newHead;
-}
-else{
-    temp->next=newNode;
-    temp=newNode;
-}
-
-h2=h2->next;
-        }
-        if(carry){
-            newNode= new ListNode(carry);
-             temp->next=newNode;
-    temp=newNode;
-        }
-return newHead;
+    return sumHead;  
     }
 };
