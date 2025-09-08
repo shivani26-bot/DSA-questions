@@ -43,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0219-contains-duplicate-ii) |
 | [0221-maximal-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0221-maximal-square) |
 | [0283-move-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/shivani26-bot/DSA-questions/tree/master/0287-find-the-duplicate-number) |
 | [0307-range-sum-query-mutable](https://github.com/shivani26-bot/DSA-questions/tree/master/0307-range-sum-query-mutable) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/shivani26-bot/DSA-questions/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0368-largest-divisible-subset](https://github.com/shivani26-bot/DSA-questions/tree/master/0368-largest-divisible-subset) |
@@ -204,6 +205,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0162-find-peak-element](https://github.com/shivani26-bot/DSA-questions/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shivani26-bot/DSA-questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0209-minimum-size-subarray-sum) |
+| [0287-find-the-duplicate-number](https://github.com/shivani26-bot/DSA-questions/tree/master/0287-find-the-duplicate-number) |
 | [0367-valid-perfect-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0367-valid-perfect-square) |
 | [0441-arranging-coins](https://github.com/shivani26-bot/DSA-questions/tree/master/0441-arranging-coins) |
 | [0456-132-pattern](https://github.com/shivani26-bot/DSA-questions/tree/master/0456-132-pattern) |
@@ -1047,6 +1049,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0078-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0090-subsets-ii) |
+| [0287-find-the-duplicate-number](https://github.com/shivani26-bot/DSA-questions/tree/master/0287-find-the-duplicate-number) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0473-matchsticks-to-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0473-matchsticks-to-square) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -1254,6 +1257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0189-rotate-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0283-move-zeroes) |
+| [0287-find-the-duplicate-number](https://github.com/shivani26-bot/DSA-questions/tree/master/0287-find-the-duplicate-number) |
 | [0455-assign-cookies](https://github.com/shivani26-bot/DSA-questions/tree/master/0455-assign-cookies) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0528-swapping-nodes-in-a-linked-list) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
