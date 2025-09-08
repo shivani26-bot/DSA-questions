@@ -1112,6 +1112,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shivani26-bot/DSA-questions/tree/master/0002-add-two-numbers) |
 | [0069-sqrtx](https://github.com/shivani26-bot/DSA-questions/tree/master/0069-sqrtx) |
 | [0096-unique-binary-search-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0096-unique-binary-search-trees) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/shivani26-bot/DSA-questions/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -1205,6 +1206,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shivani26-bot/DSA-questions/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/shivani26-bot/DSA-questions/tree/master/0021-merge-two-sorted-lists) |
 | [0083-remove-duplicates-from-sorted-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0083-remove-duplicates-from-sorted-list) |
@@ -1318,6 +1320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/shivani26-bot/DSA-questions/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/shivani26-bot/DSA-questions/tree/master/0021-merge-two-sorted-lists) |
 | [0143-reorder-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/shivani26-bot/DSA-questions/tree/master/0203-remove-linked-list-elements) |
