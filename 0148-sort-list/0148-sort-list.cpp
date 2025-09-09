@@ -65,7 +65,7 @@ ListNode* mergeTwoLists(ListNode* list1,ListNode* list2){
         if(!head || !head->next) return head;//if head is null or only one element in linkedlist is there
 
         // first step is to find the middle 
-        ListNode* middleNode= findMiddle(head); // to find the middle we use tortoise and hare algo
+        ListNode* middleNode= findMiddle(head); // to find the  middle we use tortoise and hare algo , time to find middle is o(n/2)
         ListNode* leftHead=head;
        ListNode* rightHead=middleNode->next;
         middleNode->next=NULL;
@@ -78,6 +78,11 @@ rightHead=sortList(rightHead);
         // it returns the head of the sorted list 
         // 21. Merge Two Sorted Lists
 
-        return mergeTwoLists(leftHead,rightHead);
+        return mergeTwoLists(leftHead,rightHead); //o(n)
     }
 };
+
+
+// in array mergesort takes nlogn sc:o(n)
+// in ll, time complexity: logn *(n+n/2)
+// logn is recursion depth
