@@ -21,8 +21,7 @@ public:
             curr=next;
             count++;
         }
-        head->next=swapPairs(next);
-        return prev;
-       
+        head->next=swapPairs(curr);
+        return prev;      
     }
 };
