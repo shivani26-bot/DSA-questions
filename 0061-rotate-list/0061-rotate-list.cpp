@@ -10,7 +10,10 @@
  */
 class Solution {
 public:
-
+// 1->2->3->4->5->6 k=2
+// length=6
+// newhead will be 5, and new tail will be 4
+// 5->6->1->2->3->4->null
     ListNode* rotateRight(ListNode* head, int k) {
         if(!head || k==0) return head;
 // count total nodes in the ll and find the tail so that we can form a cycle by joining the tail to head
