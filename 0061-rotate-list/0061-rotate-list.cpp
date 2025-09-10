@@ -24,7 +24,7 @@ public:
 // k>n then k must always be k=k%n
         k=k%lengthLL;
         if(k==0) return head;
-        
+
 // now join the tail to head to form the cycle
 tail->next=head;
 
@@ -36,7 +36,9 @@ tail->next=head;
             newTail=newTail->next;
         }
         
+        //find newhead
 ListNode* newHead=newTail->next;
+//detach the newtail and point it to null
 newTail->next=NULL;
 return newHead;
    
