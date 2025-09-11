@@ -1236,6 +1236,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0355-design-twitter](https://github.com/shivani26-bot/DSA-questions/tree/master/0355-design-twitter) |
 | [0445-add-two-numbers-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0445-add-two-numbers-ii) |
 | [0528-swapping-nodes-in-a-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0528-swapping-nodes-in-a-linked-list) |
+| [0725-split-linked-list-in-parts](https://github.com/shivani26-bot/DSA-questions/tree/master/0725-split-linked-list-in-parts) |
 | [0838-design-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0838-design-linked-list) |
 | [0860-design-circular-queue](https://github.com/shivani26-bot/DSA-questions/tree/master/0860-design-circular-queue) |
 | [0908-middle-of-the-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0908-middle-of-the-linked-list) |
