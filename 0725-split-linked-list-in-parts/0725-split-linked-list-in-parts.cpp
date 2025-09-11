@@ -11,50 +11,53 @@
 class Solution {
 public:
     vector<ListNode*> splitListToParts(ListNode* head, int k) {
-        ListNode* temp=head;
-        int llLength=0;
-        while(temp){
-          llLength++;
-         temp=temp->next;
-        }
-        vector<ListNode*>result;
-        if(llLength<=k){
-            while(head){
+      //find the length of the linkedlist
+      int llLength=0;
+      ListNode* temp=head;
+      while(temp){
+        llLength++;
+        temp=temp->next;
+      }
+      vector<ListNode*>result;
+    //   there can be two cases
+    // first lllength is <=k ex: lllength=3 k=3 then 3 partition , 1->null | 2->null |3->null
+    // lllength=3 k=5 then 1->null| 2->null |3->null | null |null
+    if(llLength<=k){
+        while(head){
             ListNode* curr=head;
             result.push_back(curr);
-             head=head->next;
+            head=head->next;
             curr->next=NULL;
-           
             curr=head;
-           
             k--;
-        }
-            while(k!=0){
-                result.push_back(NULL);
-                k--;
-            }
-        }
-        else{
-            while(k!=1){
-            int partLen= ceil((float) llLength/(float) k);
-            llLength-=partLen;
+                    }
+// if partition is still remaining to done k>llLength , then remaining partition will contain null
+       while(k!=0){
+        result.push_back(NULL);
+        k--;
+       }
+    }
+    // second lllength > k then each partition should have ceil value of llLength/k
+
+    else{
+        while(k!=1){
+// find length of current partition , number of elements in current partition
+int partLen=ceil((float)llLength/(float)k);
+llLength-=partLen;
 k--;
-             ListNode* curr=head;
-           while(partLen!=1){
-          
-         
-           curr=curr->next;
- partLen--;
-            }
-              result.push_back(head);
- head=curr->next;
+ListNode* curr=head;
+while(partLen!=1){
+    curr=curr->next;
+    partLen--;
+}
+result.push_back(head);//push the head as it points to starting head of the partition
+head=curr->next;//move the head to next partition
+curr->next=NULL;
 
- curr->next=NULL;
-
-
-            }          
-             result.push_back(head);   
-            }
-        return result;
+        }
+        // for the last partition push as it is
+        result.push_back(head);
+    }
+    return result;
     }
 };
