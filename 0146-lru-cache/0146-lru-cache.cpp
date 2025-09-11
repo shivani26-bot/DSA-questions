@@ -46,9 +46,18 @@ return temp;
     }
 
 //move to node and update the value to the new value
+// Why do we move to tail?
+// Because LRU cache needs to always know:
+// Least recently used → head (to evict when full).
+// Most recently used → tail (to keep accessed nodes fresh).
+// So every get or put refreshes the node’s position to the tail.
     void moveToTail(Node* node, int value){
-        node->value= value;
+        node->value= value;// update value in case it changed
+        
+         // if node is already at tail → do nothing
         if(node==tail) return ;
+
+         // detach node from its current position, when node is head or when node is not head
         if(node==head){
             head=head->next;
             head->prev=NULL;
@@ -57,6 +66,8 @@ return temp;
             node->prev->next=node->next;
             node->next->prev=node->prev;
         }
+
+         // reattach node at the tail
         node->prev=tail;
         node->next=NULL;
         tail->next=node;
@@ -81,7 +92,7 @@ currSize--;
         else{
             Node* temp=keyToAddress[key]; //reach the node using map, as map stores the address of node for that key and retrieve the value from that node
             ans=temp->value;
-            moveToTail(temp, temp->value);
+            moveToTail(temp, temp->value);    // mark this node as recently used,ensures the cache order is updated.
         }
         return ans;
     }
