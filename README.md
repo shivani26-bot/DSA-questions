@@ -655,6 +655,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0138-copy-list-with-random-pointer](https://github.com/shivani26-bot/DSA-questions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/shivani26-bot/DSA-questions/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/shivani26-bot/DSA-questions/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shivani26-bot/DSA-questions/tree/master/0160-intersection-of-two-linked-lists) |
 | [0208-implement-trie-prefix-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0208-implement-trie-prefix-tree) |
@@ -1230,6 +1231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/shivani26-bot/DSA-questions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0138-copy-list-with-random-pointer](https://github.com/shivani26-bot/DSA-questions/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/shivani26-bot/DSA-questions/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/shivani26-bot/DSA-questions/tree/master/0146-lru-cache) |
 | [0147-insertion-sort-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0147-insertion-sort-list) |
@@ -1270,6 +1272,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/shivani26-bot/DSA-questions/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/shivani26-bot/DSA-questions/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0142-linked-list-cycle-ii) |
 | [0143-reorder-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0143-reorder-list) |
 | [0148-sort-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0148-sort-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shivani26-bot/DSA-questions/tree/master/0160-intersection-of-two-linked-lists) |
