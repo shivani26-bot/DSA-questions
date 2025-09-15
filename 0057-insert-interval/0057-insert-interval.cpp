@@ -11,13 +11,14 @@ public:
         }
         // buut as soon as the new interval overlaps with current intervals, now find the merged intervals start and end point
         int st=newInterval[0],en=newInterval[1];
-        vector<int>mergedInterval={st,end};
+        vector<int>mergedInterval={st,en};
         // now check till current intervals first index is less than en
         while(i<n && intervals[i][0]<=en){
             mergedInterval[0]=min(mergedInterval[0],intervals[i][0]);
              mergedInterval[1]=max(mergedInterval[1],intervals[i][1]);
+             i++;
         }
-    }
+    
     ans.push_back(mergedInterval);
     // now push the remaining elements 
     while(i<n){
@@ -25,4 +26,5 @@ public:
         i++;
     }
     return ans;
+    }
 };
