@@ -19,6 +19,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/shivani26-bot/DSA-questions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0047-permutations-ii) |
 | [0056-merge-intervals](https://github.com/shivani26-bot/DSA-questions/tree/master/0056-merge-intervals) |
+| [0057-insert-interval](https://github.com/shivani26-bot/DSA-questions/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/0074-search-a-2d-matrix) |
