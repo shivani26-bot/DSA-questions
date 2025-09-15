@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/shivani26-bot/DSA-questions/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/shivani26-bot/DSA-questions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0047-permutations-ii) |
+| [0056-merge-intervals](https://github.com/shivani26-bot/DSA-questions/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/0074-search-a-2d-matrix) |
@@ -284,6 +285,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0018-4sum) |
 | [0047-permutations-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0047-permutations-ii) |
+| [0056-merge-intervals](https://github.com/shivani26-bot/DSA-questions/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0088-merge-sorted-array) |
 | [0147-insertion-sort-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0148-sort-list) |
