@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0399-evaluate-division](https://github.com/shivani26-bot/DSA-questions/tree/master/0399-evaluate-division) |
 | [0407-trapping-rain-water-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0407-trapping-rain-water-ii) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
+| [0435-non-overlapping-intervals](https://github.com/shivani26-bot/DSA-questions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/shivani26-bot/DSA-questions/tree/master/0455-assign-cookies) |
 | [0456-132-pattern](https://github.com/shivani26-bot/DSA-questions/tree/master/0456-132-pattern) |
 | [0463-island-perimeter](https://github.com/shivani26-bot/DSA-questions/tree/master/0463-island-perimeter) |
@@ -295,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0148-sort-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0368-largest-divisible-subset](https://github.com/shivani26-bot/DSA-questions/tree/master/0368-largest-divisible-subset) |
+| [0435-non-overlapping-intervals](https://github.com/shivani26-bot/DSA-questions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/shivani26-bot/DSA-questions/tree/master/0455-assign-cookies) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
 | [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
@@ -334,6 +336,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0011-container-with-most-water](https://github.com/shivani26-bot/DSA-questions/tree/master/0011-container-with-most-water) |
 | [0402-remove-k-digits](https://github.com/shivani26-bot/DSA-questions/tree/master/0402-remove-k-digits) |
+| [0435-non-overlapping-intervals](https://github.com/shivani26-bot/DSA-questions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/shivani26-bot/DSA-questions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
 | [0680-valid-palindrome-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0680-valid-palindrome-ii) |
@@ -860,6 +863,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0337-house-robber-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/0337-house-robber-iii) |
 | [0343-integer-break](https://github.com/shivani26-bot/DSA-questions/tree/master/0343-integer-break) |
 | [0368-largest-divisible-subset](https://github.com/shivani26-bot/DSA-questions/tree/master/0368-largest-divisible-subset) |
+| [0435-non-overlapping-intervals](https://github.com/shivani26-bot/DSA-questions/tree/master/0435-non-overlapping-intervals) |
 | [0473-matchsticks-to-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0473-matchsticks-to-square) |
 | [0474-ones-and-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0474-ones-and-zeroes) |
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
