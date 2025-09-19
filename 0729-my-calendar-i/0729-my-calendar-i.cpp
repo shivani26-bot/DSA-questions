@@ -16,6 +16,20 @@
 //     }
 // };
 
+
+// emplace_back() is a C++ STL container method (like in std::vector, std::deque, etc.) that constructs a new element directly in place at the end of the container, instead of creating it first and then copying or moving it.
+// push_back():
+// You must already have an object, and it will be copied or moved into the container.
+// std::vector<std::string> v;
+// std::string s = "hello";
+// v.push_back(s);        // copies s into v
+// v.push_back("world");  // constructs temporary string then moves/copies into v
+// emplace_back():
+// Constructs the object in place, passing the constructor arguments directly to it. No temporary object, no extra copy/move.
+// std::vector<std::string> v;
+// v.emplace_back("hello");            // constructs "hello" in place
+// v.emplace_back(5, 'x');             // constructs string("xxxxx") in place
+
 class MyCalendar {
     private: vector<pair<int,int>>bookings;
 public:
@@ -28,7 +42,7 @@ public:
        
             if(start<e && s<end) return false;
         }
-        bookings.push_back({start,end});
+        bookings.emplace_back(start,end);
         return true;
     }
 };
