@@ -62,9 +62,10 @@ for(auto &coord:rectangles){
     yAxis.push_back({y1,y2});
 }
 vector<vector<int>>horizontal= merge(xAxis);
+if(horizontal.size()>=3) return true;
 vector<vector<int>>vertical=merge(yAxis);
-if(horizontal.size()>=3 || vertical.size()>=3) return true;
-return false;
+
+return horizontal.size()>=3 || vertical.size()>=3;
 
     }
 };
