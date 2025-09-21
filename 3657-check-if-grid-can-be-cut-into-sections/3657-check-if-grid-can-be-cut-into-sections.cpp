@@ -65,7 +65,7 @@ vector<vector<int>>horizontal= merge(xAxis);
 if(horizontal.size()>=3) return true;
 vector<vector<int>>vertical=merge(yAxis);
 
-return horizontal.size()>=3 || vertical.size()>=3;
+return  vertical.size()>=3;
 
     }
 };
