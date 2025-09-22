@@ -1,13 +1,20 @@
 class Solution {
 public:
+int countOnes(int n){
+    int count=0;
+    while(n){
+        n=(n&(n-1));
+        count++;
+    }
+    return count;
+}
     vector<int> countBits(int n) {
-        vector<int>setBits(n+1);
-        setBits[0]=0;
-        for(int i=1;i<=n;i++){
-                // setBits[i]= setBits[i/2] +i%2; 
-                  setBits[i]= setBits[i>>1] +(i&1); 
+        
+vector<int>ans;
+        for(int i=0;i<=n;i++){
+            int ones=countOnes(i);
+            ans.push_back(ones);
         }
-        return setBits;
+        return ans;
     }
 };
-
