@@ -1084,6 +1084,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0078-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0090-subsets-ii) |
+| [0191-number-of-1-bits](https://github.com/shivani26-bot/DSA-questions/tree/master/0191-number-of-1-bits) |
 | [0287-find-the-duplicate-number](https://github.com/shivani26-bot/DSA-questions/tree/master/0287-find-the-duplicate-number) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0473-matchsticks-to-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0473-matchsticks-to-square) |
@@ -1128,6 +1129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0148-sort-list) |
+| [0191-number-of-1-bits](https://github.com/shivani26-bot/DSA-questions/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0772-construct-quad-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0772-construct-quad-tree) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
