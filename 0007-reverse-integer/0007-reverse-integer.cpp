@@ -4,6 +4,9 @@ public:
 // Typical Ranges (on 32-bit and 64-bit systems with 32-bit int):
 // INT_MIN = −2,147,483,648 → (−2³¹)
 // INT_MAX = +2,147,483,647 → (2³¹ − 1)
+// INT_MAX / 10 = 214748364
+// INT_MIN / 10 = -214748364
+
     int reverse(int x) {
         int rev=0;
 
