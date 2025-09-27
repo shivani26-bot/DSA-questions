@@ -121,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1397-search-suggestions-system](https://github.com/shivani26-bot/DSA-questions/tree/master/1397-search-suggestions-system) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/shivani26-bot/DSA-questions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/shivani26-bot/DSA-questions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1435-xor-queries-of-a-subarray](https://github.com/shivani26-bot/DSA-questions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivani26-bot/DSA-questions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1511-count-number-of-teams](https://github.com/shivani26-bot/DSA-questions/tree/master/1511-count-number-of-teams) |
@@ -942,6 +943,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1184-car-pooling](https://github.com/shivani26-bot/DSA-questions/tree/master/1184-car-pooling) |
 | [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1370-count-number-of-nice-subarrays) |
+| [1435-xor-queries-of-a-subarray](https://github.com/shivani26-bot/DSA-questions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/shivani26-bot/DSA-questions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/shivani26-bot/DSA-questions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
@@ -1112,6 +1114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0795-k-th-symbol-in-grammar](https://github.com/shivani26-bot/DSA-questions/tree/master/0795-k-th-symbol-in-grammar) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
+| [1435-xor-queries-of-a-subarray](https://github.com/shivani26-bot/DSA-questions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/shivani26-bot/DSA-questions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/2059-unique-length-3-palindromic-subsequences) |
