@@ -65,3 +65,31 @@ public:
         return false;
     }
 };
+
+// We are given the condition:
+// original[i] ^ original[i+1] = derived[i]
+// where `⊕` means XOR.
+// then, how does this imply
+// original[i] ^ derived[i] = original[i+1] ; ?
+// ### Step 1: Recall XOR properties
+// XOR has a very useful property:
+// * ( a ^ b = c => a ^ c = b => b ^ c = a ).
+// This works because XOR is like "addition modulo 2", and it's its own inverse.
+// Formally:
+// a ^ b ^ b = a (since b ⊕ b = 0).
+// ### Step 2: Apply the property
+// We have:
+// original[i] ^ original[i+1] = derived[i].
+// Now XOR both sides with `original[i]`:
+// (original[i] ^ original[i+1]) ^ original[i] = derived[i] ^ original[i].
+// By associativity and commutativity of XOR:
+// (original[i] ^ original[i]) ^ original[i+1] = derived[i] ^ original[i].
+
+// Since ( original[i] ^ original[i] = 0 ):
+// original[i+1] = derived[i] ^ original[i].
+
+// ✅ Therefore, it’s proven that:
+// original[i] ^ derived[i] = original[i+1].
+
+// ⚡ Intuition:
+// Think of XOR as a "missing number finder". If you know two of the values in an XOR equation, you can always solve for the third because XOR undoes itself.
