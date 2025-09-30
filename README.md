@@ -204,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3329-find-the-length-of-the-longest-common-prefix](https://github.com/shivani26-bot/DSA-questions/tree/master/3329-find-the-length-of-the-longest-common-prefix) |
 | [3376-longest-common-suffix-queries](https://github.com/shivani26-bot/DSA-questions/tree/master/3376-longest-common-suffix-queries) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3427-special-array-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3427-special-array-ii) |
 | [3429-special-array-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3429-special-array-i) |
 | [3430-count-days-without-meetings](https://github.com/shivani26-bot/DSA-questions/tree/master/3430-count-days-without-meetings) |
@@ -295,6 +296,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3225-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/shivani26-bot/DSA-questions/tree/master/3225-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 | [3483-alternating-groups-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3483-alternating-groups-ii) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 | [3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3569-count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
@@ -1129,6 +1131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2533-bitwise-xor-of-all-pairings](https://github.com/shivani26-bot/DSA-questions/tree/master/2533-bitwise-xor-of-all-pairings) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/shivani26-bot/DSA-questions/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [2792-neighboring-bitwise-xor](https://github.com/shivani26-bot/DSA-questions/tree/master/2792-neighboring-bitwise-xor) |
+| [3380-shortest-subarray-with-or-at-least-k-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3380-shortest-subarray-with-or-at-least-k-ii) |
 ## Brainteaser
 |  |
 | ------- |
