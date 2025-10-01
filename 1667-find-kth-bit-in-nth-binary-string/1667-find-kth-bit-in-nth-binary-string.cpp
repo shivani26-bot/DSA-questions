@@ -38,7 +38,9 @@ public:
     //   0 1 1 1 0 0 1 -> original
     //   1 2 3 4 5 6 7  -> bit
     //   1 0 0 1 1 1 0 -> reversed
-
+// 1st bit -> reverse 7th bit => (7-(1-1))
+// 2nd bit -> reverse 6th bit => (7-(2-1))
+// 3rd bit -> reverse 5th bit => (7-(3-1))
     //   k=3, len-(k-1)
     //   7-(3-1)=5 
     //   5th bit in reversed will be equal to 3rd bit in original 
