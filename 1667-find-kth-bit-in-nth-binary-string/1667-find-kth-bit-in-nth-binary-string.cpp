@@ -31,6 +31,8 @@ public:
 
 // time:o(n)
 // space: o(n) recursion stack 
+// Si = Si - 1 + "1" + reverse(invert(Si - 1)) for i > 1
+// see at this equation to find the current si we need to find si-1 which tells its best suited for recursion 
     char findKthBit(int n, int k) {
     //   1 2 3 4 5 6 7  -> bit
     //   0 1 1 1 0 0 1 -> original
@@ -54,4 +56,20 @@ public:
         return ch=='0'?'1':'0'; //handle flipped bit
     }
     }
+
+    // first reverse then flip or first flip then reverse both are same
 };
+
+// n=4 k=11
+// n=1  0
+// n=2  0 1 1
+// n=3  011 1 001
+// n=4  0111001 1 011001 here i can get the 11th bit as length is greater than 11
+
+// there is middle parting where we append 1 at each step
+// if k=3 then i will get the 3rd bit on lhs of middle element
+// k< totallength/2
+// left half of string in n=4 is exactly same as n=3
+// for n=4 if we have to find k=3 then return the answer of n=3 , k=3
+// when k<length/2 then return the answer for kth bit of n-1
+// if k is exactly the middle posiition then return the middle element
