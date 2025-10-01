@@ -127,6 +127,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1511-count-number-of-teams](https://github.com/shivani26-bot/DSA-questions/tree/master/1511-count-number-of-teams) |
 | [1524-string-matching-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1524-string-matching-in-an-array) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shivani26-bot/DSA-questions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/shivani26-bot/DSA-questions/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1580-shuffle-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1580-shuffle-the-array) |
 | [1582-design-browser-history](https://github.com/shivani26-bot/DSA-questions/tree/master/1582-design-browser-history) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/shivani26-bot/DSA-questions/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
@@ -718,6 +719,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1370-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/1502-construct-k-palindrome-strings) |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/shivani26-bot/DSA-questions/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/shivani26-bot/DSA-questions/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -948,6 +950,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1370-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1435-xor-queries-of-a-subarray](https://github.com/shivani26-bot/DSA-questions/tree/master/1435-xor-queries-of-a-subarray) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/1537-maximum-score-after-splitting-a-string) |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/shivani26-bot/DSA-questions/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/shivani26-bot/DSA-questions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/shivani26-bot/DSA-questions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/shivani26-bot/DSA-questions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -1120,6 +1123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0795-k-th-symbol-in-grammar](https://github.com/shivani26-bot/DSA-questions/tree/master/0795-k-th-symbol-in-grammar) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1435-xor-queries-of-a-subarray](https://github.com/shivani26-bot/DSA-questions/tree/master/1435-xor-queries-of-a-subarray) |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/shivani26-bot/DSA-questions/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
 | [1940-maximum-xor-for-each-query](https://github.com/shivani26-bot/DSA-questions/tree/master/1940-maximum-xor-for-each-query) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/shivani26-bot/DSA-questions/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -1215,6 +1219,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
 | [1307-ugly-number-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1307-ugly-number-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1370-count-number-of-nice-subarrays) |
+| [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/shivani26-bot/DSA-questions/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/shivani26-bot/DSA-questions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2206-detonate-the-maximum-bombs](https://github.com/shivani26-bot/DSA-questions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/2696-the-number-of-beautiful-subsets) |
