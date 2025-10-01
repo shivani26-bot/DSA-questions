@@ -41,6 +41,7 @@ public:
 // 1st bit -> reverse 7th bit => (7-(1-1))
 // 2nd bit -> reverse 6th bit => (7-(2-1))
 // 3rd bit -> reverse 5th bit => (7-(3-1))
+// original ka kth bit, reverse mein len-(k-1) ho jayega
     //   k=3, len-(k-1)
     //   7-(3-1)=5 
     //   5th bit in reversed will be equal to 3rd bit in original 
