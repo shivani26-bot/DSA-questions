@@ -67,7 +67,7 @@ public:
 // n=1  0
 // n=2  0 1 1
 // n=3  011 1 001
-// n=4  0111001 1 011001 here i can get the 11th bit as length is greater than 11
+// n=4  0111001 1 0110001 here i can get the 11th bit as length is greater than 11
 
 // there is middle parting where we append 1 at each step
 // if k=3 then i will get the 3rd bit on lhs of middle element
