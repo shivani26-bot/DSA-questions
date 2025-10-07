@@ -29,7 +29,7 @@ i++;
 
         // if output is 0 then add the element to window  and set the bits of current element in used_bits
         used_bits|=nums[j];
-max_length=max(max_length, j-i+1);
+max_length=max(max_length, j-i+1);//find the max length
 j++;
     }
 return max_length;
