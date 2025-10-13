@@ -1233,6 +1233,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1307-ugly-number-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1307-ugly-number-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/shivani26-bot/DSA-questions/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
+| [1630-count-odd-numbers-in-an-interval-range](https://github.com/shivani26-bot/DSA-questions/tree/master/1630-count-odd-numbers-in-an-interval-range) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/shivani26-bot/DSA-questions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2206-detonate-the-maximum-bombs](https://github.com/shivani26-bot/DSA-questions/tree/master/2206-detonate-the-maximum-bombs) |
 | [2696-the-number-of-beautiful-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/2696-the-number-of-beautiful-subsets) |
