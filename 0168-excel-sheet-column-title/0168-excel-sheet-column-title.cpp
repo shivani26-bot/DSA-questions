@@ -27,7 +27,8 @@ ans+=remainder+'A';
     }
     reverse(ans.begin(),ans.end());
     return ans;
-// tc
+    // each number is getting divided by 26 
+     // tc:
     // log26(columnnumber)
     }
 };
