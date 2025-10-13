@@ -27,5 +27,7 @@ ans+=remainder+'A';
     }
     reverse(ans.begin(),ans.end());
     return ans;
+// tc
+    // log26(columnnumber)
     }
 };
