@@ -8,7 +8,7 @@ if(len1%k>0 || len2%k>0){
     return false;
 }else{
     // now check whether the current string of length k can be a gcdbase or not 
-    string base= str1.substr(0,k);
+    string base= str2.substr(0,k);
     int n1= len1/k, n2=len2/k;
     return str1==joinWords(base,n1) && str2==joinWords(base,n2);
 
@@ -30,7 +30,7 @@ string joinWords(string str, int k){
 for(int i=min(str1.length(),str2.length()); i>=1; i--){
     // check whether the current length of the min size string is a valid gcd string or not 
     if(valid(str1,str2,i)){
-        return str1.substr(0,i);
+        return str2.substr(0,i);
     }
 }
 return "";
