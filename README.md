@@ -133,6 +133,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/shivani26-bot/DSA-questions/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/shivani26-bot/DSA-questions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivani26-bot/DSA-questions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1677-matrix-diagonal-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/1677-matrix-diagonal-sum) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/shivani26-bot/DSA-questions/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1720-crawler-log-folder](https://github.com/shivani26-bot/DSA-questions/tree/master/1720-crawler-log-folder) |
@@ -990,6 +991,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1331-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1331-path-with-maximum-gold) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/shivani26-bot/DSA-questions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1677-matrix-diagonal-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/1677-matrix-diagonal-sum) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/shivani26-bot/DSA-questions/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2080-check-if-move-is-legal](https://github.com/shivani26-bot/DSA-questions/tree/master/2080-check-if-move-is-legal) |
