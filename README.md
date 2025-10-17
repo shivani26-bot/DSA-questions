@@ -1242,6 +1242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1370-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1553-count-triplets-that-can-form-two-arrays-of-equal-xor](https://github.com/shivani26-bot/DSA-questions/tree/master/1553-count-triplets-that-can-form-two-arrays-of-equal-xor) |
 | [1630-count-odd-numbers-in-an-interval-range](https://github.com/shivani26-bot/DSA-questions/tree/master/1630-count-odd-numbers-in-an-interval-range) |
+| [1806-count-of-matches-in-tournament](https://github.com/shivani26-bot/DSA-questions/tree/master/1806-count-of-matches-in-tournament) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/shivani26-bot/DSA-questions/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/shivani26-bot/DSA-questions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2032-largest-odd-number-in-string](https://github.com/shivani26-bot/DSA-questions/tree/master/2032-largest-odd-number-in-string) |
@@ -1445,6 +1446,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0983-validate-stack-sequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0983-validate-stack-sequences) |
 | [1184-car-pooling](https://github.com/shivani26-bot/DSA-questions/tree/master/1184-car-pooling) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/shivani26-bot/DSA-questions/tree/master/1667-find-kth-bit-in-nth-binary-string) |
+| [1806-count-of-matches-in-tournament](https://github.com/shivani26-bot/DSA-questions/tree/master/1806-count-of-matches-in-tournament) |
 | [2232-adding-spaces-to-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/2232-adding-spaces-to-a-string) |
 | [2265-partition-array-according-to-given-pivot](https://github.com/shivani26-bot/DSA-questions/tree/master/2265-partition-array-according-to-given-pivot) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/shivani26-bot/DSA-questions/tree/master/2271-rearrange-array-elements-by-sign) |
