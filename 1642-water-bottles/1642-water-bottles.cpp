@@ -8,7 +8,7 @@ int ans=numBottles;
 int emptyBottles=numBottles;//when all bottles are drunk then all are empty
 // now we need to exchnage these emtpty bottles 
   // we can exchange bottles only when emptybottles are >= numExchange
-while(emptyBottles>=numBottles){
+while(emptyBottles>=numExchange){
     //find how many bottles out of empty bottles are exchanged
     int exchangeBottles= emptyBottles/numExchange; //we get these many bottles after exchanging empty bottles
     // find remaining bottles out of empty bottles which cannot be exchanged 
