@@ -28,6 +28,7 @@ public:
 // 8 (2³) → 1000 ❌ not a power of 4
 // 16 (2⁴) → 0001 0000 ✅ power of 4 (4²)
 // check if ony 1 bit is set and bit is set at even position 
-return (n&(n-1))==0 && (n&0x55555555)!=0;
+// return (n&(n-1))==0 && (n&0x55555555)!=0;
+return (n&(n-1))==0 && n&0x55555555;
     }
 };
