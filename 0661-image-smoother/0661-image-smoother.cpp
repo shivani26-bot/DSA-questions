@@ -127,3 +127,56 @@ img[i][j]=sum/count;
 return img;
     }
 };
+
+// dry run 
+// 1 3 4 6 2
+// 2 6 5 4 9
+// 8 3 2 1 5
+// 1 5 4 6 7
+// 7 3 1 2 5
+// prev_row=[0,0,0,0,0]
+// for 0,0
+// no past cells, only future cells which are not yet processed (0,1) (1,0) (1,1)
+// 3+2+6+1=12/4=3, update the cell (0,0) with 3 and before update store 1 in prev_row[0]
+// 3 3 4 6 2
+// 2 6 5 4 9
+// 8 3 2 1 5
+// 1 5 4 6 7
+// 7 3 1 2 5
+// prev_row=[1,0,0,0,0]
+// for (0,1)
+// one left cell , and future cells (0,0) (0,2) (1,0) (1,1) (1,2)
+// for left cell value see prev_row[1-1] ie 1
+// 1+3+4+2+6+5/6 =3 update the cell (0,1) with 3 and before update store 3 in prev_row[1]
+// 3 3 4 6 2
+// 2 6 5 4 9
+// 8 3 2 1 5
+// 1 5 4 6 7
+// 7 3 1 2 5
+// prev_row=[1,3,0,0,0]
+// for (0,2)
+// one left cell and future cells (0,1) (0,3) (1,1) (1,2) (1,3)
+// for left cell value see prev_row[2-1]=3
+// 3+4+6+6+5+5/6=28/6=4 update the cell (0,2) with 4 and before update store 4 in prev_row[2]
+// 3 3 4 6 2
+// 2 6 5 4 9
+// 8 3 2 1 5
+// 1 5 4 6 7
+// 7 3 1 2 5
+// prev_row=[1,3,4,0,0]
+// similarly do for (0,3) (0,4) cell
+// moving to the next row, (1,0)
+// top 2 cells 0,0 and 0,1 and future cells (1,1 )(2,0),(2,1)
+// for top vertical and top right prev_row[0] prev_row[1]
+// 1+3+2+6+8+3/6=23/6=3 update the cell (1,0) with 3 and before update store 3 in prev_row[0] and store prev_row[0] ie 1 in prevCorner variable so prevCorner=1 as this will act as topleft corner for next cell
+// 3 3 4 6 2
+// 3 6 5 4 9
+// 8 3 2 1 5
+// 1 5 4 6 7
+// 7 3 1 2 5
+// prev_row=[3,3,4,0,0]
+// for (1,1) 
+// processed cells (0,0) (0,1) (0,2)(1,0) accessed through prevCorner and prev_row values and future cells which is not processed yet (1,2) (2,0) (2,1) (2,2)
+// we get value for (0,0) as prevCorner and value for (0,1) (0,2)(1,0) from prev_row
+// 1+3+4+2+6+5+8+3+2+3/9 and similarly repeat further
+
