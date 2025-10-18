@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0057-insert-interval](https://github.com/shivani26-bot/DSA-questions/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0064-minimum-path-sum) |
+| [0066-plus-one](https://github.com/shivani26-bot/DSA-questions/tree/master/0066-plus-one) |
 | [0074-search-a-2d-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/shivani26-bot/DSA-questions/tree/master/0079-word-search) |
@@ -1219,6 +1220,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0002-add-two-numbers](https://github.com/shivani26-bot/DSA-questions/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/shivani26-bot/DSA-questions/tree/master/0007-reverse-integer) |
+| [0066-plus-one](https://github.com/shivani26-bot/DSA-questions/tree/master/0066-plus-one) |
 | [0067-add-binary](https://github.com/shivani26-bot/DSA-questions/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/shivani26-bot/DSA-questions/tree/master/0069-sqrtx) |
 | [0096-unique-binary-search-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0096-unique-binary-search-trees) |
