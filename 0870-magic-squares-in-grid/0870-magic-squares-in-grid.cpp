@@ -18,7 +18,10 @@ unordered_set<int>st;
         if(grid[r][c+i]+grid[r+1][c+i]+grid[r+2][c+i] != rowSum)
             return  false;
 
-            // diagonal elements always follow the following order
+           
+
+    }
+     // diagonal elements always follow the following order
 // r,c => r+1,c+1=>r+2,c+2 and so on 
 if(grid[r][c]+grid[r+1][c+1]+grid[r+2][c+2]!=rowSum) return false;
 
@@ -26,8 +29,6 @@ if(grid[r][c]+grid[r+1][c+1]+grid[r+2][c+2]!=rowSum) return false;
 // if given r,c, start from r+3-1, c+3-1 ie r=r+2,c=c+2 and other antidiagonal coordinates will be, r-1,c+1
 
 if(grid[r][c+2]+grid[r+1][c+2-1]+grid[r+2][c+2-2]!=rowSum) return false;
-
-    }
 
     // for(int i=0;i<3;i++){
     //     for(int j=0;j<3;j++){
