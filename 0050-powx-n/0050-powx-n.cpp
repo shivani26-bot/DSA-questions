@@ -1,7 +1,7 @@
 class Solution {
 public:
 double solve(double x, long n){
-// time: o(logn) because n is n,n/2,n/4
+// time: o(logn) because n is n,n/2,n/4,...1
     if(n==0) return 1;
 if(n<0){
     return solve(1/x,-n);
