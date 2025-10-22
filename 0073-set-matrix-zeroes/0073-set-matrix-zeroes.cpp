@@ -3,28 +3,29 @@ public:
     void setZeroes(vector<vector<int>>& matrix) {
         // brute force 
         // take a temporary matrix 
-          int m=matrix.size();
-        int n=matrix[0].size();
+        //  //o(m*n *(m+n))
+//           int m=matrix.size();
+//         int n=matrix[0].size();
 
-        vector<vector<int>>temp=matrix;//temp 2d matrix will be equal to matrix
-        // loop through the matrix
-        for(int i=0;i<m;i++){
-            for(int j=0;j<n;j++){
-                // if current cell is 0 then update the entire row and entire columnn that aligns for that cell , make the update in temp 2d array
-if(matrix[i][j]==0){
-    for(int k=0;k<n;k++){
-        //this covers the row
-        temp[i][k]=0;
-    }
-      for(int k=0;k<m;k++){
-        //this covers the column
-        temp[k][j]=0;
-    }
-}
-            }
-        }
-//reassign the temp to matrix
-        matrix=temp;
+//         vector<vector<int>>temp=matrix;//temp 2d matrix will be equal to matrix
+//         // loop through the matrix
+//         for(int i=0;i<m;i++){
+//             for(int j=0;j<n;j++){
+//                 // if current cell is 0 then update the entire row and entire columnn that aligns for that cell , make the update in temp 2d array
+// if(matrix[i][j]==0){
+//     for(int k=0;k<n;k++){
+//         //this covers the row
+//         temp[i][k]=0;
+//     }
+//       for(int k=0;k<m;k++){
+//         //this covers the column
+//         temp[k][j]=0;
+//     }
+// }
+//             }
+//         }
+// //reassign the temp to matrix
+//         matrix=temp;
 
 
         // 2nd approach 
@@ -56,6 +57,60 @@ if(matrix[i][j]==0){
 //             }
 //         }
        
+
+    //    optimal 
+    // check whether first row or column in impacted or not, as this is the corner case, if either of them is impacted it means we will leave the first row and column and then run the for loop of rest matrix 
+    int m=matrix.size();
+    int n=matrix[0].size();
+    bool firstRowImpacted=false;
+    bool firstColImpacted=false;
+    for(int col=0;col<n;col++){
+        if(matrix[0][col]==0) {
+            firstRowImpacted=true;
+            break;
+        }    
+    }
+
+      for(int row=0;row<m;row++){
+        if(matrix[row][0]==0) {
+            firstColImpacted=true;
+            break;
+        }   
+    }
+
+// set marker in frist row/col
+// if current cell is 0 then first elemnt of ith row and jth column will act as marker
+for(int i=1;i<m;i++){
+        for(int j=1;j<n;j++){
+if(matrix[i][j]==0){
+    matrix[i][0]=0;
+    matrix[0][j]=0;
+}
+        }
+    }
+    
+
+    // now loop through rest matrix 
+    for(int i=1;i<m;i++){
+        for(int j=1;j<n;j++){
+ // if first ele of ith row or jth col is 0 then it means the current cell be also be 0 
+if(matrix[i][0]==0 || matrix[0][j]==0){
+matrix[i][j]=0;
+}
+        }
+    }
+
+    // at last check if either first row or first column is impacted make the entire row and column as 0 
+    if(firstRowImpacted){
+        for(int j=0;j<n;j++){
+            matrix[0][j]=0;
+        }
+    }
+    if(firstColImpacted){
+        for(int i=0;i<m;i++){
+            matrix[i][0]=0;
+        }
+    }
     }
 };
 
