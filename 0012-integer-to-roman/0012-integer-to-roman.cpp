@@ -20,19 +20,33 @@ public:
     //    remainder=3%1=0
 
     // store all the values in descending order in vector 
-    vector<int> val{1000,900,500,400,100,90, 50, 40,10,9,5,4,1};
-    vector<string> sym{"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
-    string result="";
-    for(int i=0;i<13;i++){
-        if(num==0) break;
-        int times=num/val[i];
-        // add the symbol times time 
-        while(times--){
-            result+=sym[i];
-        }
-num=num%val[i];
-    }
+//     vector<int> val{1000,900,500,400,100,90, 50, 40,10,9,5,4,1};
+//     vector<string> sym{"M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"};
+//     string result="";
+//     for(int i=0;i<13;i++){
+//         if(num==0) break;
+//         int times=num/val[i];
+//         // add the symbol times time 
+//         while(times--){
+//             result+=sym[i];
+//         }
+// num=num%val[i];
+//     }
 
-return result;
+// return result;
+
+// we can also make a pair 
+vector<pair<int,string>>valSym{{1000, "M"}, {900, "CM"}, {500, "D"}, {400, "CD"}, {100, "C"},{90, "XC"},  {50, "L"},   {40, "XL"}, {10, "X"},{9, "IX"},{5, "V"},{4, "IV"},{1, "I"}};
+
+            string result;
+            for(auto [val,sym]:valSym){
+                if(num==0) break;
+                while(num>=val){
+                    result+=sym;
+                    num-=val;
+                }
+            }
+
+            return result;
     }
 };
