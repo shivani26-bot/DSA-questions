@@ -1281,6 +1281,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1642-water-bottles](https://github.com/shivani26-bot/DSA-questions/tree/master/1642-water-bottles) |
 | [1806-count-of-matches-in-tournament](https://github.com/shivani26-bot/DSA-questions/tree/master/1806-count-of-matches-in-tournament) |
 | [1817-calculate-money-in-leetcode-bank](https://github.com/shivani26-bot/DSA-questions/tree/master/1817-calculate-money-in-leetcode-bank) |
+| [1889-check-if-number-is-a-sum-of-powers-of-three](https://github.com/shivani26-bot/DSA-questions/tree/master/1889-check-if-number-is-a-sum-of-powers-of-three) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/shivani26-bot/DSA-questions/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2032-largest-odd-number-in-string](https://github.com/shivani26-bot/DSA-questions/tree/master/2032-largest-odd-number-in-string) |
 | [2206-detonate-the-maximum-bombs](https://github.com/shivani26-bot/DSA-questions/tree/master/2206-detonate-the-maximum-bombs) |
