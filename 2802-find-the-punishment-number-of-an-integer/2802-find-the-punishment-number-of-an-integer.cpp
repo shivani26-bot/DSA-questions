@@ -133,7 +133,8 @@ public:
     }
     int punishmentNumber(int n) {
         int punish=0;
-
+// tc: o(n*2^(log10(n^2)))
+// sc: o(log10(n^2))
         for(int num=1;num<=n;num++){
             int sq=num*num;
             if(check(sq,0,num)){
