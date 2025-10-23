@@ -71,6 +71,7 @@ public:
 // if we have other than 0 or 1 it is false
 // x%3=0/1/2 if its 2 then false
 
+// log3n because we are dividing by 3
 while(n>0){
     if(n%3==2) return false;
     n=n/3;
