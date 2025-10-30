@@ -12,11 +12,13 @@ public:
           if(s[i]=='1') count1++;
       }
 cout<<count1<<endl;
+// first fill the n-1 th position, because if only there is one 1 then to make odd the max odd binary will be 1 which we get by filling n-1th position, ie 2^0=1
       if(count1>=1) {
           ans[n-1]='1';
           count1--;
       }
       int i=0;
+    //   start filling from left most side
       while(count1!=0&& i<n){
           ans[i]='1';
           count1--;
