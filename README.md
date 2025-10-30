@@ -406,6 +406,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2636-maximum-subsequence-score](https://github.com/shivani26-bot/DSA-questions/tree/master/2636-maximum-subsequence-score) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/shivani26-bot/DSA-questions/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [2756-buy-two-chocolates](https://github.com/shivani26-bot/DSA-questions/tree/master/2756-buy-two-chocolates) |
+| [3055-maximum-odd-binary-number](https://github.com/shivani26-bot/DSA-questions/tree/master/3055-maximum-odd-binary-number) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -867,6 +868,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/shivani26-bot/DSA-questions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/shivani26-bot/DSA-questions/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2800-minimum-string-length-after-removing-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/2800-minimum-string-length-after-removing-substrings) |
+| [3055-maximum-odd-binary-number](https://github.com/shivani26-bot/DSA-questions/tree/master/3055-maximum-odd-binary-number) |
 | [3266-find-longest-special-substring-that-occurs-thrice-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/3266-find-longest-special-substring-that-occurs-thrice-ii) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -1296,6 +1298,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2696-the-number-of-beautiful-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/2696-the-number-of-beautiful-subsets) |
 | [2802-find-the-punishment-number-of-an-integer](https://github.com/shivani26-bot/DSA-questions/tree/master/2802-find-the-punishment-number-of-an-integer) |
 | [2903-insert-greatest-common-divisors-in-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/2903-insert-greatest-common-divisors-in-linked-list) |
+| [3055-maximum-odd-binary-number](https://github.com/shivani26-bot/DSA-questions/tree/master/3055-maximum-odd-binary-number) |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
 ## Geometry
 |  |
