@@ -173,6 +173,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/shivani26-bot/DSA-questions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2132-convert-1d-array-into-2d-array) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/shivani26-bot/DSA-questions/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/shivani26-bot/DSA-questions/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -358,6 +359,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/shivani26-bot/DSA-questions/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/shivani26-bot/DSA-questions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/shivani26-bot/DSA-questions/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2164-two-best-non-overlapping-events](https://github.com/shivani26-bot/DSA-questions/tree/master/2164-two-best-non-overlapping-events) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/shivani26-bot/DSA-questions/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/shivani26-bot/DSA-questions/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -395,6 +397,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1966-frequency-of-the-most-frequent-element](https://github.com/shivani26-bot/DSA-questions/tree/master/1966-frequency-of-the-most-frequent-element) |
 | [2032-largest-odd-number-in-string](https://github.com/shivani26-bot/DSA-questions/tree/master/2032-largest-odd-number-in-string) |
 | [2085-array-with-elements-not-equal-to-average-of-neighbors](https://github.com/shivani26-bot/DSA-questions/tree/master/2085-array-with-elements-not-equal-to-average-of-neighbors) |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/shivani26-bot/DSA-questions/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/shivani26-bot/DSA-questions/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/shivani26-bot/DSA-questions/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/shivani26-bot/DSA-questions/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -1561,4 +1564,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1028-interval-list-intersections](https://github.com/shivani26-bot/DSA-questions/tree/master/1028-interval-list-intersections) |
+## Counting Sort
+|  |
+| ------- |
+| [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/shivani26-bot/DSA-questions/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
 <!---LeetCode Topics End-->
