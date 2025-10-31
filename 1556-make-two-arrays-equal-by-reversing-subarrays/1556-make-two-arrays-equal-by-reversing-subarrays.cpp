@@ -10,11 +10,28 @@ public:
 
 // Thus, the problem boils down to whether or not arr and target contain the same elements. In order to determine this, we can sort both arrays. If the arrays have the same elements, then their sorted versions should be identical. If they don't have the same elements, then their sorted versions will have at least one differing value at some index i
 // o(nlogn)
-sort(target.begin(),target.end());
-sort(arr.begin(),arr.end());
-for(int i=0;i<arr.size();i++){
-    if(arr[i]!=target[i]) return false;
+// sort(target.begin(),target.end());
+// sort(arr.begin(),arr.end());
+// for(int i=0;i<arr.size();i++){
+//     if(arr[i]!=target[i]) return false;
+// }
+// return true;
+
+unordered_map<int,int>arrFreq;
+for(auto it: arr){
+    arrFreq[it]++;
 }
-return true;
+
+for(auto it:target){
+    //check if element is target is not found in map then return false;
+    if(arrFreq.find(it)==arrFreq.end()) return false;
+
+//if found decrease the frequency
+    arrFreq[it]--;
+    if(arrFreq[it]==0){
+        arrFreq.erase(it);
+    }
+}
+return arrFreq.size()==0;
     }
 };
