@@ -12,6 +12,9 @@
 class Solution {
 public:
 //do normal swapping
+
+// space: o(h) the recursion depth height of the tree, balanced tree:o(logn) , skewed tree: o(n)
+// time : o(n), each node is visited once and at each node only swap is done o(1)
 void dfs(TreeNode* root){
  if(!root) return;
          TreeNode* temp= root->left;
