@@ -11,6 +11,14 @@
  */
 class Solution {
 public:
+// time complexity : o(n)
+// because each node is visited once, for every level pop the element from queue o(1) store it in temp o(1) push children in queue o(1)
+// space: 
+// in worst case for full binary tree, queue can hold upto max number of nodes in a level
+// o(w) w is tree width
+// In the worst case (balanced binary tree), w = O(n/2) = O(n).
+// temp vector per level o(n)
+// we store every node value in ans, o(n)
     vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
         if(!root) return {};
         vector<vector<int>>ans;
