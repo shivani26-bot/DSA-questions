@@ -27,6 +27,9 @@ public:
         //     level++;
         // }
         // return level;
+        // each node triggers only one recursive call, each node is visited once and per node only max operation is performed ie o(1) hence for n nodes o(n) time complexity
+        // space : depends on recursion depth, worst case (balanced tree)-> o(logn)
+        // skewed tree->o(n)
         if(!root) return 0;
         int lst=maxDepth(root->left);
         int rst=maxDepth(root->right);
