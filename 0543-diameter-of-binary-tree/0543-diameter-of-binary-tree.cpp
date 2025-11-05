@@ -80,7 +80,12 @@ public:
 //         return max({leftDepth+rightDepth,diameterOfBinaryTree(root->left),diameterOfBinaryTree(root->right)});
 //     }
 
-
+// ✅ Time Complexity:
+// O(n) — Each node is visited exactly once, and we do constant work (max and addition) per node.
+// ✅ Space Complexity:
+// O(h) — recursion stack height (worst case = height of the tree).
+// If the tree is balanced → O(log n)
+// If the tree is skewed → O(n)
 int solve(TreeNode* root, int& result){
     if(!root) return 0;
     int lst= solve(root->left, result);
