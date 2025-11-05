@@ -31,7 +31,8 @@ public:
 //  return true;
 //     }
 
- 
+//  time : o(n)
+//  space: o(recursion depth) logn for balanced tree, n for skewed tree
    int dfsHeight(TreeNode* root) {
    
         if(!root) return 0;
