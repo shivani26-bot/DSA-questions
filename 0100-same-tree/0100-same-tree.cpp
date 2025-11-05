@@ -23,6 +23,8 @@ public:
 
 //  return p->val== q->val && left && right;
 // }
+// time: o(n)
+// space; o(h)
 bool check(TreeNode* p, TreeNode* q){
     if(!p && !q) return true;
     if(!q || !p) return false;
