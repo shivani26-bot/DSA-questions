@@ -53,6 +53,30 @@
         
     
 // };
+// time: n->number of nodes in root m->number of nodes in subRoot
+// for each node in main tree root we may call check(root,subRoot) upto n times
+// each check() call can take o(m) time in worst case when both trees are similar structure and values
+// o(n*m)
+// space: o(h1+h2)
+// h1 and h2 are recursion stack depth for root and subRoot 
+// balanced tree o(logn +logm)
+// skewed tree o(n+m)
+// worst case: 
+//       1
+//      /
+//     1
+//    /
+//   1
+//  /
+// 1
+// /
+// 1
+
+// subroot tree
+//     1
+//    /
+//   1
+
 class Solution {
 public:
 bool check(TreeNode* root, TreeNode* subRoot){
