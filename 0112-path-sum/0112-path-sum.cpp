@@ -45,6 +45,12 @@
 // };
 class Solution {
 public:
+// time: o(n)
+// each node is visited exactly once, for each node only o(1) operation sum
+// space :o(h)
+// h height of recursion tree (depth of binary tree)
+// balanced->o(logn)
+// skewed->o(n)
 bool pathSum(TreeNode* root, int targetSum,int &sum){
 if(!root) {
  return false;
