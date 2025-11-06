@@ -9,8 +9,15 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+
 class Solution {
 public:
+// time: o(n) n= total number of nodes in both trees (upto to larger one)
+// total number of visited nodes= total nodes in smaller + unmatched nodes in larger tree
+// space:o(h)
+// h-> recursin depth
+// balanced tree logn , skewed tree n
 TreeNode* mergedTree(TreeNode* r1, TreeNode* r2){
     if(!r1 && !r2) return NULL;
 if(!r1) return r2;
