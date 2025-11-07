@@ -9,6 +9,13 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+//  time o(n+m)
+//  n= number of nodes in tree1
+//  m=number of nodes in tree2, we are visiting all the nodes once
+//  space: recursion stack o(h) and leaf vectors v1 and v2
+//  For a complete or perfect binary tree with n total nodes:About half the nodes are at the last level. number_of_leaves ≈ n / 2
+// Leaf storage alone → O(n) space.
+// o(w1+w2)
 class Solution {
 public:
 void dfs1(TreeNode* root,vector<int>&v1){
