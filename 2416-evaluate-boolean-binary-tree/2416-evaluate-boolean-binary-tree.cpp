@@ -12,10 +12,23 @@
 class Solution {
 public:
 bool check(TreeNode* root){
+//     if(!root) return false;
+//     if(!root->left && !root->right){
+//         if(root->val==1) return true;
+//         else return false;
+//     }
+//     bool lst=check(root->left);
+//     bool rst=check(root->right);
+ 
+//     return (root->val==3) ? (lst && rst) :(lst || rst);
+// }
+//     bool evaluateTree(TreeNode* root) {
+//        if(!root) return false;
+//        return check(root);
+//     }
     if(!root) return false;
     if(!root->left && !root->right){
-        if(root->val==1) return true;
-        else return false;
+        return root->val;
     }
     bool lst=check(root->left);
     bool rst=check(root->right);
