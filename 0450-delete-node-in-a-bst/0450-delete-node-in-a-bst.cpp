@@ -189,12 +189,18 @@
 //if we have both left child and right child we have two option either replace the root with minimum element in the right child or maximum elemetn in the left child
 class Solution {
 public:
+// balanced logn skewed n
+// space: o(h) max recursin depth of tree
+// total tc: o(h)
+// o(h) in case of 2 children, will traverse the height of tree in worst case
 TreeNode* findMin(TreeNode* root){
     while(root->left){
         root=root->left;
     }
     return root;
 }
+// o(h) finding the node
+// o(1) deleting the node 
     TreeNode* deleteNode(TreeNode* root, int key) {
       if(!root) return root;
 
