@@ -60,6 +60,7 @@ public:
 
 // dfs preorder traversal
 // ans size must be equal to number of level
+// time is o(n) and space o(n+recursion deppth)
 void dfs(TreeNode* root, int level,vector<int>&ans){
 if(!root) return;
 
