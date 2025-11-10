@@ -47,6 +47,17 @@ bool isSame(int x, int y, int n, vector<vector<int>>&grid){
     return true;
 }
 Node* solve(int x, int y, int n,vector<vector<int>>& grid ){
+    // This function iterates through all n × n elements of the current subgrid.
+//     In each recursive call:
+// You first call isSame() → O(n²)
+// If not all values are same → You recursively call solve() 4 times, each on a subgrid of size (n/2 × n/2)
+// recurrence relation:
+// T(n)=4T(n/2)+O(n2)
+// time=O(n^2logn)
+
+// space: o(n^2) Quad tree nodes + recursion stack O(log n)
+// Each recursion divides n by 2 each time → depth = O(log n).
+
     if(isSame(x,y,n,grid)){
 return new Node(grid[x][y],true);
     }
