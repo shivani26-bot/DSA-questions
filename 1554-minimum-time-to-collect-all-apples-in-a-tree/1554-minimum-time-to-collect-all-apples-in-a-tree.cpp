@@ -39,14 +39,25 @@ return time;
     int minTime(int n, vector<vector<int>>& edges, vector<bool>& hasApple) {
     
         vector<vector<int>>adjList(n);
+//         each edge adds two entries:
+//         O(E) time, where E = n - 1 for a tree.
+// → So this part = O(n).
         for(int i=0;i<edges.size();i++){
             int u=edges[i][0];
             int v=edges[i][1];
             adjList[u].push_back(v);
             adjList[v].push_back(u);
         }
-   
+//    DFS visits every node once, and iterates over its adjacency list.
+// In total, across the whole recursion, each edge is processed once (since you skip the parent edge).
+// So, DFS = O(V + E) = O(n).
         return dfs(0, -1,adjList,hasApple);
       
     }
 };
+
+// space:
+// 1. Adjacency list storage:
+// Each edge stored twice → O(2E) = O(n).
+// 2. Recursion stack:
+// In worst case (a skewed tree), recursion depth = O(n).
