@@ -44,6 +44,8 @@ public:
 
 
 //     }
+// time : o(n)
+// space: o(recursion depth, h)
 int countNodes(TreeNode* root){
     if(!root) return false;
     return 1+countNodes(root->left)+countNodes(root->right);
