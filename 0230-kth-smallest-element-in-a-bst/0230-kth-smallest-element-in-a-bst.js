@@ -15,6 +15,7 @@ var kthSmallest = function(root, k) {
     let ans=0;
     // numbers are passed by value 
     let count=0;
+    // we can also use object for pass by reference let state = { count: 0 };
 function inorder( root, k,){
 
 if(!root) return;
