@@ -31,13 +31,13 @@ maxTime=max(maxTime,curr_time);
        q.pop();
    
 
-
+if(adjList.find(curr_employee)!=adjList.end()){
 for(auto it: adjList[curr_employee]){
     cout<<it<<" "; 
     int adjTime=curr_time+informTime[curr_employee];
 q.push({it,adjTime});
 }
-
+}
 cout<<endl;
         }
 
