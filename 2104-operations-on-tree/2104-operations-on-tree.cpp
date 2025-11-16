@@ -1,5 +1,18 @@
 class LockingTree {
 public:
+
+// vector<int> parent;
+// This is the class member variable that you want to store permanently.
+// But in the constructor:
+// LockingTree(vector<int>& parent)
+// parent here is just a local variable (parameter) that exists only when the constructor runs.
+// To avoid confusion:
+// this->parent → member variable
+// parent → constructor parameter
+// Since both have the same name, you must use this-> to refer to the member.
+// If you do NOT store it in this->parent, then the node parents information will be lost when the constructor ends.
+
+
 //visited unordered set is optional, even if we don't take it the solution will run successfully
 vector<int>parent;
  unordered_map<int,vector<int>>mp;
@@ -23,6 +36,7 @@ vector<int>parent;
     }
     
     bool unlock(int num, int user) {
+
         // if(locked.find(num)!=locked.end()){
         //      if(locked[num]==user){
         //         locked.erase(num);
