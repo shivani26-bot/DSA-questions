@@ -518,6 +518,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0988-flip-equivalent-binary-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0988-flip-equivalent-binary-trees) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1030-smallest-string-starting-from-leaf](https://github.com/shivani26-bot/DSA-questions/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1035-cousins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1035-cousins-in-binary-tree) |
 | [1275-validate-binary-tree-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1275-validate-binary-tree-nodes) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/shivani26-bot/DSA-questions/tree/master/1450-delete-leaves-with-a-given-value) |
@@ -584,6 +585,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0975-range-sum-of-bst](https://github.com/shivani26-bot/DSA-questions/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0988-flip-equivalent-binary-trees) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1030-smallest-string-starting-from-leaf](https://github.com/shivani26-bot/DSA-questions/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1035-cousins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1035-cousins-in-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/shivani26-bot/DSA-questions/tree/master/1073-number-of-enclaves) |
 | [1275-validate-binary-tree-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1275-validate-binary-tree-nodes) |
@@ -709,6 +711,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0988-flip-equivalent-binary-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0988-flip-equivalent-binary-trees) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1021-distribute-coins-in-binary-tree) |
+| [1030-smallest-string-starting-from-leaf](https://github.com/shivani26-bot/DSA-questions/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1035-cousins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1035-cousins-in-binary-tree) |
 | [1275-validate-binary-tree-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1275-validate-binary-tree-nodes) |
 | [1450-delete-leaves-with-a-given-value](https://github.com/shivani26-bot/DSA-questions/tree/master/1450-delete-leaves-with-a-given-value) |
@@ -836,6 +839,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/shivani26-bot/DSA-questions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0962-flip-string-to-monotone-increasing](https://github.com/shivani26-bot/DSA-questions/tree/master/0962-flip-string-to-monotone-increasing) |
 | [1023-time-based-key-value-store](https://github.com/shivani26-bot/DSA-questions/tree/master/1023-time-based-key-value-store) |
+| [1030-smallest-string-starting-from-leaf](https://github.com/shivani26-bot/DSA-questions/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/shivani26-bot/DSA-questions/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
 | [1129-longest-string-chain](https://github.com/shivani26-bot/DSA-questions/tree/master/1129-longest-string-chain) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -1074,6 +1078,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0473-matchsticks-to-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0473-matchsticks-to-square) |
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [1030-smallest-string-starting-from-leaf](https://github.com/shivani26-bot/DSA-questions/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1160-letter-tile-possibilities](https://github.com/shivani26-bot/DSA-questions/tree/master/1160-letter-tile-possibilities) |
 | [1331-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1331-path-with-maximum-gold) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
