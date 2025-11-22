@@ -10,6 +10,15 @@
  * @param {TreeNode} root
  * @return {string}
  */
+//  'a'.charCodeAt(0)
+// Every character has an ASCII/Unicode numeric code.
+// 'a'.charCodeAt(0) :gives the number 97.
+// String.fromCharCode(...)
+// This takes a number and returns the character for that number.
+// String.fromCharCode(97) // 'a'
+// String.fromCharCode(98) // 'b'
+// String.fromCharCode(99) // 'c'
+
 var smallestFromLeaf = function(root) {
 
     let ans;
