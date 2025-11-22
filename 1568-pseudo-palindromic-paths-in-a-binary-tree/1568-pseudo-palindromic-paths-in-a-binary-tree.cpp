@@ -11,6 +11,15 @@
  */
 class Solution {
 public:
+// palindrome is a word, number, sentence, or sequence that reads the same forward and backward.
+// ex: madam, racecar, level, 121, 1221
+// Every character must appear an even number of times,
+// except possibly one character, which can appear an odd number of times (the middle character).
+// then it can be permuted to form palindrome
+// 2 3 3 2 → all even → palindrome
+// 1 2 3 2 1 → only 3 appears odd times → still palindrome
+// 1 2 3 4 1 → 2 and 3 appear odd times → not palindrome
+
 // void solve(TreeNode* root, vector<int>&freq, int& countPaths){
 // if(!root) return;
 //     freq[root->val]++;
