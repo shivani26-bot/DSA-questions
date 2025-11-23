@@ -52,8 +52,12 @@ if(root->val== p->val || root->val==q->val) return root;
        TreeNode* lst= lowestCommonAncestor(root->left,p,q);
        TreeNode* rst= lowestCommonAncestor(root->right,p,q);
 
-if(lst!=NULL && rst!=NULL) return root;
- if(lst!=NULL) return lst;
- return rst;
+// if(lst!=NULL && rst!=NULL) return root;
+//  if(lst!=NULL) return lst;
+//  return rst;
+
+if(!lst) return rst;
+ if(!rst) return lst;
+ return root;
     }
 };
