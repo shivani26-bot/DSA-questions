@@ -99,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
 | [0983-validate-stack-sequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0983-validate-stack-sequences) |
 | [0985-bag-of-tokens](https://github.com/shivani26-bot/DSA-questions/tree/master/0985-bag-of-tokens) |
+| [0997-find-the-town-judge](https://github.com/shivani26-bot/DSA-questions/tree/master/0997-find-the-town-judge) |
 | [1002-maximum-width-ramp](https://github.com/shivani26-bot/DSA-questions/tree/master/1002-maximum-width-ramp) |
 | [1014-k-closest-points-to-origin](https://github.com/shivani26-bot/DSA-questions/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1019-squares-of-a-sorted-array) |
@@ -779,6 +780,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0940-fruit-into-baskets](https://github.com/shivani26-bot/DSA-questions/tree/master/0940-fruit-into-baskets) |
 | [0952-word-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0952-word-subsets) |
 | [0966-binary-subarrays-with-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0966-binary-subarrays-with-sum) |
+| [0997-find-the-town-judge](https://github.com/shivani26-bot/DSA-questions/tree/master/0997-find-the-town-judge) |
 | [1023-time-based-key-value-store](https://github.com/shivani26-bot/DSA-questions/tree/master/1023-time-based-key-value-store) |
 | [1129-longest-string-chain](https://github.com/shivani26-bot/DSA-questions/tree/master/1129-longest-string-chain) |
 | [1160-letter-tile-possibilities](https://github.com/shivani26-bot/DSA-questions/tree/master/1160-letter-tile-possibilities) |
@@ -941,6 +943,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0744-network-delay-time](https://github.com/shivani26-bot/DSA-questions/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/shivani26-bot/DSA-questions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/shivani26-bot/DSA-questions/tree/master/0820-find-eventual-safe-states) |
+| [0997-find-the-town-judge](https://github.com/shivani26-bot/DSA-questions/tree/master/0997-find-the-town-judge) |
 | [1229-shortest-path-with-alternating-colors](https://github.com/shivani26-bot/DSA-questions/tree/master/1229-shortest-path-with-alternating-colors) |
 | [1275-validate-binary-tree-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1275-validate-binary-tree-nodes) |
 | [1325-path-with-maximum-probability](https://github.com/shivani26-bot/DSA-questions/tree/master/1325-path-with-maximum-probability) |
