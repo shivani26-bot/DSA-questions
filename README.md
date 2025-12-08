@@ -119,6 +119,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1184-car-pooling](https://github.com/shivani26-bot/DSA-questions/tree/master/1184-car-pooling) |
 | [1207-delete-nodes-and-return-forest](https://github.com/shivani26-bot/DSA-questions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1219-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1219-path-with-maximum-gold) |
 | [1222-remove-covered-intervals](https://github.com/shivani26-bot/DSA-questions/tree/master/1222-remove-covered-intervals) |
 | [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
 | [1325-path-with-maximum-probability](https://github.com/shivani26-bot/DSA-questions/tree/master/1325-path-with-maximum-probability) |
@@ -1068,6 +1069,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1073-number-of-enclaves](https://github.com/shivani26-bot/DSA-questions/tree/master/1073-number-of-enclaves) |
 | [1117-as-far-from-land-as-possible](https://github.com/shivani26-bot/DSA-questions/tree/master/1117-as-far-from-land-as-possible) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1219-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1219-path-with-maximum-gold) |
 | [1331-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1331-path-with-maximum-gold) |
 | [1386-shift-2d-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1386-shift-2d-grid) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/shivani26-bot/DSA-questions/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -1102,6 +1104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [1030-smallest-string-starting-from-leaf](https://github.com/shivani26-bot/DSA-questions/tree/master/1030-smallest-string-starting-from-leaf) |
 | [1160-letter-tile-possibilities](https://github.com/shivani26-bot/DSA-questions/tree/master/1160-letter-tile-possibilities) |
+| [1219-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1219-path-with-maximum-gold) |
 | [1331-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1331-path-with-maximum-gold) |
 | [1360-maximum-length-of-a-concatenated-string-with-unique-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/1360-maximum-length-of-a-concatenated-string-with-unique-characters) |
 | [1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/shivani26-bot/DSA-questions/tree/master/1516-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
