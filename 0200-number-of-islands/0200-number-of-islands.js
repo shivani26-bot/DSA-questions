@@ -19,7 +19,9 @@ visited[i][j]='1';
     dfs(grid,i,j-1,visited);
 
 }
-     const visited= Array.from({length:n},()=>Array.from({length:m},()=>'0'));
+    //  const visited= Array.from({length:n},()=>Array.from({length:m},()=>'0'));
+     const visited = Array(n).fill().map(() => Array(m).fill('0'));
+
       for(let i=0;i<n;i++){
         for(let  j=0;j<m;j++){
             if(grid[i][j]=='1' && visited[i][j]=='0'){
