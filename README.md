@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shivani26-bot/DSA-questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0189-rotate-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/shivani26-bot/DSA-questions/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/shivani26-bot/DSA-questions/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0209-minimum-size-subarray-sum) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
@@ -562,6 +563,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0129-sum-root-to-leaf-numbers](https://github.com/shivani26-bot/DSA-questions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0144-binary-tree-preorder-traversal) |
 | [0199-binary-tree-right-side-view](https://github.com/shivani26-bot/DSA-questions/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/shivani26-bot/DSA-questions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/shivani26-bot/DSA-questions/tree/master/0207-course-schedule) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/shivani26-bot/DSA-questions/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0226-invert-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0226-invert-binary-tree) |
@@ -632,6 +634,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0112-path-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0112-path-sum) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/shivani26-bot/DSA-questions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0199-binary-tree-right-side-view](https://github.com/shivani26-bot/DSA-questions/tree/master/0199-binary-tree-right-side-view) |
+| [0200-number-of-islands](https://github.com/shivani26-bot/DSA-questions/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/shivani26-bot/DSA-questions/tree/master/0207-course-schedule) |
 | [0226-invert-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0226-invert-binary-tree) |
 | [0279-perfect-squares](https://github.com/shivani26-bot/DSA-questions/tree/master/0279-perfect-squares) |
@@ -1056,6 +1059,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0073-set-matrix-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/shivani26-bot/DSA-questions/tree/master/0079-word-search) |
+| [0200-number-of-islands](https://github.com/shivani26-bot/DSA-questions/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
 | [0221-maximal-square](https://github.com/shivani26-bot/DSA-questions/tree/master/0221-maximal-square) |
 | [0407-trapping-rain-water-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0407-trapping-rain-water-ii) |
@@ -1255,6 +1259,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union Find
 |  |
 | ------- |
+| [0200-number-of-islands](https://github.com/shivani26-bot/DSA-questions/tree/master/0200-number-of-islands) |
 | [0399-evaluate-division](https://github.com/shivani26-bot/DSA-questions/tree/master/0399-evaluate-division) |
 | [0684-redundant-connection](https://github.com/shivani26-bot/DSA-questions/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/shivani26-bot/DSA-questions/tree/master/0801-is-graph-bipartite) |
