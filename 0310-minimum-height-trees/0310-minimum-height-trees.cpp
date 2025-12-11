@@ -51,6 +51,27 @@ public:
 //       }
 //       return res;
 //     }
+
+
+// Why do we stop when n > 2?
+// Because a tree can have at most 2 centroids.
+// The roots of Minimum Height Trees are exactly these centroids.
+
+// 🌳 Deep Explanation
+// The algorithm peels the tree layer by layer, like removing onion layers.
+// You remove all leaf nodes (nodes with degree 1).
+// After removing each layer, new leaves appear, and you remove those too.
+// Eventually, all outer layers disappear and only the core remains.
+// This remaining core is either:
+// 1 node → one centroid
+// 2 nodes → two centroids
+// ➡️ These are exactly the MHT roots.
+
+// 🎯 Why stop when n > 2?
+// Because you want to stop when:
+// Only one or two nodes remain,
+// And these remaining nodes are the centroids.
+// A tree cannot have more than 2 centroids.
 vector<int>ans;
 if(n==1){
   ans.push_back(0);
