@@ -72,6 +72,17 @@ public:
 // Only one or two nodes remain,
 // And these remaining nodes are the centroids.
 // A tree cannot have more than 2 centroids.
+
+// time complexity: o(n)
+// Each node enters and leaves the queue exactly once.
+// 👉 Each edge is processed only twice (once from each side).
+// So total operations here → O(n).
+
+// Space Complexity
+// 1. Adjacency List → O(n)
+// It stores all edges.
+// 2. Degree Array → O(n)
+// 3. Queue → O(n) (in worst case)
 vector<int>ans;
 if(n==1){
   ans.push_back(0);
