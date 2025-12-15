@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/shivani26-bot/DSA-questions/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0909-stone-game) |
+| [0909-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0909-snakes-and-ladders) |
 | [0917-boats-to-save-people](https://github.com/shivani26-bot/DSA-questions/tree/master/0917-boats-to-save-people) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0940-fruit-into-baskets](https://github.com/shivani26-bot/DSA-questions/tree/master/0940-fruit-into-baskets) |
@@ -661,6 +662,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0799-minimum-distance-between-bst-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/0799-minimum-distance-between-bst-nodes) |
 | [0801-is-graph-bipartite](https://github.com/shivani26-bot/DSA-questions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/shivani26-bot/DSA-questions/tree/master/0820-find-eventual-safe-states) |
+| [0909-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0909-snakes-and-ladders) |
 | [0945-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0945-snakes-and-ladders) |
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
 | [0993-cousins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0993-cousins-in-binary-tree) |
@@ -1082,6 +1084,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/shivani26-bot/DSA-questions/tree/master/0695-max-area-of-island) |
 | [0772-construct-quad-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0772-construct-quad-tree) |
 | [0870-magic-squares-in-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/0870-magic-squares-in-grid) |
+| [0909-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0909-snakes-and-ladders) |
 | [0945-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0945-snakes-and-ladders) |
 | [0967-minimum-falling-path-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0967-minimum-falling-path-sum) |
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
