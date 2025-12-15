@@ -6,6 +6,7 @@ var snakesAndLadders = function(board) {
      const n=board.length;
 
    function getCoord( num){
+    // / in JavaScript gives a floating-point numbe
     const rt=Math.floor((num-1)/n); // row from top
     const rb= (n-1)- rt;//row from bottom
     let col= (num-1)%n;
