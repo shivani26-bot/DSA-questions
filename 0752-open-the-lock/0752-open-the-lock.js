@@ -26,7 +26,7 @@ const ans=[];
         //  ans.push(copy);
 
         const arr=s.split("");
-        arr[i]=turnRight(arr[i]);
+        arr[i]=turnRight(s[i]);
         ans.push(arr.join(""));
          arr[i]=turnLeft(s[i]);
         ans.push(arr.join(""));
