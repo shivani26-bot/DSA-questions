@@ -20,7 +20,8 @@ queue<int>q;
             for(auto it: adj[currNode]){
                 table[currNode][it]=true;
                 for(int i=0;i<numCourses;i++){
-                    if(table[i][currNode]==true) table[i][it]=true;
+                    //agr i prerequisite h currNode k liye toh, iska mtlb hai ki i prerequisite hoga un saare nodes k liye jo child/adjacent node honge currNode k 
+                    if(table[i][currNode]==true) table[i][it]=true;//it means if you can reach currNode from any of the node from 0to numCourses then you can also reach from any of the node in range 0 - numCourses to adjacent node of currNode
                 }
                 indegree[it]--;
                 if(indegree[it]==0) q.push(it);
