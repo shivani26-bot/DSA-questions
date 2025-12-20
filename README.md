@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0909-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0909-snakes-and-ladders) |
 | [0917-boats-to-save-people](https://github.com/shivani26-bot/DSA-questions/tree/master/0917-boats-to-save-people) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+| [0934-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0934-shortest-bridge) |
 | [0940-fruit-into-baskets](https://github.com/shivani26-bot/DSA-questions/tree/master/0940-fruit-into-baskets) |
 | [0941-sort-array-by-parity](https://github.com/shivani26-bot/DSA-questions/tree/master/0941-sort-array-by-parity) |
 | [0943-sum-of-subarray-minimums](https://github.com/shivani26-bot/DSA-questions/tree/master/0943-sum-of-subarray-minimums) |
@@ -600,6 +601,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0801-is-graph-bipartite](https://github.com/shivani26-bot/DSA-questions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/shivani26-bot/DSA-questions/tree/master/0820-find-eventual-safe-states) |
 | [0904-leaf-similar-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0904-leaf-similar-trees) |
+| [0934-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0934-shortest-bridge) |
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
 | [0975-range-sum-of-bst](https://github.com/shivani26-bot/DSA-questions/tree/master/0975-range-sum-of-bst) |
 | [0988-flip-equivalent-binary-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0988-flip-equivalent-binary-trees) |
@@ -666,6 +668,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0801-is-graph-bipartite](https://github.com/shivani26-bot/DSA-questions/tree/master/0801-is-graph-bipartite) |
 | [0820-find-eventual-safe-states](https://github.com/shivani26-bot/DSA-questions/tree/master/0820-find-eventual-safe-states) |
 | [0909-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0909-snakes-and-ladders) |
+| [0934-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0934-shortest-bridge) |
 | [0945-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0945-snakes-and-ladders) |
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
 | [0993-cousins-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0993-cousins-in-binary-tree) |
@@ -1092,6 +1095,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0772-construct-quad-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0772-construct-quad-tree) |
 | [0870-magic-squares-in-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/0870-magic-squares-in-grid) |
 | [0909-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0909-snakes-and-ladders) |
+| [0934-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0934-shortest-bridge) |
 | [0945-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0945-snakes-and-ladders) |
 | [0967-minimum-falling-path-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0967-minimum-falling-path-sum) |
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
