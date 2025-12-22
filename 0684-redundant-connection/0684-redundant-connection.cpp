@@ -56,7 +56,7 @@ public:
                 return {u,v};
             }
             else{
-                ds.unionByRank(u,v);
+                ds.unionBySize(u,v);
             }
         }
         return {-1,-1};
