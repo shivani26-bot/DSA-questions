@@ -985,6 +985,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1462-course-schedule-iv](https://github.com/shivani26-bot/DSA-questions/tree/master/1462-course-schedule-iv) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/shivani26-bot/DSA-questions/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
+| [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1558-course-schedule-iv](https://github.com/shivani26-bot/DSA-questions/tree/master/1558-course-schedule-iv) |
 | [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1706-min-cost-to-connect-all-points) |
