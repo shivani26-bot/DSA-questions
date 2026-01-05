@@ -154,6 +154,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/shivani26-bot/DSA-questions/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/shivani26-bot/DSA-questions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivani26-bot/DSA-questions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1631-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1631-path-with-minimum-effort) |
 | [1677-matrix-diagonal-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/1677-matrix-diagonal-sum) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/shivani26-bot/DSA-questions/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1706-min-cost-to-connect-all-points) |
@@ -278,6 +279,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/shivani26-bot/DSA-questions/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/shivani26-bot/DSA-questions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivani26-bot/DSA-questions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1631-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/shivani26-bot/DSA-questions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/shivani26-bot/DSA-questions/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -442,6 +444,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1397-search-suggestions-system](https://github.com/shivani26-bot/DSA-questions/tree/master/1397-search-suggestions-system) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shivani26-bot/DSA-questions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1631-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1631-path-with-minimum-effort) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/shivani26-bot/DSA-questions/tree/master/1762-furthest-building-you-can-reach) |
 | [1917-maximum-average-pass-ratio](https://github.com/shivani26-bot/DSA-questions/tree/master/1917-maximum-average-pass-ratio) |
@@ -627,6 +630,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1558-course-schedule-iv](https://github.com/shivani26-bot/DSA-questions/tree/master/1558-course-schedule-iv) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
+| [1631-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1631-path-with-minimum-effort) |
 | [1653-number-of-good-leaf-nodes-pairs](https://github.com/shivani26-bot/DSA-questions/tree/master/1653-number-of-good-leaf-nodes-pairs) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [2101-detonate-the-maximum-bombs](https://github.com/shivani26-bot/DSA-questions/tree/master/2101-detonate-the-maximum-bombs) |
@@ -697,6 +701,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1554-minimum-time-to-collect-all-apples-in-a-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1554-minimum-time-to-collect-all-apples-in-a-tree) |
 | [1558-course-schedule-iv](https://github.com/shivani26-bot/DSA-questions/tree/master/1558-course-schedule-iv) |
 | [1568-pseudo-palindromic-paths-in-a-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1568-pseudo-palindromic-paths-in-a-binary-tree) |
+| [1631-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1631-path-with-minimum-effort) |
 | [1731-even-odd-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1731-even-odd-tree) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [2101-detonate-the-maximum-bombs](https://github.com/shivani26-bot/DSA-questions/tree/master/2101-detonate-the-maximum-bombs) |
@@ -1124,6 +1129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1402-count-square-submatrices-with-all-ones](https://github.com/shivani26-bot/DSA-questions/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1631-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1631-path-with-minimum-effort) |
 | [1677-matrix-diagonal-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/1677-matrix-diagonal-sum) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/shivani26-bot/DSA-questions/tree/master/2067-maximum-number-of-points-with-cost) |
@@ -1314,6 +1320,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1073-number-of-enclaves](https://github.com/shivani26-bot/DSA-questions/tree/master/1073-number-of-enclaves) |
 | [1254-number-of-closed-islands](https://github.com/shivani26-bot/DSA-questions/tree/master/1254-number-of-closed-islands) |
 | [1275-validate-binary-tree-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1275-validate-binary-tree-nodes) |
+| [1631-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1631-path-with-minimum-effort) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [2582-minimum-score-of-a-path-between-two-cities](https://github.com/shivani26-bot/DSA-questions/tree/master/2582-minimum-score-of-a-path-between-two-cities) |
