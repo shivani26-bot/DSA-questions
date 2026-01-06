@@ -17,7 +17,8 @@ var networkDelayTime = function(times, n, k) {
     const distance=Array(n+1).fill(1e9);
     distance[k]=0;
     pq.push([0,k]);//time,node
-    let min_time=0;
+    // let min_time=0;
+    let min_time=Number.NEGATIVE_INFINITY;
     while(pq.length>0){
         pq.sort((a,b)=>a[0]-b[0]); //sort based on time
         const [time,node]=pq.shift();
