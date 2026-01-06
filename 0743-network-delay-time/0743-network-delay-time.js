@@ -13,7 +13,8 @@ var networkDelayTime = function(times, n, k) {
           adjList.get(u).push([v,time]);
     }
 
-    const distance=Array(n+1).fill(Infinity);
+    // const distance=Array(n+1).fill(Infinity);
+    const distance=Array(n+1).fill(1e9);
     distance[k]=0;
     pq.push([0,k]);//time,node
     let min_time=0;
@@ -39,7 +40,8 @@ var networkDelayTime = function(times, n, k) {
     // return min_time==1e9?-1:min_time;
 
      for(let i=1;i<=n;i++){//distance array will store shortest distance from src node to every other node , we need to find maximum out of all to find the minimum time to take the signal to reach each node, if it's 1e9 it means we never reached that node and return -1
-        if(distance[i]===Infinity) return -1;
+        // if(distance[i]===Infinity) return -1;
+        if(distance[i]===1e9) return -1;
        min_time=Math.max(min_time,distance[i]);
     }
     return min_time;
