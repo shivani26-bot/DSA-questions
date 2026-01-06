@@ -47,3 +47,25 @@ var networkDelayTime = function(times, n, k) {
     }
     return min_time;
 };
+
+
+// Time Complexity
+// 🔹 Using Adjacency List + Min Heap (Priority Queue)
+
+// 👉 Most common / optimal
+
+// Each node can be pushed into the heap multiple times
+
+// Each push/pop takes log V
+
+// Time Complexity
+
+// O((V + E) log V)
+
+
+// Often written as:
+
+// O(E log V)
+
+
+// (because E ≥ V - 1 in connected graphs)
