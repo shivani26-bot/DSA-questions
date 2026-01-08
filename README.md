@@ -151,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1556-make-two-arrays-equal-by-reversing-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1556-make-two-arrays-equal-by-reversing-subarrays) |
 | [1580-shuffle-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/1580-shuffle-the-array) |
 | [1582-design-browser-history](https://github.com/shivani26-bot/DSA-questions/tree/master/1582-design-browser-history) |
+| [1584-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/shivani26-bot/DSA-questions/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1615-range-sum-of-sorted-subarray-sums](https://github.com/shivani26-bot/DSA-questions/tree/master/1615-range-sum-of-sorted-subarray-sums) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/shivani26-bot/DSA-questions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -999,6 +1000,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/1485-minimum-cost-to-make-at-least-one-valid-path-in-a-grid) |
 | [1557-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1557-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1558-course-schedule-iv](https://github.com/shivani26-bot/DSA-questions/tree/master/1558-course-schedule-iv) |
+| [1584-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1661-minimum-number-of-vertices-to-reach-all-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1661-minimum-number-of-vertices-to-reach-all-nodes) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1706-min-cost-to-connect-all-points) |
 | [2101-detonate-the-maximum-bombs](https://github.com/shivani26-bot/DSA-questions/tree/master/2101-detonate-the-maximum-bombs) |
@@ -1325,6 +1327,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1073-number-of-enclaves](https://github.com/shivani26-bot/DSA-questions/tree/master/1073-number-of-enclaves) |
 | [1254-number-of-closed-islands](https://github.com/shivani26-bot/DSA-questions/tree/master/1254-number-of-closed-islands) |
 | [1275-validate-binary-tree-nodes](https://github.com/shivani26-bot/DSA-questions/tree/master/1275-validate-binary-tree-nodes) |
+| [1584-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1631-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1631-path-with-minimum-effort) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
@@ -1434,6 +1437,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Minimum Spanning Tree
 |  |
 | ------- |
+| [1584-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1584-min-cost-to-connect-all-points) |
 | [1706-min-cost-to-connect-all-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1706-min-cost-to-connect-all-points) |
 ## Design
 |  |
