@@ -21,7 +21,7 @@ var maxProbability = function(n, edges, succProb, start_node, end_node) {
      const pq=[];
     pq.push([1.0,start_node]);
     while(pq.length>0){
-        pq.sort((a,b)=>b[0]-a[0])
+        pq.sort((a,b)=>b[0]-a[0])//maxheap, sort in descending order
         const [distance,node]=pq.shift();
        
         if (node === end_node) return distance;
