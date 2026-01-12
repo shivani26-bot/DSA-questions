@@ -30,7 +30,7 @@ const cheapPriceDist=Array(n).fill(Infinity);
             }
         }
     }
-    if(cheapPriceDist[dst]==Infinity) return -1;
+    if(cheapPriceDist[dst]===Infinity) return -1;
     return cheapPriceDist[dst];
 
 };
