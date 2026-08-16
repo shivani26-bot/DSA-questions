@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/shivani26-bot/DSA-questions/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/shivani26-bot/DSA-questions/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0169-majority-element](https://github.com/shivani26-bot/DSA-questions/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0189-rotate-array) |
 | [0198-house-robber](https://github.com/shivani26-bot/DSA-questions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/shivani26-bot/DSA-questions/tree/master/0200-number-of-islands) |
@@ -349,6 +350,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0088-merge-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0088-merge-sorted-array) |
 | [0147-insertion-sort-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0147-insertion-sort-list) |
 | [0148-sort-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/shivani26-bot/DSA-questions/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/shivani26-bot/DSA-questions/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/shivani26-bot/DSA-questions/tree/master/0368-largest-divisible-subset) |
@@ -814,6 +816,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0142-linked-list-cycle-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/shivani26-bot/DSA-questions/tree/master/0146-lru-cache) |
 | [0160-intersection-of-two-linked-lists](https://github.com/shivani26-bot/DSA-questions/tree/master/0160-intersection-of-two-linked-lists) |
+| [0169-majority-element](https://github.com/shivani26-bot/DSA-questions/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/shivani26-bot/DSA-questions/tree/master/0202-happy-number) |
 | [0208-implement-trie-prefix-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0208-implement-trie-prefix-tree) |
 | [0219-contains-duplicate-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0219-contains-duplicate-ii) |
@@ -978,6 +981,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/shivani26-bot/DSA-questions/tree/master/0169-majority-element) |
 | [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0778-reorganize-string) |
 | [1160-letter-tile-possibilities](https://github.com/shivani26-bot/DSA-questions/tree/master/1160-letter-tile-possibilities) |
@@ -1357,6 +1361,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0148-sort-list) |
+| [0169-majority-element](https://github.com/shivani26-bot/DSA-questions/tree/master/0169-majority-element) |
 | [0190-reverse-bits](https://github.com/shivani26-bot/DSA-questions/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/shivani26-bot/DSA-questions/tree/master/0191-number-of-1-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0215-kth-largest-element-in-an-array) |
@@ -1713,4 +1718,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2148-minimum-number-of-moves-to-seat-everyone](https://github.com/shivani26-bot/DSA-questions/tree/master/2148-minimum-number-of-moves-to-seat-everyone) |
+## Boyer–Moore Majority Vote Algorithm
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/shivani26-bot/DSA-questions/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
