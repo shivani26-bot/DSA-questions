@@ -14,6 +14,15 @@ public:
                 j--;
             }
         }
-       return i<0;
+
+//         edge case: 
+//         s =
+// "b"
+// t =
+// "c"
+// output: false;
+        // if(i>0) return false;
+        // return true;
+           return i<0;
     }
 };
