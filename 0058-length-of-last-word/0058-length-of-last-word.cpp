@@ -1,18 +1,20 @@
 class Solution {
 public:
     int lengthOfLastWord(string s) {
-int LastWordLength=0;
-int flag=false;
-int n=s.length();
-for(int i=n-1;i>=0;i--){
-if(s[i]!=' '){
-    flag=true;
-    LastWordLength++;
-}
-else if(flag){
- break;
-}
-}
-return LastWordLength;
+        int n=s.length();
+        int i=n-1;
+        int count=0;
+        if(n==1) return 1;
+        while(s[i]==' ') i--;
+        while( i>=0 && s[i]!=' ' ){
+            count++;
+            i--;
+        }
+        return count;
+
+
+        // "a"
+        // "a "
+        // "day"
     }
 };
