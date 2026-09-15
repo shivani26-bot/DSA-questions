@@ -481,6 +481,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0225-implement-stack-using-queues](https://github.com/shivani26-bot/DSA-questions/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/shivani26-bot/DSA-questions/tree/master/0232-implement-queue-using-stacks) |
 | [0341-flatten-nested-list-iterator](https://github.com/shivani26-bot/DSA-questions/tree/master/0341-flatten-nested-list-iterator) |
+| [0387-first-unique-character-in-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0860-design-circular-queue](https://github.com/shivani26-bot/DSA-questions/tree/master/0860-design-circular-queue) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/shivani26-bot/DSA-questions/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [2868-continuous-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/2868-continuous-subarrays) |
@@ -828,6 +829,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/shivani26-bot/DSA-questions/tree/master/0268-missing-number) |
 | [0355-design-twitter](https://github.com/shivani26-bot/DSA-questions/tree/master/0355-design-twitter) |
+| [0387-first-unique-character-in-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/shivani26-bot/DSA-questions/tree/master/0389-find-the-difference) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/shivani26-bot/DSA-questions/tree/master/0424-longest-repeating-character-replacement) |
@@ -912,6 +914,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0227-basic-calculator-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0227-basic-calculator-ii) |
 | [0241-different-ways-to-add-parentheses](https://github.com/shivani26-bot/DSA-questions/tree/master/0241-different-ways-to-add-parentheses) |
 | [0344-reverse-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0344-reverse-string) |
+| [0387-first-unique-character-in-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/shivani26-bot/DSA-questions/tree/master/0389-find-the-difference) |
 | [0392-is-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0394-decode-string) |
@@ -997,6 +1000,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/shivani26-bot/DSA-questions/tree/master/0169-majority-element) |
+| [0387-first-unique-character-in-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0387-first-unique-character-in-a-string) |
 | [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
 | [0778-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0778-reorganize-string) |
 | [1160-letter-tile-possibilities](https://github.com/shivani26-bot/DSA-questions/tree/master/1160-letter-tile-possibilities) |
