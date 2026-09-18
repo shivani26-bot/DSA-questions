@@ -842,6 +842,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/shivani26-bot/DSA-questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
+| [0535-encode-and-decode-tinyurl](https://github.com/shivani26-bot/DSA-questions/tree/master/0535-encode-and-decode-tinyurl) |
 | [0567-permutation-in-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
 | [0648-replace-words](https://github.com/shivani26-bot/DSA-questions/tree/master/0648-replace-words) |
@@ -933,6 +934,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/shivani26-bot/DSA-questions/tree/master/0424-longest-repeating-character-replacement) |
 | [0474-ones-and-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0474-ones-and-zeroes) |
 | [0516-longest-palindromic-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0516-longest-palindromic-subsequence) |
+| [0535-encode-and-decode-tinyurl](https://github.com/shivani26-bot/DSA-questions/tree/master/0535-encode-and-decode-tinyurl) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/0557-reverse-words-in-a-string-iii) |
 | [0567-permutation-in-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0567-permutation-in-string) |
 | [0606-construct-string-from-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0606-construct-string-from-binary-tree) |
@@ -1265,6 +1267,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Function
 |  |
 | ------- |
+| [0535-encode-and-decode-tinyurl](https://github.com/shivani26-bot/DSA-questions/tree/master/0535-encode-and-decode-tinyurl) |
 | [0572-subtree-of-another-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0572-subtree-of-another-tree) |
 | [0706-design-hashmap](https://github.com/shivani26-bot/DSA-questions/tree/master/0706-design-hashmap) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -1509,6 +1512,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0307-range-sum-query-mutable](https://github.com/shivani26-bot/DSA-questions/tree/master/0307-range-sum-query-mutable) |
 | [0341-flatten-nested-list-iterator](https://github.com/shivani26-bot/DSA-questions/tree/master/0341-flatten-nested-list-iterator) |
 | [0355-design-twitter](https://github.com/shivani26-bot/DSA-questions/tree/master/0355-design-twitter) |
+| [0535-encode-and-decode-tinyurl](https://github.com/shivani26-bot/DSA-questions/tree/master/0535-encode-and-decode-tinyurl) |
 | [0706-design-hashmap](https://github.com/shivani26-bot/DSA-questions/tree/master/0706-design-hashmap) |
 | [0729-my-calendar-i](https://github.com/shivani26-bot/DSA-questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0731-my-calendar-ii) |
