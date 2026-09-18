@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/shivani26-bot/DSA-questions/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0047-permutations-ii) |
 | [0048-rotate-image](https://github.com/shivani26-bot/DSA-questions/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/shivani26-bot/DSA-questions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/shivani26-bot/DSA-questions/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/shivani26-bot/DSA-questions/tree/master/0057-insert-interval) |
 | [0063-unique-paths-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0063-unique-paths-ii) |
@@ -353,6 +354,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0018-4sum) |
 | [0047-permutations-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0047-permutations-ii) |
+| [0049-group-anagrams](https://github.com/shivani26-bot/DSA-questions/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/shivani26-bot/DSA-questions/tree/master/0056-merge-intervals) |
 | [0088-merge-sorted-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0088-merge-sorted-array) |
 | [0147-insertion-sort-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0147-insertion-sort-list) |
@@ -818,6 +820,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0012-integer-to-roman](https://github.com/shivani26-bot/DSA-questions/tree/master/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/shivani26-bot/DSA-questions/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/shivani26-bot/DSA-questions/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0049-group-anagrams](https://github.com/shivani26-bot/DSA-questions/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0073-set-matrix-zeroes) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -903,6 +906,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/shivani26-bot/DSA-questions/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0038-count-and-say](https://github.com/shivani26-bot/DSA-questions/tree/master/0038-count-and-say) |
+| [0049-group-anagrams](https://github.com/shivani26-bot/DSA-questions/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/shivani26-bot/DSA-questions/tree/master/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/shivani26-bot/DSA-questions/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/shivani26-bot/DSA-questions/tree/master/0071-simplify-path) |
