@@ -78,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
 | [0648-replace-words](https://github.com/shivani26-bot/DSA-questions/tree/master/0648-replace-words) |
 | [0658-find-k-closest-elements](https://github.com/shivani26-bot/DSA-questions/tree/master/0658-find-k-closest-elements) |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0661-image-smoother](https://github.com/shivani26-bot/DSA-questions/tree/master/0661-image-smoother) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0682-baseball-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0682-baseball-game) |
@@ -418,6 +419,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/shivani26-bot/DSA-questions/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/shivani26-bot/DSA-questions/tree/master/0455-assign-cookies) |
 | [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0680-valid-palindrome-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0680-valid-palindrome-ii) |
 | [0767-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0778-reorganize-string) |
@@ -452,6 +454,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0407-trapping-rain-water-ii) |
 | [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/shivani26-bot/DSA-questions/tree/master/0658-find-k-closest-elements) |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0743-network-delay-time](https://github.com/shivani26-bot/DSA-questions/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/shivani26-bot/DSA-questions/tree/master/0744-network-delay-time) |
 | [0767-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0767-reorganize-string) |
@@ -850,6 +853,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/shivani26-bot/DSA-questions/tree/master/0621-task-scheduler) |
 | [0648-replace-words](https://github.com/shivani26-bot/DSA-questions/tree/master/0648-replace-words) |
 | [0652-find-duplicate-subtrees](https://github.com/shivani26-bot/DSA-questions/tree/master/0652-find-duplicate-subtrees) |
+| [0659-split-array-into-consecutive-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0659-split-array-into-consecutive-subsequences) |
 | [0706-design-hashmap](https://github.com/shivani26-bot/DSA-questions/tree/master/0706-design-hashmap) |
 | [0752-open-the-lock](https://github.com/shivani26-bot/DSA-questions/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0767-reorganize-string) |
