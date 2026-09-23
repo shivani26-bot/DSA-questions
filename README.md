@@ -93,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0739-daily-temperatures](https://github.com/shivani26-bot/DSA-questions/tree/master/0739-daily-temperatures) |
 | [0752-open-the-lock](https://github.com/shivani26-bot/DSA-questions/tree/master/0752-open-the-lock) |
 | [0772-construct-quad-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0772-construct-quad-tree) |
+| [0792-number-of-matching-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0792-number-of-matching-subsequences) |
 | [0860-design-circular-queue](https://github.com/shivani26-bot/DSA-questions/tree/master/0860-design-circular-queue) |
 | [0870-magic-squares-in-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/0870-magic-squares-in-grid) |
 | [0883-car-fleet](https://github.com/shivani26-bot/DSA-questions/tree/master/0883-car-fleet) |
@@ -282,6 +283,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0713-subarray-product-less-than-k](https://github.com/shivani26-bot/DSA-questions/tree/master/0713-subarray-product-less-than-k) |
 | [0729-my-calendar-i](https://github.com/shivani26-bot/DSA-questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0731-my-calendar-ii) |
+| [0792-number-of-matching-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0792-number-of-matching-subsequences) |
 | [0907-koko-eating-bananas](https://github.com/shivani26-bot/DSA-questions/tree/master/0907-koko-eating-bananas) |
 | [1023-time-based-key-value-store](https://github.com/shivani26-bot/DSA-questions/tree/master/1023-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
@@ -373,6 +375,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0658-find-k-closest-elements](https://github.com/shivani26-bot/DSA-questions/tree/master/0658-find-k-closest-elements) |
 | [0767-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0778-reorganize-string) |
+| [0792-number-of-matching-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0792-number-of-matching-subsequences) |
 | [0883-car-fleet](https://github.com/shivani26-bot/DSA-questions/tree/master/0883-car-fleet) |
 | [0917-boats-to-save-people](https://github.com/shivani26-bot/DSA-questions/tree/master/0917-boats-to-save-people) |
 | [0941-sort-array-by-parity](https://github.com/shivani26-bot/DSA-questions/tree/master/0941-sort-array-by-parity) |
@@ -858,6 +861,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0752-open-the-lock](https://github.com/shivani26-bot/DSA-questions/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0778-reorganize-string) |
+| [0792-number-of-matching-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0792-number-of-matching-subsequences) |
 | [0870-magic-squares-in-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/0870-magic-squares-in-grid) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -952,6 +956,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0752-open-the-lock](https://github.com/shivani26-bot/DSA-questions/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0778-reorganize-string) |
+| [0792-number-of-matching-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0792-number-of-matching-subsequences) |
 | [0874-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0874-backspace-string-compare) |
 | [0952-word-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/shivani26-bot/DSA-questions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -1106,6 +1111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/shivani26-bot/DSA-questions/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0792-number-of-matching-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0792-number-of-matching-subsequences) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0909-stone-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0909-stone-game) |
 | [0930-all-possible-full-binary-trees](https://github.com/shivani26-bot/DSA-questions/tree/master/0930-all-possible-full-binary-trees) |
@@ -1265,6 +1271,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0212-word-search-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0212-word-search-ii) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0648-replace-words](https://github.com/shivani26-bot/DSA-questions/tree/master/0648-replace-words) |
+| [0792-number-of-matching-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0792-number-of-matching-subsequences) |
 | [1397-search-suggestions-system](https://github.com/shivani26-bot/DSA-questions/tree/master/1397-search-suggestions-system) |
 | [2494-sum-of-prefix-scores-of-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/2494-sum-of-prefix-scores-of-strings) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/shivani26-bot/DSA-questions/tree/master/3309-count-prefix-and-suffix-pairs-i) |
