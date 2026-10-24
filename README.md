@@ -960,6 +960,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0767-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0767-reorganize-string) |
 | [0778-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0778-reorganize-string) |
 | [0792-number-of-matching-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0792-number-of-matching-subsequences) |
+| [0844-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0844-backspace-string-compare) |
 | [0874-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0874-backspace-string-compare) |
 | [0952-word-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0952-word-subsets) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/shivani26-bot/DSA-questions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
@@ -1318,6 +1319,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/shivani26-bot/DSA-questions/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/shivani26-bot/DSA-questions/tree/master/0739-daily-temperatures) |
 | [0776-n-ary-tree-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0776-n-ary-tree-postorder-traversal) |
+| [0844-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0844-backspace-string-compare) |
 | [0874-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0874-backspace-string-compare) |
 | [0883-car-fleet](https://github.com/shivani26-bot/DSA-questions/tree/master/0883-car-fleet) |
 | [0937-online-stock-span](https://github.com/shivani26-bot/DSA-questions/tree/master/0937-online-stock-span) |
@@ -1659,6 +1661,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0647-palindromic-substrings](https://github.com/shivani26-bot/DSA-questions/tree/master/0647-palindromic-substrings) |
 | [0658-find-k-closest-elements](https://github.com/shivani26-bot/DSA-questions/tree/master/0658-find-k-closest-elements) |
 | [0680-valid-palindrome-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0680-valid-palindrome-ii) |
+| [0844-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0844-backspace-string-compare) |
 | [0874-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0874-backspace-string-compare) |
 | [0908-middle-of-the-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/0908-middle-of-the-linked-list) |
 | [0917-boats-to-save-people](https://github.com/shivani26-bot/DSA-questions/tree/master/0917-boats-to-save-people) |
@@ -1709,6 +1712,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0067-add-binary](https://github.com/shivani26-bot/DSA-questions/tree/master/0067-add-binary) |
 | [0682-baseball-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/shivani26-bot/DSA-questions/tree/master/0735-asteroid-collision) |
+| [0844-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0844-backspace-string-compare) |
 | [0874-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0874-backspace-string-compare) |
 | [0983-validate-stack-sequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0983-validate-stack-sequences) |
 | [1184-car-pooling](https://github.com/shivani26-bot/DSA-questions/tree/master/1184-car-pooling) |
