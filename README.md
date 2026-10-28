@@ -88,6 +88,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/shivani26-bot/DSA-questions/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0706-design-hashmap](https://github.com/shivani26-bot/DSA-questions/tree/master/0706-design-hashmap) |
 | [0713-subarray-product-less-than-k](https://github.com/shivani26-bot/DSA-questions/tree/master/0713-subarray-product-less-than-k) |
+| [0724-find-pivot-index](https://github.com/shivani26-bot/DSA-questions/tree/master/0724-find-pivot-index) |
 | [0729-my-calendar-i](https://github.com/shivani26-bot/DSA-questions/tree/master/0729-my-calendar-i) |
 | [0731-my-calendar-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0731-my-calendar-ii) |
 | [0735-asteroid-collision](https://github.com/shivani26-bot/DSA-questions/tree/master/0735-asteroid-collision) |
@@ -1155,6 +1156,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0209-minimum-size-subarray-sum) |
 | [0303-range-sum-query-immutable](https://github.com/shivani26-bot/DSA-questions/tree/master/0303-range-sum-query-immutable) |
 | [0713-subarray-product-less-than-k](https://github.com/shivani26-bot/DSA-questions/tree/master/0713-subarray-product-less-than-k) |
+| [0724-find-pivot-index](https://github.com/shivani26-bot/DSA-questions/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0731-my-calendar-ii) |
 | [0966-binary-subarrays-with-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
