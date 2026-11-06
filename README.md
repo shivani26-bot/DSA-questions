@@ -230,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/shivani26-bot/DSA-questions/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2443-check-if-there-is-a-valid-partition-for-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2443-check-if-there-is-a-valid-partition-for-the-array) |
 | [2454-largest-local-values-in-a-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/2454-largest-local-values-in-a-matrix) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shivani26-bot/DSA-questions/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2465-shifting-letters-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/2465-shifting-letters-ii) |
 | [2478-longest-nice-subarray](https://github.com/shivani26-bot/DSA-questions/tree/master/2478-longest-nice-subarray) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/shivani26-bot/DSA-questions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -354,6 +355,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/shivani26-bot/DSA-questions/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2112-minimum-difference-between-highest-and-lowest-of-k-scores](https://github.com/shivani26-bot/DSA-questions/tree/master/2112-minimum-difference-between-highest-and-lowest-of-k-scores) |
 | [2379-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/shivani26-bot/DSA-questions/tree/master/2379-minimum-recolors-to-get-k-consecutive-black-blocks) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shivani26-bot/DSA-questions/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2463-minimum-recolors-to-get-k-consecutive-black-blocks](https://github.com/shivani26-bot/DSA-questions/tree/master/2463-minimum-recolors-to-get-k-consecutive-black-blocks) |
 | [2478-longest-nice-subarray](https://github.com/shivani26-bot/DSA-questions/tree/master/2478-longest-nice-subarray) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shivani26-bot/DSA-questions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -916,6 +918,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2196-create-binary-tree-from-descriptions](https://github.com/shivani26-bot/DSA-questions/tree/master/2196-create-binary-tree-from-descriptions) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/shivani26-bot/DSA-questions/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2444-longest-ideal-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/2444-longest-ideal-subsequence) |
+| [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shivani26-bot/DSA-questions/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/shivani26-bot/DSA-questions/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/shivani26-bot/DSA-questions/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/shivani26-bot/DSA-questions/tree/master/2599-take-k-of-each-character-from-left-and-right) |
