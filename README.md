@@ -146,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1219-path-with-maximum-gold](https://github.com/shivani26-bot/DSA-questions/tree/master/1219-path-with-maximum-gold) |
 | [1222-remove-covered-intervals](https://github.com/shivani26-bot/DSA-questions/tree/master/1222-remove-covered-intervals) |
 | [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1254-number-of-closed-islands](https://github.com/shivani26-bot/DSA-questions/tree/master/1254-number-of-closed-islands) |
 | [1314-matrix-block-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/1314-matrix-block-sum) |
 | [1325-path-with-maximum-probability](https://github.com/shivani26-bot/DSA-questions/tree/master/1325-path-with-maximum-probability) |
@@ -342,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0966-binary-subarrays-with-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1138-grumpy-bookstore-owner](https://github.com/shivani26-bot/DSA-questions/tree/master/1138-grumpy-bookstore-owner) |
+| [1248-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivani26-bot/DSA-questions/tree/master/1343-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [1370-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/shivani26-bot/DSA-questions/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
@@ -898,6 +900,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1129-longest-string-chain](https://github.com/shivani26-bot/DSA-questions/tree/master/1129-longest-string-chain) |
 | [1160-letter-tile-possibilities](https://github.com/shivani26-bot/DSA-questions/tree/master/1160-letter-tile-possibilities) |
 | [1207-delete-nodes-and-return-forest](https://github.com/shivani26-bot/DSA-questions/tree/master/1207-delete-nodes-and-return-forest) |
+| [1248-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1370-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1502-construct-k-palindrome-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/1502-construct-k-palindrome-strings) |
@@ -1190,6 +1193,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1046-max-consecutive-ones-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1184-car-pooling](https://github.com/shivani26-bot/DSA-questions/tree/master/1184-car-pooling) |
 | [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1314-matrix-block-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/1314-matrix-block-sum) |
 | [1370-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1435-xor-queries-of-a-subarray](https://github.com/shivani26-bot/DSA-questions/tree/master/1435-xor-queries-of-a-subarray) |
@@ -1524,6 +1528,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1146-greatest-common-divisor-of-strings](https://github.com/shivani26-bot/DSA-questions/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1236-n-th-tribonacci-number](https://github.com/shivani26-bot/DSA-questions/tree/master/1236-n-th-tribonacci-number) |
 | [1240-stone-game-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/1240-stone-game-ii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1248-count-number-of-nice-subarrays) |
 | [1307-ugly-number-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1307-ugly-number-iii) |
 | [1370-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1370-count-number-of-nice-subarrays) |
 | [1512-number-of-good-pairs](https://github.com/shivani26-bot/DSA-questions/tree/master/1512-number-of-good-pairs) |
