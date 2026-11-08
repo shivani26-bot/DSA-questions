@@ -104,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0870-magic-squares-in-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/0870-magic-squares-in-grid) |
 | [0883-car-fleet](https://github.com/shivani26-bot/DSA-questions/tree/master/0883-car-fleet) |
 | [0890-lemonade-change](https://github.com/shivani26-bot/DSA-questions/tree/master/0890-lemonade-change) |
+| [0904-fruit-into-baskets](https://github.com/shivani26-bot/DSA-questions/tree/master/0904-fruit-into-baskets) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0907-koko-eating-bananas](https://github.com/shivani26-bot/DSA-questions/tree/master/0907-koko-eating-bananas) |
 | [0909-stone-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0909-stone-game) |
@@ -339,6 +340,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0643-maximum-average-subarray-i](https://github.com/shivani26-bot/DSA-questions/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/shivani26-bot/DSA-questions/tree/master/0658-find-k-closest-elements) |
 | [0713-subarray-product-less-than-k](https://github.com/shivani26-bot/DSA-questions/tree/master/0713-subarray-product-less-than-k) |
+| [0904-fruit-into-baskets](https://github.com/shivani26-bot/DSA-questions/tree/master/0904-fruit-into-baskets) |
 | [0940-fruit-into-baskets](https://github.com/shivani26-bot/DSA-questions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
@@ -890,6 +892,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-reorganize-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0778-reorganize-string) |
 | [0792-number-of-matching-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0792-number-of-matching-subsequences) |
 | [0870-magic-squares-in-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/0870-magic-squares-in-grid) |
+| [0904-fruit-into-baskets](https://github.com/shivani26-bot/DSA-questions/tree/master/0904-fruit-into-baskets) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/shivani26-bot/DSA-questions/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0940-fruit-into-baskets](https://github.com/shivani26-bot/DSA-questions/tree/master/0940-fruit-into-baskets) |
