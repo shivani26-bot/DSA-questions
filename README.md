@@ -335,6 +335,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0076-minimum-window-substring](https://github.com/shivani26-bot/DSA-questions/tree/master/0076-minimum-window-substring) |
 | [0209-minimum-size-subarray-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0219-contains-duplicate-ii) |
 | [0424-longest-repeating-character-replacement](https://github.com/shivani26-bot/DSA-questions/tree/master/0424-longest-repeating-character-replacement) |
@@ -864,6 +865,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/shivani26-bot/DSA-questions/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0049-group-anagrams](https://github.com/shivani26-bot/DSA-questions/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0073-set-matrix-zeroes) |
+| [0076-minimum-window-substring](https://github.com/shivani26-bot/DSA-questions/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/shivani26-bot/DSA-questions/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0133-clone-graph](https://github.com/shivani26-bot/DSA-questions/tree/master/0133-clone-graph) |
@@ -964,6 +966,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0067-add-binary](https://github.com/shivani26-bot/DSA-questions/tree/master/0067-add-binary) |
 | [0071-simplify-path](https://github.com/shivani26-bot/DSA-questions/tree/master/0071-simplify-path) |
 | [0072-edit-distance](https://github.com/shivani26-bot/DSA-questions/tree/master/0072-edit-distance) |
+| [0076-minimum-window-substring](https://github.com/shivani26-bot/DSA-questions/tree/master/0076-minimum-window-substring) |
 | [0079-word-search](https://github.com/shivani26-bot/DSA-questions/tree/master/0079-word-search) |
 | [0093-restore-ip-addresses](https://github.com/shivani26-bot/DSA-questions/tree/master/0093-restore-ip-addresses) |
 | [0097-interleaving-string](https://github.com/shivani26-bot/DSA-questions/tree/master/0097-interleaving-string) |
