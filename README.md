@@ -189,6 +189,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1742-widest-vertical-area-between-two-points-containing-no-points](https://github.com/shivani26-bot/DSA-questions/tree/master/1742-widest-vertical-area-between-two-points-containing-no-points) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/shivani26-bot/DSA-questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1748-best-team-with-no-conflicts](https://github.com/shivani26-bot/DSA-questions/tree/master/1748-best-team-with-no-conflicts) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/shivani26-bot/DSA-questions/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [1753-path-with-minimum-effort](https://github.com/shivani26-bot/DSA-questions/tree/master/1753-path-with-minimum-effort) |
 | [1762-furthest-building-you-can-reach](https://github.com/shivani26-bot/DSA-questions/tree/master/1762-furthest-building-you-can-reach) |
 | [1776-minimum-operations-to-reduce-x-to-zero](https://github.com/shivani26-bot/DSA-questions/tree/master/1776-minimum-operations-to-reduce-x-to-zero) |
@@ -1189,6 +1190,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/shivani26-bot/DSA-questions/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1744-number-of-ways-to-form-a-target-string-given-a-dictionary](https://github.com/shivani26-bot/DSA-questions/tree/master/1744-number-of-ways-to-form-a-target-string-given-a-dictionary) |
 | [1748-best-team-with-no-conflicts](https://github.com/shivani26-bot/DSA-questions/tree/master/1748-best-team-with-no-conflicts) |
+| [1749-maximum-absolute-sum-of-any-subarray](https://github.com/shivani26-bot/DSA-questions/tree/master/1749-maximum-absolute-sum-of-any-subarray) |
 | [2017-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/shivani26-bot/DSA-questions/tree/master/2017-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2022-maximum-alternating-subsequence-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/2022-maximum-alternating-subsequence-sum) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/shivani26-bot/DSA-questions/tree/master/2067-maximum-number-of-points-with-cost) |
