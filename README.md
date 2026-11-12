@@ -122,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0966-binary-subarrays-with-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0967-minimum-falling-path-sum) |
 | [0971-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0971-shortest-bridge) |
+| [0978-longest-turbulent-subarray](https://github.com/shivani26-bot/DSA-questions/tree/master/0978-longest-turbulent-subarray) |
 | [0983-validate-stack-sequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0983-validate-stack-sequences) |
 | [0985-bag-of-tokens](https://github.com/shivani26-bot/DSA-questions/tree/master/0985-bag-of-tokens) |
 | [0997-find-the-town-judge](https://github.com/shivani26-bot/DSA-questions/tree/master/0997-find-the-town-judge) |
@@ -352,6 +353,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0904-fruit-into-baskets](https://github.com/shivani26-bot/DSA-questions/tree/master/0904-fruit-into-baskets) |
 | [0940-fruit-into-baskets](https://github.com/shivani26-bot/DSA-questions/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0966-binary-subarrays-with-sum) |
+| [0978-longest-turbulent-subarray](https://github.com/shivani26-bot/DSA-questions/tree/master/0978-longest-turbulent-subarray) |
 | [1046-max-consecutive-ones-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1046-max-consecutive-ones-iii) |
 | [1138-grumpy-bookstore-owner](https://github.com/shivani26-bot/DSA-questions/tree/master/1138-grumpy-bookstore-owner) |
 | [1248-count-number-of-nice-subarrays](https://github.com/shivani26-bot/DSA-questions/tree/master/1248-count-number-of-nice-subarrays) |
@@ -1176,6 +1178,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0943-sum-of-subarray-minimums](https://github.com/shivani26-bot/DSA-questions/tree/master/0943-sum-of-subarray-minimums) |
 | [0962-flip-string-to-monotone-increasing](https://github.com/shivani26-bot/DSA-questions/tree/master/0962-flip-string-to-monotone-increasing) |
 | [0967-minimum-falling-path-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0967-minimum-falling-path-sum) |
+| [0978-longest-turbulent-subarray](https://github.com/shivani26-bot/DSA-questions/tree/master/0978-longest-turbulent-subarray) |
 | [1025-minimum-cost-for-tickets](https://github.com/shivani26-bot/DSA-questions/tree/master/1025-minimum-cost-for-tickets) |
 | [1063-best-sightseeing-pair](https://github.com/shivani26-bot/DSA-questions/tree/master/1063-best-sightseeing-pair) |
 | [1105-uncrossed-lines](https://github.com/shivani26-bot/DSA-questions/tree/master/1105-uncrossed-lines) |
