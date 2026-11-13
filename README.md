@@ -103,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0772-construct-quad-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0772-construct-quad-tree) |
 | [0792-number-of-matching-subsequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0792-number-of-matching-subsequences) |
 | [0860-design-circular-queue](https://github.com/shivani26-bot/DSA-questions/tree/master/0860-design-circular-queue) |
+| [0867-transpose-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/0867-transpose-matrix) |
 | [0870-magic-squares-in-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/0870-magic-squares-in-grid) |
 | [0883-car-fleet](https://github.com/shivani26-bot/DSA-questions/tree/master/0883-car-fleet) |
 | [0890-lemonade-change](https://github.com/shivani26-bot/DSA-questions/tree/master/0890-lemonade-change) |
@@ -1259,6 +1260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0661-image-smoother](https://github.com/shivani26-bot/DSA-questions/tree/master/0661-image-smoother) |
 | [0695-max-area-of-island](https://github.com/shivani26-bot/DSA-questions/tree/master/0695-max-area-of-island) |
 | [0772-construct-quad-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0772-construct-quad-tree) |
+| [0867-transpose-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/0867-transpose-matrix) |
 | [0870-magic-squares-in-grid](https://github.com/shivani26-bot/DSA-questions/tree/master/0870-magic-squares-in-grid) |
 | [0909-snakes-and-ladders](https://github.com/shivani26-bot/DSA-questions/tree/master/0909-snakes-and-ladders) |
 | [0934-shortest-bridge](https://github.com/shivani26-bot/DSA-questions/tree/master/0934-shortest-bridge) |
@@ -1790,6 +1792,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0682-baseball-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/shivani26-bot/DSA-questions/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0844-backspace-string-compare) |
+| [0867-transpose-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/0867-transpose-matrix) |
 | [0874-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0874-backspace-string-compare) |
 | [0983-validate-stack-sequences](https://github.com/shivani26-bot/DSA-questions/tree/master/0983-validate-stack-sequences) |
 | [1184-car-pooling](https://github.com/shivani26-bot/DSA-questions/tree/master/1184-car-pooling) |
