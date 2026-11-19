@@ -77,6 +77,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0474-ones-and-zeroes](https://github.com/shivani26-bot/DSA-questions/tree/master/0474-ones-and-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/shivani26-bot/DSA-questions/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0494-target-sum) |
+| [0498-diagonal-traverse](https://github.com/shivani26-bot/DSA-questions/tree/master/0498-diagonal-traverse) |
 | [0518-coin-change-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0518-coin-change-ii) |
 | [0523-continuous-subarray-sum](https://github.com/shivani26-bot/DSA-questions/tree/master/0523-continuous-subarray-sum) |
 | [0532-k-diff-pairs-in-an-array](https://github.com/shivani26-bot/DSA-questions/tree/master/0532-k-diff-pairs-in-an-array) |
@@ -1259,6 +1260,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0407-trapping-rain-water-ii](https://github.com/shivani26-bot/DSA-questions/tree/master/0407-trapping-rain-water-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/shivani26-bot/DSA-questions/tree/master/0417-pacific-atlantic-water-flow) |
 | [0463-island-perimeter](https://github.com/shivani26-bot/DSA-questions/tree/master/0463-island-perimeter) |
+| [0498-diagonal-traverse](https://github.com/shivani26-bot/DSA-questions/tree/master/0498-diagonal-traverse) |
 | [0661-image-smoother](https://github.com/shivani26-bot/DSA-questions/tree/master/0661-image-smoother) |
 | [0695-max-area-of-island](https://github.com/shivani26-bot/DSA-questions/tree/master/0695-max-area-of-island) |
 | [0772-construct-quad-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/0772-construct-quad-tree) |
@@ -1792,6 +1794,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0054-spiral-matrix](https://github.com/shivani26-bot/DSA-questions/tree/master/0054-spiral-matrix) |
 | [0067-add-binary](https://github.com/shivani26-bot/DSA-questions/tree/master/0067-add-binary) |
+| [0498-diagonal-traverse](https://github.com/shivani26-bot/DSA-questions/tree/master/0498-diagonal-traverse) |
 | [0682-baseball-game](https://github.com/shivani26-bot/DSA-questions/tree/master/0682-baseball-game) |
 | [0735-asteroid-collision](https://github.com/shivani26-bot/DSA-questions/tree/master/0735-asteroid-collision) |
 | [0844-backspace-string-compare](https://github.com/shivani26-bot/DSA-questions/tree/master/0844-backspace-string-compare) |
