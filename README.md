@@ -1700,6 +1700,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1484-linked-list-in-binary-tree](https://github.com/shivani26-bot/DSA-questions/tree/master/1484-linked-list-in-binary-tree) |
 | [1582-design-browser-history](https://github.com/shivani26-bot/DSA-questions/tree/master/1582-design-browser-history) |
 | [1765-merge-in-between-linked-lists](https://github.com/shivani26-bot/DSA-questions/tree/master/1765-merge-in-between-linked-lists) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/shivani26-bot/DSA-questions/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/shivani26-bot/DSA-questions/tree/master/2299-merge-nodes-in-between-zeros) |
@@ -1763,6 +1764,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1894-merge-strings-alternately](https://github.com/shivani26-bot/DSA-questions/tree/master/1894-merge-strings-alternately) |
 | [1923-sentence-similarity-iii](https://github.com/shivani26-bot/DSA-questions/tree/master/1923-sentence-similarity-iii) |
 | [2027-maximum-number-of-removable-characters](https://github.com/shivani26-bot/DSA-questions/tree/master/2027-maximum-number-of-removable-characters) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2231-find-first-palindromic-string-in-the-array](https://github.com/shivani26-bot/DSA-questions/tree/master/2231-find-first-palindromic-string-in-the-array) |
 | [2232-adding-spaces-to-a-string](https://github.com/shivani26-bot/DSA-questions/tree/master/2232-adding-spaces-to-a-string) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/shivani26-bot/DSA-questions/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
