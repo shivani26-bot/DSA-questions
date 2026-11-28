@@ -9,14 +9,32 @@
  * }
  */
 class Solution {
-    public ListNode swapPairs(ListNode head) {
-        if(head==null || head.next==null) return head;
+    // public ListNode swapPairs(ListNode head) {
+    //     if(head==null || head.next==null) return head;
 
-        ListNode first= head;
-        ListNode second= head.next;
+    //     ListNode first= head;
+    //     ListNode second= head.next;
 
-        first.next= swapPairs(second.next);
-        second.next= first;
-        return second;
+    //     first.next= swapPairs(second.next);
+    //     second.next= first;
+    //     return second;
+    // }
+
+        public ListNode swapPairs(ListNode head) {
+      ListNode dummy= new ListNode(0, head);
+      ListNode prev= dummy;
+
+      while(prev.next !=null && prev.next.next!=null){
+        ListNode first= prev.next;
+        ListNode second= prev.next.next;
+
+        prev.next=second;
+        first.next=second.next;
+        second.next=first;
+
+        prev=first;
+      }
+
+      return dummy.next;
     }
 }
